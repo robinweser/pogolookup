@@ -23,7 +23,7 @@ export default function Header() {
       <Layout>
         <Link href="/">
           <a
-            style={{ fontWeight: 700, color: 'white', textDecoration: 'none' }}>
+            style={{ fontWeight: 500, color: 'white', textDecoration: 'none' }}>
             PoGo Lookup
           </a>
         </Link>

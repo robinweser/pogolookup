@@ -57,10 +57,8 @@ export default function Footer() {
             <a href="https://pvpoke.com" style={{ color: 'white' }}>
               pvpoke.com
             </a>{' '}
-            for the inspiration.
-            <br />
-            Also thanks to all the existing fan sites for providing insights
-            such as calculation algorithms and data.
+            and all other existing fan site for providing inspiration and
+            insights such as calculation algorithms and data.
           </p>
 
           <p>

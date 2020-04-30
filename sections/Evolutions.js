@@ -4,14 +4,8 @@ import { useFela } from 'react-fela'
 
 import Layout from '../components/Layout'
 import TypeTile from '../components/TypeTile'
-import padLeft from '../utils/padLeft'
 
-const getImageURL = (id) =>
-  `https://images.gameinfo.io/pokemon/256/${padLeft(
-    id.toString(),
-    3,
-    '0'
-  )}-00.png`
+import getImageUrl from '../utils/getImageUrl'
 
 export default function Evolutions({ evolutions, level, setName }) {
   const { theme } = useFela()
@@ -46,7 +40,11 @@ export default function Evolutions({ evolutions, level, setName }) {
                   },
                 }}
                 onClick={() => setName(info.name)}>
-                <img src={getImageURL(info.id)} height={80} width="auto" />
+                <img
+                  src={getImageUrl(info.id, info.name)}
+                  height={80}
+                  width="auto"
+                />
                 <p style={{ fontSize: 20, fontWeight: 700 }}>{info.name}</p>
                 <Box direction="row" space={1} alignItems="center">
                   <TypeTile type={info.type1} />

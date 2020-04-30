@@ -5,14 +5,7 @@ import { useFela } from 'react-fela'
 import Layout from '../components/Layout'
 import TypeTile from '../components/TypeTile'
 
-import padLeft from '../utils/padLeft'
-
-const getImageURL = (id) =>
-  `https://images.gameinfo.io/pokemon/256/${padLeft(
-    id.toString(),
-    3,
-    '0'
-  )}-00.png`
+import getImageUrl from '../utils/getImageUrl'
 
 const InfoDisplay = ({ children, name, columnOnMobile }) => (
   <Box
@@ -105,7 +98,11 @@ export default function BaseInfo({ info, stats, pokemon }) {
               backgroundColor: 'white',
               borderRadius: 8,
             }}>
-            <img height={150} width="auto" src={getImageURL(info.id)} />
+            <img
+              height={150}
+              width="auto"
+              src={getImageUrl(info.id, info.name)}
+            />
           </Box>
         </Box>
       </Layout>
