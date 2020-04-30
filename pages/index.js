@@ -331,8 +331,9 @@ export default function Page() {
                         fontSize: 18,
                         borderRadius: theme.roundedCorners,
                         backgroundColor: 'white',
-                        // backgroundColor:
-                        //   theme.colors.types[info.type1].backgroundColor + '33',
+                        backgroundColor:
+                          theme.colors.types[pokemon.getInfo().type1]
+                            .backgroundColor + '33',
                         appearance: 'none',
                         border: '1px solid rgb(170, 170, 170)',
                         backgroundSize: '12px 12px',
