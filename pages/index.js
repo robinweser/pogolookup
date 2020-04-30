@@ -7,9 +7,10 @@ TODO:
 - Weather Boosts
 */
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, memo } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
+import { useRouter } from 'next/router'
 
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -51,38 +52,154 @@ const useDebounce = (value, delay) => {
   return debouncedValue
 }
 
-export default () => {
+function createData(pokemon, input, moveType, focusMode) {
+  const info = pokemon.getInfo()
+  const moves = pokemon.getMoves(moveType)
+  const typeMultipliers = pokemon.getTypeMultipliers()
+
+  if (focusMode) {
+    return {
+      moves,
+      typeMultipliers,
+      info,
+    }
+  }
+
+  const stats = pokemon.getStats(input.level)
+  const pvpRankings = pokemon.getPVPRankings({ CPCap: leagueCap[input.league] })
+  const evolutions = pokemon.getEvolutions()
+
+  return {
+    info,
+    stats,
+    moves,
+    pvpRankings,
+    evolutions,
+    typeMultipliers,
+  }
+}
+
+const PokemonInfo = memo(
+  (props) => {
+    const { theme } = useFela()
+    const { focusMode, moveType, pokemon, ivs, setInput, ...input } = props
+    const {
+      info,
+      stats,
+      moves,
+      pvpRankings,
+      evolutions,
+      typeMultipliers,
+    } = createData(pokemon, input, moveType, focusMode)
+
+    return (
+      <Box space={focusMode ? 6 : 10}>
+        {focusMode ? null : (
+          <Box marginTop={-5}>
+            <Section>
+              <BasicInfo info={info} stats={stats} pokemon={pokemon} />
+            </Section>
+          </Box>
+        )}
+        {focusMode ? null : evolutions.length === 0 ? null : (
+          <Section title="Evolutions">
+            <Evolutions
+              evolutions={evolutions}
+              level={input.level}
+              setName={(name) => setInput({ ...input, name })}
+            />
+          </Section>
+        )}
+        <Section title="Type Chart">
+          <TypeChart typeMultipliers={typeMultipliers} />
+        </Section>
+        <Section title="Moves">
+          <Moves moves={moves} thirdMove={info.thirdMove} />
+        </Section>
+        {focusMode ? null : (
+          <Section title="PVP Rankings">
+            <Layout>
+              <Box
+                paddingTop={1}
+                paddingBottom={2}
+                direction={['column', 'row']}
+                alignItems={['flex-start', , 'center']}
+                space={[1, , 3]}>
+                <Box alignItems="flex-start">
+                  <Box
+                    value={input.league}
+                    as="select"
+                    paddingTop={1}
+                    paddingBottom={1}
+                    paddingRight={3}
+                    paddingLeft={3}
+                    extend={{
+                      fontSize: 18,
+                      width: 180,
+                      borderRadius: theme.roundedCorners,
+                      backgroundColor: 'white',
+                      appearance: 'none',
+                      border: '1px solid rgb(170, 170, 170)',
+                      backgroundSize: '12px 12px',
+                      backgroundPosition: 'right 10px center',
+                      backgroundRepeat: 'no-repeat',
+                      backgroundImage:
+                        'url("data:image/svg+xml;base64,' + icon + '")',
+                    }}
+                    onChange={(e) =>
+                      setInput({ ...input, league: e.target.value })
+                    }>
+                    <option value="great">Great League</option>
+                    <option value="ultra">Ultra League</option>
+                    <option value="master">Master League</option>
+                  </Box>
+                </Box>
+
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  style={{ color: 'black' }}
+                  href={`https://pvpoke.com/rankings/all/${
+                    leagueCap[input.league]
+                  }/overall/${info.ref}/`}>
+                  → Rating on pvpoke.com
+                </a>
+              </Box>
+            </Layout>
+            <PVPRankings pvpRankings={pvpRankings} ivs={ivs} />
+          </Section>
+        )}
+      </Box>
+    )
+  },
+  (prevProps, newProps) =>
+    prevProps.name === newProps.name &&
+    prevProps.attack === newProps.attack &&
+    prevProps.defense === newProps.defense &&
+    prevProps.stamina === newProps.stamina &&
+    prevProps.level === newProps.level &&
+    prevProps.focusMode === newProps.focusMode &&
+    prevProps.moveType === newProps.moveType
+)
+
+const initialInput = {
+  name: 'Bulbasaur',
+  attack: 10,
+  defense: 10,
+  stamina: 10,
+  level: 20,
+  league: 'great',
+  lucky: false,
+  shadow: false,
+  purified: false,
+}
+
+export default function Page() {
   const { theme } = useFela()
   const [search, setSearch] = useState('')
   const [moveType, setMoveType] = useState('pvp')
   const [focusMode, setFocusMode] = useState(false)
-  const [input, setInput] = useState({
-    name: 'Bulbasaur',
-    attack: 10,
-    defense: 10,
-    stamina: 10,
-    level: 20,
-    league: 'great',
-    lucky: false,
-    shadow: false,
-    purified: false,
-  })
-
-  const searchStr = useDebounce(search, 100)
-
-  useEffect(() => {
-    const exact = pokedex.find(
-      (p) => p.name.toLowerCase() === searchStr.toLowerCase()
-    )
-
-    const closest = pokedex.find(
-      (p) => p.name.toLowerCase().indexOf(searchStr.toLowerCase()) === 0
-    )
-
-    if (exact || closest) {
-      setInput({ ...input, name: exact ? exact.name : closest.name })
-    }
-  }, [searchStr])
+  const [input, setInput] = useState(initialInput)
 
   const ivs = {
     attack: input.attack,
@@ -90,14 +207,53 @@ export default () => {
     stamina: input.stamina,
   }
 
-  // all the pokemon data
   const pokemon = createPokemon(input.name, ivs)
-  const info = pokemon.getInfo()
-  const stats = pokemon.getStats(input.level)
-  const moves = pokemon.getMoves(moveType)
-  const pvpRankings = pokemon.getPVPRankings({ CPCap: leagueCap[input.league] })
-  const evolutions = pokemon.getEvolutions()
-  const typeMultipliers = pokemon.getTypeMultipliers()
+  const searchStr = useDebounce(search, 100)
+
+  useEffect(() => {
+    if (window.location.hash) {
+      const [name, ...stats] = window.location.hash.substr(1).split(';')
+      const [attack, defense, stamina, level] = stats.map((s) => parseInt(s))
+
+      setInput({
+        ...input,
+        name,
+        attack,
+        defense,
+        stamina,
+        level,
+      })
+    }
+  }, [])
+
+  useEffect(() => {
+    window.location.hash = [
+      input.name,
+      input.attack,
+      input.defense,
+      input.stamina,
+      input.level,
+    ].join(';')
+  }, [input])
+
+  useEffect(() => {
+    if (searchStr.trim().length > 1) {
+      const exact = pokedex.find(
+        (p) => p.name.toLowerCase() === searchStr.toLowerCase()
+      )
+
+      const closest = pokedex.find(
+        (p) => p.name.toLowerCase().indexOf(searchStr.toLowerCase()) === 0
+      )
+
+      if (
+        exact ||
+        (closest && (input.name !== exact || input.name !== closet))
+      ) {
+        setInput({ ...input, name: exact ? exact.name : closest.name })
+      }
+    }
+  }, [searchStr])
 
   return (
     <FocusModeContext.Provider value={focusMode}>
@@ -169,8 +325,9 @@ export default () => {
                       extend={{
                         fontSize: 18,
                         borderRadius: theme.roundedCorners,
-                        backgroundColor:
-                          theme.colors.types[info.type1].backgroundColor + '33',
+                        backgroundColor: 'white',
+                        // backgroundColor:
+                        //   theme.colors.types[info.type1].backgroundColor + '33',
                         appearance: 'none',
                         border: '1px solid rgb(170, 170, 170)',
                         backgroundSize: '12px 12px',
@@ -313,81 +470,14 @@ export default () => {
               </Box>
             </Layout>
           </Box>
-          {focusMode ? null : (
-            <Box marginTop={-5}>
-              <Section>
-                <BasicInfo info={info} stats={stats} pokemon={pokemon} />
-              </Section>
-            </Box>
-          )}
-          {focusMode ? null : evolutions.length === 0 ? null : (
-            <Section title="Evolutions">
-              <Evolutions
-                evolutions={evolutions}
-                level={input.level}
-                setName={(name) => setInput({ ...input, name })}
-              />
-            </Section>
-          )}
-          <Section title="Type Chart">
-            <TypeChart typeMultipliers={typeMultipliers} />
-          </Section>
-          <Section title="Moves">
-            <Moves moves={moves} thirdMove={info.thirdMove} />
-          </Section>
-          {focusMode ? null : (
-            <Section title="PVP Rankings">
-              <Layout>
-                <Box
-                  paddingTop={1}
-                  paddingBottom={2}
-                  direction={['column', 'row']}
-                  alignItems={['flex-start', , 'center']}
-                  space={[1, , 3]}>
-                  <Box alignItems="flex-start">
-                    <Box
-                      value={input.league}
-                      as="select"
-                      paddingTop={1}
-                      paddingBottom={1}
-                      paddingRight={3}
-                      paddingLeft={3}
-                      extend={{
-                        fontSize: 18,
-                        width: 180,
-                        borderRadius: theme.roundedCorners,
-                        backgroundColor: 'white',
-                        appearance: 'none',
-                        border: '1px solid rgb(170, 170, 170)',
-                        backgroundSize: '12px 12px',
-                        backgroundPosition: 'right 10px center',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundImage:
-                          'url("data:image/svg+xml;base64,' + icon + '")',
-                      }}
-                      onChange={(e) =>
-                        setInput({ ...input, league: e.target.value })
-                      }>
-                      <option value="great">Great League</option>
-                      <option value="ultra">Ultra League</option>
-                      <option value="master">Master League</option>
-                    </Box>
-                  </Box>
-
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    style={{ color: 'black' }}
-                    href={`https://pvpoke.com/rankings/all/${
-                      leagueCap[input.league]
-                    }/overall/${info.ref}/`}>
-                    → Rating on pvpoke.com
-                  </a>
-                </Box>
-              </Layout>
-              <PVPRankings pvpRankings={pvpRankings} ivs={ivs} />
-            </Section>
-          )}
+          <PokemonInfo
+            {...input}
+            moveType={moveType}
+            focusMode={focusMode}
+            ivs={ivs}
+            setInput={setInput}
+            pokemon={pokemon}
+          />
         </Box>
       </Template>
     </FocusModeContext.Provider>

@@ -6,11 +6,11 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "now dev",
-    "build": "yarn build:pokedex && yarn run version && next build",
-    "now-build": "yarn build",
+    "build": "yarn build:pokedex && next build",
+    "now-build": "yarn run version && yarn build",
     "start": "next start",
     "export": "next export",
-    "deploy": "yarn build && now --prod",
+    "deploy": "yarn run version && yarn build && now --prod",
     "build:pokedex": "babel-node scripts/build-pokedex.js",
     "version": "babel-node scripts/build-version.js"
   },
