@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "pogo.weser.io",
-  "description": "Pokemon GO Statistics",
+  "name": "pogolookup.com",
+  "description": "Pokemon GO Data Lookup",
   "version": "1.0.0",
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
