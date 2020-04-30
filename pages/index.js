@@ -82,7 +82,7 @@ function createData(pokemon, input, moveType, focusMode) {
 const PokemonInfo = memo(
   (props) => {
     const { theme } = useFela()
-    const { focusMode, moveType, pokemon, ivs, setInput, ...input } = props
+    const { focusMode, moveType, pokemon, ivs, setInput, input } = props
     const {
       info,
       stats,
@@ -117,7 +117,7 @@ const PokemonInfo = memo(
           <Moves moves={moves} thirdMove={info.thirdMove} />
         </Section>
         {focusMode ? null : (
-          <Section title="PVP Rankings">
+          <Section title="PVP IV Rating">
             <Layout>
               <Box
                 paddingTop={1}
@@ -173,11 +173,12 @@ const PokemonInfo = memo(
     )
   },
   (prevProps, newProps) =>
-    prevProps.name === newProps.name &&
-    prevProps.attack === newProps.attack &&
-    prevProps.defense === newProps.defense &&
-    prevProps.stamina === newProps.stamina &&
-    prevProps.level === newProps.level &&
+    prevProps.input.name === newProps.input.name &&
+    prevProps.input.attack === newProps.input.attack &&
+    prevProps.input.defense === newProps.input.defense &&
+    prevProps.input.stamina === newProps.input.stamina &&
+    prevProps.input.level === newProps.input.level &&
+    prevProps.input.league === newProps.input.league &&
     prevProps.focusMode === newProps.focusMode &&
     prevProps.moveType === newProps.moveType
 )
@@ -471,10 +472,10 @@ export default function Page() {
             </Layout>
           </Box>
           <PokemonInfo
-            {...input}
             moveType={moveType}
             focusMode={focusMode}
             ivs={ivs}
+            input={input}
             setInput={setInput}
             pokemon={pokemon}
           />
