@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 
 export default () => (
   <Template>
+    <Head>
+      <title>PoGo Lookup | Legal</title>
+    </Head>
     <Layout>
       <Box paddingTop={10} paddingBottom={10}>
         <h1>Legal Notice</h1>

@@ -10,6 +10,7 @@ TODO:
 import React, { useState, useEffect, memo } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
+import Head from 'next/head'
 import { useRouter } from 'next/router'
 
 import Layout from '../components/Layout'
@@ -258,6 +259,9 @@ export default function Page() {
 
   return (
     <FocusModeContext.Provider value={focusMode}>
+      <Head>
+        <title>PoGo Lookup | {input.name}</title>
+      </Head>
       <Template>
         <Box
           padding={2}
