@@ -93,7 +93,6 @@ export default function BaseInfo({ info, stats, pokemon }) {
             alignItems="flex-start"
             alignSelf="flex-start"
             extend={{
-              cursor: 'pointer',
               boxShadow: '0 0 0 2px rgba(0,0,0,0.2)',
               backgroundColor: 'white',
               borderRadius: 8,

@@ -11,7 +11,7 @@ export default () => (
       <Box paddingTop={10} paddingBottom={10}>
         <h1>Legal Notice</h1>
         <Spacer size={6} />
-        <p style={{ fontSize: 18 }}>
+        <p style={{ fontSize: 16 }}>
           Robin Weser
           <br />
           Rintheimer Hauptstraße 25
