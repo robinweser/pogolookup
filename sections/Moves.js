@@ -25,6 +25,7 @@ function QuickMove({
   damage,
   energy,
   type,
+  turns,
   actualDamage,
   actualDamagePerTurn,
   energyPerTurn,
@@ -63,6 +64,7 @@ function QuickMove({
           {stabFlag}
         </ValueDisplay>
         <ValueDisplay name="Energy">{energy}</ValueDisplay>
+        <ValueDisplay name="Turns">{turns}</ValueDisplay>
         <ValueDisplay name="DPT">
           {formatDecimal(actualDamagePerTurn)}
           {stabFlag}
