@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box } from 'kilvin'
 import { useFela } from 'react-fela'
+import Link from 'next/link'
 
 import Layout from './Layout'
 
@@ -21,9 +22,7 @@ export default function Footer() {
       <Layout>
         <Box space={4} extend={{ fontSize: 14 }}>
           <Box space={2} paddingBottom={2} direction="row">
-            <a
-              style={{ color: 'white' }}
-              href="https://github.com/robinweser/pogolookup">
+            <a style={{ color: 'white' }} href="https://twitter.com/pogolookup">
               Twitter
             </a>
 
@@ -32,6 +31,12 @@ export default function Footer() {
               href="https://github.com/robinweser/pogolookup">
               GitHub
             </a>
+            <Link href="/legal">
+              <a style={{ color: 'white' }}>Legal</a>
+            </Link>
+            <Link href="/legal#privacy-policy">
+              <a style={{ color: 'white' }}>Privacy</a>
+            </Link>
           </Box>
           <p>
             Version: {version} ({new Date(timestamp).toLocaleString()})

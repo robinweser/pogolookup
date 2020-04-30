@@ -1,11 +1,8 @@
 /*
 TODO:
-- PvP Focus Mode
-- Footer
 - Image Remap
-- Proper From Mapping
 - Evolution Item
-- Footer / Legal / Privacy
+- Legal / Privacy
 - Patreon
 - Crypto / Purified / Lucky
 - Translations (Names / Moves): German, French, Spanish
@@ -22,6 +19,7 @@ import Footer from '../components/Footer'
 import IVInput from '../components/IVInput'
 import Section from '../components/Section'
 import Conditional from '../components/Conditional'
+import Template from '../components/Template'
 
 import TypeChart from '../sections/TypeChart'
 import Moves from '../sections/Moves'
@@ -105,8 +103,7 @@ export default () => {
 
   return (
     <FocusModeContext.Provider value={focusMode}>
-      <Box>
-        <Header />
+      <Template>
         <Box
           padding={2}
           extend={{
@@ -128,7 +125,7 @@ export default () => {
             PVP Focus Mode
           </label>
         </Box>
-        <Box paddingTop="42px" space={focusMode ? 6 : 10} minHeight="100vh">
+        <Box space={focusMode ? 6 : 10}>
           <Box
             paddingTop={3}
             paddingBottom={3}
@@ -211,8 +208,16 @@ export default () => {
                         space={2}
                         direction="row">
                         <Box grow={1} shrink={0} basis={0}>
-                          <Box>Attack</Box>
+                          <Box
+                            as="label"
+                            htmlFor="attack"
+                            paddingLeft={1}
+                            extend={{ fontSize: 14 }}>
+                            Attack
+                          </Box>
                           <IVInput
+                            name="attack"
+                            id="attack"
                             value={input.attack}
                             onChange={(attack) =>
                               setInput({ ...input, attack })
@@ -220,8 +225,16 @@ export default () => {
                           />
                         </Box>
                         <Box grow={1} shrink={0} basis={0}>
-                          <Box>Defense</Box>
+                          <Box
+                            as="label"
+                            htmlFor="defense"
+                            paddingLeft={1}
+                            extend={{ fontSize: 14 }}>
+                            Defense
+                          </Box>
                           <IVInput
+                            name="defense"
+                            id="defense"
                             value={input.defense}
                             onChange={(defense) =>
                               setInput({ ...input, defense })
@@ -229,8 +242,16 @@ export default () => {
                           />
                         </Box>
                         <Box grow={1} shrink={0} basis={0}>
-                          <Box>Stamina</Box>
+                          <Box
+                            as="label"
+                            htmlFor="stamina"
+                            paddingLeft={1}
+                            extend={{ fontSize: 14 }}>
+                            Stamina
+                          </Box>
                           <IVInput
+                            name="stamina"
+                            id="stamina"
                             value={input.stamina}
                             onChange={(stamina) =>
                               setInput({ ...input, stamina })
@@ -244,10 +265,18 @@ export default () => {
                         basis={['auto', 0]}
                         direction="row">
                         <Box grow={1} shrink={0} basis={0}>
-                          <Box>Level</Box>
+                          <Box
+                            as="label"
+                            htmlFor="level"
+                            paddingLeft={1}
+                            extend={{ fontSize: 14 }}>
+                            Level
+                          </Box>
                           <Box
                             value={input.level}
                             as="select"
+                            id="level"
+                            name="level"
                             paddingTop={1}
                             paddingBottom={1}
                             paddingRight={3}
@@ -362,10 +391,7 @@ export default () => {
             </Section>
           )}
         </Box>
-        <Box paddingTop={10}>
-          <Footer />
-        </Box>
-      </Box>
+      </Template>
     </FocusModeContext.Provider>
   )
 }

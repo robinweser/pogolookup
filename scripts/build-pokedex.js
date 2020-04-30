@@ -3,20 +3,79 @@ const request = require('request-promise')
 const merge = require('deepmerge')
 
 const overrides = require('../data/overrides.json')
+const types = require('../data/types.json')
+
+const capitalizeString = (str) =>
+  str.charAt(0).toUpperCase() + str.substr(1).toLowerCase()
 
 const GAME_MASTER_URL =
   'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/latest/GAME_MASTER.json'
 
+// TODO: Make array
 const forms = {
   ALOLA: '(Alolan)',
   GALARIAN: '(Galarian)',
   ORIGIN: '(Origin)',
   ALTERED: '(Altered)',
+  ARMORED: '(Armored)',
+  LIBRE: '(Libre)',
+  RAINY: '(Rainy)',
+  SUNNY: '(Sunny)',
+  SNOWY: '(Snowy)',
+  ATTACK: '(Attack)',
+  DEFENSE: '(Defense)',
+  SPEED: '(Speed)',
+  PLANT: '(Plant)',
+  SANDY: '(Sandy)',
+  TRASH: '(Trash)',
+  OVERCAST: '(Overcast)',
+  INCARNATE: '(Incarnate)',
+  THERIAN: '(Therian)',
+  FAN: '(Fan)',
+  FROST: '(Frost)',
+  HEAT: '(Heat)',
+  MOW: '(Mow)',
+  WASH: '(Wash)',
+  LAND: '(Land)',
+  SKY: '(Sky)',
+  ZEN: '(Zen)',
+  AUTUMN: '(Autumn)',
+  WINTER: '(Winter)',
+  SPRING: '(Spring)',
+  SUMMER: '(Summer)',
+  BLACK: '(Black)',
+  WHITE: '(White)',
+  ARIA: '(Aria)',
+  PIROUETTE: '(Pirouette)',
+  BURN: '(Burn)',
+  CHILL: '(Chill)',
+  DOUSE: '(Douse)',
+  SHOCK: '(Shock)',
+  ORDINARY: '(Ordinary)',
+  RESOLUTE: '(Resolute)',
 }
 
-const capitalizeString = (str) => str.charAt(0) + str.substr(1).toLowerCase()
+for (let type in types) {
+  forms[type.toUpperCase()] = '(' + capitalizeString(type) + ')'
+}
+
+const formMap = {
+  VS_2019: 'PIKACHU_LIBRE',
+  MEWTWO_A: 'MEWTWO_ARMORED',
+}
+
+const nameReplace = {
+  NIDORAN_FEMALE: 'Nidoran ♀',
+  NIDORAN_MALE: 'Nidoran ♂',
+  MIME_JR: 'Mime Jr.',
+  PORYGON_Z: 'Porygon-Z',
+  MR_MIME: 'Mr. Mime',
+  HO_OH: 'Ho-Oh',
+}
 
 const normalizeName = (name) => {
+  name = name.replace('_NORMAL', '')
+
   if (nameReplace[name]) {
     return nameReplace[name]
   }
@@ -24,18 +83,28 @@ const normalizeName = (name) => {
   const newName = name.split('_').map(capitalizeString).join(' ')
 
   return Object.keys(forms).reduce(
-    (n, form) => n.replace(capitalizeString(form), forms[form]),
+    (n, form) => n.replace(' ' + capitalizeString(form), ' ' + forms[form]),
     newName
   )
 }
 
-const nameReplace = {
-  NIDORAN_FEMALE: 'Nidoran (female)',
-  NIDORAN_MALE: 'Nidoran (male)',
-  MIME_JR: 'Mime Jr.',
-  PORYGON_Z: 'Porygon-Z',
-  MR_MIME: 'Mr. Mime',
-  HO_OH: 'Ho-Oh',
+function getUsefulForm(form) {
+  if (
+    !form ||
+    form.match(
+      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|EAST_SEA|WEST_SEA|STRIPED|STANDARD/gi
+    ) !== null
+  ) {
+    return undefined
+  }
+
+  for (let key in formMap) {
+    if (form.indexOf(key) !== -1) {
+      return formMap[key]
+    }
+  }
+
+  return form
 }
 
 let generate = async () => {
@@ -88,10 +157,7 @@ let generate = async () => {
       templateId,
     } = template
 
-    const ref =
-      form && Object.keys(forms).find((f) => form.indexOf(f) !== -1)
-        ? form
-        : uniqueId
+    const ref = getUsefulForm(form) || uniqueId
     const name = normalizeName(ref)
 
     if (!pokemonList.find((p) => p.name === name)) {
@@ -102,16 +168,12 @@ let generate = async () => {
         attack: stats.baseAttack,
         defense: stats.baseDefense,
         stamina: stats.baseStamina,
-        candyDistance: kmBuddyDistance,
+        // TODO: remove ones event is reverted
+        candyDistance: kmBuddyDistance * 2,
         evolutions:
           evolutionBranch && evolutionBranch[0].evolution
             ? evolutionBranch
-                .map((b) =>
-                  b.form &&
-                  Object.keys(forms).find((f) => b.form.indexOf(f) !== -1)
-                    ? b.form
-                    : b.evolution
-                )
+                .map((b) => getUsefulForm(b.form) || b.evolution)
                 .map(normalizeName)
             : [],
         type1: type1.substr(13).toLowerCase(),

@@ -2754,7 +2754,7 @@
     }
   },
   "ORIGIN_PULSE": {
-    "name": "(Origin) Pulse",
+    "name": "Origin Pulse",
     "type": "water",
     "pve": {
       "damage": 130,
