@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "pogo.weser.io",
-  "alias": "pogo.weser.io",
+  "name": "pogo",
+  "alias": "pogolookup.com",
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }

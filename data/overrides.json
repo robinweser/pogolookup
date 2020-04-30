@@ -1,0 +1,13 @@
+{
+  "pokedex": {
+    "cresselia": {
+      "eliteCinematicMoves": ["GRASS_KNOT"]
+    },
+    "groudon": {
+      "eliteCinematicMoves": ["FIRE_PUNCH"]
+    },
+    "ho_oh": {
+      "eliteCinematicMoves": ["EARTHQUAKE"]
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "bug": {
+    "color": "#aec92c",
+    "takes": {
+      "fighting": 0.625,
+      "grass": 0.625,
+      "ground": 0.625,
+      "fire": 1.6,
+      "flying": 1.6,
+      "rock": 1.6
+    }
+  },
+  "dark": {
+    "color": "#6e7681",
+    "takes": {
+      "psychic": 0.391,
+      "dark": 0.625,
+      "ghost": 0.625,
+      "bug": 1.6,
+      "fairy": 1.6,
+      "fighting": 1.6
+    }
+  },
+  "dragon": {
+    "color": "#067fc4",
+    "takes": {
+      "electric": 0.625,
+      "fire": 0.625,
+      "grass": 0.625,
+      "water": 0.625,
+      "dragon": 1.6,
+      "fairy": 1.6,
+      "ice": 1.6
+    }
+  },
+  "electric": {
+    "color": "#fedf6b",
+    "takes": {
+      "electric": 0.625,
+      "flying": 0.625,
+      "steel": 0.625,
+      "ground": 1.6
+    }
+  },
+  "fairy": {
+    "color": "#f6a7e8",
+    "takes": {
+      "dragon": 0.391,
+      "bug": 0.625,
+      "dark": 0.625,
+      "fighting": 0.625,
+      "poison": 1.6,
+      "steel": 1.6
+    }
+  },
+  "fighting": {
+    "color": "#e34448",
+    "takes": {
+      "bug": 0.625,
+      "dark": 0.625,
+      "rock": 0.625,
+      "fairy": 1.6,
+      "flying": 1.6,
+      "psychic": 1.6
+    }
+  },
+  "fire": {
+    "color": "#feb04b",
+    "takes": {
+      "bug": 0.625,
+      "fairy": 0.625,
+      "fire": 0.625,
+      "grass": 0.625,
+      "ice": 0.625,
+      "steel": 0.625,
+      "ground": 1.6,
+      "rock": 1.6,
+      "water": 1.6
+    }
+  },
+  "flying": {
+    "color": "#a7c1f2",
+    "takes": {
+      "ground": 0.391,
+      "bug": 0.625,
+      "grass": 0.625,
+      "fighting": 0.625,
+      "electric": 1.6,
+      "ice": 1.6,
+      "rock": 1.6
+    }
+  },
+  "ghost": {
+    "color": "#7571d0",
+    "takes": {
+      "fighting": 0.391,
+      "normal": 0.391,
+      "bug": 0.625,
+      "poison": 0.625,
+      "dark": 1.6,
+      "ghost": 1.6
+    }
+  },
+  "grass": {
+    "color": "#59c079",
+    "takes": {
+      "electric": 0.625,
+      "grass": 0.625,
+      "ground": 0.625,
+      "water": 0.625,
+      "bug": 1.6,
+      "fire": 1.6,
+      "flying": 1.6,
+      "ice": 1.6,
+      "poison": 1.6
+    }
+  },
+  "ground": {
+    "color": "#d2976b",
+    "takes": {
+      "electric": 0.391,
+      "poison": 0.625,
+      "rock": 0.625,
+      "grass": 1.6,
+      "ice": 1.6,
+      "water": 1.6
+    }
+  },
+  "ice": {
+    "color": "#94ddd6",
+    "takes": {
+      "ice": 0.625,
+      "fighting": 1.6,
+      "fire": 1.6,
+      "rock": 1.6,
+      "steel": 1.6
+    }
+  },
+  "normal": {
+    "color": "#a3a49e",
+    "takes": {
+      "ghost": 0.391,
+      "fighting": 1.6
+    }
+  },
+  "poison": {
+    "color": "#a662c7",
+    "takes": {
+      "bug": 0.625,
+      "fairy": 0.625,
+      "fighting": 0.625,
+      "grass": 0.625,
+      "poison": 0.625,
+      "ground": 1.6,
+      "psychic": 1.6
+    }
+  },
+  "psychic": {
+    "color": "#fda194",
+    "takes": {
+      "fighting": 0.625,
+      "psychic": 0.625,
+      "bug": 1.6,
+      "dark": 1.6,
+      "ghost": 1.6
+    }
+  },
+  "rock": {
+    "color": "#d7cd90",
+    "takes": {
+      "fire": 0.625,
+      "flying": 0.625,
+      "normal": 0.625,
+      "poison": 0.625,
+      "fighting": 1.6,
+      "grass": 1.6,
+      "ground": 1.6,
+      "steel": 1.6,
+      "water": 1.6
+    }
+  },
+  "steel": {
+    "color": "#5aafb4",
+    "takes": {
+      "poison": 0.391,
+      "bug": 0.625,
+      "dragon": 0.625,
+      "fairy": 0.625,
+      "flying": 0.625,
+      "grass": 0.625,
+      "ice": 0.625,
+      "normal": 0.625,
+      "psycho": 0.625,
+      "rock": 0.625,
+      "steel": 0.625,
+      "fighting": 1.6,
+      "fire": 1.6,
+      "ground": 1.6
+    }
+  },
+  "water": {
+    "color": "#6ac7e9",
+    "takes": {
+      "fire": 0.625,
+      "ice": 0.625,
+      "steel": 0.625,
+      "water": 0.625,
+      "electric": 1.6,
+      "grass": 1.6
+    }
+  }
+}

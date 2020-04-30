@@ -39,6 +39,10 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script async defer src="https://sa.pogolookup.com/app.js" />
+          <noscript>
+            <img src="https://sa.pogolookup.com/image.gif" alt="" />
+          </noscript>
         </body>
       </html>
     )

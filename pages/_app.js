@@ -7,7 +7,7 @@ export default function App({ Component, pageProps, renderer }) {
   return (
     <FelaProvider renderer={renderer}>
       <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       </ThemeProvider>
     </FelaProvider>
   )

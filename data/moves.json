@@ -1,0 +1,3383 @@
+{
+  "WRAP": {
+    "name": "Wrap",
+    "type": "normal",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "HYPER_BEAM": {
+    "name": "Hyper Beam",
+    "type": "normal",
+    "pve": {
+      "damage": 150,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.8
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "DARK_PULSE": {
+    "name": "Dark Pulse",
+    "type": "dark",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "SLUDGE": {
+    "name": "Sludge",
+    "type": "poison",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.1
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "VICE_GRIP": {
+    "name": "Vice Grip",
+    "type": "normal",
+    "pve": {
+      "damage": 35,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "FLAME_WHEEL": {
+    "name": "Flame Wheel",
+    "type": "fire",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "MEGAHORN": {
+    "name": "Megahorn",
+    "type": "bug",
+    "pve": {
+      "damage": 110,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "FLAMETHROWER": {
+    "name": "Flamethrower",
+    "type": "fire",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "DIG": {
+    "name": "Dig",
+    "type": "ground",
+    "pve": {
+      "damage": 100,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 4.7
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "CROSS_CHOP": {
+    "name": "Cross Chop",
+    "type": "fighting",
+    "pve": {
+      "damage": 50,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "PSYBEAM": {
+    "name": "Psybeam",
+    "type": "psychic",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "EARTHQUAKE": {
+    "name": "Earthquake",
+    "type": "ground",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.6
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "STONE_EDGE": {
+    "name": "Stone Edge",
+    "type": "rock",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "ICE_PUNCH": {
+    "name": "Ice Punch",
+    "type": "ice",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "HEART_STAMP": {
+    "name": "Heart Stamp",
+    "type": "psychic",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "DISCHARGE": {
+    "name": "Discharge",
+    "type": "electric",
+    "pve": {
+      "damage": 65,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 65,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "FLASH_CANNON": {
+    "name": "Flash Cannon",
+    "type": "steel",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "DRILL_PECK": {
+    "name": "Drill Peck",
+    "type": "flying",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "ICE_BEAM": {
+    "name": "Ice Beam",
+    "type": "ice",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.3
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "BLIZZARD": {
+    "name": "Blizzard",
+    "type": "ice",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.1
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "HEAT_WAVE": {
+    "name": "Heat Wave",
+    "type": "fire",
+    "pve": {
+      "damage": 95,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3
+    },
+    "pvp": {
+      "damage": 95,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "AERIAL_ACE": {
+    "name": "Aerial Ace",
+    "type": "flying",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.4
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "DRILL_RUN": {
+    "name": "Drill Run",
+    "type": "ground",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "PETAL_BLIZZARD": {
+    "name": "Petal Blizzard",
+    "type": "grass",
+    "pve": {
+      "damage": 110,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "MEGA_DRAIN": {
+    "name": "Mega Drain",
+    "type": "grass",
+    "pve": {
+      "damage": 25,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 25,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "BUG_BUZZ": {
+    "name": "Bug Buzz",
+    "type": "bug",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.7
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "POISON_FANG": {
+    "name": "Poison Fang",
+    "type": "poison",
+    "pve": {
+      "damage": 35,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "NIGHT_SLASH": {
+    "name": "Night Slash",
+    "type": "dark",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "BUBBLE_BEAM": {
+    "name": "Bubble Beam",
+    "type": "water",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 25,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "SUBMISSION": {
+    "name": "Submission",
+    "type": "fighting",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "LOW_SWEEP": {
+    "name": "Low Sweep",
+    "type": "fighting",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "AQUA_JET": {
+    "name": "Aqua Jet",
+    "type": "water",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "AQUA_TAIL": {
+    "name": "Aqua Tail",
+    "type": "water",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "SEED_BOMB": {
+    "name": "Seed Bomb",
+    "type": "grass",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.1
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "PSYSHOCK": {
+    "name": "Psyshock",
+    "type": "psychic",
+    "pve": {
+      "damage": 65,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "ANCIENT_POWER": {
+    "name": "Ancient Power",
+    "type": "rock",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.5
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "ROCK_TOMB": {
+    "name": "Rock Tomb",
+    "type": "rock",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "ROCK_SLIDE": {
+    "name": "Rock Slide",
+    "type": "rock",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "POWER_GEM": {
+    "name": "Power Gem",
+    "type": "rock",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "SHADOW_SNEAK": {
+    "name": "Shadow Sneak",
+    "type": "ghost",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "SHADOW_PUNCH": {
+    "name": "Shadow Punch",
+    "type": "ghost",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "OMINOUS_WIND": {
+    "name": "Ominous Wind",
+    "type": "ghost",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "SHADOW_BALL": {
+    "name": "Shadow Ball",
+    "type": "ghost",
+    "pve": {
+      "damage": 100,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "MAGNET_BOMB": {
+    "name": "Magnet Bomb",
+    "type": "steel",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "IRON_HEAD": {
+    "name": "Iron Head",
+    "type": "steel",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "PARABOLIC_CHARGE": {
+    "name": "Parabolic Charge",
+    "type": "electric",
+    "pve": {
+      "damage": 25,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 25,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "THUNDER_PUNCH": {
+    "name": "Thunder Punch",
+    "type": "electric",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.8
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "THUNDER": {
+    "name": "Thunder",
+    "type": "electric",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.4
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "THUNDERBOLT": {
+    "name": "Thunderbolt",
+    "type": "electric",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "TWISTER": {
+    "name": "Twister",
+    "type": "dragon",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "DRAGON_PULSE": {
+    "name": "Dragon Pulse",
+    "type": "dragon",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.6
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "DRAGON_CLAW": {
+    "name": "Dragon Claw",
+    "type": "dragon",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "DISARMING_VOICE": {
+    "name": "Disarming Voice",
+    "type": "fairy",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.9
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "DRAINING_KISS": {
+    "name": "Draining Kiss",
+    "type": "fairy",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "DAZZLING_GLEAM": {
+    "name": "Dazzling Gleam",
+    "type": "fairy",
+    "pve": {
+      "damage": 100,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.5
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 70,
+      "turns": 1
+    }
+  },
+  "MOONBLAST": {
+    "name": "Moonblast",
+    "type": "fairy",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.9
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 70,
+      "turns": 1
+    }
+  },
+  "PLAY_ROUGH": {
+    "name": "Play Rough",
+    "type": "fairy",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "CROSS_POISON": {
+    "name": "Cross Poison",
+    "type": "poison",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "SLUDGE_BOMB": {
+    "name": "Sludge Bomb",
+    "type": "poison",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "SLUDGE_WAVE": {
+    "name": "Sludge Wave",
+    "type": "poison",
+    "pve": {
+      "damage": 110,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "GUNK_SHOT": {
+    "name": "Gunk Shot",
+    "type": "poison",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.1
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "BONE_CLUB": {
+    "name": "Bone Club",
+    "type": "ground",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "BULLDOZE": {
+    "name": "Bulldoze",
+    "type": "ground",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.5
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "MUD_BOMB": {
+    "name": "Mud Bomb",
+    "type": "ground",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "SIGNAL_BEAM": {
+    "name": "Signal Beam",
+    "type": "bug",
+    "pve": {
+      "damage": 75,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 75,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "X_SCISSOR": {
+    "name": "X Scissor",
+    "type": "bug",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "FLAME_CHARGE": {
+    "name": "Flame Charge",
+    "type": "fire",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.8
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "FLAME_BURST": {
+    "name": "Flame Burst",
+    "type": "fire",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "FIRE_BLAST": {
+    "name": "Fire Blast",
+    "type": "fire",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 4.2
+    },
+    "pvp": {
+      "damage": 140,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "BRINE": {
+    "name": "Brine",
+    "type": "water",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "WATER_PULSE": {
+    "name": "Water Pulse",
+    "type": "water",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "SCALD": {
+    "name": "Scald",
+    "type": "water",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.7
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "HYDRO_PUMP": {
+    "name": "Hydro Pump",
+    "type": "water",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.3
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "PSYCHIC": {
+    "name": "Psychic",
+    "type": "psychic",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "PSYSTRIKE": {
+    "name": "Psystrike",
+    "type": "psychic",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "ICY_WIND": {
+    "name": "Icy Wind",
+    "type": "ice",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.3
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "GIGA_DRAIN": {
+    "name": "Giga Drain",
+    "type": "grass",
+    "pve": {
+      "damage": 50,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.9
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "FIRE_PUNCH": {
+    "name": "Fire Punch",
+    "type": "fire",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "SOLAR_BEAM": {
+    "name": "Solar Beam",
+    "type": "grass",
+    "pve": {
+      "damage": 180,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 4.9
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "LEAF_BLADE": {
+    "name": "Leaf Blade",
+    "type": "grass",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.4
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "POWER_WHIP": {
+    "name": "Power Whip",
+    "type": "grass",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "AIR_CUTTER": {
+    "name": "Air Cutter",
+    "type": "flying",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "HURRICANE": {
+    "name": "Hurricane",
+    "type": "flying",
+    "pve": {
+      "damage": 110,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "BRICK_BREAK": {
+    "name": "Brick Break",
+    "type": "fighting",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "SWIFT": {
+    "name": "Swift",
+    "type": "normal",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "HORN_ATTACK": {
+    "name": "Horn Attack",
+    "type": "normal",
+    "pve": {
+      "damage": 40,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.85
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "STOMP": {
+    "name": "Stomp",
+    "type": "normal",
+    "pve": {
+      "damage": 55,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "HYPER_FANG": {
+    "name": "Hyper Fang",
+    "type": "normal",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "BODY_SLAM": {
+    "name": "Body Slam",
+    "type": "normal",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "REST": {
+    "name": "Rest",
+    "type": "normal",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "STRUGGLE": {
+    "name": "Struggle",
+    "type": "normal",
+    "pve": {
+      "damage": 35,
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 35,
+      "energy": 100,
+      "turns": 1
+    }
+  },
+  "SCALD_BLASTOISE": {
+    "name": "Scald Blastoise",
+    "type": "water",
+    "pve": {
+      "damage": 50,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 4.7
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "HYDRO_PUMP_BLASTOISE": {
+    "name": "Hydro Pump Blastoise",
+    "type": "water",
+    "pve": {
+      "damage": 90,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 4.5
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "WRAP_GREEN": {
+    "name": "Wrap Green",
+    "type": "normal",
+    "pve": {
+      "damage": 25,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 25,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "WRAP_PINK": {
+    "name": "Wrap Pink",
+    "type": "normal",
+    "pve": {
+      "damage": 25,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 25,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "FURY_CUTTER_FAST": {
+    "name": "Fury Cutter",
+    "type": "bug",
+    "pve": {
+      "damage": 3,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.4
+    },
+    "pvp": {
+      "damage": 2,
+      "energy": 4,
+      "turns": 1
+    }
+  },
+  "BUG_BITE_FAST": {
+    "name": "Bug Bite",
+    "type": "bug",
+    "pve": {
+      "damage": 5,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 3,
+      "turns": 1
+    }
+  },
+  "BITE_FAST": {
+    "name": "Bite",
+    "type": "dark",
+    "pve": {
+      "damage": 6,
+      "energy": 4,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 2,
+      "turns": 1
+    }
+  },
+  "SUCKER_PUNCH_FAST": {
+    "name": "Sucker Punch",
+    "type": "dark",
+    "pve": {
+      "damage": 7,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.7
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "DRAGON_BREATH_FAST": {
+    "name": "Dragon Breath",
+    "type": "dragon",
+    "pve": {
+      "damage": 6,
+      "energy": 4,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 3,
+      "turns": 1
+    }
+  },
+  "THUNDER_SHOCK_FAST": {
+    "name": "Thunder Shock",
+    "type": "electric",
+    "pve": {
+      "damage": 5,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 9,
+      "turns": 2
+    }
+  },
+  "SPARK_FAST": {
+    "name": "Spark",
+    "type": "electric",
+    "pve": {
+      "damage": 6,
+      "energy": 9,
+      "accuracy": 1,
+      "turns": 0.7
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 8,
+      "turns": 2
+    }
+  },
+  "LOW_KICK_FAST": {
+    "name": "Low Kick",
+    "type": "fighting",
+    "pve": {
+      "damage": 6,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "KARATE_CHOP_FAST": {
+    "name": "Karate Chop",
+    "type": "fighting",
+    "pve": {
+      "damage": 8,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "EMBER_FAST": {
+    "name": "Ember",
+    "type": "fire",
+    "pve": {
+      "damage": 10,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 6,
+      "turns": 2
+    }
+  },
+  "WING_ATTACK_FAST": {
+    "name": "Wing Attack",
+    "type": "flying",
+    "pve": {
+      "damage": 8,
+      "energy": 9,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "PECK_FAST": {
+    "name": "Peck",
+    "type": "flying",
+    "pve": {
+      "damage": 10,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "LICK_FAST": {
+    "name": "Lick",
+    "type": "ghost",
+    "pve": {
+      "damage": 5,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 3,
+      "turns": 1
+    }
+  },
+  "SHADOW_CLAW_FAST": {
+    "name": "Shadow Claw",
+    "type": "ghost",
+    "pve": {
+      "damage": 9,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.7
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 8,
+      "turns": 2
+    }
+  },
+  "VINE_WHIP_FAST": {
+    "name": "Vine Whip",
+    "type": "grass",
+    "pve": {
+      "damage": 7,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 8,
+      "turns": 2
+    }
+  },
+  "RAZOR_LEAF_FAST": {
+    "name": "Razor Leaf",
+    "type": "grass",
+    "pve": {
+      "damage": 13,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 1
+    },
+    "pvp": {
+      "damage": 11,
+      "energy": 4,
+      "turns": 2
+    }
+  },
+  "MUD_SHOT_FAST": {
+    "name": "Mud Shot",
+    "type": "ground",
+    "pve": {
+      "damage": 5,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 9,
+      "turns": 2
+    }
+  },
+  "ICE_SHARD_FAST": {
+    "name": "Ice Shard",
+    "type": "ice",
+    "pve": {
+      "damage": 12,
+      "energy": 12,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 10,
+      "turns": 3
+    }
+  },
+  "FROST_BREATH_FAST": {
+    "name": "Frost Breath",
+    "type": "ice",
+    "pve": {
+      "damage": 10,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.9
+    },
+    "pvp": {
+      "damage": 7,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "QUICK_ATTACK_FAST": {
+    "name": "Quick Attack",
+    "type": "normal",
+    "pve": {
+      "damage": 8,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "SCRATCH_FAST": {
+    "name": "Scratch",
+    "type": "normal",
+    "pve": {
+      "damage": 6,
+      "energy": 4,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 2,
+      "turns": 1
+    }
+  },
+  "TACKLE_FAST": {
+    "name": "Tackle",
+    "type": "normal",
+    "pve": {
+      "damage": 5,
+      "energy": 5,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 2,
+      "turns": 1
+    }
+  },
+  "POUND_FAST": {
+    "name": "Pound",
+    "type": "normal",
+    "pve": {
+      "damage": 7,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 4,
+      "turns": 2
+    }
+  },
+  "CUT_FAST": {
+    "name": "Cut",
+    "type": "normal",
+    "pve": {
+      "damage": 5,
+      "energy": 5,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 2,
+      "turns": 1
+    }
+  },
+  "POISON_JAB_FAST": {
+    "name": "Poison Jab",
+    "type": "poison",
+    "pve": {
+      "damage": 10,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "ACID_FAST": {
+    "name": "Acid",
+    "type": "poison",
+    "pve": {
+      "damage": 9,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "PSYCHO_CUT_FAST": {
+    "name": "Psycho Cut",
+    "type": "psychic",
+    "pve": {
+      "damage": 5,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 9,
+      "turns": 2
+    }
+  },
+  "ROCK_THROW_FAST": {
+    "name": "Rock Throw",
+    "type": "rock",
+    "pve": {
+      "damage": 12,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.9
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "METAL_CLAW_FAST": {
+    "name": "Metal Claw",
+    "type": "steel",
+    "pve": {
+      "damage": 8,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.7
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 6,
+      "turns": 2
+    }
+  },
+  "BULLET_PUNCH_FAST": {
+    "name": "Bullet Punch",
+    "type": "steel",
+    "pve": {
+      "damage": 9,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 0.9
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "WATER_GUN_FAST": {
+    "name": "Water Gun",
+    "type": "water",
+    "pve": {
+      "damage": 5,
+      "energy": 5,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 3,
+      "turns": 1
+    }
+  },
+  "SPLASH_FAST": {
+    "name": "Splash",
+    "type": "water",
+    "pve": {
+      "energy": 20,
+      "accuracy": 1,
+      "turns": 1.73
+    },
+    "pvp": {
+      "energy": 12,
+      "turns": 4
+    }
+  },
+  "WATER_GUN_FAST_BLASTOISE": {
+    "name": "Water Gun Blastoise",
+    "type": "water",
+    "pve": {
+      "damage": 10,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 1
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 4,
+      "turns": 2
+    }
+  },
+  "MUD_SLAP_FAST": {
+    "name": "Mud Slap",
+    "type": "ground",
+    "pve": {
+      "damage": 18,
+      "energy": 12,
+      "accuracy": 1,
+      "turns": 1.4
+    },
+    "pvp": {
+      "damage": 11,
+      "energy": 8,
+      "turns": 3
+    }
+  },
+  "ZEN_HEADBUTT_FAST": {
+    "name": "Zen Headbutt",
+    "type": "psychic",
+    "pve": {
+      "damage": 12,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 6,
+      "turns": 3
+    }
+  },
+  "CONFUSION_FAST": {
+    "name": "Confusion",
+    "type": "psychic",
+    "pve": {
+      "damage": 20,
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 16,
+      "energy": 12,
+      "turns": 4
+    }
+  },
+  "POISON_STING_FAST": {
+    "name": "Poison Sting",
+    "type": "poison",
+    "pve": {
+      "damage": 5,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.6
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 6,
+      "turns": 2
+    }
+  },
+  "BUBBLE_FAST": {
+    "name": "Bubble",
+    "type": "water",
+    "pve": {
+      "damage": 12,
+      "energy": 14,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 11,
+      "turns": 3
+    }
+  },
+  "FEINT_ATTACK_FAST": {
+    "name": "Feint Attack",
+    "type": "dark",
+    "pve": {
+      "damage": 10,
+      "energy": 9,
+      "accuracy": 1,
+      "turns": 0.9
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 6,
+      "turns": 2
+    }
+  },
+  "STEEL_WING_FAST": {
+    "name": "Steel Wing",
+    "type": "steel",
+    "pve": {
+      "damage": 11,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 7,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "FIRE_FANG_FAST": {
+    "name": "Fire Fang",
+    "type": "fire",
+    "pve": {
+      "damage": 12,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.9
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "ROCK_SMASH_FAST": {
+    "name": "Rock Smash",
+    "type": "fighting",
+    "pve": {
+      "damage": 15,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1.3
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 7,
+      "turns": 3
+    }
+  },
+  "TRANSFORM_FAST": {
+    "name": "Transform",
+    "type": "normal",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.23
+    },
+    "pvp": {
+      "energy": null,
+      "turns": 3
+    }
+  },
+  "COUNTER_FAST": {
+    "name": "Counter",
+    "type": "fighting",
+    "pve": {
+      "damage": 12,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 0.9
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 7,
+      "turns": 2
+    }
+  },
+  "POWDER_SNOW_FAST": {
+    "name": "Powder Snow",
+    "type": "ice",
+    "pve": {
+      "damage": 6,
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 8,
+      "turns": 2
+    }
+  },
+  "CLOSE_COMBAT": {
+    "name": "Close Combat",
+    "type": "fighting",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "DYNAMIC_PUNCH": {
+    "name": "Dynamic Punch",
+    "type": "fighting",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "FOCUS_BLAST": {
+    "name": "Focus Blast",
+    "type": "fighting",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.5
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "AURORA_BEAM": {
+    "name": "Aurora Beam",
+    "type": "ice",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.55
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "CHARGE_BEAM_FAST": {
+    "name": "Charge Beam",
+    "type": "electric",
+    "pve": {
+      "damage": 8,
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 11,
+      "turns": 3
+    }
+  },
+  "VOLT_SWITCH_FAST": {
+    "name": "Volt Switch",
+    "type": "electric",
+    "pve": {
+      "damage": 14,
+      "energy": 21,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 12,
+      "energy": 16,
+      "turns": 4
+    }
+  },
+  "WILD_CHARGE": {
+    "name": "Wild Charge",
+    "type": "electric",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "ZAP_CANNON": {
+    "name": "Zap Cannon",
+    "type": "electric",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.7
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "DRAGON_TAIL_FAST": {
+    "name": "Dragon Tail",
+    "type": "dragon",
+    "pve": {
+      "damage": 15,
+      "energy": 9,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 10,
+      "turns": 3
+    }
+  },
+  "AVALANCHE": {
+    "name": "Avalanche",
+    "type": "ice",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "AIR_SLASH_FAST": {
+    "name": "Air Slash",
+    "type": "flying",
+    "pve": {
+      "damage": 14,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 9,
+      "turns": 3
+    }
+  },
+  "BRAVE_BIRD": {
+    "name": "Brave Bird",
+    "type": "flying",
+    "pve": {
+      "damage": 90,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "SKY_ATTACK": {
+    "name": "Sky Attack",
+    "type": "flying",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "SAND_TOMB": {
+    "name": "Sand Tomb",
+    "type": "ground",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 4
+    },
+    "pvp": {
+      "damage": 25,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "ROCK_BLAST": {
+    "name": "Rock Blast",
+    "type": "rock",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.1
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "INFESTATION_FAST": {
+    "name": "Infestation",
+    "type": "bug",
+    "pve": {
+      "damage": 10,
+      "energy": 14,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 11,
+      "turns": 3
+    }
+  },
+  "STRUGGLE_BUG_FAST": {
+    "name": "Struggle Bug",
+    "type": "bug",
+    "pve": {
+      "damage": 15,
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 8,
+      "turns": 3
+    }
+  },
+  "SILVER_WIND": {
+    "name": "Silver Wind",
+    "type": "bug",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.7
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "ASTONISH_FAST": {
+    "name": "Astonish",
+    "type": "ghost",
+    "pve": {
+      "damage": 8,
+      "energy": 14,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 9,
+      "turns": 3
+    }
+  },
+  "HEX_FAST": {
+    "name": "Hex",
+    "type": "ghost",
+    "pve": {
+      "damage": 10,
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 6,
+      "energy": 11,
+      "turns": 3
+    }
+  },
+  "NIGHT_SHADE": {
+    "name": "Night Shade",
+    "type": "ghost",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "IRON_TAIL_FAST": {
+    "name": "Iron Tail",
+    "type": "steel",
+    "pve": {
+      "damage": 15,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 6,
+      "turns": 3
+    }
+  },
+  "GYRO_BALL": {
+    "name": "Gyro Ball",
+    "type": "steel",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.3
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "HEAVY_SLAM": {
+    "name": "Heavy Slam",
+    "type": "steel",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.1
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "FIRE_SPIN_FAST": {
+    "name": "Fire Spin",
+    "type": "fire",
+    "pve": {
+      "damage": 14,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 10,
+      "turns": 3
+    }
+  },
+  "OVERHEAT": {
+    "name": "Overheat",
+    "type": "fire",
+    "pve": {
+      "damage": 160,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 4
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "BULLET_SEED_FAST": {
+    "name": "Bullet Seed",
+    "type": "grass",
+    "pve": {
+      "damage": 8,
+      "energy": 14,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 13,
+      "turns": 3
+    }
+  },
+  "GRASS_KNOT": {
+    "name": "Grass Knot",
+    "type": "grass",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "ENERGY_BALL": {
+    "name": "Energy Ball",
+    "type": "grass",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.9
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "EXTRASENSORY_FAST": {
+    "name": "Extrasensory",
+    "type": "psychic",
+    "pve": {
+      "damage": 12,
+      "energy": 12,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 10,
+      "turns": 3
+    }
+  },
+  "FUTURESIGHT": {
+    "name": "Futuresight",
+    "type": "psychic",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "MIRROR_COAT": {
+    "name": "Mirror Coat",
+    "type": "psychic",
+    "pve": {
+      "damage": 60,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "OUTRAGE": {
+    "name": "Outrage",
+    "type": "dragon",
+    "pve": {
+      "damage": 110,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.9
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "SNARL_FAST": {
+    "name": "Snarl",
+    "type": "dark",
+    "pve": {
+      "damage": 12,
+      "energy": 14,
+      "accuracy": 1,
+      "turns": 1.1
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 13,
+      "turns": 3
+    }
+  },
+  "CRUNCH": {
+    "name": "Crunch",
+    "type": "dark",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "FOUL_PLAY": {
+    "name": "Foul Play",
+    "type": "dark",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "HIDDEN_POWER_FAST": {
+    "name": "Hidden Power",
+    "type": "normal",
+    "pve": {
+      "damage": 15,
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 9,
+      "energy": 8,
+      "turns": 3
+    }
+  },
+  "TAKE_DOWN_FAST": {
+    "name": "Take Down",
+    "type": "normal",
+    "pve": {
+      "damage": 8,
+      "energy": 10,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 5,
+      "energy": 8,
+      "turns": 3
+    }
+  },
+  "WATERFALL_FAST": {
+    "name": "Waterfall",
+    "type": "water",
+    "pve": {
+      "damage": 16,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 12,
+      "energy": 8,
+      "turns": 3
+    }
+  },
+  "SURF": {
+    "name": "Surf",
+    "type": "water",
+    "pve": {
+      "damage": 65,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 65,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "DRACO_METEOR": {
+    "name": "Draco Meteor",
+    "type": "dragon",
+    "pve": {
+      "damage": 150,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.6
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "DOOM_DESIRE": {
+    "name": "Doom Desire",
+    "type": "steel",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 75,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "YAWN_FAST": {
+    "name": "Yawn",
+    "type": "normal",
+    "pve": {
+      "energy": 15,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "energy": 12,
+      "turns": 4
+    }
+  },
+  "PSYCHO_BOOST": {
+    "name": "Psycho Boost",
+    "type": "psychic",
+    "pve": {
+      "damage": 70,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 4
+    },
+    "pvp": {
+      "damage": 70,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "ORIGIN_PULSE": {
+    "name": "(Origin) Pulse",
+    "type": "water",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "PRECIPICE_BLADES": {
+    "name": "Precipice Blades",
+    "type": "ground",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "PRESENT_FAST": {
+    "name": "Present",
+    "type": "normal",
+    "pve": {
+      "damage": 5,
+      "energy": 20,
+      "accuracy": 1,
+      "turns": 1.3
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 12,
+      "turns": 3
+    }
+  },
+  "WEATHER_BALL_FIRE": {
+    "name": "Weather Ball Fire",
+    "type": "fire",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "WEATHER_BALL_ICE": {
+    "name": "Weather Ball Ice",
+    "type": "ice",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "WEATHER_BALL_ROCK": {
+    "name": "Weather Ball Rock",
+    "type": "normal",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "WEATHER_BALL_WATER": {
+    "name": "Weather Ball Water",
+    "type": "water",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "FRENZY_PLANT": {
+    "name": "Frenzy Plant",
+    "type": "grass",
+    "pve": {
+      "damage": 100,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "SMACK_DOWN_FAST": {
+    "name": "Smack Down",
+    "type": "rock",
+    "pve": {
+      "damage": 16,
+      "energy": 8,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 12,
+      "energy": 8,
+      "turns": 3
+    }
+  },
+  "BLAST_BURN": {
+    "name": "Blast Burn",
+    "type": "fire",
+    "pve": {
+      "damage": 110,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.3
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "HYDRO_CANNON": {
+    "name": "Hydro Cannon",
+    "type": "water",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "LAST_RESORT": {
+    "name": "Last Resort",
+    "type": "normal",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "METEOR_MASH": {
+    "name": "Meteor Mash",
+    "type": "steel",
+    "pve": {
+      "damage": 100,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "SKULL_BASH": {
+    "name": "Skull Bash",
+    "type": "normal",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.1
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "ACID_SPRAY": {
+    "name": "Acid Spray",
+    "type": "poison",
+    "pve": {
+      "damage": 20,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3
+    },
+    "pvp": {
+      "damage": 20,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "EARTH_POWER": {
+    "name": "Earth Power",
+    "type": "ground",
+    "pve": {
+      "damage": 100,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.6
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "CRABHAMMER": {
+    "name": "Crabhammer",
+    "type": "water",
+    "pve": {
+      "damage": 85,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 75,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "LUNGE": {
+    "name": "Lunge",
+    "type": "bug",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.9
+    }
+  },
+  "CRUSH_CLAW": {
+    "name": "Crush Claw",
+    "type": "normal",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 1.9
+    }
+  },
+  "OCTAZOOKA": {
+    "name": "Octazooka",
+    "type": "water",
+    "pve": {
+      "damage": 50,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "MIRROR_SHOT": {
+    "name": "Mirror Shot",
+    "type": "steel",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.4
+    },
+    "pvp": {
+      "damage": 35,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "SUPER_POWER": {
+    "name": "Super Power",
+    "type": "fighting",
+    "pve": {
+      "damage": 85,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3
+    },
+    "pvp": {
+      "damage": 85,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "FELL_STINGER": {
+    "name": "Fell Stinger",
+    "type": "bug",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 20,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "LEAF_TORNADO": {
+    "name": "Leaf Tornado",
+    "type": "grass",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.1
+    },
+    "pvp": {
+      "damage": 45,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "LEECH_LIFE": {
+    "name": "Leech Life",
+    "type": "bug",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.5
+    }
+  },
+  "DRAIN_PUNCH": {
+    "name": "Drain Punch",
+    "type": "fighting",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.4
+    }
+  },
+  "SHADOW_BONE": {
+    "name": "Shadow Bone",
+    "type": "ghost",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.8
+    }
+  },
+  "MUDDY_WATER": {
+    "name": "Muddy Water",
+    "type": "water",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 35,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "BLAZE_KICK": {
+    "name": "Blaze Kick",
+    "type": "fire",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "RAZOR_SHELL": {
+    "name": "Razor Shell",
+    "type": "water",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 1.3
+    }
+  },
+  "POWER_UP_PUNCH": {
+    "name": "Power Up Punch",
+    "type": "fighting",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 20,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "CHARM_FAST": {
+    "name": "Charm",
+    "type": "fairy",
+    "pve": {
+      "damage": 20,
+      "energy": 11,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 16,
+      "energy": 6,
+      "turns": 3
+    }
+  },
+  "GIGA_IMPACT": {
+    "name": "Giga Impact",
+    "type": "normal",
+    "pve": {
+      "damage": 200,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 4.7
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 80,
+      "turns": 1
+    }
+  },
+  "FRUSTRATION": {
+    "name": "Frustration",
+    "type": "normal",
+    "pve": {
+      "damage": 10,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 10,
+      "energy": 70,
+      "turns": 1
+    }
+  },
+  "RETURN": {
+    "name": "Return",
+    "type": "normal",
+    "pve": {
+      "damage": 35,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 0.7
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 70,
+      "turns": 1
+    }
+  },
+  "SYNCHRONOISE": {
+    "name": "Synchronoise",
+    "type": "psychic",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "LOCK_ON_FAST": {
+    "name": "Lock On",
+    "type": "normal",
+    "pve": {
+      "damage": 1,
+      "energy": 6,
+      "accuracy": 1,
+      "turns": 0.3
+    },
+    "pvp": {
+      "damage": 1,
+      "energy": 5,
+      "turns": 1
+    }
+  },
+  "THUNDER_FANG_FAST": {
+    "name": "Thunder Fang",
+    "type": "electric",
+    "pve": {
+      "damage": 12,
+      "energy": 16,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "ICE_FANG_FAST": {
+    "name": "Ice Fang",
+    "type": "ice",
+    "pve": {
+      "damage": 12,
+      "energy": 20,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 5,
+      "turns": 2
+    }
+  },
+  "HORN_DRILL": {
+    "name": "Horn Drill",
+    "type": "normal",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 1.9
+    }
+  },
+  "FISSURE": {
+    "name": "Fissure",
+    "type": "ground",
+    "pve": {
+      "energy": null,
+      "accuracy": 1,
+      "turns": 2.8
+    }
+  },
+  "SACRED_SWORD": {
+    "name": "Sacred Sword",
+    "type": "fighting",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "FLYING_PRESS": {
+    "name": "Flying Press",
+    "type": "fighting",
+    "pve": {
+      "damage": 110,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 40,
+      "turns": 1
+    }
+  },
+  "AURA_SPHERE": {
+    "name": "Aura Sphere",
+    "type": "fighting",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.8
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "ROCK_WRECKER": {
+    "name": "Rock Wrecker",
+    "type": "rock",
+    "pve": {
+      "damage": 110,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.6
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 50,
+      "turns": 1
+    }
+  }
+}

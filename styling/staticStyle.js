@@ -31,7 +31,7 @@ export default [
     style: {
       fontFamily: 'sans-serif',
       overscrollBehavior: 'none',
-      backgroundColor: 'rgb(240,240,240)',
+      backgroundColor: 'rgb(240, 240, 240)',
       overflow: 'auto',
       fontSize: 16,
     },
@@ -45,7 +45,9 @@ export default [
   {
     selector: 'table',
     style: {
+      backgroundColor: 'white',
       borderCollapse: 'collapse',
+      boxSizing: 'border-box',
       width: '100%',
     },
   },
@@ -64,9 +66,22 @@ export default [
   {
     selector: 'td',
     style: {
-      padding: 3,
+      padding: 8,
       whiteSpace: 'nowrap',
       minWidth: 'min-content',
+      boxSizing: 'border-box',
+    },
+  },
+  {
+    selector: 'tr',
+    style: {
+      boxSizing: 'border-box',
+    },
+  },
+  {
+    selector: 'td',
+    style: {
+      border: '1px solid rgb(200, 200, 200)',
     },
   },
   {
