@@ -6,7 +6,7 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "now dev",
-    "build": "yarn build:pokedex && yarn build:version && next build",
+    "build": "yarn build:pokedex && yarn run version && next build",
     "now-build": "yarn build",
     "start": "next start",
     "export": "next export",
