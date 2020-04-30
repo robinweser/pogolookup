@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "pogo",
+  "name": "pogolookup.com",
   "alias": "pogolookup.com",
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }

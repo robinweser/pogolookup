@@ -1,8 +1,6 @@
 /*
 TODO:
-- Image Remap
 - Evolution Item
-- Legal / Privacy
 - Patreon
 - Crypto / Purified / Lucky
 - Translations (Names / Moves): German, French, Spanish
