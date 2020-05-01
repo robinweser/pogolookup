@@ -26,7 +26,7 @@ export default function Header() {
             style={{ fontWeight: 500, color: 'white', textDecoration: 'none' }}>
             <img
               src="/wordmark.png"
-              height={20}
+              height={18}
               style={{ marginTop: 6, marginLeft: 3 }}
             />
           </a>
