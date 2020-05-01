@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "pogolookup.com",
-  "description": "Pokemon GO Data Lookup",
+  "description": "Pokemon GO Data Lookup & Analysis Fanpage",
   "version": "1.0.0",
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
