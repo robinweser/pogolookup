@@ -24,7 +24,11 @@ export default function Header() {
         <Link href="/">
           <a
             style={{ fontWeight: 500, color: 'white', textDecoration: 'none' }}>
-            PoGo Lookup
+            <img
+              src="/wordmark.png"
+              height={20}
+              style={{ marginTop: 6, marginLeft: 3 }}
+            />
           </a>
         </Link>
       </Layout>

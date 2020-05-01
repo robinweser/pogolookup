@@ -20,6 +20,7 @@ import IVInput from '../components/IVInput'
 import Section from '../components/Section'
 import Conditional from '../components/Conditional'
 import Template from '../components/Template'
+import TypeTile from '../components/TypeTile'
 
 import TypeChart from '../sections/TypeChart'
 import Moves from '../sections/Moves'
@@ -31,6 +32,7 @@ import FocusModeContext from '../utils/FocusModeContext'
 
 import pokedex from '../data/pokedex.json'
 import createPokemon from '../utils/createPokemon'
+import getImageUrl from '../utils/getImageUrl'
 
 const leagueCap = {
   great: 1500,
@@ -95,6 +97,33 @@ const PokemonInfo = memo(
 
     return (
       <Box space={focusMode ? 6 : 10}>
+        {!focusMode ? null : (
+          <Layout>
+            <Box alignItems="center" direction="row" space={3} marginTop={-2}>
+              <Box
+                alignItems="flex-start"
+                alignSelf="flex-start"
+                extend={{
+                  boxShadow: '0 0 0 2px rgba(0,0,0,0.2)',
+                  backgroundColor: 'white',
+                  borderRadius: 8,
+                }}>
+                <img
+                  height={70}
+                  width="auto"
+                  src={getImageUrl(info.id, info.name)}
+                />
+              </Box>
+              <Box>
+                <h1 style={{ fontSize: 20 }}>{info.name}</h1>
+                <Box direction="row" space={1} alignItems="center">
+                  <TypeTile type={info.type1} />
+                  {info.type2 ? <TypeTile type={info.type2} /> : null}
+                </Box>
+              </Box>
+            </Box>
+          </Layout>
+        )}
         {focusMode ? null : (
           <Box marginTop={-5}>
             <Section>
@@ -304,15 +333,14 @@ export default function Page() {
                     paddingBottom={2}
                     paddingRight={3}
                     paddingLeft={3}
-                    placeholder="Search..."
+                    placeholder="Quick Search, e.g. Cre"
                     extend={{
-                      fontSize: 18,
+                      fontSize: 16,
                       borderRadius: theme.roundedCorners,
                       appearance: 'none',
                       border: '1px solid rgb(170, 170, 170)',
                     }}
                     onFocus={(e) => e.target.select()}
-                    onClick={(e) => e.target.select()}
                     onChange={(e) => setSearch(e.target.value)}
                   />
                   <Box

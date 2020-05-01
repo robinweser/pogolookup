@@ -21,7 +21,7 @@ export default function Footer() {
       }}>
       <Layout>
         <Box space={4} extend={{ fontSize: 14 }}>
-          <Box space={2} paddingBottom={2} direction="row">
+          <Box space={3} paddingBottom={2} direction="row">
             <a style={{ color: 'white' }} href="https://twitter.com/pogolookup">
               Twitter
             </a>

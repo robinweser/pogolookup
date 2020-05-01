@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width,height=device-height,initial-scale=1, viewport-fit=cover"
           />
+          <link rel="icon" href="favicon.png" />
           {styleTags}
         </Head>
         <body>

@@ -163,7 +163,7 @@ export default function PVPRankings({ pvpRankings, ivs }) {
             </Box>
           </Box>
           {pvpRankings
-            .slice(0, 50)
+            .slice(0, 25)
             .map(
               (
                 {
