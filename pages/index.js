@@ -383,7 +383,7 @@ export default function Page() {
                   <Box
                     grow={3}
                     shrink={0}
-                    basis={['auto', 0]}
+                    basis={['auto', , 0]}
                     direction="row"
                     alignItems="flex-end">
                     <Box
@@ -451,7 +451,7 @@ export default function Page() {
                       <Box
                         grow={1}
                         shrink={0}
-                        basis={['auto', 0]}
+                        basis={['auto', , 0]}
                         direction="row">
                         <Box grow={1} shrink={0} basis={0}>
                           <Box

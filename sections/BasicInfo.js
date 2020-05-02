@@ -28,7 +28,7 @@ export default function BaseInfo({ info, stats, pokemon }) {
     <Box>
       <Layout>
         <Box direction={['column', , 'row']} space={4}>
-          <Box order={1} grow={1} shrink={0} basis="70%">
+          <Box order={[3, , -1]} grow={1} shrink={0} basis="70%">
             <h1>
               #{info.id} {info.name}
             </h1>
