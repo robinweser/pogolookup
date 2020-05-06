@@ -1354,7 +1354,7 @@
     "type": "normal",
     "pve": {
       "damage": 35,
-      "energy": null,
+      "energy": 0,
       "accuracy": 1,
       "turns": 2.2
     },
@@ -1893,11 +1893,13 @@
     "name": "Splash",
     "type": "water",
     "pve": {
+      "damage": 0,
       "energy": 20,
       "accuracy": 1,
       "turns": 1.73
     },
     "pvp": {
+      "damage": 0,
       "energy": 12,
       "turns": 4
     }
@@ -2056,12 +2058,14 @@
     "name": "Transform",
     "type": "normal",
     "pve": {
-      "energy": null,
+      "damage": 0,
+      "energy": 0,
       "accuracy": 1,
       "turns": 2.23
     },
     "pvp": {
-      "energy": null,
+      "damage": 0,
+      "energy": 0,
       "turns": 3
     }
   },
@@ -2729,11 +2733,13 @@
     "name": "Yawn",
     "type": "normal",
     "pve": {
+      "damage": 0,
       "energy": 15,
       "accuracy": 1,
       "turns": 1.7
     },
     "pvp": {
+      "damage": 0,
       "energy": 12,
       "turns": 4
     }
@@ -3008,24 +3014,6 @@
       "turns": 1
     }
   },
-  "LUNGE": {
-    "name": "Lunge",
-    "type": "bug",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 2.9
-    }
-  },
-  "CRUSH_CLAW": {
-    "name": "Crush Claw",
-    "type": "normal",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 1.9
-    }
-  },
   "OCTAZOOKA": {
     "name": "Octazooka",
     "type": "water",
@@ -3101,33 +3089,6 @@
       "turns": 1
     }
   },
-  "LEECH_LIFE": {
-    "name": "Leech Life",
-    "type": "bug",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 2.5
-    }
-  },
-  "DRAIN_PUNCH": {
-    "name": "Drain Punch",
-    "type": "fighting",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 2.4
-    }
-  },
-  "SHADOW_BONE": {
-    "name": "Shadow Bone",
-    "type": "ghost",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 2.8
-    }
-  },
   "MUDDY_WATER": {
     "name": "Muddy Water",
     "type": "water",
@@ -3156,15 +3117,6 @@
       "damage": 55,
       "energy": 40,
       "turns": 1
-    }
-  },
-  "RAZOR_SHELL": {
-    "name": "Razor Shell",
-    "type": "water",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 1.3
     }
   },
   "POWER_UP_PUNCH": {
@@ -3300,24 +3252,6 @@
       "damage": 8,
       "energy": 5,
       "turns": 2
-    }
-  },
-  "HORN_DRILL": {
-    "name": "Horn Drill",
-    "type": "normal",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 1.9
-    }
-  },
-  "FISSURE": {
-    "name": "Fissure",
-    "type": "ground",
-    "pve": {
-      "energy": null,
-      "accuracy": 1,
-      "turns": 2.8
     }
   },
   "SACRED_SWORD": {

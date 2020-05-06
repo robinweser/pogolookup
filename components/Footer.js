@@ -14,7 +14,7 @@ export default function Footer() {
     <Box
       justifyContent="center"
       paddingTop={10}
-      paddingBottom={20}
+      paddingBottom={30}
       extend={{
         backgroundColor: theme.colors.text,
         color: 'white',

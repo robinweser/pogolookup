@@ -21,16 +21,47 @@ export default function Header() {
         backgroundColor: theme.colors.text,
       }}>
       <Layout>
-        <Link href="/">
-          <a
-            style={{ fontWeight: 500, color: 'white', textDecoration: 'none' }}>
-            <img
-              src="/wordmark.png"
-              height={18}
-              style={{ marginTop: 6, marginLeft: 3 }}
-            />
-          </a>
-        </Link>
+        <Box space={2.5} direction="row" alignItems="center">
+          <Link href="/">
+            <a style={{ textDecoration: 'none' }}>
+              <img
+                src="/wordmark.png"
+                height={16}
+                style={{ marginTop: 4, marginLeft: 3, paddingRight: 14 }}
+              />
+            </a>
+          </Link>
+          <Link href="/">
+            <a
+              style={{
+                fontWeight: 500,
+                color: 'white',
+                textDecoration: 'none',
+              }}>
+              Pokemon
+            </a>
+          </Link>
+          <Link href="/moves">
+            <a
+              style={{
+                fontWeight: 500,
+                color: 'white',
+                textDecoration: 'none',
+              }}>
+              Moves
+            </a>
+          </Link>
+          <Link href="/types">
+            <a
+              style={{
+                fontWeight: 500,
+                color: 'white',
+                textDecoration: 'none',
+              }}>
+              Types
+            </a>
+          </Link>
+        </Box>
       </Layout>
     </Box>
   )

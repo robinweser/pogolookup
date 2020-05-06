@@ -213,8 +213,8 @@ let generate = async () => {
         .join(' '),
       type: pokemonType.substr(13).toLowerCase(),
       pve: {
-        damage: power,
-        energy: Math.abs(energyDelta),
+        damage: power || 0,
+        energy: Math.abs(energyDelta) || 0,
         accuracy: accuracyChance,
         turns: durationMs / 1000,
       },
@@ -227,8 +227,8 @@ let generate = async () => {
     } = template
 
     moveList[uniqueId].pvp = {
-      damage: power,
-      energy: Math.abs(energyDelta),
+      damage: power || 0,
+      energy: Math.abs(energyDelta) || 0,
       turns: durationTurns ? durationTurns + 1 : 1,
     }
   })
@@ -239,6 +239,13 @@ let generate = async () => {
 
     pokemonList[index] = merge(entry, overrides.pokedex[pokemon])
   })
+
+  // clean up old unused moves
+  for (let key in moveList) {
+    if (!moveList[key].hasOwnProperty('pvp')) {
+      delete moveList[key]
+    }
+  }
 
   fs.writeFile(
     './data/pokedex.json',

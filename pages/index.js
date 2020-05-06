@@ -7,7 +7,7 @@ TODO:
 - Weather Boosts
 */
 
-import React, { useState, useEffect, memo } from 'react'
+import React, { useState, useEffect, useContext, memo } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
 import Head from 'next/head'
@@ -28,7 +28,7 @@ import PVPRankings from '../sections/PVPRankings'
 import BasicInfo from '../sections/BasicInfo'
 import Evolutions from '../sections/Evolutions'
 
-import FocusModeContext from '../utils/FocusModeContext'
+import AppContext from '../utils/AppContext'
 
 import pokedex from '../data/pokedex.json'
 import createPokemon from '../utils/createPokemon'
@@ -82,10 +82,72 @@ function createData(pokemon, input, moveType, focusMode) {
   }
 }
 
+function Bookmark({ info, removeBookmark, setPokemon }) {
+  const { theme } = useFela()
+
+  return (
+    <Box
+      alignItems="center"
+      direction="row"
+      space={1}
+      padding={2}
+      paddingRight={3}
+      paddingLeft={3}
+      width={180}
+      maxWidth={180}
+      onClick={setPokemon}
+      extend={{
+        cursor: 'pointer',
+        borderRadius: theme.roundedCorners,
+        backgroundColor: theme.colors.types[info.type1].backgroundColor + '33',
+      }}>
+      <Box alignItems="flex-start" alignSelf="flex-start">
+        <img height={40} width="auto" src={getImageUrl(info.id, info.name)} />
+      </Box>
+      <Box grow={1} shrink={1}>
+        <p
+          display={{
+            whiteSpace: 'nowrap',
+            textOverflow: 'ellipsis',
+            overflow: 'hidden',
+          }}>
+          {info.name}
+        </p>
+      </Box>
+      <Box
+        flex="0 0 10px"
+        alignItems="center"
+        justifyContent="center"
+        onClick={(e) => {
+          e.stopPropagation()
+          removeBookmark(info.name)
+        }}
+        extend={{
+          cursor: 'pointer',
+          top: -10,
+          position: 'relative',
+          color: theme.colors.types.fighting.backgroundColor,
+          padding: 4,
+        }}>
+        x
+      </Box>
+    </Box>
+  )
+}
+
 const PokemonInfo = memo(
   (props) => {
     const { theme } = useFela()
-    const { focusMode, moveType, pokemon, ivs, setInput, input } = props
+    const {
+      addBookmark,
+      focusMode,
+      showRawDamage,
+      moveType,
+      pokemon,
+      ivs,
+      setInput,
+      input,
+    } = props
     const {
       info,
       stats,
@@ -97,40 +159,19 @@ const PokemonInfo = memo(
 
     return (
       <Box space={focusMode ? 6 : 10}>
-        {!focusMode ? null : (
-          <Layout>
-            <Box alignItems="center" direction="row" space={3} marginTop={-2}>
-              <Box
-                alignItems="flex-start"
-                alignSelf="flex-start"
-                extend={{
-                  boxShadow: '0 0 0 2px rgba(0,0,0,0.2)',
-                  backgroundColor: 'white',
-                  borderRadius: 8,
-                }}>
-                <img
-                  height={70}
-                  width="auto"
-                  src={getImageUrl(info.id, info.name)}
-                />
-              </Box>
-              <Box>
-                <h1 style={{ fontSize: 20 }}>{info.name}</h1>
-                <Box direction="row" space={1} alignItems="center">
-                  <TypeTile type={info.type1} />
-                  {info.type2 ? <TypeTile type={info.type2} /> : null}
-                </Box>
-              </Box>
-            </Box>
-          </Layout>
-        )}
-        {focusMode ? null : (
-          <Box marginTop={-5}>
-            <Section>
-              <BasicInfo info={info} stats={stats} pokemon={pokemon} />
-            </Section>
-          </Box>
-        )}
+        <Box marginTop={focusMode ? -2 : -5}>
+          <Section>
+            <Layout>
+              <BasicInfo
+                ivs={ivs}
+                info={info}
+                stats={stats}
+                pokemon={pokemon}
+                addBookmark={addBookmark}
+              />
+            </Layout>
+          </Section>
+        </Box>
         {focusMode ? null : evolutions.length === 0 ? null : (
           <Section title="Evolutions">
             <Evolutions
@@ -192,7 +233,7 @@ const PokemonInfo = memo(
                   href={`https://pvpoke.com/rankings/all/${
                     leagueCap[input.league]
                   }/overall/${info.ref}/`}>
-                  → Rating on pvpoke.com
+                  → Ranking on pvpoke.com
                 </a>
               </Box>
             </Layout>
@@ -210,6 +251,7 @@ const PokemonInfo = memo(
     prevProps.input.level === newProps.input.level &&
     prevProps.input.league === newProps.input.league &&
     prevProps.focusMode === newProps.focusMode &&
+    prevProps.showRawDamage === newProps.showRawDamage &&
     prevProps.moveType === newProps.moveType
 )
 
@@ -230,6 +272,8 @@ export default function Page() {
   const [search, setSearch] = useState('')
   const [moveType, setMoveType] = useState('pvp')
   const [focusMode, setFocusMode] = useState(false)
+  const [showRawDamage, setShowRawDamage] = useState(false)
+  const [bookmarks, setBookmarks] = useState([])
   const [input, setInput] = useState(initialInput)
 
   const ivs = {
@@ -254,6 +298,12 @@ export default function Page() {
         stamina,
         level,
       })
+    }
+  }, [])
+
+  useEffect(() => {
+    if (window.localStorage.hasOwnProperty('pogo_lookup')) {
+      setBookmarks(JSON.parse(window.localStorage.getItem('pogo_lookup')))
     }
   }, [])
 
@@ -286,14 +336,77 @@ export default function Page() {
     }
   }, [searchStr])
 
+  useEffect(() => {
+    window.localStorage.setItem('pogo_lookup', JSON.stringify(bookmarks))
+  }, [bookmarks])
+
+  const addBookmark = () => {
+    if (bookmarks.indexOf(input.name) === -1) {
+      setBookmarks([...bookmarks, input.name])
+    }
+  }
+
+  const removeBookmark = (name) => {
+    setBookmarks(bookmarks.filter((e) => e !== name))
+  }
+
   return (
-    <FocusModeContext.Provider value={focusMode}>
+    <AppContext.Provider value={{ focusMode, showRawDamage, moveType }}>
       <Head>
         <title>PoGo Lookup | {input.name}</title>
       </Head>
       <Template>
         <Box
+          display="none"
+          space={2}
+          extend={{
+            position: 'fixed',
+            zIndex: 2,
+            top: 152,
+            left: 10,
+
+            '@media (min-width: 1280px)': {
+              display: 'flex',
+            },
+          }}>
+          {bookmarks.length === 0 ? null : (
+            <Box
+              as="a"
+              paddingLeft={2}
+              href=""
+              extend={{ color: 'black' }}
+              onClick={(e) => {
+                e.preventDefault()
+                setBookmarks([])
+              }}>
+              Clear Bookmarks ({bookmarks.length})
+            </Box>
+          )}
+          <Box
+            space={2}
+            flex="0 0 calc(100vh - 172px)"
+            paddingBottom={5}
+            extend={{ overflow: 'auto' }}>
+            {bookmarks.map((name) => {
+              const poke = createPokemon(name, ivs)
+
+              return (
+                <Box>
+                  <Bookmark
+                    info={poke.getInfo()}
+                    stats={poke.getStats()}
+                    removeBookmark={removeBookmark}
+                    setPokemon={() => setInput({ ...input, name })}
+                    pokemon={poke}
+                  />
+                </Box>
+              )
+            })}
+          </Box>
+        </Box>
+        <Box
           padding={2}
+          space={2}
           extend={{
             position: 'fixed',
             alignItems: 'baseline',
@@ -310,7 +423,27 @@ export default function Page() {
               value={focusMode}
               onChange={(e) => setFocusMode(!focusMode)}
             />{' '}
-            PVP Focus Mode
+            Battle Mode
+          </label>
+          <label htmlFor="move-type" style={{ fontSize: 14 }}>
+            <input
+              type="checkbox"
+              id="move-type"
+              name="move-type"
+              value={moveType}
+              onChange={(e) => setMoveType(moveType === 'pvp' ? 'pve' : 'pvp')}
+            />{' '}
+            Show PVE Data
+          </label>
+          <label htmlFor="show-raw-damage" style={{ fontSize: 14 }}>
+            <input
+              type="checkbox"
+              id="show-raw-damage"
+              name="show-raw-damage"
+              value={showRawDamage}
+              onChange={(e) => setShowRawDamage(!showRawDamage)}
+            />{' '}
+            Show Raw Damage
           </label>
         </Box>
         <Box space={focusMode ? 6 : 10}>
@@ -505,8 +638,10 @@ export default function Page() {
             </Layout>
           </Box>
           <PokemonInfo
+            addBookmark={addBookmark}
             moveType={moveType}
             focusMode={focusMode}
+            showRawDamage={showRawDamage}
             ivs={ivs}
             input={input}
             setInput={setInput}
@@ -514,6 +649,6 @@ export default function Page() {
           />
         </Box>
       </Template>
-    </FocusModeContext.Provider>
+    </AppContext.Provider>
   )
 }

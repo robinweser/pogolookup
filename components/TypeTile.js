@@ -16,6 +16,7 @@ export default function TypeTile({ type, children }) {
       }}>
       <Box
         alignSelf="flex-start"
+        grow={children ? 0 : 1}
         minWidth={children ? 70 : undefined}
         extend={{
           textAlign: 'center',

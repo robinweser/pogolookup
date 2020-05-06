@@ -9,17 +9,19 @@ export default function Section({ children, title }) {
 
   return (
     <Box space={2}>
-      <Layout>
-        <Box
-          as="h2"
-          extend={{
-            borderBottomWidth: title ? 1 : 0,
-            borderBottomStyle: 'solid',
-            borderBottomColor: theme.colors.border,
-          }}>
-          {title}
-        </Box>
-      </Layout>
+      {!title ? null : (
+        <Layout>
+          <Box
+            as="h2"
+            extend={{
+              borderBottomWidth: title ? 1 : 0,
+              borderBottomStyle: 'solid',
+              borderBottomColor: theme.colors.border,
+            }}>
+            {title}
+          </Box>
+        </Layout>
+      )}
       {children}
     </Box>
   )

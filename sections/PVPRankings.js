@@ -41,7 +41,7 @@ export default function PVPRankings({ pvpRankings, ivs }) {
       rankMap[
         Object.keys(rankMap).find(
           (rating) =>
-            (pvpRankings.length - rank) / pvpRankings.length >
+            (pvpRankings.length - rank) / pvpRankings.length >=
             parseFloat(rating)
         )
       ]
@@ -77,7 +77,7 @@ export default function PVPRankings({ pvpRankings, ivs }) {
               borderRadius: theme.roundedCorners,
               backgroundColor: bgColor,
             }}>
-            <Cell extend={{ flex: '0 0 50px' }}>{rank}</Cell>
+            <Cell extend={{ flex: '0 0 50px', fontWeight: 700 }}>{rank}</Cell>
             <Box grow={1} direction={['column', , 'row']}>
               <Box grow={4} shrink={0} basis={['auto', , 0]} direction="row">
                 <Cell>

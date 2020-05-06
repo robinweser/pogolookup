@@ -7,6 +7,9 @@ import moves from '../data/moves.json'
 
 import binarySearch from './binarySearch'
 import formatDecimal from './formatDecimal'
+import getTypeMultipliers from './getTypeMultipliers'
+import getQuickMoveStats from './getQuickMoveStats'
+import getChargeMoveStats from './getChargeMoveStats'
 
 export default function createPokemon(name, ivs = {}) {
   const pokemon = pokedex.find((pokemon) => pokemon.name === name)
@@ -35,27 +38,22 @@ export default function createPokemon(name, ivs = {}) {
     getTypeMultipliers() {
       const pokeTypes = [pokemon.type1, pokemon.type2].filter(Boolean)
 
-      return Object.keys(types).reduce((multipliers, type) => {
-        multipliers[type] = pokeTypes.reduce((multiplier, t) => {
-          return formatDecimal(multiplier * (types[t].takes[type] || 1), 3)
-        }, 1)
-
-        return multipliers
-      }, {})
+      return getTypeMultipliers(pokeTypes)
     },
 
     getMoves(mode = 'pvp') {
+      const pokeTypes = [pokemon.type1, pokemon.type2].filter(Boolean)
       const quickMoves = pokemon.quickMoves.map((move) =>
-        poke._getQuickMoveStats(move, mode)
+        getQuickMoveStats(move, mode, pokeTypes)
       )
       const eliteQuickMoves = pokemon.eliteQuickMoves.map((move) =>
-        poke._getQuickMoveStats(move, mode)
+        getQuickMoveStats(move, mode, pokeTypes)
       )
       const chargeMoves = pokemon.cinematicMoves.map((move) =>
-        poke._getChargeMoveStats(move, mode)
+        getChargeMoveStats(move, mode, pokeTypes)
       )
       const eliteChargeMoves = pokemon.eliteCinematicMoves.map((move) =>
-        poke._getChargeMoveStats(move, mode)
+        getChargeMoveStats(move, mode, pokeTypes)
       )
 
       return {
@@ -86,6 +84,7 @@ export default function createPokemon(name, ivs = {}) {
         staminaBase: pokemon.stamina,
         staminaSum: sta,
         staminaStat: Math.floor(sta * cpm[levelMultiplier] * 100) / 100,
+        hp: Math.floor(sta * cpm[levelMultiplier]),
         cp: Math.floor(
           (atk * Math.sqrt(def * sta) * cpm2[levelMultiplier]) / 10
         ),
@@ -186,52 +185,8 @@ export default function createPokemon(name, ivs = {}) {
 
       return cps
     },
-
-    _getQuickMoveStats(move, mode) {
-      const { name, type } = moves[move]
-      const { damage, energy, turns } = moves[move][mode]
-
-      const hasStab = type === pokemon.type1 || type === pokemon.type2
-      const actualDamage = formatDecimal(damage * (hasStab ? 1.2 : 1))
-      const dpt = formatDecimal(damage / turns)
-      const adpt = formatDecimal(actualDamage / turns)
-      const ept = formatDecimal(energy / turns)
-
-      return {
-        name,
-        type,
-        hasStab,
-        damage,
-        actualDamage,
-        energy,
-        turns,
-        damagePerTurn: dpt,
-        actualDamagePerTurn: adpt,
-        energyPerTurn: ept,
-        damagePerEnergy: dpt / ept,
-        actualDamagePerTurn: adpt / ept,
-      }
-    },
-
-    _getChargeMoveStats(move, mode) {
-      const { name, type } = moves[move]
-      const { damage, energy } = moves[move][mode]
-
-      const hasStab = type === pokemon.type1 || type === pokemon.type2
-      const actualDamage = formatDecimal(damage * (hasStab ? 1.2 : 1))
-
-      return {
-        name,
-        type,
-        hasStab,
-        damage,
-        actualDamage,
-        energy,
-        damagePerEnergy: damage / energy,
-        actualDamagePerEnergy: actualDamage / energy,
-      }
-    },
   }
+
   return poke
 }
 
