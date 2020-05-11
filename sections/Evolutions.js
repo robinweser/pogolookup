@@ -37,6 +37,9 @@ export default function Evolutions({ evolutions, level, setName }) {
                   },
                   large: {
                     marginRight: 8,
+                    ':nth-child(2n)': {
+                      marginRight: 8,
+                    },
                   },
                 }}
                 onClick={() => setName(info.name)}>

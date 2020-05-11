@@ -79,6 +79,7 @@ export default function Page() {
                     onChange={(e) => setSortBy(e.target.value)}>
                     <option value="id">Number</option>
                     <option value="name">Name</option>
+                    <option value="type1">Type</option>
                     <option value="cp">Max CP</option>
                     <option value="attack">Attack</option>
                     <option value="defense">Defense</option>
