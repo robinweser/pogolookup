@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import { Box } from 'kilvin'
 import { useFela } from 'react-fela'
 
-import Layout from '../components/Layout'
-import Template from '../components/Template'
-import TypeTile from '../components/TypeTile'
+import Layout from '../../components/Layout'
+import Template from '../../components/Template'
+import TypeTile from '../../components/TypeTile'
 
-import TypeChart from '../sections/TypeChart'
+import TypeChart from '../../sections/TypeChart'
 
-import getTypeMultipliers from '../utils/getTypeMultipliers'
+import getTypeMultipliers from '../../utils/getTypeMultipliers'
 
 export default function Page() {
   const { theme } = useFela()

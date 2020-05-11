@@ -2,17 +2,17 @@ import React, { useState } from 'react'
 import { Box } from 'kilvin'
 import { useFela } from 'react-fela'
 
-import Layout from '../components/Layout'
-import Template from '../components/Template'
-import Section from '../components/Section'
-import QuickMove from '../components/QuickMove'
-import ChargeMove from '../components/ChargeMove'
+import Layout from '../../components/Layout'
+import Template from '../../components/Template'
+import Section from '../../components/Section'
+import QuickMove from '../../components/QuickMove'
+import ChargeMove from '../../components/ChargeMove'
 
-import AppContext from '../utils/AppContext'
-import getQuickMoveStats from '../utils/getQuickMoveStats'
-import getChargeMoveStats from '../utils/getChargeMoveStats'
+import AppContext from '../../utils/AppContext'
+import getQuickMoveStats from '../../utils/getQuickMoveStats'
+import getChargeMoveStats from '../../utils/getChargeMoveStats'
 
-import moves from '../data/moves.json'
+import moves from '../../data/moves.json'
 
 const icon =
   'PHN2ZyBoZWlnaHQ9IjEwMDBweCIgd2lkdGg9Ijg2NnB4IiB2aWV3Qm94PSIwIDAgODY2IDEwMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGc+CiAgICA8cGF0aCBzdHJva2Utd2lkdGg9IjcwIiBzdHJva2U9IiNiZWJlYmUiIGZpbGw9IiNiZWJlYmUiIGQ9Ik02MyAyODBjMCAwIDM3MCAzNTYgMzcwIDM1NmMwIDAgMzcyIC0zNTYgMzcyIC0zNTZjMTQuNjY3IC0xNy4zMzMgMzAuNjY3IC0xNy4zMzMgNDggMGMxNy4zMzMgMTQuNjY3IDE3LjMzMyAzMC42NjcgMCA0OGMwIDAgLTM5NiAzOTIgLTM5NiAzOTJjLTE0LjY2NyAxNC42NjcgLTMwLjY2NyAxNC42NjcgLTQ4IDBjMCAwIC0zOTYgLTM5MiAtMzk2IC0zOTJjLTE3LjMzMyAtMTcuMzMzIC0xNy4zMzMgLTMzLjMzMyAwIC00OGMxNiAtMTYgMzIuNjY3IC0xNiA1MCAwYzAgMCAwIDAgMCAwIi8+CiAgPC9nPgo8L3N2Zz4='

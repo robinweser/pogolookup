@@ -21,7 +21,11 @@ export default function Header() {
         backgroundColor: theme.colors.text,
       }}>
       <Layout>
-        <Box space={2.5} direction="row" alignItems="center">
+        <Box
+          space={2.5}
+          direction="row"
+          alignItems="center"
+          extend={{ overflow: 'auto' }}>
           <Link href="/">
             <a style={{ textDecoration: 'none' }}>
               <img
@@ -41,24 +45,24 @@ export default function Header() {
               Pokemon
             </a>
           </Link>
-          <Link href="/moves">
+          <Link href="/lists">
             <a
               style={{
                 fontWeight: 500,
                 color: 'white',
                 textDecoration: 'none',
               }}>
-              Moves
+              Lists
             </a>
           </Link>
-          <Link href="/types">
+          <Link href="/calculators">
             <a
               style={{
                 fontWeight: 500,
                 color: 'white',
                 textDecoration: 'none',
               }}>
-              Types
+              Calculators
             </a>
           </Link>
         </Box>

@@ -55,7 +55,7 @@ const useDebounce = (value, delay) => {
   return debouncedValue
 }
 
-function createData(pokemon, input, moveType, focusMode) {
+function createData(pokemon, input, moveType, focusMode, maxLevel) {
   const info = pokemon.getInfo()
   const moves = pokemon.getMoves(moveType)
   const typeMultipliers = pokemon.getTypeMultipliers()
@@ -69,7 +69,10 @@ function createData(pokemon, input, moveType, focusMode) {
   }
 
   const stats = pokemon.getStats(input.level)
-  const pvpRankings = pokemon.getPVPRankings({ CPCap: leagueCap[input.league] })
+  const pvpRankings = pokemon.getPVPRankings({
+    CPCap: leagueCap[input.league],
+    maxLevel,
+  })
   const evolutions = pokemon.getEvolutions()
 
   return {
@@ -143,9 +146,11 @@ const PokemonInfo = memo(
       focusMode,
       showRawDamage,
       moveType,
+      maxLevel,
       pokemon,
       ivs,
       setInput,
+      setMaxLevel,
       input,
     } = props
     const {
@@ -155,7 +160,7 @@ const PokemonInfo = memo(
       pvpRankings,
       evolutions,
       typeMultipliers,
-    } = createData(pokemon, input, moveType, focusMode)
+    } = createData(pokemon, input, moveType, focusMode, maxLevel)
 
     return (
       <Box space={focusMode ? 6 : 10}>
@@ -196,7 +201,7 @@ const PokemonInfo = memo(
                 direction={['column', 'row']}
                 alignItems={['flex-start', , 'center']}
                 space={[1, , 3]}>
-                <Box alignItems="flex-start">
+                <Box alignItems="flex-start" direction="row">
                   <Box
                     value={input.league}
                     as="select"
@@ -235,6 +240,23 @@ const PokemonInfo = memo(
                   }/overall/${info.ref}/`}>
                   → Ranking on pvpoke.com
                 </a>
+                <Box
+                  padding={2}
+                  space={2}
+                  extend={{
+                    alignItems: 'baseline',
+                  }}>
+                  <label htmlFor="best-buddy" style={{ fontSize: 14 }}>
+                    <input
+                      type="checkbox"
+                      id="best-buddy"
+                      name="best-buddy"
+                      value={maxLevel === 41}
+                      onChange={(e) => setMaxLevel(maxLevel === 40 ? 41 : 40)}
+                    />{' '}
+                    Best Buddy
+                  </label>
+                </Box>
               </Box>
             </Layout>
             <PVPRankings pvpRankings={pvpRankings} ivs={ivs} />
@@ -252,7 +274,8 @@ const PokemonInfo = memo(
     prevProps.input.league === newProps.input.league &&
     prevProps.focusMode === newProps.focusMode &&
     prevProps.showRawDamage === newProps.showRawDamage &&
-    prevProps.moveType === newProps.moveType
+    prevProps.moveType === newProps.moveType &&
+    prevProps.maxLevel === newProps.maxLevel
 )
 
 const initialInput = {
@@ -272,6 +295,7 @@ export default function Page() {
   const [search, setSearch] = useState('')
   const [moveType, setMoveType] = useState('pvp')
   const [focusMode, setFocusMode] = useState(false)
+  const [maxLevel, setMaxLevel] = useState(40)
   const [showRawDamage, setShowRawDamage] = useState(false)
   const [bookmarks, setBookmarks] = useState([])
   const [input, setInput] = useState(initialInput)
@@ -292,7 +316,7 @@ export default function Page() {
 
       setInput({
         ...input,
-        name,
+        name: decodeURIComponent(name),
         attack,
         defense,
         stamina,
@@ -642,9 +666,11 @@ export default function Page() {
             moveType={moveType}
             focusMode={focusMode}
             showRawDamage={showRawDamage}
+            maxLevel={maxLevel}
             ivs={ivs}
             input={input}
             setInput={setInput}
+            setMaxLevel={setMaxLevel}
             pokemon={pokemon}
           />
         </Box>

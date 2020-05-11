@@ -4,3 +4,4 @@ node_modules/
 
 data/pokedex.json
 data/_MASTER.json
+.vercel

@@ -22,7 +22,7 @@ const Cell = ({ children, extend }) => (
   </Box>
 )
 
-export default function PVPRankings({ pvpRankings, ivs }) {
+export default function PVPRankings({ pvpRankings, ivs, setLevelCap }) {
   const { theme } = useFela()
 
   const selected = pvpRankings.find(

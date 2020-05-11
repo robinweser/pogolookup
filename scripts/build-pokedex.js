@@ -168,8 +168,7 @@ let generate = async () => {
         attack: stats.baseAttack,
         defense: stats.baseDefense,
         stamina: stats.baseStamina,
-        // TODO: remove ones event is reverted
-        candyDistance: kmBuddyDistance * 2,
+        candyDistance: kmBuddyDistance,
         evolutions:
           evolutionBranch && evolutionBranch[0].evolution
             ? evolutionBranch
