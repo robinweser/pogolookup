@@ -92,7 +92,7 @@ export default function Page() {
                 name="souvenir"
                 value={input.souvenir}
                 onChange={(souvenir) => setInput({ ...input, souvenir })}>
-                Open souvenir
+                Open Souvenir
               </Checkbox>
               <Checkbox
                 name="gift"
