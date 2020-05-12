@@ -239,9 +239,16 @@ let generate = async () => {
     pokemonList[index] = merge(entry, overrides.pokedex[pokemon])
   })
 
+  Object.keys(overrides.moves).forEach((move) => {
+    moveList[move] = merge(moveList[move], overrides.moves[move])
+  })
+
   // clean up old unused moves
   for (let key in moveList) {
-    if (!moveList[key].hasOwnProperty('pvp')) {
+    if (
+      !moveList[key].hasOwnProperty('pvp') ||
+      moveList[key].name.indexOf('Blastoise') !== -1
+    ) {
       delete moveList[key]
     }
   }

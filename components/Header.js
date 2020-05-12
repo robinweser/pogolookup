@@ -31,7 +31,12 @@ export default function Header() {
               <img
                 src="/wordmark.png"
                 height={16}
-                style={{ marginTop: 4, marginLeft: 3, paddingRight: 14 }}
+                style={{
+                  marginTop: 4,
+                  marginLeft: 3,
+                  paddingRight: 14,
+                  width: 117,
+                }}
               />
             </a>
           </Link>
