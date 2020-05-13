@@ -251,7 +251,7 @@ const PokemonInfo = memo(
                       type="checkbox"
                       id="best-buddy"
                       name="best-buddy"
-                      value={maxLevel === 41}
+                      checked={maxLevel === 41}
                       onChange={(e) => setMaxLevel(maxLevel === 40 ? 41 : 40)}
                     />{' '}
                     Best Buddy
