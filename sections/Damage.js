@@ -61,10 +61,13 @@ function DamageDisplay({
         }}
         extend={{
           cursor: 'pointer',
-          top: -33,
+          top: 0,
           position: 'relative',
           color: theme.colors.types.fighting.backgroundColor,
           padding: 4,
+          large: {
+            top: -33,
+          },
         }}>
         x
       </Box>
@@ -113,8 +116,8 @@ function DamageDisplay({
                   alignItems="center"
                   direction="row"
                   space={1}
-                  grow={1}>
-                  <Box minWidth={50} alignItems="flex-end">
+                  grow={[1, , 0]}>
+                  <Box width={50} alignItems="flex-end">
                     {formatDecimal(damage / energy)}x
                   </Box>
                   <Box
