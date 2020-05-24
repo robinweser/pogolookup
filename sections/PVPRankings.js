@@ -22,7 +22,12 @@ const Cell = ({ children, extend }) => (
   </Box>
 )
 
-export default function PVPRankings({ pvpRankings, ivs, setLevelCap }) {
+export default function PVPRankings({
+  pvpRankings,
+  ivs,
+  setLevelCap,
+  setInput,
+}) {
   const { theme } = useFela()
 
   const selected = pvpRankings.find(
@@ -182,7 +187,16 @@ export default function PVPRankings({ pvpRankings, ivs, setLevelCap }) {
                 i === rank - 1 ? null : (
                   <Box
                     direction="row"
+                    onClick={() =>
+                      setInput({
+                        attack: attackIV,
+                        defense: defenseIV,
+                        stamina: staminaIV,
+                        level,
+                      })
+                    }
                     extend={{
+                      cursor: 'pointer',
                       borderBottom: '1px solid rgb(200, 200, 200)',
                       ':last-child': {
                         borderBottom: 0,

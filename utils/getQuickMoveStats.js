@@ -13,6 +13,7 @@ export default function getQuickMoveStats(move, mode, types = []) {
   const ept = formatDecimal(energy / turns)
 
   return {
+    id: move,
     name,
     type,
     hasStab,

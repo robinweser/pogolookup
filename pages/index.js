@@ -27,12 +27,14 @@ import Moves from '../sections/Moves'
 import PVPRankings from '../sections/PVPRankings'
 import BasicInfo from '../sections/BasicInfo'
 import Evolutions from '../sections/Evolutions'
+import Damage from '../sections/Damage'
 
 import AppContext from '../utils/AppContext'
 
 import pokedex from '../data/pokedex.json'
 import createPokemon from '../utils/createPokemon'
 import getImageUrl from '../utils/getImageUrl'
+import getDamage from '../utils/getDamage'
 
 const leagueCap = {
   great: 1500,
@@ -59,16 +61,17 @@ function createData(pokemon, input, moveType, focusMode, maxLevel) {
   const info = pokemon.getInfo()
   const moves = pokemon.getMoves(moveType)
   const typeMultipliers = pokemon.getTypeMultipliers()
+  const stats = pokemon.getStats(input.level)
 
   if (focusMode) {
     return {
+      stats,
       moves,
       typeMultipliers,
       info,
     }
   }
 
-  const stats = pokemon.getStats(input.level)
   const pvpRankings = pokemon.getPVPRankings({
     CPCap: leagueCap[input.league],
     maxLevel,
@@ -192,6 +195,15 @@ const PokemonInfo = memo(
         <Section title="Moves">
           <Moves moves={moves} thirdMove={info.thirdMove} />
         </Section>
+        <Section title="Damage">
+          <Damage
+            pokemon={pokemon}
+            stats={stats}
+            info={info}
+            level={input.level}
+            setInput={(values) => setInput({ ...input, ...values })}
+          />
+        </Section>
         {focusMode ? null : (
           <Section title="PVP IV Rating">
             <Layout>
@@ -200,7 +212,7 @@ const PokemonInfo = memo(
                 paddingBottom={2}
                 direction={['column', 'row']}
                 alignItems={['flex-start', , 'center']}
-                space={[1, , 3]}>
+                space={[1, , 1]}>
                 <Box alignItems="flex-start" direction="row">
                   <Box
                     value={input.league}
@@ -231,17 +243,9 @@ const PokemonInfo = memo(
                   </Box>
                 </Box>
 
-                <a
-                  rel="noopener"
-                  target="_blank"
-                  style={{ color: 'black' }}
-                  href={`https://pvpoke.com/rankings/all/${
-                    leagueCap[input.league]
-                  }/overall/${info.ref}/`}>
-                  → Ranking on pvpoke.com
-                </a>
                 <Box
                   padding={2}
+                  paddingRight={4}
                   space={2}
                   extend={{
                     alignItems: 'baseline',
@@ -257,9 +261,22 @@ const PokemonInfo = memo(
                     Best Buddy
                   </label>
                 </Box>
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  style={{ color: 'black' }}
+                  href={`https://pvpoke.com/rankings/all/${
+                    leagueCap[input.league]
+                  }/overall/${info.ref}/`}>
+                  → Ranking on pvpoke.com
+                </a>
               </Box>
             </Layout>
-            <PVPRankings pvpRankings={pvpRankings} ivs={ivs} />
+            <PVPRankings
+              pvpRankings={pvpRankings}
+              ivs={ivs}
+              setInput={(values) => setInput({ ...input, ...values })}
+            />
           </Section>
         )}
       </Box>
@@ -480,14 +497,14 @@ export default function Page() {
             <Layout>
               <Box
                 direction={['column', , 'row']}
-                space={[2, , 6]}
+                space={2}
                 alignItems="stretch">
-                <Box grow={2} shrink={0} basis={['auto', , 0]} space={1.5}>
+                <Box grow={2} shrink={0} basis={['auto', , 0]} space={1}>
                   <Box
                     as="input"
                     value={search}
-                    paddingTop={2}
-                    paddingBottom={2}
+                    paddingTop={1.5}
+                    paddingBottom={1.5}
                     paddingRight={3}
                     paddingLeft={3}
                     placeholder="Quick Search, e.g. Cre"

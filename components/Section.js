@@ -12,6 +12,7 @@ export default function Section({ children, title }) {
       {!title ? null : (
         <Layout>
           <Box
+            id={title.toLowerCase().replace(' ', '-')}
             as="h2"
             extend={{
               borderBottomWidth: title ? 1 : 0,

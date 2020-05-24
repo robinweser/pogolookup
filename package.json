@@ -6,12 +6,12 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "now dev",
-    "build": "yarn build:pokedex && next build",
+    "build": "yarn build:data && next build",
     "now-build": "yarn run version && yarn build",
     "start": "next start",
     "export": "next export",
     "deploy": "yarn run version && yarn build && now --prod",
-    "build:pokedex": "babel-node scripts/build-pokedex.js",
+    "data": "babel-node --presets @babel/env scripts/build-data.js",
     "version": "babel-node scripts/build-version.js"
   },
   "dependencies": {
@@ -30,8 +30,10 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
     "@next/bundle-analyzer": "^9.3.5",
     "@now/next": "^2.5.0",
+    "babel-preset-es2015-node5": "^1.2.0",
     "deepmerge": "^4.2.2",
     "prettier": "^2.0.2",
     "request": "^2.88.2",

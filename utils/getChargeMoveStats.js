@@ -10,6 +10,7 @@ export default function getChargeMoveStats(move, mode, types = []) {
   const actualDamage = formatDecimal(damage * (hasStab ? 1.2 : 1))
 
   return {
+    id: move,
     name,
     type,
     hasStab,

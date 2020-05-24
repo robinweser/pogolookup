@@ -48,8 +48,11 @@ export default function Page() {
       <Template>
         <Box paddingTop={3} space={4}>
           <Layout>
-            <Box direction="row" space={2}>
-              <Box direction="row" space={2} alignItems="center">
+            <Box direction="row" alignItems="flex-end" space={2}>
+              <Box
+                direction={['column', 'row']}
+                space={2}
+                alignItems={['flex-start', 'center']}>
                 <Box as="label" htmlFor="sort-by">
                   Sort By
                 </Box>

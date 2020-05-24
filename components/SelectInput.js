@@ -11,6 +11,7 @@ export default function SelectInput({
   onChange,
   name,
   children,
+  extend,
   ...props
 }) {
   const { theme } = useFela()
@@ -45,6 +46,7 @@ export default function SelectInput({
           backgroundPosition: 'right 10px center',
           backgroundRepeat: 'no-repeat',
           backgroundImage: 'url("data:image/svg+xml;base64,' + icon + '")',
+          ...extend,
         }}
         value={value}
         onChange={(e) => onChange(e.target.value)}>

@@ -68,7 +68,7 @@ export default function QuickMove({
         <LabelledValue name={isPVE ? 'EPS' : 'EPT'}>
           {energyPerTurn}
         </LabelledValue>
-        <LabelledValue name={isPVE ? 'DPS × EPS' : 'DPT × EPS'}>
+        <LabelledValue name={isPVE ? 'DPS × EPS' : 'DPT × EPT'}>
           {formatDecimal(
             (showRawDamage ? damagePerTurn : actualDamagePerTurn) *
               energyPerTurn

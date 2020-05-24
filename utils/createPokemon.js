@@ -35,14 +35,16 @@ export default function createPokemon(name, ivs = {}) {
       return (pokemon.evolutions || []).map((name) => createPokemon(name, ivs))
     },
 
-    getTypeMultipliers() {
-      const pokeTypes = [pokemon.type1, pokemon.type2].filter(Boolean)
+    getTypes() {
+      return [pokemon.type1, pokemon.type2].filter(Boolean)
+    },
 
-      return getTypeMultipliers(pokeTypes)
+    getTypeMultipliers() {
+      return getTypeMultipliers(this.getTypes())
     },
 
     getMoves(mode = 'pvp') {
-      const pokeTypes = [pokemon.type1, pokemon.type2].filter(Boolean)
+      const pokeTypes = this.getTypes()
       const quickMoves = pokemon.quickMoves.map((move) =>
         getQuickMoveStats(move, mode, pokeTypes)
       )
