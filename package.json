@@ -6,7 +6,7 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "now dev",
-    "build": "yarn build:data && next build",
+    "build": "yarn data && next build",
     "now-build": "yarn run version && yarn build",
     "start": "next start",
     "export": "next export",
