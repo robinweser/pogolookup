@@ -1,36 +1,4 @@
 {
-  "pokedex": {
-    "cresselia": {
-      "eliteCinematicMoves": ["GRASS_KNOT"]
-    },
-    "groudon": {
-      "eliteCinematicMoves": ["FIRE_PUNCH"]
-    },
-    "ho_oh": {
-      "eliteCinematicMoves": ["EARTHQUAKE"]
-    },
-    "palkia": {
-      "cinematicMoves": ["AQUA_TAIL"]
-    }
-  },
-  "moves": {
-    "MOONBLAST": {
-      "pvp": {
-        "damage": 110,
-        "energy": 60
-      }
-    },
-    "DRILL_RUN": {
-      "pvp": {
-        "damage": 80,
-        "energy": 45
-      }
-    },
-    "WILD_CHARGE": {
-      "pvp": {
-        "damage": 100,
-        "energy": 45
-      }
-    }
-  }
+  "pokedex": {},
+  "moves": {}
 }

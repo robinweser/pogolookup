@@ -179,7 +179,7 @@ let generate = async () => {
         attack: stats.baseAttack,
         defense: stats.baseDefense,
         stamina: stats.baseStamina,
-        candyDistance: kmBuddyDistance,
+        candyDistance: kmBuddyDistance * 2,
         evolutions:
           evolutionBranch && evolutionBranch[0].evolution
             ? evolutionBranch

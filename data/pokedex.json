@@ -6,7 +6,7 @@
     "attack": 118,
     "defense": 111,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ivysaur"
     ],
@@ -35,7 +35,7 @@
     "attack": 151,
     "defense": 143,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Venusaur"
     ],
@@ -64,7 +64,7 @@
     "attack": 198,
     "defense": 189,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "poison",
@@ -93,7 +93,7 @@
     "attack": 116,
     "defense": 93,
     "stamina": 118,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Charmeleon"
     ],
@@ -121,7 +121,7 @@
     "attack": 158,
     "defense": 126,
     "stamina": 151,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Charizard"
     ],
@@ -151,7 +151,7 @@
     "attack": 223,
     "defense": 173,
     "stamina": 186,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "flying",
@@ -184,7 +184,7 @@
     "attack": 94,
     "defense": 121,
     "stamina": 127,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Wartortle"
     ],
@@ -212,7 +212,7 @@
     "attack": 126,
     "defense": 155,
     "stamina": 153,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Blastoise"
     ],
@@ -240,7 +240,7 @@
     "attack": 171,
     "defense": 207,
     "stamina": 188,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -269,7 +269,7 @@
     "attack": 55,
     "defense": 55,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Metapod"
     ],
@@ -295,7 +295,7 @@
     "attack": 45,
     "defense": 80,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Butterfree"
     ],
@@ -321,7 +321,7 @@
     "attack": 167,
     "defense": 137,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -350,7 +350,7 @@
     "attack": 63,
     "defense": 50,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Kakuna"
     ],
@@ -377,7 +377,7 @@
     "attack": 46,
     "defense": 75,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Beedrill"
     ],
@@ -404,7 +404,7 @@
     "attack": 169,
     "defense": 130,
     "stamina": 163,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "poison",
@@ -434,7 +434,7 @@
     "attack": 85,
     "defense": 73,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Pidgeotto"
     ],
@@ -463,7 +463,7 @@
     "attack": 117,
     "defense": 105,
     "stamina": 160,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Pidgeot"
     ],
@@ -492,7 +492,7 @@
     "attack": 166,
     "defense": 154,
     "stamina": 195,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -523,7 +523,7 @@
     "attack": 103,
     "defense": 70,
     "stamina": 102,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Raticate"
     ],
@@ -551,7 +551,7 @@
     "attack": 103,
     "defense": 70,
     "stamina": 102,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Raticate (Alolan)"
     ],
@@ -580,7 +580,7 @@
     "attack": 161,
     "defense": 139,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -606,7 +606,7 @@
     "attack": 135,
     "defense": 154,
     "stamina": 181,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "dark",
     "type2": "normal",
@@ -633,7 +633,7 @@
     "attack": 112,
     "defense": 60,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Fearow"
     ],
@@ -664,7 +664,7 @@
     "attack": 182,
     "defense": 133,
     "stamina": 163,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -693,7 +693,7 @@
     "attack": 110,
     "defense": 97,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Arbok"
     ],
@@ -723,7 +723,7 @@
     "attack": 167,
     "defense": 153,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -751,7 +751,7 @@
     "attack": 112,
     "defense": 96,
     "stamina": 111,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Raichu"
     ],
@@ -784,7 +784,7 @@
     "attack": 112,
     "defense": 96,
     "stamina": 111,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -810,7 +810,7 @@
     "attack": 193,
     "defense": 151,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -841,7 +841,7 @@
     "attack": 201,
     "defense": 154,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "electric",
     "type2": "psychic",
@@ -870,7 +870,7 @@
     "attack": 126,
     "defense": 120,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sandslash"
     ],
@@ -900,7 +900,7 @@
     "attack": 125,
     "defense": 129,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sandslash (Alolan)"
     ],
@@ -929,7 +929,7 @@
     "attack": 182,
     "defense": 175,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -955,7 +955,7 @@
     "attack": 177,
     "defense": 195,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "type2": "steel",
@@ -983,7 +983,7 @@
     "attack": 86,
     "defense": 89,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Nidorina"
     ],
@@ -1011,7 +1011,7 @@
     "attack": 117,
     "defense": 120,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Nidoqueen"
     ],
@@ -1039,7 +1039,7 @@
     "attack": 180,
     "defense": 173,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "type2": "ground",
@@ -1067,7 +1067,7 @@
     "attack": 105,
     "defense": 76,
     "stamina": 130,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Nidorino"
     ],
@@ -1095,7 +1095,7 @@
     "attack": 137,
     "defense": 111,
     "stamina": 156,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Nidoking"
     ],
@@ -1123,7 +1123,7 @@
     "attack": 204,
     "defense": 156,
     "stamina": 191,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "type2": "ground",
@@ -1153,7 +1153,7 @@
     "attack": 107,
     "defense": 108,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Clefable"
     ],
@@ -1181,7 +1181,7 @@
     "attack": 178,
     "defense": 162,
     "stamina": 216,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "fairy",
     "thirdMove": {
@@ -1211,7 +1211,7 @@
     "attack": 96,
     "defense": 109,
     "stamina": 116,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ninetales"
     ],
@@ -1239,7 +1239,7 @@
     "attack": 96,
     "defense": 109,
     "stamina": 116,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ninetales (Alolan)"
     ],
@@ -1267,7 +1267,7 @@
     "attack": 169,
     "defense": 190,
     "stamina": 177,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -1299,7 +1299,7 @@
     "attack": 170,
     "defense": 193,
     "stamina": 177,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "type2": "fairy",
@@ -1328,7 +1328,7 @@
     "attack": 80,
     "defense": 41,
     "stamina": 251,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Wigglytuff"
     ],
@@ -1360,7 +1360,7 @@
     "attack": 156,
     "defense": 90,
     "stamina": 295,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "fairy",
@@ -1389,7 +1389,7 @@
     "attack": 83,
     "defense": 73,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Golbat"
     ],
@@ -1420,7 +1420,7 @@
     "attack": 161,
     "defense": 150,
     "stamina": 181,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Crobat"
     ],
@@ -1451,7 +1451,7 @@
     "attack": 131,
     "defense": 112,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Gloom"
     ],
@@ -1480,7 +1480,7 @@
     "attack": 153,
     "defense": 136,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Vileplume",
       "Bellossom"
@@ -1510,7 +1510,7 @@
     "attack": 202,
     "defense": 167,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "poison",
@@ -1538,7 +1538,7 @@
     "attack": 121,
     "defense": 99,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Parasect"
     ],
@@ -1567,7 +1567,7 @@
     "attack": 165,
     "defense": 146,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "grass",
@@ -1596,7 +1596,7 @@
     "attack": 100,
     "defense": 100,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Venomoth"
     ],
@@ -1625,7 +1625,7 @@
     "attack": 179,
     "defense": 143,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "poison",
@@ -1655,7 +1655,7 @@
     "attack": 109,
     "defense": 78,
     "stamina": 67,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dugtrio"
     ],
@@ -1683,7 +1683,7 @@
     "attack": 108,
     "defense": 81,
     "stamina": 67,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dugtrio (Alolan)"
     ],
@@ -1712,7 +1712,7 @@
     "attack": 167,
     "defense": 134,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -1738,7 +1738,7 @@
     "attack": 201,
     "defense": 142,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "type2": "steel",
@@ -1765,7 +1765,7 @@
     "attack": 92,
     "defense": 78,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Persian"
     ],
@@ -1795,7 +1795,7 @@
     "attack": 99,
     "defense": 78,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Persian (Alolan)"
     ],
@@ -1823,7 +1823,7 @@
     "attack": 150,
     "defense": 136,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -1851,7 +1851,7 @@
     "attack": 158,
     "defense": 136,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -1877,7 +1877,7 @@
     "attack": 122,
     "defense": 95,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Golduck"
     ],
@@ -1905,7 +1905,7 @@
     "attack": 191,
     "defense": 162,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -1934,7 +1934,7 @@
     "attack": 148,
     "defense": 82,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Primeape"
     ],
@@ -1962,7 +1962,7 @@
     "attack": 207,
     "defense": 138,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -1992,7 +1992,7 @@
     "attack": 136,
     "defense": 93,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Arcanine"
     ],
@@ -2020,7 +2020,7 @@
     "attack": 227,
     "defense": 166,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -2052,7 +2052,7 @@
     "attack": 101,
     "defense": 82,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Poliwhirl"
     ],
@@ -2080,7 +2080,7 @@
     "attack": 130,
     "defense": 123,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Poliwrath",
       "Politoed"
@@ -2111,7 +2111,7 @@
     "attack": 182,
     "defense": 184,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "fighting",
@@ -2142,7 +2142,7 @@
     "attack": 195,
     "defense": 82,
     "stamina": 93,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Kadabra"
     ],
@@ -2170,7 +2170,7 @@
     "attack": 232,
     "defense": 117,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Alakazam"
     ],
@@ -2198,7 +2198,7 @@
     "attack": 271,
     "defense": 167,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -2230,7 +2230,7 @@
     "attack": 137,
     "defense": 82,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Machoke"
     ],
@@ -2260,7 +2260,7 @@
     "attack": 177,
     "defense": 125,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Machamp"
     ],
@@ -2290,7 +2290,7 @@
     "attack": 234,
     "defense": 159,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -2323,7 +2323,7 @@
     "attack": 139,
     "defense": 61,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Weepinbell"
     ],
@@ -2352,7 +2352,7 @@
     "attack": 172,
     "defense": 92,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Victreebel"
     ],
@@ -2383,7 +2383,7 @@
     "attack": 207,
     "defense": 135,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "poison",
@@ -2412,7 +2412,7 @@
     "attack": 97,
     "defense": 149,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Tentacruel"
     ],
@@ -2441,7 +2441,7 @@
     "attack": 166,
     "defense": 209,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "poison",
@@ -2469,7 +2469,7 @@
     "attack": 132,
     "defense": 132,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Graveler"
     ],
@@ -2498,7 +2498,7 @@
     "attack": 132,
     "defense": 132,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Graveler (Alolan)"
     ],
@@ -2527,7 +2527,7 @@
     "attack": 164,
     "defense": 164,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Golem"
     ],
@@ -2558,7 +2558,7 @@
     "attack": 164,
     "defense": 164,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Golem (Alolan)"
     ],
@@ -2587,7 +2587,7 @@
     "attack": 211,
     "defense": 198,
     "stamina": 190,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "rock",
     "type2": "ground",
@@ -2615,7 +2615,7 @@
     "attack": 211,
     "defense": 198,
     "stamina": 190,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "rock",
     "type2": "electric",
@@ -2642,7 +2642,7 @@
     "attack": 170,
     "defense": 127,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Rapidash"
     ],
@@ -2672,7 +2672,7 @@
     "attack": 207,
     "defense": 162,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -2700,7 +2700,7 @@
     "attack": 109,
     "defense": 98,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Slowbro",
       "Slowking"
@@ -2730,7 +2730,7 @@
     "attack": 177,
     "defense": 180,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "psychic",
@@ -2757,7 +2757,7 @@
     "attack": 165,
     "defense": 121,
     "stamina": 93,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Magneton"
     ],
@@ -2786,7 +2786,7 @@
     "attack": 223,
     "defense": 169,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Magnezone"
     ],
@@ -2817,7 +2817,7 @@
     "attack": 124,
     "defense": 115,
     "stamina": 141,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -2846,7 +2846,7 @@
     "attack": 158,
     "defense": 83,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dodrio"
     ],
@@ -2877,7 +2877,7 @@
     "attack": 218,
     "defense": 140,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -2906,7 +2906,7 @@
     "attack": 85,
     "defense": 121,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dewgong"
     ],
@@ -2938,7 +2938,7 @@
     "attack": 139,
     "defense": 177,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ice",
@@ -2970,7 +2970,7 @@
     "attack": 135,
     "defense": 90,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Muk"
     ],
@@ -2998,7 +2998,7 @@
     "attack": 135,
     "defense": 90,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Muk (Alolan)"
     ],
@@ -3027,7 +3027,7 @@
     "attack": 190,
     "defense": 172,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -3057,7 +3057,7 @@
     "attack": 190,
     "defense": 172,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "type2": "dark",
@@ -3086,7 +3086,7 @@
     "attack": 116,
     "defense": 134,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Cloyster"
     ],
@@ -3114,7 +3114,7 @@
     "attack": 186,
     "defense": 256,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ice",
@@ -3144,7 +3144,7 @@
     "attack": 186,
     "defense": 67,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Haunter"
     ],
@@ -3177,7 +3177,7 @@
     "attack": 223,
     "defense": 107,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Gengar"
     ],
@@ -3209,7 +3209,7 @@
     "attack": 261,
     "defense": 149,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ghost",
     "type2": "poison",
@@ -3243,7 +3243,7 @@
     "attack": 85,
     "defense": 232,
     "stamina": 111,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Steelix"
     ],
@@ -3275,7 +3275,7 @@
     "attack": 89,
     "defense": 136,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Hypno"
     ],
@@ -3303,7 +3303,7 @@
     "attack": 144,
     "defense": 193,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -3335,7 +3335,7 @@
     "attack": 181,
     "defense": 124,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Kingler"
     ],
@@ -3363,7 +3363,7 @@
     "attack": 240,
     "defense": 181,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -3392,7 +3392,7 @@
     "attack": 109,
     "defense": 111,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Electrode"
     ],
@@ -3422,7 +3422,7 @@
     "attack": 173,
     "defense": 173,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -3451,7 +3451,7 @@
     "attack": 107,
     "defense": 125,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Exeggutor"
     ],
@@ -3480,7 +3480,7 @@
     "attack": 233,
     "defense": 149,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "psychic",
@@ -3510,7 +3510,7 @@
     "attack": 230,
     "defense": 153,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "dragon",
@@ -3537,7 +3537,7 @@
     "attack": 90,
     "defense": 144,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Marowak"
     ],
@@ -3565,7 +3565,7 @@
     "attack": 144,
     "defense": 186,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -3591,7 +3591,7 @@
     "attack": 144,
     "defense": 186,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "ghost",
@@ -3620,7 +3620,7 @@
     "attack": 224,
     "defense": 181,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -3649,7 +3649,7 @@
     "attack": 193,
     "defense": 197,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -3681,7 +3681,7 @@
     "attack": 108,
     "defense": 137,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Lickilicky"
     ],
@@ -3711,7 +3711,7 @@
     "attack": 119,
     "defense": 141,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Weezing"
     ],
@@ -3739,7 +3739,7 @@
     "attack": 174,
     "defense": 197,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -3766,7 +3766,7 @@
     "attack": 174,
     "defense": 197,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "type2": "fairy",
@@ -3794,7 +3794,7 @@
     "attack": 140,
     "defense": 127,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Rhydon"
     ],
@@ -3823,7 +3823,7 @@
     "attack": 222,
     "defense": 171,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Rhyperior"
     ],
@@ -3854,7 +3854,7 @@
     "attack": 60,
     "defense": 128,
     "stamina": 487,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Blissey"
     ],
@@ -3882,7 +3882,7 @@
     "attack": 183,
     "defense": 169,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Tangrowth"
     ],
@@ -3912,7 +3912,7 @@
     "attack": 181,
     "defense": 165,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -3942,7 +3942,7 @@
     "attack": 129,
     "defense": 103,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Seadra"
     ],
@@ -3970,7 +3970,7 @@
     "attack": 187,
     "defense": 156,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Kingdra"
     ],
@@ -4000,7 +4000,7 @@
     "attack": 123,
     "defense": 110,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Seaking"
     ],
@@ -4028,7 +4028,7 @@
     "attack": 175,
     "defense": 147,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -4059,7 +4059,7 @@
     "attack": 137,
     "defense": 112,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Starmie"
     ],
@@ -4087,7 +4087,7 @@
     "attack": 210,
     "defense": 184,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "psychic",
@@ -4118,7 +4118,7 @@
     "attack": 192,
     "defense": 205,
     "stamina": 120,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "type2": "fairy",
@@ -4145,7 +4145,7 @@
     "attack": 218,
     "defense": 170,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Scizor"
     ],
@@ -4178,7 +4178,7 @@
     "attack": 223,
     "defense": 151,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ice",
     "type2": "psychic",
@@ -4210,7 +4210,7 @@
     "attack": 198,
     "defense": 158,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Electivire"
     ],
@@ -4238,7 +4238,7 @@
     "attack": 206,
     "defense": 154,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Magmortar"
     ],
@@ -4266,7 +4266,7 @@
     "attack": 238,
     "defense": 182,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "bug",
     "thirdMove": {
@@ -4296,7 +4296,7 @@
     "attack": 198,
     "defense": 183,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -4322,7 +4322,7 @@
     "attack": 29,
     "defense": 85,
     "stamina": 85,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Gyarados"
     ],
@@ -4347,7 +4347,7 @@
     "attack": 237,
     "defense": 186,
     "stamina": 216,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "water",
     "type2": "flying",
@@ -4380,7 +4380,7 @@
     "attack": 165,
     "defense": 174,
     "stamina": 277,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "type2": "ice",
@@ -4413,7 +4413,7 @@
     "attack": 91,
     "defense": 91,
     "stamina": 134,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -4436,7 +4436,7 @@
     "attack": 104,
     "defense": 114,
     "stamina": 146,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Vaporeon",
       "Jolteon",
@@ -4472,7 +4472,7 @@
     "attack": 205,
     "defense": 161,
     "stamina": 277,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -4499,7 +4499,7 @@
     "attack": 232,
     "defense": 182,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -4527,7 +4527,7 @@
     "attack": 246,
     "defense": 179,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -4556,7 +4556,7 @@
     "attack": 153,
     "defense": 136,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Porygon2"
     ],
@@ -4591,7 +4591,7 @@
     "attack": 155,
     "defense": 153,
     "stamina": 111,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Omastar"
     ],
@@ -4623,7 +4623,7 @@
     "attack": 207,
     "defense": 201,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "type2": "water",
@@ -4654,7 +4654,7 @@
     "attack": 148,
     "defense": 140,
     "stamina": 102,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Kabutops"
     ],
@@ -4683,7 +4683,7 @@
     "attack": 220,
     "defense": 186,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "type2": "water",
@@ -4713,7 +4713,7 @@
     "attack": 221,
     "defense": 159,
     "stamina": 190,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "type2": "flying",
@@ -4743,7 +4743,7 @@
     "attack": 190,
     "defense": 169,
     "stamina": 330,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -4775,7 +4775,7 @@
     "attack": 192,
     "defense": 236,
     "stamina": 207,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ice",
     "type2": "flying",
@@ -4805,7 +4805,7 @@
     "attack": 253,
     "defense": 185,
     "stamina": 207,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "electric",
     "type2": "flying",
@@ -4835,7 +4835,7 @@
     "attack": 251,
     "defense": 181,
     "stamina": 207,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fire",
     "type2": "flying",
@@ -4865,7 +4865,7 @@
     "attack": 119,
     "defense": 91,
     "stamina": 121,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Dragonair"
     ],
@@ -4893,7 +4893,7 @@
     "attack": 163,
     "defense": 135,
     "stamina": 156,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Dragonite"
     ],
@@ -4921,7 +4921,7 @@
     "attack": 263,
     "defense": 198,
     "stamina": 209,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dragon",
     "type2": "flying",
@@ -4953,7 +4953,7 @@
     "attack": 300,
     "defense": 182,
     "stamina": 214,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -4985,7 +4985,7 @@
     "attack": 182,
     "defense": 278,
     "stamina": 214,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -5014,7 +5014,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -5074,7 +5074,7 @@
     "attack": 92,
     "defense": 122,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Bayleef"
     ],
@@ -5102,7 +5102,7 @@
     "attack": 122,
     "defense": 155,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Meganium"
     ],
@@ -5130,7 +5130,7 @@
     "attack": 168,
     "defense": 202,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -5158,7 +5158,7 @@
     "attack": 116,
     "defense": 93,
     "stamina": 118,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Quilava"
     ],
@@ -5186,7 +5186,7 @@
     "attack": 158,
     "defense": 126,
     "stamina": 151,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Typhlosion"
     ],
@@ -5214,7 +5214,7 @@
     "attack": 223,
     "defense": 173,
     "stamina": 186,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -5242,7 +5242,7 @@
     "attack": 117,
     "defense": 109,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Croconaw"
     ],
@@ -5270,7 +5270,7 @@
     "attack": 150,
     "defense": 142,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Feraligatr"
     ],
@@ -5298,7 +5298,7 @@
     "attack": 205,
     "defense": 188,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -5329,7 +5329,7 @@
     "attack": 79,
     "defense": 73,
     "stamina": 111,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Furret"
     ],
@@ -5357,7 +5357,7 @@
     "attack": 148,
     "defense": 125,
     "stamina": 198,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -5383,7 +5383,7 @@
     "attack": 67,
     "defense": 88,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Noctowl"
     ],
@@ -5412,7 +5412,7 @@
     "attack": 145,
     "defense": 156,
     "stamina": 225,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -5439,7 +5439,7 @@
     "attack": 72,
     "defense": 118,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Ledian"
     ],
@@ -5468,7 +5468,7 @@
     "attack": 107,
     "defense": 179,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -5495,7 +5495,7 @@
     "attack": 105,
     "defense": 73,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Ariados"
     ],
@@ -5524,7 +5524,7 @@
     "attack": 161,
     "defense": 124,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "poison",
@@ -5551,7 +5551,7 @@
     "attack": 194,
     "defense": 178,
     "stamina": 198,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "poison",
     "type2": "flying",
@@ -5578,7 +5578,7 @@
     "attack": 106,
     "defense": 97,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Lanturn"
     ],
@@ -5607,7 +5607,7 @@
     "attack": 146,
     "defense": 137,
     "stamina": 268,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "electric",
@@ -5635,7 +5635,7 @@
     "attack": 77,
     "defense": 53,
     "stamina": 85,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Pikachu"
     ],
@@ -5662,7 +5662,7 @@
     "attack": 75,
     "defense": 79,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Clefairy"
     ],
@@ -5693,7 +5693,7 @@
     "attack": 69,
     "defense": 32,
     "stamina": 207,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Jigglypuff"
     ],
@@ -5724,7 +5724,7 @@
     "attack": 67,
     "defense": 116,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Togetic"
     ],
@@ -5754,7 +5754,7 @@
     "attack": 139,
     "defense": 181,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Togekiss"
     ],
@@ -5786,7 +5786,7 @@
     "attack": 134,
     "defense": 89,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Xatu"
     ],
@@ -5815,7 +5815,7 @@
     "attack": 192,
     "defense": 146,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "type2": "flying",
@@ -5842,7 +5842,7 @@
     "attack": 114,
     "defense": 79,
     "stamina": 146,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Flaaffy"
     ],
@@ -5870,7 +5870,7 @@
     "attack": 145,
     "defense": 109,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Ampharos"
     ],
@@ -5898,7 +5898,7 @@
     "attack": 211,
     "defense": 169,
     "stamina": 207,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -5928,7 +5928,7 @@
     "attack": 169,
     "defense": 186,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -5955,7 +5955,7 @@
     "attack": 37,
     "defense": 93,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Azumarill"
     ],
@@ -5984,7 +5984,7 @@
     "attack": 112,
     "defense": 152,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "fairy",
@@ -6011,7 +6011,7 @@
     "attack": 167,
     "defense": 176,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "thirdMove": {
@@ -6037,7 +6037,7 @@
     "attack": 174,
     "defense": 179,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -6065,7 +6065,7 @@
     "attack": 67,
     "defense": 94,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Skiploom"
     ],
@@ -6094,7 +6094,7 @@
     "attack": 91,
     "defense": 120,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Jumpluff"
     ],
@@ -6123,7 +6123,7 @@
     "attack": 118,
     "defense": 183,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "flying",
@@ -6151,7 +6151,7 @@
     "attack": 136,
     "defense": 112,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ambipom"
     ],
@@ -6179,7 +6179,7 @@
     "attack": 55,
     "defense": 55,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sunflora"
     ],
@@ -6207,7 +6207,7 @@
     "attack": 185,
     "defense": 135,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -6233,7 +6233,7 @@
     "attack": 154,
     "defense": 94,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Yanmega"
     ],
@@ -6262,7 +6262,7 @@
     "attack": 75,
     "defense": 66,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Quagsire"
     ],
@@ -6291,7 +6291,7 @@
     "attack": 152,
     "defense": 143,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ground",
@@ -6319,7 +6319,7 @@
     "attack": 261,
     "defense": 175,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -6347,7 +6347,7 @@
     "attack": 126,
     "defense": 240,
     "stamina": 216,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -6374,7 +6374,7 @@
     "attack": 175,
     "defense": 87,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Honchkrow"
     ],
@@ -6403,7 +6403,7 @@
     "attack": 177,
     "defense": 180,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "psychic",
@@ -6430,7 +6430,7 @@
     "attack": 167,
     "defense": 154,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Mismagius"
     ],
@@ -6458,7 +6458,7 @@
     "attack": 136,
     "defense": 91,
     "stamina": 134,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -6481,7 +6481,7 @@
     "attack": 60,
     "defense": 106,
     "stamina": 382,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -6506,7 +6506,7 @@
     "attack": 182,
     "defense": 133,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "psychic",
@@ -6533,7 +6533,7 @@
     "attack": 108,
     "defense": 122,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Forretress"
     ],
@@ -6561,7 +6561,7 @@
     "attack": 161,
     "defense": 205,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -6590,7 +6590,7 @@
     "attack": 131,
     "defense": 128,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -6616,7 +6616,7 @@
     "attack": 143,
     "defense": 184,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Gliscor"
     ],
@@ -6645,7 +6645,7 @@
     "attack": 148,
     "defense": 272,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "steel",
     "type2": "ground",
@@ -6673,7 +6673,7 @@
     "attack": 137,
     "defense": 85,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Granbull"
     ],
@@ -6701,7 +6701,7 @@
     "attack": 212,
     "defense": 131,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fairy",
     "thirdMove": {
@@ -6728,7 +6728,7 @@
     "attack": 184,
     "defense": 138,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "poison",
@@ -6757,7 +6757,7 @@
     "attack": 236,
     "defense": 181,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -6784,7 +6784,7 @@
     "attack": 17,
     "defense": 396,
     "stamina": 85,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "rock",
@@ -6811,7 +6811,7 @@
     "attack": 234,
     "defense": 179,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "fighting",
@@ -6838,7 +6838,7 @@
     "attack": 189,
     "defense": 146,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Weavile"
     ],
@@ -6867,7 +6867,7 @@
     "attack": 142,
     "defense": 93,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ursaring"
     ],
@@ -6895,7 +6895,7 @@
     "attack": 236,
     "defense": 144,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -6922,7 +6922,7 @@
     "attack": 118,
     "defense": 71,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Magcargo"
     ],
@@ -6950,7 +6950,7 @@
     "attack": 139,
     "defense": 191,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "fire",
     "type2": "rock",
@@ -6977,7 +6977,7 @@
     "attack": 90,
     "defense": 69,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Piloswine"
     ],
@@ -7006,7 +7006,7 @@
     "attack": 181,
     "defense": 138,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Mamoswine"
     ],
@@ -7035,7 +7035,7 @@
     "attack": 118,
     "defense": 156,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "rock",
@@ -7062,7 +7062,7 @@
     "attack": 127,
     "defense": 69,
     "stamina": 111,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Octillery"
     ],
@@ -7090,7 +7090,7 @@
     "attack": 197,
     "defense": 141,
     "stamina": 181,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -7118,7 +7118,7 @@
     "attack": 128,
     "defense": 90,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ice",
     "type2": "flying",
@@ -7144,7 +7144,7 @@
     "attack": 148,
     "defense": 226,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "type2": "flying",
@@ -7173,7 +7173,7 @@
     "attack": 148,
     "defense": 226,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "steel",
     "type2": "flying",
@@ -7200,7 +7200,7 @@
     "attack": 152,
     "defense": 83,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Houndoom"
     ],
@@ -7229,7 +7229,7 @@
     "attack": 224,
     "defense": 144,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "dark",
     "type2": "fire",
@@ -7257,7 +7257,7 @@
     "attack": 194,
     "defense": 194,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "dragon",
@@ -7287,7 +7287,7 @@
     "attack": 107,
     "defense": 98,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Donphan"
     ],
@@ -7315,7 +7315,7 @@
     "attack": 214,
     "defense": 185,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -7343,7 +7343,7 @@
     "attack": 198,
     "defense": 180,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Porygon-Z"
     ],
@@ -7372,7 +7372,7 @@
     "attack": 192,
     "defense": 131,
     "stamina": 177,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -7398,7 +7398,7 @@
     "attack": 40,
     "defense": 83,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -7414,7 +7414,7 @@
     "attack": 64,
     "defense": 64,
     "stamina": 111,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Hitmonlee",
       "Hitmonchan",
@@ -7444,7 +7444,7 @@
     "attack": 173,
     "defense": 207,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -7470,7 +7470,7 @@
     "attack": 153,
     "defense": 91,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Jynx"
     ],
@@ -7501,7 +7501,7 @@
     "attack": 135,
     "defense": 101,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Electabuzz"
     ],
@@ -7531,7 +7531,7 @@
     "attack": 151,
     "defense": 99,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Magmar"
     ],
@@ -7561,7 +7561,7 @@
     "attack": 157,
     "defense": 193,
     "stamina": 216,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -7589,7 +7589,7 @@
     "attack": 129,
     "defense": 169,
     "stamina": 496,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -7615,7 +7615,7 @@
     "attack": 241,
     "defense": 195,
     "stamina": 207,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -7642,7 +7642,7 @@
     "attack": 235,
     "defense": 171,
     "stamina": 251,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -7669,7 +7669,7 @@
     "attack": 180,
     "defense": 235,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -7699,7 +7699,7 @@
     "attack": 115,
     "defense": 93,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Pupitar"
     ],
@@ -7728,7 +7728,7 @@
     "attack": 155,
     "defense": 133,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Tyranitar"
     ],
@@ -7757,7 +7757,7 @@
     "attack": 251,
     "defense": 207,
     "stamina": 225,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "type2": "dark",
@@ -7786,7 +7786,7 @@
     "attack": 193,
     "defense": 310,
     "stamina": 235,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "type2": "flying",
@@ -7813,7 +7813,7 @@
     "attack": 239,
     "defense": 244,
     "stamina": 214,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fire",
     "type2": "flying",
@@ -7833,7 +7833,6 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "EARTHQUAKE",
       "EARTHQUAKE"
     ]
   },
@@ -7844,7 +7843,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "type2": "grass",
@@ -7872,7 +7871,7 @@
     "attack": 124,
     "defense": 94,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Grovyle"
     ],
@@ -7900,7 +7899,7 @@
     "attack": 172,
     "defense": 120,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sceptile"
     ],
@@ -7928,7 +7927,7 @@
     "attack": 223,
     "defense": 169,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -7957,7 +7956,7 @@
     "attack": 130,
     "defense": 87,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Combusken"
     ],
@@ -7985,7 +7984,7 @@
     "attack": 163,
     "defense": 115,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Blaziken"
     ],
@@ -8014,7 +8013,7 @@
     "attack": 240,
     "defense": 141,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "fighting",
@@ -8045,7 +8044,7 @@
     "attack": 126,
     "defense": 93,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Marshtomp"
     ],
@@ -8073,7 +8072,7 @@
     "attack": 156,
     "defense": 133,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Swampert"
     ],
@@ -8102,7 +8101,7 @@
     "attack": 208,
     "defense": 175,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ground",
@@ -8132,7 +8131,7 @@
     "attack": 96,
     "defense": 61,
     "stamina": 111,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Mightyena"
     ],
@@ -8160,7 +8159,7 @@
     "attack": 171,
     "defense": 132,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -8188,7 +8187,7 @@
     "attack": 58,
     "defense": 80,
     "stamina": 116,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Linoone"
     ],
@@ -8216,7 +8215,7 @@
     "attack": 58,
     "defense": 80,
     "stamina": 116,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Linoone (Galarian)"
     ],
@@ -8245,7 +8244,7 @@
     "attack": 142,
     "defense": 128,
     "stamina": 186,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -8271,7 +8270,7 @@
     "attack": 142,
     "defense": 128,
     "stamina": 186,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "dark",
     "type2": "normal",
@@ -8298,7 +8297,7 @@
     "attack": 75,
     "defense": 59,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Silcoon",
       "Cascoon"
@@ -8325,7 +8324,7 @@
     "attack": 60,
     "defense": 77,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Beautifly"
     ],
@@ -8351,7 +8350,7 @@
     "attack": 189,
     "defense": 98,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -8378,7 +8377,7 @@
     "attack": 60,
     "defense": 77,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Dustox"
     ],
@@ -8404,7 +8403,7 @@
     "attack": 98,
     "defense": 162,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "poison",
@@ -8431,7 +8430,7 @@
     "attack": 71,
     "defense": 77,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Lombre"
     ],
@@ -8459,7 +8458,7 @@
     "attack": 112,
     "defense": 119,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ludicolo"
     ],
@@ -8488,7 +8487,7 @@
     "attack": 173,
     "defense": 176,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "grass",
@@ -8517,7 +8516,7 @@
     "attack": 71,
     "defense": 77,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Nuzleaf"
     ],
@@ -8545,7 +8544,7 @@
     "attack": 134,
     "defense": 78,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Shiftry"
     ],
@@ -8574,7 +8573,7 @@
     "attack": 200,
     "defense": 121,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "dark",
@@ -8603,7 +8602,7 @@
     "attack": 106,
     "defense": 61,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Swellow"
     ],
@@ -8630,7 +8629,7 @@
     "attack": 185,
     "defense": 124,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -8657,7 +8656,7 @@
     "attack": 106,
     "defense": 61,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Pelipper"
     ],
@@ -8686,7 +8685,7 @@
     "attack": 175,
     "defense": 174,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "flying",
@@ -8713,7 +8712,7 @@
     "attack": 79,
     "defense": 59,
     "stamina": 99,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Kirlia"
     ],
@@ -8742,7 +8741,7 @@
     "attack": 117,
     "defense": 90,
     "stamina": 116,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Gallade",
       "Gardevoir"
@@ -8772,7 +8771,7 @@
     "attack": 237,
     "defense": 195,
     "stamina": 169,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "type2": "fairy",
@@ -8802,7 +8801,7 @@
     "attack": 93,
     "defense": 87,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Masquerain"
     ],
@@ -8831,7 +8830,7 @@
     "attack": 192,
     "defense": 150,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -8859,7 +8858,7 @@
     "attack": 74,
     "defense": 110,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Breloom"
     ],
@@ -8887,7 +8886,7 @@
     "attack": 241,
     "defense": 144,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "fighting",
@@ -8916,7 +8915,7 @@
     "attack": 104,
     "defense": 92,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Vigoroth"
     ],
@@ -8943,7 +8942,7 @@
     "attack": 159,
     "defense": 145,
     "stamina": 190,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Slaking"
     ],
@@ -8971,7 +8970,7 @@
     "attack": 290,
     "defense": 166,
     "stamina": 284,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -8998,7 +8997,7 @@
     "attack": 80,
     "defense": 126,
     "stamina": 104,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Ninjask"
     ],
@@ -9027,7 +9026,7 @@
     "attack": 199,
     "defense": 112,
     "stamina": 156,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -9054,7 +9053,7 @@
     "attack": 153,
     "defense": 73,
     "stamina": 1,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "bug",
     "type2": "ghost",
@@ -9083,7 +9082,7 @@
     "attack": 92,
     "defense": 42,
     "stamina": 162,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Loudred"
     ],
@@ -9111,7 +9110,7 @@
     "attack": 134,
     "defense": 81,
     "stamina": 197,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Exploud"
     ],
@@ -9139,7 +9138,7 @@
     "attack": 179,
     "defense": 137,
     "stamina": 232,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -9165,7 +9164,7 @@
     "attack": 99,
     "defense": 54,
     "stamina": 176,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Hariyama"
     ],
@@ -9193,7 +9192,7 @@
     "attack": 209,
     "defense": 114,
     "stamina": 302,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -9220,7 +9219,7 @@
     "attack": 36,
     "defense": 71,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Marill"
     ],
@@ -9249,7 +9248,7 @@
     "attack": 82,
     "defense": 215,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Probopass"
     ],
@@ -9277,7 +9276,7 @@
     "attack": 84,
     "defense": 79,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Delcatty"
     ],
@@ -9305,7 +9304,7 @@
     "attack": 132,
     "defense": 127,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -9332,7 +9331,7 @@
     "attack": 141,
     "defense": 136,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "type2": "ghost",
@@ -9359,7 +9358,7 @@
     "attack": 155,
     "defense": 141,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "steel",
     "type2": "fairy",
@@ -9389,7 +9388,7 @@
     "attack": 121,
     "defense": 141,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Lairon"
     ],
@@ -9418,7 +9417,7 @@
     "attack": 158,
     "defense": 198,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Aggron"
     ],
@@ -9447,7 +9446,7 @@
     "attack": 198,
     "defense": 257,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "steel",
     "type2": "rock",
@@ -9475,7 +9474,7 @@
     "attack": 78,
     "defense": 107,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Medicham"
     ],
@@ -9504,7 +9503,7 @@
     "attack": 121,
     "defense": 152,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fighting",
     "type2": "psychic",
@@ -9532,7 +9531,7 @@
     "attack": 123,
     "defense": 78,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Manectric"
     ],
@@ -9560,7 +9559,7 @@
     "attack": 215,
     "defense": 127,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -9586,7 +9585,7 @@
     "attack": 167,
     "defense": 129,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -9613,7 +9612,7 @@
     "attack": 147,
     "defense": 150,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -9640,7 +9639,7 @@
     "attack": 143,
     "defense": 166,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "thirdMove": {
@@ -9666,7 +9665,7 @@
     "attack": 143,
     "defense": 166,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "thirdMove": {
@@ -9692,7 +9691,7 @@
     "attack": 186,
     "defense": 131,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Roserade"
     ],
@@ -9721,7 +9720,7 @@
     "attack": 80,
     "defense": 99,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Swalot"
     ],
@@ -9749,7 +9748,7 @@
     "attack": 140,
     "defense": 159,
     "stamina": 225,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -9776,7 +9775,7 @@
     "attack": 171,
     "defense": 39,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sharpedo"
     ],
@@ -9805,7 +9804,7 @@
     "attack": 243,
     "defense": 83,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "dark",
@@ -9832,7 +9831,7 @@
     "attack": 136,
     "defense": 68,
     "stamina": 277,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Wailord"
     ],
@@ -9860,7 +9859,7 @@
     "attack": 175,
     "defense": 87,
     "stamina": 347,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -9886,7 +9885,7 @@
     "attack": 119,
     "defense": 79,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Camerupt"
     ],
@@ -9915,7 +9914,7 @@
     "attack": 194,
     "defense": 136,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "ground",
@@ -9943,7 +9942,7 @@
     "attack": 151,
     "defense": 203,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -9969,7 +9968,7 @@
     "attack": 125,
     "defense": 122,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Grumpig"
     ],
@@ -9997,7 +9996,7 @@
     "attack": 171,
     "defense": 188,
     "stamina": 190,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -10023,7 +10022,7 @@
     "attack": 116,
     "defense": 116,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -10049,7 +10048,7 @@
     "attack": 162,
     "defense": 78,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Vibrava"
     ],
@@ -10077,7 +10076,7 @@
     "attack": 134,
     "defense": 99,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Flygon"
     ],
@@ -10106,7 +10105,7 @@
     "attack": 205,
     "defense": 168,
     "stamina": 190,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ground",
     "type2": "dragon",
@@ -10135,7 +10134,7 @@
     "attack": 156,
     "defense": 74,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Cacturne"
     ],
@@ -10163,7 +10162,7 @@
     "attack": 221,
     "defense": 115,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "dark",
@@ -10190,7 +10189,7 @@
     "attack": 76,
     "defense": 132,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Altaria"
     ],
@@ -10219,7 +10218,7 @@
     "attack": 141,
     "defense": 201,
     "stamina": 181,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "dragon",
     "type2": "flying",
@@ -10246,7 +10245,7 @@
     "attack": 222,
     "defense": 124,
     "stamina": 177,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -10272,7 +10271,7 @@
     "attack": 196,
     "defense": 118,
     "stamina": 177,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -10298,7 +10297,7 @@
     "attack": 178,
     "defense": 153,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "rock",
     "type2": "psychic",
@@ -10325,7 +10324,7 @@
     "attack": 178,
     "defense": 153,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "rock",
     "type2": "psychic",
@@ -10352,7 +10351,7 @@
     "attack": 93,
     "defense": 82,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Whiscash"
     ],
@@ -10381,7 +10380,7 @@
     "attack": 151,
     "defense": 141,
     "stamina": 242,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "water",
     "type2": "ground",
@@ -10408,7 +10407,7 @@
     "attack": 141,
     "defense": 99,
     "stamina": 125,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Crawdaunt"
     ],
@@ -10436,7 +10435,7 @@
     "attack": 224,
     "defense": 142,
     "stamina": 160,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "dark",
@@ -10464,7 +10463,7 @@
     "attack": 77,
     "defense": 124,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Claydol"
     ],
@@ -10493,7 +10492,7 @@
     "attack": 140,
     "defense": 229,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "type2": "psychic",
@@ -10522,7 +10521,7 @@
     "attack": 105,
     "defense": 150,
     "stamina": 165,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Cradily"
     ],
@@ -10551,7 +10550,7 @@
     "attack": 152,
     "defense": 194,
     "stamina": 200,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "rock",
     "type2": "grass",
@@ -10579,7 +10578,7 @@
     "attack": 176,
     "defense": 100,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Armaldo"
     ],
@@ -10608,7 +10607,7 @@
     "attack": 222,
     "defense": 174,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "rock",
     "type2": "bug",
@@ -10635,7 +10634,7 @@
     "attack": 29,
     "defense": 85,
     "stamina": 85,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Milotic"
     ],
@@ -10661,7 +10660,7 @@
     "attack": 192,
     "defense": 219,
     "stamina": 216,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -10687,7 +10686,7 @@
     "attack": 139,
     "defense": 139,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -10712,7 +10711,7 @@
     "attack": 139,
     "defense": 139,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -10738,7 +10737,7 @@
     "attack": 139,
     "defense": 139,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -10764,7 +10763,7 @@
     "attack": 139,
     "defense": 139,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -10790,7 +10789,7 @@
     "attack": 161,
     "defense": 189,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -10819,7 +10818,7 @@
     "attack": 138,
     "defense": 65,
     "stamina": 127,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Banette"
     ],
@@ -10847,7 +10846,7 @@
     "attack": 218,
     "defense": 126,
     "stamina": 162,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ghost",
     "thirdMove": {
@@ -10873,7 +10872,7 @@
     "attack": 70,
     "defense": 162,
     "stamina": 85,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dusclops"
     ],
@@ -10901,7 +10900,7 @@
     "attack": 124,
     "defense": 234,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dusknoir"
     ],
@@ -10929,7 +10928,7 @@
     "attack": 136,
     "defense": 163,
     "stamina": 223,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "grass",
     "type2": "flying",
@@ -10956,7 +10955,7 @@
     "attack": 175,
     "defense": 170,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -10983,7 +10982,7 @@
     "attack": 246,
     "defense": 120,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -11009,7 +11008,7 @@
     "attack": 41,
     "defense": 86,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Wobbuffet"
     ],
@@ -11035,7 +11034,7 @@
     "attack": 95,
     "defense": 95,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Froslass",
       "Glalie"
@@ -11064,7 +11063,7 @@
     "attack": 162,
     "defense": 162,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -11090,7 +11089,7 @@
     "attack": 95,
     "defense": 90,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sealeo"
     ],
@@ -11119,7 +11118,7 @@
     "attack": 137,
     "defense": 132,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Walrein"
     ],
@@ -11148,7 +11147,7 @@
     "attack": 182,
     "defense": 176,
     "stamina": 242,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "type2": "water",
@@ -11175,7 +11174,7 @@
     "attack": 133,
     "defense": 135,
     "stamina": 111,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Huntail",
       "Gorebyss"
@@ -11203,7 +11202,7 @@
     "attack": 197,
     "defense": 179,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -11229,7 +11228,7 @@
     "attack": 211,
     "defense": 179,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -11255,7 +11254,7 @@
     "attack": 162,
     "defense": 203,
     "stamina": 225,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "type2": "rock",
@@ -11282,7 +11281,7 @@
     "attack": 81,
     "defense": 128,
     "stamina": 125,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -11308,7 +11307,7 @@
     "attack": 134,
     "defense": 93,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Shelgon"
     ],
@@ -11336,7 +11335,7 @@
     "attack": 172,
     "defense": 155,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Salamence"
     ],
@@ -11364,7 +11363,7 @@
     "attack": 277,
     "defense": 168,
     "stamina": 216,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dragon",
     "type2": "flying",
@@ -11394,7 +11393,7 @@
     "attack": 96,
     "defense": 132,
     "stamina": 120,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Metang"
     ],
@@ -11420,7 +11419,7 @@
     "attack": 138,
     "defense": 176,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Metagross"
     ],
@@ -11449,7 +11448,7 @@
     "attack": 257,
     "defense": 228,
     "stamina": 190,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "steel",
     "type2": "psychic",
@@ -11478,7 +11477,7 @@
     "attack": 179,
     "defense": 309,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "rock",
     "thirdMove": {
@@ -11505,7 +11504,7 @@
     "attack": 179,
     "defense": 309,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -11532,7 +11531,7 @@
     "attack": 143,
     "defense": 285,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "steel",
     "thirdMove": {
@@ -11559,7 +11558,7 @@
     "attack": 228,
     "defense": 246,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "psychic",
@@ -11587,7 +11586,7 @@
     "attack": 268,
     "defense": 212,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "psychic",
@@ -11614,7 +11613,7 @@
     "attack": 270,
     "defense": 228,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -11640,7 +11639,7 @@
     "attack": 270,
     "defense": 228,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -11658,7 +11657,6 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "FIRE_PUNCH",
       "FIRE_PUNCH"
     ]
   },
@@ -11669,7 +11667,7 @@
     "attack": 284,
     "defense": 170,
     "stamina": 213,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "flying",
@@ -11696,7 +11694,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "steel",
     "type2": "psychic",
@@ -11723,7 +11721,7 @@
     "attack": 345,
     "defense": 115,
     "stamina": 137,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -11749,7 +11747,7 @@
     "attack": 414,
     "defense": 46,
     "stamina": 137,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -11775,7 +11773,7 @@
     "attack": 144,
     "defense": 330,
     "stamina": 137,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -11801,7 +11799,7 @@
     "attack": 230,
     "defense": 218,
     "stamina": 137,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -11827,7 +11825,7 @@
     "attack": 119,
     "defense": 110,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Grotle"
     ],
@@ -11855,7 +11853,7 @@
     "attack": 157,
     "defense": 143,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Torterra"
     ],
@@ -11883,7 +11881,7 @@
     "attack": 202,
     "defense": 188,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "ground",
@@ -11913,7 +11911,7 @@
     "attack": 113,
     "defense": 86,
     "stamina": 127,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Monferno"
     ],
@@ -11941,7 +11939,7 @@
     "attack": 158,
     "defense": 105,
     "stamina": 162,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Infernape"
     ],
@@ -11970,7 +11968,7 @@
     "attack": 222,
     "defense": 151,
     "stamina": 183,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "fighting",
@@ -11999,7 +11997,7 @@
     "attack": 112,
     "defense": 102,
     "stamina": 142,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Prinplup"
     ],
@@ -12027,7 +12025,7 @@
     "attack": 150,
     "defense": 139,
     "stamina": 162,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Empoleon"
     ],
@@ -12055,7 +12053,7 @@
     "attack": 210,
     "defense": 186,
     "stamina": 197,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "steel",
@@ -12084,7 +12082,7 @@
     "attack": 101,
     "defense": 58,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Staravia"
     ],
@@ -12112,7 +12110,7 @@
     "attack": 142,
     "defense": 94,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Staraptor"
     ],
@@ -12141,7 +12139,7 @@
     "attack": 234,
     "defense": 140,
     "stamina": 198,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -12168,7 +12166,7 @@
     "attack": 80,
     "defense": 73,
     "stamina": 153,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Bibarel"
     ],
@@ -12196,7 +12194,7 @@
     "attack": 162,
     "defense": 119,
     "stamina": 188,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "water",
@@ -12223,7 +12221,7 @@
     "attack": 45,
     "defense": 74,
     "stamina": 114,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Kricketune"
     ],
@@ -12249,7 +12247,7 @@
     "attack": 160,
     "defense": 100,
     "stamina": 184,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "thirdMove": {
@@ -12275,7 +12273,7 @@
     "attack": 117,
     "defense": 64,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Luxio"
     ],
@@ -12303,7 +12301,7 @@
     "attack": 159,
     "defense": 95,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Luxray"
     ],
@@ -12331,7 +12329,7 @@
     "attack": 232,
     "defense": 156,
     "stamina": 190,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -12358,7 +12356,7 @@
     "attack": 91,
     "defense": 109,
     "stamina": 120,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Roselia"
     ],
@@ -12386,7 +12384,7 @@
     "attack": 243,
     "defense": 185,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "poison",
@@ -12414,7 +12412,7 @@
     "attack": 218,
     "defense": 71,
     "stamina": 167,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Rampardos"
     ],
@@ -12442,7 +12440,7 @@
     "attack": 295,
     "defense": 109,
     "stamina": 219,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "thirdMove": {
@@ -12468,7 +12466,7 @@
     "attack": 76,
     "defense": 195,
     "stamina": 102,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Bastiodon"
     ],
@@ -12497,7 +12495,7 @@
     "attack": 94,
     "defense": 286,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "type2": "steel",
@@ -12524,7 +12522,7 @@
     "attack": 53,
     "defense": 83,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Wormadam (Plant)",
       "Mothim"
@@ -12551,7 +12549,7 @@
     "attack": 53,
     "defense": 83,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Wormadam (Plant)",
       "Mothim"
@@ -12578,7 +12576,7 @@
     "attack": 53,
     "defense": 83,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Wormadam (Sandy)",
       "Mothim"
@@ -12605,7 +12603,7 @@
     "attack": 53,
     "defense": 83,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Wormadam (Trash)",
       "Mothim"
@@ -12632,7 +12630,7 @@
     "attack": 141,
     "defense": 180,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "grass",
@@ -12657,7 +12655,7 @@
     "attack": 141,
     "defense": 180,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "grass",
@@ -12684,7 +12682,7 @@
     "attack": 141,
     "defense": 180,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "ground",
@@ -12711,7 +12709,7 @@
     "attack": 127,
     "defense": 175,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -12738,7 +12736,7 @@
     "attack": 185,
     "defense": 98,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -12765,7 +12763,7 @@
     "attack": 59,
     "defense": 83,
     "stamina": 102,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Vespiquen"
     ],
@@ -12791,7 +12789,7 @@
     "attack": 149,
     "defense": 190,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -12821,7 +12819,7 @@
     "attack": 94,
     "defense": 172,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -12847,7 +12845,7 @@
     "attack": 132,
     "defense": 67,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Floatzel"
     ],
@@ -12875,7 +12873,7 @@
     "attack": 221,
     "defense": 114,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -12901,7 +12899,7 @@
     "attack": 108,
     "defense": 92,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Cherrim (Overcast)",
       "Cherrim (Sunny)"
@@ -12930,7 +12928,7 @@
     "attack": 170,
     "defense": 153,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -12956,7 +12954,7 @@
     "attack": 170,
     "defense": 153,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -12982,7 +12980,7 @@
     "attack": 170,
     "defense": 153,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -13009,7 +13007,7 @@
     "attack": 103,
     "defense": 105,
     "stamina": 183,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Gastrodon"
     ],
@@ -13037,7 +13035,7 @@
     "attack": 169,
     "defense": 143,
     "stamina": 244,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ground",
@@ -13064,7 +13062,7 @@
     "attack": 205,
     "defense": 143,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -13090,7 +13088,7 @@
     "attack": 117,
     "defense": 80,
     "stamina": 207,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Drifblim"
     ],
@@ -13119,7 +13117,7 @@
     "attack": 180,
     "defense": 102,
     "stamina": 312,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ghost",
     "type2": "flying",
@@ -13146,7 +13144,7 @@
     "attack": 130,
     "defense": 105,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Lopunny"
     ],
@@ -13173,7 +13171,7 @@
     "attack": 156,
     "defense": 194,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -13199,7 +13197,7 @@
     "attack": 211,
     "defense": 187,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ghost",
     "thirdMove": {
@@ -13225,7 +13223,7 @@
     "attack": 243,
     "defense": 103,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "dark",
     "type2": "flying",
@@ -13253,7 +13251,7 @@
     "attack": 109,
     "defense": 82,
     "stamina": 135,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Purugly"
     ],
@@ -13281,7 +13279,7 @@
     "attack": 172,
     "defense": 133,
     "stamina": 174,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -13307,7 +13305,7 @@
     "attack": 114,
     "defense": 94,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Chimecho"
     ],
@@ -13335,7 +13333,7 @@
     "attack": 121,
     "defense": 90,
     "stamina": 160,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Skuntank"
     ],
@@ -13364,7 +13362,7 @@
     "attack": 184,
     "defense": 132,
     "stamina": 230,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "type2": "dark",
@@ -13391,7 +13389,7 @@
     "attack": 43,
     "defense": 154,
     "stamina": 149,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Bronzong"
     ],
@@ -13420,7 +13418,7 @@
     "attack": 161,
     "defense": 213,
     "stamina": 167,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "steel",
     "type2": "psychic",
@@ -13449,7 +13447,7 @@
     "attack": 124,
     "defense": 133,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Sudowoodo"
     ],
@@ -13477,7 +13475,7 @@
     "attack": 125,
     "defense": 142,
     "stamina": 85,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Mr. Mime"
     ],
@@ -13506,7 +13504,7 @@
     "attack": 25,
     "defense": 77,
     "stamina": 225,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Chansey"
     ],
@@ -13532,7 +13530,7 @@
     "attack": 183,
     "defense": 91,
     "stamina": 183,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -13559,7 +13557,7 @@
     "attack": 169,
     "defense": 199,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ghost",
     "type2": "dark",
@@ -13586,7 +13584,7 @@
     "attack": 124,
     "defense": 84,
     "stamina": 151,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Gabite"
     ],
@@ -13615,7 +13613,7 @@
     "attack": 172,
     "defense": 125,
     "stamina": 169,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Garchomp"
     ],
@@ -13644,7 +13642,7 @@
     "attack": 261,
     "defense": 193,
     "stamina": 239,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dragon",
     "type2": "ground",
@@ -13672,7 +13670,7 @@
     "attack": 137,
     "defense": 117,
     "stamina": 286,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Snorlax"
     ],
@@ -13700,7 +13698,7 @@
     "attack": 127,
     "defense": 78,
     "stamina": 120,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Lucario"
     ],
@@ -13728,7 +13726,7 @@
     "attack": 236,
     "defense": 144,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "type2": "steel",
@@ -13757,7 +13755,7 @@
     "attack": 124,
     "defense": 118,
     "stamina": 169,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Hippowdon"
     ],
@@ -13785,7 +13783,7 @@
     "attack": 201,
     "defense": 191,
     "stamina": 239,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -13814,7 +13812,7 @@
     "attack": 93,
     "defense": 151,
     "stamina": 120,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Drapion"
     ],
@@ -13843,7 +13841,7 @@
     "attack": 180,
     "defense": 202,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "poison",
     "type2": "dark",
@@ -13873,7 +13871,7 @@
     "attack": 116,
     "defense": 76,
     "stamina": 134,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Toxicroak"
     ],
@@ -13902,7 +13900,7 @@
     "attack": 211,
     "defense": 133,
     "stamina": 195,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "type2": "fighting",
@@ -13929,7 +13927,7 @@
     "attack": 187,
     "defense": 136,
     "stamina": 179,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -13955,7 +13953,7 @@
     "attack": 96,
     "defense": 116,
     "stamina": 135,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Lumineon"
     ],
@@ -13983,7 +13981,7 @@
     "attack": 142,
     "defense": 170,
     "stamina": 170,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -14009,7 +14007,7 @@
     "attack": 105,
     "defense": 179,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Mantine"
     ],
@@ -14038,7 +14036,7 @@
     "attack": 115,
     "defense": 105,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Abomasnow"
     ],
@@ -14067,7 +14065,7 @@
     "attack": 178,
     "defense": 158,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "ice",
@@ -14094,7 +14092,7 @@
     "attack": 243,
     "defense": 171,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "dark",
     "type2": "ice",
@@ -14122,7 +14120,7 @@
     "attack": 238,
     "defense": 205,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "electric",
     "type2": "steel",
@@ -14150,7 +14148,7 @@
     "attack": 161,
     "defense": 181,
     "stamina": 242,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -14179,7 +14177,7 @@
     "attack": 241,
     "defense": 190,
     "stamina": 251,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "type2": "rock",
@@ -14210,7 +14208,7 @@
     "attack": 207,
     "defense": 184,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -14238,7 +14236,7 @@
     "attack": 249,
     "defense": 163,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -14265,7 +14263,7 @@
     "attack": 247,
     "defense": 172,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -14292,7 +14290,7 @@
     "attack": 225,
     "defense": 217,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fairy",
     "type2": "flying",
@@ -14321,7 +14319,7 @@
     "attack": 231,
     "defense": 156,
     "stamina": 200,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "flying",
@@ -14348,7 +14346,7 @@
     "attack": 216,
     "defense": 219,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -14376,7 +14374,7 @@
     "attack": 238,
     "defense": 205,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -14404,7 +14402,7 @@
     "attack": 185,
     "defense": 222,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ground",
     "type2": "flying",
@@ -14432,7 +14430,7 @@
     "attack": 247,
     "defense": 146,
     "stamina": 242,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "type2": "ground",
@@ -14461,7 +14459,7 @@
     "attack": 264,
     "defense": 150,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -14489,7 +14487,7 @@
     "attack": 237,
     "defense": 195,
     "stamina": 169,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "type2": "fighting",
@@ -14519,7 +14517,7 @@
     "attack": 135,
     "defense": 275,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "rock",
     "type2": "steel",
@@ -14546,7 +14544,7 @@
     "attack": 180,
     "defense": 254,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ghost",
     "thirdMove": {
@@ -14572,7 +14570,7 @@
     "attack": 171,
     "defense": 150,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "type2": "ghost",
@@ -14599,7 +14597,7 @@
     "attack": 185,
     "defense": 159,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "type2": "ghost",
@@ -14626,7 +14624,7 @@
     "attack": 204,
     "defense": 219,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "type2": "flying",
@@ -14653,7 +14651,7 @@
     "attack": 204,
     "defense": 219,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "type2": "ice",
@@ -14680,7 +14678,7 @@
     "attack": 204,
     "defense": 219,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "type2": "fire",
@@ -14707,7 +14705,7 @@
     "attack": 204,
     "defense": 219,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "type2": "grass",
@@ -14734,7 +14732,7 @@
     "attack": 204,
     "defense": 219,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "electric",
     "type2": "water",
@@ -14761,7 +14759,7 @@
     "attack": 156,
     "defense": 270,
     "stamina": 181,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -14787,7 +14785,7 @@
     "attack": 212,
     "defense": 212,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -14813,7 +14811,7 @@
     "attack": 270,
     "defense": 151,
     "stamina": 181,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -14839,7 +14837,7 @@
     "attack": 275,
     "defense": 211,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "steel",
     "type2": "dragon",
@@ -14866,7 +14864,7 @@
     "attack": 280,
     "defense": 215,
     "stamina": 189,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "type2": "dragon",
@@ -14882,7 +14880,6 @@
       "DRACO_METEOR",
       "FIRE_BLAST",
       "HYDRO_PUMP",
-      "AQUA_TAIL",
       "AQUA_TAIL"
     ],
     "eliteQuickMoves": [],
@@ -14895,7 +14892,7 @@
     "attack": 251,
     "defense": 213,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fire",
     "type2": "steel",
@@ -14923,7 +14920,7 @@
     "attack": 287,
     "defense": 210,
     "stamina": 221,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -14949,7 +14946,7 @@
     "attack": 187,
     "defense": 225,
     "stamina": 284,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ghost",
     "type2": "dragon",
@@ -14976,7 +14973,7 @@
     "attack": 225,
     "defense": 187,
     "stamina": 284,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ghost",
     "type2": "dragon",
@@ -15003,7 +15000,7 @@
     "attack": 152,
     "defense": 258,
     "stamina": 260,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -15020,9 +15017,7 @@
       "FUTURESIGHT"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": [
-      "GRASS_KNOT"
-    ]
+    "eliteCinematicMoves": []
   },
   {
     "name": "Phione",
@@ -15031,7 +15026,7 @@
     "attack": 162,
     "defense": 162,
     "stamina": 190,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -15057,7 +15052,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -15083,7 +15078,7 @@
     "attack": 285,
     "defense": 198,
     "stamina": 172,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -15109,7 +15104,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -15135,7 +15130,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -15161,7 +15156,7 @@
     "attack": 261,
     "defense": 166,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "grass",
     "type2": "flying",
@@ -15188,7 +15183,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -15214,7 +15209,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "bug",
     "thirdMove": {
@@ -15240,7 +15235,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -15266,7 +15261,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "thirdMove": {
@@ -15292,7 +15287,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -15318,7 +15313,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fairy",
     "thirdMove": {
@@ -15344,7 +15339,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -15370,7 +15365,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -15396,7 +15391,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "flying",
     "thirdMove": {
@@ -15422,7 +15417,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ghost",
     "thirdMove": {
@@ -15448,7 +15443,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -15474,7 +15469,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ground",
     "thirdMove": {
@@ -15500,7 +15495,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -15526,7 +15521,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -15552,7 +15547,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -15578,7 +15573,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "rock",
     "thirdMove": {
@@ -15604,7 +15599,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "steel",
     "thirdMove": {
@@ -15630,7 +15625,7 @@
     "attack": 238,
     "defense": 238,
     "stamina": 237,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -15656,7 +15651,7 @@
     "attack": 210,
     "defense": 210,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "psychic",
     "type2": "fire",
@@ -15683,7 +15678,7 @@
     "attack": 88,
     "defense": 107,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Servine"
     ],
@@ -15711,7 +15706,7 @@
     "attack": 122,
     "defense": 152,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Serperior"
     ],
@@ -15739,7 +15734,7 @@
     "attack": 161,
     "defense": 204,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -15765,7 +15760,7 @@
     "attack": 115,
     "defense": 85,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Pignite"
     ],
@@ -15793,7 +15788,7 @@
     "attack": 173,
     "defense": 106,
     "stamina": 207,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Emboar"
     ],
@@ -15822,7 +15817,7 @@
     "attack": 235,
     "defense": 127,
     "stamina": 242,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "fighting",
@@ -15849,7 +15844,7 @@
     "attack": 117,
     "defense": 85,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Dewott"
     ],
@@ -15877,7 +15872,7 @@
     "attack": 159,
     "defense": 116,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Samurott"
     ],
@@ -15905,7 +15900,7 @@
     "attack": 212,
     "defense": 157,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -15931,7 +15926,7 @@
     "attack": 98,
     "defense": 73,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Watchog"
     ],
@@ -15959,7 +15954,7 @@
     "attack": 165,
     "defense": 139,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -15985,7 +15980,7 @@
     "attack": 107,
     "defense": 86,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Herdier"
     ],
@@ -16013,7 +16008,7 @@
     "attack": 145,
     "defense": 126,
     "stamina": 163,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Stoutland"
     ],
@@ -16041,7 +16036,7 @@
     "attack": 206,
     "defense": 182,
     "stamina": 198,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -16068,7 +16063,7 @@
     "attack": 98,
     "defense": 73,
     "stamina": 121,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Liepard"
     ],
@@ -16096,7 +16091,7 @@
     "attack": 187,
     "defense": 106,
     "stamina": 162,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -16122,7 +16117,7 @@
     "attack": 104,
     "defense": 94,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Simisage"
     ],
@@ -16150,7 +16145,7 @@
     "attack": 206,
     "defense": 133,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -16176,7 +16171,7 @@
     "attack": 104,
     "defense": 94,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Simisear"
     ],
@@ -16204,7 +16199,7 @@
     "attack": 206,
     "defense": 133,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -16230,7 +16225,7 @@
     "attack": 104,
     "defense": 94,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Simipour"
     ],
@@ -16258,7 +16253,7 @@
     "attack": 206,
     "defense": 133,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -16284,7 +16279,7 @@
     "attack": 111,
     "defense": 92,
     "stamina": 183,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Musharna"
     ],
@@ -16312,7 +16307,7 @@
     "attack": 183,
     "defense": 166,
     "stamina": 253,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -16338,7 +16333,7 @@
     "attack": 98,
     "defense": 80,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Tranquill"
     ],
@@ -16367,7 +16362,7 @@
     "attack": 144,
     "defense": 107,
     "stamina": 158,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Unfezant"
     ],
@@ -16396,7 +16391,7 @@
     "attack": 226,
     "defense": 146,
     "stamina": 190,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -16423,7 +16418,7 @@
     "attack": 118,
     "defense": 64,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Zebstrika"
     ],
@@ -16451,7 +16446,7 @@
     "attack": 211,
     "defense": 136,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -16477,7 +16472,7 @@
     "attack": 121,
     "defense": 110,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Boldore"
     ],
@@ -16505,7 +16500,7 @@
     "attack": 174,
     "defense": 143,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Gigalith"
     ],
@@ -16533,7 +16528,7 @@
     "attack": 226,
     "defense": 201,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "rock",
     "thirdMove": {
@@ -16560,7 +16555,7 @@
     "attack": 107,
     "defense": 85,
     "stamina": 163,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Swoobat"
     ],
@@ -16589,7 +16584,7 @@
     "attack": 161,
     "defense": 119,
     "stamina": 167,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "psychic",
     "type2": "flying",
@@ -16616,7 +16611,7 @@
     "attack": 154,
     "defense": 85,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Excadrill"
     ],
@@ -16644,7 +16639,7 @@
     "attack": 255,
     "defense": 129,
     "stamina": 242,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ground",
     "type2": "steel",
@@ -16672,7 +16667,7 @@
     "attack": 114,
     "defense": 163,
     "stamina": 230,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -16698,7 +16693,7 @@
     "attack": 134,
     "defense": 87,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Gurdurr"
     ],
@@ -16726,7 +16721,7 @@
     "attack": 180,
     "defense": 134,
     "stamina": 198,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Conkeldurr"
     ],
@@ -16754,7 +16749,7 @@
     "attack": 243,
     "defense": 158,
     "stamina": 233,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -16780,7 +16775,7 @@
     "attack": 98,
     "defense": 78,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Palpitoad"
     ],
@@ -16808,7 +16803,7 @@
     "attack": 128,
     "defense": 109,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Seismitoad"
     ],
@@ -16837,7 +16832,7 @@
     "attack": 188,
     "defense": 150,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ground",
@@ -16864,7 +16859,7 @@
     "attack": 172,
     "defense": 160,
     "stamina": 260,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -16890,7 +16885,7 @@
     "attack": 231,
     "defense": 153,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -16916,7 +16911,7 @@
     "attack": 96,
     "defense": 124,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Swadloon"
     ],
@@ -16945,7 +16940,7 @@
     "attack": 115,
     "defense": 162,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Leavanny"
     ],
@@ -16974,7 +16969,7 @@
     "attack": 205,
     "defense": 165,
     "stamina": 181,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "grass",
@@ -17001,7 +16996,7 @@
     "attack": 83,
     "defense": 99,
     "stamina": 102,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Whirlipede"
     ],
@@ -17030,7 +17025,7 @@
     "attack": 100,
     "defense": 173,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Scolipede"
     ],
@@ -17059,7 +17054,7 @@
     "attack": 203,
     "defense": 175,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "poison",
@@ -17087,7 +17082,7 @@
     "attack": 71,
     "defense": 111,
     "stamina": 120,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Whimsicott"
     ],
@@ -17116,7 +17111,7 @@
     "attack": 164,
     "defense": 176,
     "stamina": 155,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "grass",
     "type2": "fairy",
@@ -17143,7 +17138,7 @@
     "attack": 119,
     "defense": 91,
     "stamina": 128,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Lilligant"
     ],
@@ -17170,7 +17165,7 @@
     "attack": 214,
     "defense": 155,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -17196,7 +17191,7 @@
     "attack": 189,
     "defense": 129,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -17222,7 +17217,7 @@
     "attack": 132,
     "defense": 69,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Krokorok"
     ],
@@ -17251,7 +17246,7 @@
     "attack": 155,
     "defense": 90,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Krookodile"
     ],
@@ -17280,7 +17275,7 @@
     "attack": 229,
     "defense": 158,
     "stamina": 216,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ground",
     "type2": "dark",
@@ -17307,7 +17302,7 @@
     "attack": 153,
     "defense": 86,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Darmanitan"
     ],
@@ -17334,7 +17329,7 @@
     "attack": 263,
     "defense": 114,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -17361,7 +17356,7 @@
     "attack": 243,
     "defense": 202,
     "stamina": 233,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "type2": "psychic",
@@ -17389,7 +17384,7 @@
     "attack": 201,
     "defense": 130,
     "stamina": 181,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "grass",
     "thirdMove": {
@@ -17415,7 +17410,7 @@
     "attack": 118,
     "defense": 128,
     "stamina": 137,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Crustle"
     ],
@@ -17444,7 +17439,7 @@
     "attack": 188,
     "defense": 200,
     "stamina": 172,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "bug",
     "type2": "rock",
@@ -17471,7 +17466,7 @@
     "attack": 132,
     "defense": 132,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Scrafty"
     ],
@@ -17500,7 +17495,7 @@
     "attack": 163,
     "defense": 222,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "dark",
     "type2": "fighting",
@@ -17527,7 +17522,7 @@
     "attack": 204,
     "defense": 167,
     "stamina": 176,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "psychic",
     "type2": "flying",
@@ -17555,7 +17550,7 @@
     "attack": 95,
     "defense": 141,
     "stamina": 116,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Cofagrigus"
     ],
@@ -17583,7 +17578,7 @@
     "attack": 163,
     "defense": 237,
     "stamina": 151,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ghost",
     "thirdMove": {
@@ -17609,7 +17604,7 @@
     "attack": 134,
     "defense": 146,
     "stamina": 144,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Carracosta"
     ],
@@ -17638,7 +17633,7 @@
     "attack": 192,
     "defense": 197,
     "stamina": 179,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "type2": "rock",
@@ -17665,7 +17660,7 @@
     "attack": 213,
     "defense": 89,
     "stamina": 146,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Archeops"
     ],
@@ -17694,7 +17689,7 @@
     "attack": 292,
     "defense": 139,
     "stamina": 181,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "rock",
     "type2": "flying",
@@ -17721,7 +17716,7 @@
     "attack": 96,
     "defense": 122,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Garbodor"
     ],
@@ -17749,7 +17744,7 @@
     "attack": 181,
     "defense": 164,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "poison",
     "thirdMove": {
@@ -17776,7 +17771,7 @@
     "attack": 153,
     "defense": 78,
     "stamina": 120,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Zoroark"
     ],
@@ -17804,7 +17799,7 @@
     "attack": 250,
     "defense": 127,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "thirdMove": {
@@ -17830,7 +17825,7 @@
     "attack": 98,
     "defense": 80,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Cinccino"
     ],
@@ -17858,7 +17853,7 @@
     "attack": 198,
     "defense": 130,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -17884,7 +17879,7 @@
     "attack": 98,
     "defense": 112,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Gothorita"
     ],
@@ -17912,7 +17907,7 @@
     "attack": 137,
     "defense": 153,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Gothitelle"
     ],
@@ -17940,7 +17935,7 @@
     "attack": 176,
     "defense": 205,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -17966,7 +17961,7 @@
     "attack": 170,
     "defense": 83,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Duosion"
     ],
@@ -17994,7 +17989,7 @@
     "attack": 208,
     "defense": 103,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Reuniclus"
     ],
@@ -18022,7 +18017,7 @@
     "attack": 214,
     "defense": 148,
     "stamina": 242,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -18048,7 +18043,7 @@
     "attack": 84,
     "defense": 96,
     "stamina": 158,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Swanna"
     ],
@@ -18077,7 +18072,7 @@
     "attack": 182,
     "defense": 132,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "flying",
@@ -18104,7 +18099,7 @@
     "attack": 118,
     "defense": 106,
     "stamina": 113,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Vanillish"
     ],
@@ -18132,7 +18127,7 @@
     "attack": 151,
     "defense": 138,
     "stamina": 139,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Vanilluxe"
     ],
@@ -18160,7 +18155,7 @@
     "attack": 218,
     "defense": 184,
     "stamina": 174,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -18186,7 +18181,7 @@
     "attack": 115,
     "defense": 100,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "grass",
@@ -18213,7 +18208,7 @@
     "attack": 115,
     "defense": 100,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sawsbuck (Autumn)"
     ],
@@ -18242,7 +18237,7 @@
     "attack": 115,
     "defense": 100,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sawsbuck (Spring)"
     ],
@@ -18271,7 +18266,7 @@
     "attack": 115,
     "defense": 100,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sawsbuck (Summer)"
     ],
@@ -18300,7 +18295,7 @@
     "attack": 115,
     "defense": 100,
     "stamina": 155,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Sawsbuck (Winter)"
     ],
@@ -18329,7 +18324,7 @@
     "attack": 198,
     "defense": 146,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "grass",
@@ -18357,7 +18352,7 @@
     "attack": 198,
     "defense": 146,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "grass",
@@ -18385,7 +18380,7 @@
     "attack": 198,
     "defense": 146,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "grass",
@@ -18413,7 +18408,7 @@
     "attack": 198,
     "defense": 146,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "grass",
@@ -18441,7 +18436,7 @@
     "attack": 198,
     "defense": 146,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "type2": "grass",
@@ -18469,7 +18464,7 @@
     "attack": 158,
     "defense": 127,
     "stamina": 146,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "electric",
     "type2": "flying",
@@ -18496,7 +18491,7 @@
     "attack": 137,
     "defense": 87,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Escavalier"
     ],
@@ -18525,7 +18520,7 @@
     "attack": 223,
     "defense": 187,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -18553,7 +18548,7 @@
     "attack": 97,
     "defense": 91,
     "stamina": 170,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Amoonguss"
     ],
@@ -18582,7 +18577,7 @@
     "attack": 155,
     "defense": 139,
     "stamina": 249,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "poison",
@@ -18609,7 +18604,7 @@
     "attack": 115,
     "defense": 134,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Jellicent"
     ],
@@ -18638,7 +18633,7 @@
     "attack": 115,
     "defense": 134,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Jellicent Female"
     ],
@@ -18667,7 +18662,7 @@
     "attack": 159,
     "defense": 178,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ghost",
@@ -18694,7 +18689,7 @@
     "attack": 159,
     "defense": 178,
     "stamina": 225,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "water",
     "type2": "ghost",
@@ -18721,7 +18716,7 @@
     "attack": 138,
     "defense": 131,
     "stamina": 338,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "water",
     "thirdMove": {
@@ -18747,7 +18742,7 @@
     "attack": 110,
     "defense": 98,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Galvantula"
     ],
@@ -18776,7 +18771,7 @@
     "attack": 201,
     "defense": 128,
     "stamina": 172,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "electric",
@@ -18804,7 +18799,7 @@
     "attack": 82,
     "defense": 155,
     "stamina": 127,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Ferrothorn"
     ],
@@ -18833,7 +18828,7 @@
     "attack": 158,
     "defense": 223,
     "stamina": 179,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "grass",
     "type2": "steel",
@@ -18862,7 +18857,7 @@
     "attack": 98,
     "defense": 121,
     "stamina": 120,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Klang"
     ],
@@ -18890,7 +18885,7 @@
     "attack": 150,
     "defense": 174,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Klinklang"
     ],
@@ -18918,7 +18913,7 @@
     "attack": 199,
     "defense": 214,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "steel",
     "thirdMove": {
@@ -18945,7 +18940,7 @@
     "attack": 105,
     "defense": 78,
     "stamina": 111,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Eelektrik"
     ],
@@ -18971,7 +18966,7 @@
     "attack": 156,
     "defense": 130,
     "stamina": 163,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [
       "Eelektross"
     ],
@@ -18999,7 +18994,7 @@
     "attack": 217,
     "defense": 152,
     "stamina": 198,
-    "candyDistance": 0.5,
+    "candyDistance": 1,
     "evolutions": [],
     "type1": "electric",
     "thirdMove": {
@@ -19026,7 +19021,7 @@
     "attack": 148,
     "defense": 100,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Beheeyem"
     ],
@@ -19054,7 +19049,7 @@
     "attack": 221,
     "defense": 163,
     "stamina": 181,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -19080,7 +19075,7 @@
     "attack": 108,
     "defense": 98,
     "stamina": 137,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Lampent"
     ],
@@ -19109,7 +19104,7 @@
     "attack": 169,
     "defense": 115,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Chandelure"
     ],
@@ -19138,7 +19133,7 @@
     "attack": 271,
     "defense": 182,
     "stamina": 155,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ghost",
     "type2": "fire",
@@ -19165,7 +19160,7 @@
     "attack": 154,
     "defense": 101,
     "stamina": 130,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Fraxure"
     ],
@@ -19193,7 +19188,7 @@
     "attack": 212,
     "defense": 123,
     "stamina": 165,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Haxorus"
     ],
@@ -19221,7 +19216,7 @@
     "attack": 284,
     "defense": 172,
     "stamina": 183,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dragon",
     "thirdMove": {
@@ -19248,7 +19243,7 @@
     "attack": 128,
     "defense": 74,
     "stamina": 146,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Beartic"
     ],
@@ -19276,7 +19271,7 @@
     "attack": 233,
     "defense": 152,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -19302,7 +19297,7 @@
     "attack": 190,
     "defense": 218,
     "stamina": 190,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ice",
     "thirdMove": {
@@ -19329,7 +19324,7 @@
     "attack": 72,
     "defense": 140,
     "stamina": 137,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Accelgor"
     ],
@@ -19357,7 +19352,7 @@
     "attack": 220,
     "defense": 120,
     "stamina": 190,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "thirdMove": {
@@ -19384,7 +19379,7 @@
     "attack": 144,
     "defense": 171,
     "stamina": 240,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ground",
     "type2": "electric",
@@ -19411,7 +19406,7 @@
     "attack": 160,
     "defense": 98,
     "stamina": 128,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [
       "Mienshao"
     ],
@@ -19439,7 +19434,7 @@
     "attack": 258,
     "defense": 127,
     "stamina": 163,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fighting",
     "thirdMove": {
@@ -19465,7 +19460,7 @@
     "attack": 213,
     "defense": 170,
     "stamina": 184,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dragon",
     "thirdMove": {
@@ -19491,7 +19486,7 @@
     "attack": 127,
     "defense": 92,
     "stamina": 153,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Golurk"
     ],
@@ -19520,7 +19515,7 @@
     "attack": 222,
     "defense": 154,
     "stamina": 205,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ground",
     "type2": "ghost",
@@ -19547,7 +19542,7 @@
     "attack": 154,
     "defense": 114,
     "stamina": 128,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Bisharp"
     ],
@@ -19576,7 +19571,7 @@
     "attack": 232,
     "defense": 176,
     "stamina": 163,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "type2": "steel",
@@ -19604,7 +19599,7 @@
     "attack": 195,
     "defense": 182,
     "stamina": 216,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "normal",
     "thirdMove": {
@@ -19631,7 +19626,7 @@
     "attack": 150,
     "defense": 97,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Braviary"
     ],
@@ -19660,7 +19655,7 @@
     "attack": 232,
     "defense": 152,
     "stamina": 225,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "normal",
     "type2": "flying",
@@ -19687,7 +19682,7 @@
     "attack": 105,
     "defense": 139,
     "stamina": 172,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Mandibuzz"
     ],
@@ -19716,7 +19711,7 @@
     "attack": 129,
     "defense": 205,
     "stamina": 242,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "type2": "flying",
@@ -19744,7 +19739,7 @@
     "attack": 204,
     "defense": 129,
     "stamina": 198,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "fire",
     "thirdMove": {
@@ -19770,7 +19765,7 @@
     "attack": 217,
     "defense": 188,
     "stamina": 151,
-    "candyDistance": 1.5,
+    "candyDistance": 3,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -19797,7 +19792,7 @@
     "attack": 116,
     "defense": 93,
     "stamina": 141,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Zweilous"
     ],
@@ -19826,7 +19821,7 @@
     "attack": 159,
     "defense": 135,
     "stamina": 176,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Hydreigon"
     ],
@@ -19855,7 +19850,7 @@
     "attack": 256,
     "defense": 188,
     "stamina": 211,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "dark",
     "type2": "dragon",
@@ -19882,7 +19877,7 @@
     "attack": 156,
     "defense": 107,
     "stamina": 146,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [
       "Volcarona"
     ],
@@ -19911,7 +19906,7 @@
     "attack": 264,
     "defense": 189,
     "stamina": 198,
-    "candyDistance": 2.5,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "bug",
     "type2": "fire",
@@ -19939,7 +19934,7 @@
     "attack": 192,
     "defense": 229,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "steel",
     "type2": "fighting",
@@ -19968,7 +19963,7 @@
     "attack": 260,
     "defense": 192,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "rock",
     "type2": "fighting",
@@ -19995,7 +19990,7 @@
     "attack": 192,
     "defense": 229,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "grass",
     "type2": "fighting",
@@ -20022,7 +20017,7 @@
     "attack": 266,
     "defense": 164,
     "stamina": 188,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "flying",
     "thirdMove": {
@@ -20049,7 +20044,7 @@
     "attack": 266,
     "defense": 164,
     "stamina": 188,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "flying",
     "thirdMove": {
@@ -20076,7 +20071,7 @@
     "attack": 238,
     "defense": 189,
     "stamina": 188,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "flying",
     "thirdMove": {
@@ -20103,7 +20098,7 @@
     "attack": 266,
     "defense": 164,
     "stamina": 188,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "electric",
     "type2": "flying",
@@ -20131,7 +20126,7 @@
     "attack": 266,
     "defense": 164,
     "stamina": 188,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "electric",
     "type2": "flying",
@@ -20159,7 +20154,7 @@
     "attack": 295,
     "defense": 161,
     "stamina": 188,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "electric",
     "type2": "flying",
@@ -20187,7 +20182,7 @@
     "attack": 275,
     "defense": 211,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "fire",
@@ -20215,7 +20210,7 @@
     "attack": 275,
     "defense": 211,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "electric",
@@ -20243,7 +20238,7 @@
     "attack": 261,
     "defense": 182,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ground",
     "type2": "flying",
@@ -20271,7 +20266,7 @@
     "attack": 261,
     "defense": 182,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ground",
     "type2": "flying",
@@ -20299,7 +20294,7 @@
     "attack": 289,
     "defense": 179,
     "stamina": 205,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "ground",
     "type2": "flying",
@@ -20327,7 +20322,7 @@
     "attack": 246,
     "defense": 170,
     "stamina": 245,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "ice",
@@ -20355,7 +20350,7 @@
     "attack": 310,
     "defense": 183,
     "stamina": 245,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "ice",
@@ -20383,7 +20378,7 @@
     "attack": 310,
     "defense": 183,
     "stamina": 245,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "dragon",
     "type2": "ice",
@@ -20411,7 +20406,7 @@
     "attack": 260,
     "defense": 192,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "type2": "fighting",
@@ -20439,7 +20434,7 @@
     "attack": 260,
     "defense": 192,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "type2": "fighting",
@@ -20467,7 +20462,7 @@
     "attack": 260,
     "defense": 192,
     "stamina": 209,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "water",
     "type2": "fighting",
@@ -20495,7 +20490,7 @@
     "attack": 250,
     "defense": 225,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "normal",
     "type2": "psychic",
@@ -20523,7 +20518,7 @@
     "attack": 250,
     "defense": 225,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "normal",
     "type2": "psychic",
@@ -20551,7 +20546,7 @@
     "attack": 269,
     "defense": 188,
     "stamina": 225,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "normal",
     "type2": "fighting",
@@ -20579,7 +20574,7 @@
     "attack": 252,
     "defense": 199,
     "stamina": 174,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -20606,7 +20601,7 @@
     "attack": 252,
     "defense": 199,
     "stamina": 174,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -20633,7 +20628,7 @@
     "attack": 252,
     "defense": 199,
     "stamina": 174,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -20660,7 +20655,7 @@
     "attack": 252,
     "defense": 199,
     "stamina": 174,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -20687,7 +20682,7 @@
     "attack": 252,
     "defense": 199,
     "stamina": 174,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "bug",
     "type2": "steel",
@@ -20714,7 +20709,7 @@
     "attack": 118,
     "defense": 99,
     "stamina": 130,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [
       "Melmetal"
     ],
@@ -20740,7 +20735,7 @@
     "attack": 226,
     "defense": 190,
     "stamina": 264,
-    "candyDistance": 10,
+    "candyDistance": 20,
     "evolutions": [],
     "type1": "steel",
     "thirdMove": {
