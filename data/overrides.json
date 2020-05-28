@@ -1,4 +1,8 @@
 {
-  "pokedex": {},
+  "pokedex": {
+    "cresselia": {
+      "eliteCinematicMoves": ["GRASS_KNOT"]
+    }
+  },
   "moves": {}
 }
