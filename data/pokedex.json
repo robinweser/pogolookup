@@ -1817,6 +1817,34 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Meowth (Galarian)",
+    "ref": "meowth_galarian",
+    "id": 52,
+    "attack": 115,
+    "defense": 92,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Perrserker"
+    ],
+    "type1": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "SCRATCH_FAST",
+      "METAL_CLAW_FAST"
+    ],
+    "cinematicMoves": [
+      "DIG",
+      "NIGHT_SLASH",
+      "GYRO_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Persian",
     "ref": "persian",
     "id": 53,
@@ -8271,7 +8299,9 @@
     "defense": 128,
     "stamina": 186,
     "candyDistance": 1,
-    "evolutions": [],
+    "evolutions": [
+      "Obstagoon"
+    ],
     "type1": "dark",
     "type2": "normal",
     "thirdMove": {
@@ -8592,7 +8622,9 @@
       "FOUL_PLAY",
       "LEAF_TORNADO"
     ],
-    "eliteQuickMoves": [],
+    "eliteQuickMoves": [
+      "BULLET_SEED_FAST"
+    ],
     "eliteCinematicMoves": []
   },
   {
@@ -15017,7 +15049,10 @@
       "FUTURESIGHT"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "GRASS_KNOT",
+      "GRASS_KNOT"
+    ]
   },
   {
     "name": "Phione",
@@ -17323,6 +17358,33 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Darumaka (Galarian)",
+    "ref": "darumaka_galarian",
+    "id": 554,
+    "attack": 153,
+    "defense": 86,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [
+      "Darmanitan (Galarian)"
+    ],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ICE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "ICE_PUNCH",
+      "ICE_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Darmanitan",
     "ref": "darmanitan",
     "id": 555,
@@ -17345,6 +17407,33 @@
       "FOCUS_BLAST",
       "PSYCHIC",
       "ROCK_SLIDE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Darmanitan (Galarian)",
+    "ref": "darmanitan_galarian",
+    "id": 555,
+    "attack": 263,
+    "defense": 114,
+    "stamina": 233,
+    "candyDistance": 3,
+    "evolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ICE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "OVERHEAT",
+      "AVALANCHE",
+      "SUPERPOWER",
+      "ICE_PUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -19400,6 +19489,34 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Stunfisk (Galarian)",
+    "ref": "stunfisk_galarian",
+    "id": 618,
+    "attack": 144,
+    "defense": 171,
+    "stamina": 240,
+    "candyDistance": 5,
+    "evolutions": [],
+    "type1": "ground",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "MUD_SHOT_FAST"
+    ],
+    "cinematicMoves": [
+      "EARTHQUAKE",
+      "FLASH_CANNON",
+      "MUDDY_WATER",
+      "ROCK_SLIDE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Mienfoo",
     "ref": "mienfoo",
     "id": 619,
@@ -20751,6 +20868,61 @@
       "HYPER_BEAM",
       "ROCK_SLIDE",
       "SUPER_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Obstagoon",
+    "ref": "obstagoon",
+    "id": 862,
+    "attack": 180,
+    "defense": 194,
+    "stamina": 212,
+    "candyDistance": 3,
+    "evolutions": [],
+    "type1": "dark",
+    "type2": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "LICK_FAST",
+      "COUNTER_FAST"
+    ],
+    "cinematicMoves": [
+      "CROSS_CHOP",
+      "NIGHT_SLASH",
+      "GUNK_SHOT",
+      "HYPER_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Perrserker",
+    "ref": "perrserker",
+    "id": 863,
+    "attack": 195,
+    "defense": 162,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [],
+    "type1": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "SHADOW_CLAW_FAST",
+      "METAL_CLAW_FAST"
+    ],
+    "cinematicMoves": [
+      "FOUL_PLAY",
+      "PLAY_ROUGH",
+      "IRON_HEAD",
+      "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []

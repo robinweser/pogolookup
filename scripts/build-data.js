@@ -148,7 +148,7 @@ let generate = async () => {
     return pvpMoveTemplateIdPattern.test(template.templateId)
   })
 
-  const pokemonList = []
+  let pokemonList = []
   pokemonTemplates.map((template) => {
     const {
       pokemon: {
@@ -179,7 +179,7 @@ let generate = async () => {
         attack: stats.baseAttack,
         defense: stats.baseDefense,
         stamina: stats.baseStamina,
-        candyDistance: kmBuddyDistance * 2,
+        candyDistance: kmBuddyDistance,
         evolutions:
           evolutionBranch && evolutionBranch[0].evolution
             ? evolutionBranch
@@ -195,10 +195,6 @@ let generate = async () => {
         eliteCinematicMoves: eliteCinematicMove || [],
       })
     }
-  })
-
-  pokemonList.sort((a, b) => {
-    return a.id === b.id ? (a.name > b.name ? 1 : -1) : a.id - b.id
   })
 
   const moveList = {}
@@ -247,7 +243,15 @@ let generate = async () => {
     const entry = pokemonList.find((item) => item.ref === pokemon)
     const index = pokemonList.indexOf(entry)
 
-    pokemonList[index] = merge(entry, overrides.pokedex[pokemon])
+    if (index >= 0) {
+      pokemonList[index] = merge(entry, overrides.pokedex[pokemon])
+    } else {
+      pokemonList.push(overrides.pokedex[pokemon])
+    }
+  })
+
+  pokemonList = pokemonList.sort((a, b) => {
+    return a.id === b.id ? (a.name > b.name ? 1 : -1) : a.id - b.id
   })
 
   Object.keys(overrides.moves).forEach((move) => {
@@ -321,9 +325,6 @@ let generate = async () => {
         console.log(
           `Successfully fetched ${pokemonList.length} Pokémon and updated their stats.`
         )
-        console.log(
-          `Please double check the file before creating a pull request!`
-        )
       }
     }
   )
@@ -372,9 +373,6 @@ let generate = async () => {
           `Successfully fetched ${
             Object.keys(moveList).length
           } moves and updated their stats.`
-        )
-        console.log(
-          `Please double check the file before creating a pull request!`
         )
       }
     }

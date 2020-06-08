@@ -1637,6 +1637,32 @@
       "hp": 105
     }
   },
+  "Meowth (Galarian)": {
+    "great": {
+      "attack": 12,
+      "defense": 9,
+      "stamina": 12,
+      "level": 40,
+      "cp": 973,
+      "hp": 117
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 9,
+      "stamina": 12,
+      "level": 40,
+      "cp": 973,
+      "hp": 117
+    },
+    "master": {
+      "attack": 12,
+      "defense": 9,
+      "stamina": 12,
+      "level": 40,
+      "cp": 973,
+      "hp": 117
+    }
+  },
   "Persian": {
     "great": {
       "attack": 3,
@@ -16015,7 +16041,59 @@
       "hp": 146
     }
   },
+  "Darumaka (Galarian)": {
+    "great": {
+      "attack": 5,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1339,
+      "hp": 146
+    },
+    "ultra": {
+      "attack": 5,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1339,
+      "hp": 146
+    },
+    "master": {
+      "attack": 5,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1339,
+      "hp": 146
+    }
+  },
   "Darmanitan": {
+    "great": {
+      "attack": 1,
+      "defense": 9,
+      "stamina": 5,
+      "level": 18.5,
+      "cp": 1491,
+      "hp": 136
+    },
+    "ultra": {
+      "attack": 4,
+      "defense": 11,
+      "stamina": 9,
+      "level": 30,
+      "cp": 2486,
+      "hp": 177
+    },
+    "master": {
+      "attack": 12,
+      "defense": 10,
+      "stamina": 12,
+      "level": 40,
+      "cp": 2993,
+      "hp": 193
+    }
+  },
+  "Darmanitan (Galarian)": {
     "great": {
       "attack": 1,
       "defense": 9,
@@ -17965,6 +18043,32 @@
       "hp": 194
     }
   },
+  "Stunfisk (Galarian)": {
+    "great": {
+      "attack": 7,
+      "defense": 12,
+      "stamina": 10,
+      "level": 26,
+      "cp": 1498,
+      "hp": 170
+    },
+    "ultra": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 6,
+      "level": 40,
+      "cp": 2057,
+      "hp": 194
+    },
+    "master": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 6,
+      "level": 40,
+      "cp": 2057,
+      "hp": 194
+    }
+  },
   "Mienfoo": {
     "great": {
       "attack": 14,
@@ -19237,6 +19341,58 @@
       "level": 40,
       "cp": 3477,
       "hp": 214
+    }
+  },
+  "Obstagoon": {
+    "great": {
+      "attack": 2,
+      "defense": 13,
+      "stamina": 14,
+      "level": 21,
+      "cp": 1475,
+      "hp": 138
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 10,
+      "level": 37.5,
+      "cp": 2497,
+      "hp": 172
+    },
+    "master": {
+      "attack": 8,
+      "defense": 13,
+      "stamina": 11,
+      "level": 40,
+      "cp": 2522,
+      "hp": 176
+    }
+  },
+  "Perrserker": {
+    "great": {
+      "attack": 2,
+      "defense": 4,
+      "stamina": 15,
+      "level": 24,
+      "cp": 1486,
+      "hp": 122
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 7,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2292,
+      "hp": 146
+    },
+    "master": {
+      "attack": 12,
+      "defense": 7,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2292,
+      "hp": 146
     }
   }
 }
