@@ -1837,9 +1837,9 @@
       "METAL_CLAW_FAST"
     ],
     "cinematicMoves": [
-      "DIG",
       "NIGHT_SLASH",
-      "GYRO_BALL"
+      "GYRO_BALL",
+      "DIG"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -2865,6 +2865,32 @@
     "eliteQuickMoves": [
       "CUT_FAST"
     ],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Farfetchd (Galarian)",
+    "ref": "farfetchd_galarian",
+    "id": 83,
+    "attack": 174,
+    "defense": 114,
+    "stamina": 141,
+    "candyDistance": 3,
+    "evolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "FURY_CUTTER_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "BRAVE_BIRD",
+      "LEAF_BLADE"
+    ],
+    "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
@@ -8255,12 +8281,12 @@
     },
     "quickMoves": [
       "TACKLE_FAST",
-      "ROCK_SMASH_FAST"
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
       "DIG",
-      "GRASS_KNOT",
-      "THUNDERBOLT"
+      "BODY_SLAM",
+      "SWIFT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8309,13 +8335,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SHADOW_CLAW_FAST",
-      "TACKLE_FAST"
+      "SNARL_FAST",
+      "LICK_FAST"
     ],
     "cinematicMoves": [
       "DIG",
-      "GRASS_KNOT",
-      "THUNDER"
+      "BODY_SLAM",
+      "GUNK_SHOT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -15050,7 +15076,6 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "GRASS_KNOT",
       "GRASS_KNOT"
     ]
   },
@@ -17364,9 +17389,9 @@
     "attack": 153,
     "defense": 86,
     "stamina": 172,
-    "candyDistance": 3,
+    "candyDistance": 5,
     "evolutions": [
-      "Darmanitan (Galarian)"
+      "Darmanitan"
     ],
     "type1": "ice",
     "thirdMove": {
@@ -17412,15 +17437,16 @@
     "eliteCinematicMoves": []
   },
   {
-    "name": "Darmanitan (Galarian)",
-    "ref": "darmanitan_galarian",
+    "name": "Darmanitan (Galarian) (Zen)",
+    "ref": "darmanitan_galarian_zen",
     "id": 555,
-    "attack": 263,
-    "defense": 114,
+    "attack": 323,
+    "defense": 123,
     "stamina": 233,
-    "candyDistance": 3,
+    "candyDistance": 5,
     "evolutions": [],
     "type1": "ice",
+    "type2": "fire",
     "thirdMove": {
       "stardustToUnlock": 50000,
       "candyToUnlock": 50
@@ -17432,7 +17458,7 @@
     "cinematicMoves": [
       "OVERHEAT",
       "AVALANCHE",
-      "SUPERPOWER",
+      "SUPER_POWER",
       "ICE_PUNCH"
     ],
     "eliteQuickMoves": [],
@@ -19504,8 +19530,8 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "METAL_CLAW_FAST",
-      "MUD_SHOT_FAST"
+      "MUD_SHOT_FAST",
+      "METAL_CLAW_FAST"
     ],
     "cinematicMoves": [
       "EARTHQUAKE",
@@ -20884,18 +20910,18 @@
     "type1": "dark",
     "type2": "normal",
     "thirdMove": {
-      "stardustToUnlock": 50000,
-      "candyToUnlock": 50
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
     },
     "quickMoves": [
-      "LICK_FAST",
-      "COUNTER_FAST"
+      "COUNTER_FAST",
+      "LICK_FAST"
     ],
     "cinematicMoves": [
       "CROSS_CHOP",
       "NIGHT_SLASH",
-      "GUNK_SHOT",
-      "HYPER_BEAM"
+      "HYPER_BEAM",
+      "GUNK_SHOT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -20915,14 +20941,41 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SHADOW_CLAW_FAST",
-      "METAL_CLAW_FAST"
+      "METAL_CLAW_FAST",
+      "SHADOW_CLAW_FAST"
     ],
     "cinematicMoves": [
-      "FOUL_PLAY",
-      "PLAY_ROUGH",
       "IRON_HEAD",
-      "CLOSE_COMBAT"
+      "CLOSE_COMBAT",
+      "PLAY_ROUGH",
+      "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sirfetchd",
+    "ref": "sirfetchd",
+    "id": 865,
+    "attack": 248,
+    "defense": 176,
+    "stamina": 158,
+    "candyDistance": 3,
+    "evolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "COUNTER_FAST",
+      "FURY_CUTTER_FAST"
+    ],
+    "cinematicMoves": [
+      "CLOSE_COMBAT",
+      "BRAVE_BIRD",
+      "LEAF_BLADE",
+      "NIGHT_SLASH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []

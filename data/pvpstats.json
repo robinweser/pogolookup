@@ -2573,6 +2573,32 @@
       "hp": 123
     }
   },
+  "Farfetchd (Galarian)": {
+    "great": {
+      "attack": 6,
+      "defense": 12,
+      "stamina": 8,
+      "level": 38,
+      "cp": 1496,
+      "hp": 116
+    },
+    "ultra": {
+      "attack": 8,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 1574,
+      "hp": 119
+    },
+    "master": {
+      "attack": 8,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 1574,
+      "hp": 119
+    }
+  },
   "Doduo": {
     "great": {
       "attack": 8,
@@ -16093,30 +16119,30 @@
       "hp": 193
     }
   },
-  "Darmanitan (Galarian)": {
+  "Darmanitan (Galarian) (Zen)": {
     "great": {
-      "attack": 1,
-      "defense": 9,
-      "stamina": 5,
-      "level": 18.5,
-      "cp": 1491,
-      "hp": 136
+      "attack": 9,
+      "defense": 8,
+      "stamina": 14,
+      "level": 14,
+      "cp": 1492,
+      "hp": 123
     },
     "ultra": {
-      "attack": 4,
-      "defense": 11,
-      "stamina": 9,
-      "level": 30,
-      "cp": 2486,
-      "hp": 177
+      "attack": 2,
+      "defense": 14,
+      "stamina": 7,
+      "level": 23.5,
+      "cp": 2471,
+      "hp": 155
     },
     "master": {
-      "attack": 12,
-      "defense": 10,
-      "stamina": 12,
+      "attack": 9,
+      "defense": 12,
+      "stamina": 10,
       "level": 40,
-      "cp": 2993,
-      "hp": 193
+      "cp": 3755,
+      "hp": 192
     }
   },
   "Darmanitan (Zen)": {
@@ -19393,6 +19419,32 @@
       "level": 40,
       "cp": 2292,
       "hp": 146
+    }
+  },
+  "Sirfetchd": {
+    "great": {
+      "attack": 0,
+      "defense": 2,
+      "stamina": 3,
+      "level": 20,
+      "cp": 1498,
+      "hp": 96
+    },
+    "ultra": {
+      "attack": 9,
+      "defense": 15,
+      "stamina": 14,
+      "level": 30,
+      "cp": 2493,
+      "hp": 125
+    },
+    "master": {
+      "attack": 15,
+      "defense": 6,
+      "stamina": 12,
+      "level": 40,
+      "cp": 2889,
+      "hp": 134
     }
   }
 }
