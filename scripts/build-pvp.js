@@ -41,7 +41,7 @@ let generate = async () => {
     pvpStats[pokemon.name] = {
       great: getPvpStats(great[49]),
       ultra: getPvpStats(ultra[49]),
-      master: getPvpStats(master[49]),
+      master: getPvpStats(master[9]),
     }
   })
 
