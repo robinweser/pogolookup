@@ -92,11 +92,11 @@ export default function ChargeMove({
             <Effect value={buffs.attackerAttackStatStageChange} stat="Attack" />
             <Effect
               value={buffs.attackerDefenseStatStageChange}
-              stat="Attack"
+              stat="Defense"
             />
             <Effect
               value={buffs.targetAttackStatStageChange}
-              stat="Defense"
+              stat="Attack"
               target
             />
             <Effect
