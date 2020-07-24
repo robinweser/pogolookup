@@ -75,7 +75,9 @@ function createData(pokemon, input, moveType, focusMode, maxLevel) {
   const pvpRankings = pokemon.getPVPRankings({
     CPCap: leagueCap[input.league],
     maxLevel,
+    minIV: info.mythical ? 10 : 0,
   })
+
   const evolutions = pokemon.getEvolutions()
 
   return {

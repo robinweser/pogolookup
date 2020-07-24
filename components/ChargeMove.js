@@ -8,6 +8,20 @@ import TypeTile from './TypeTile'
 import formatDecimal from '../utils/formatDecimal'
 import AppContext from '../utils/AppContext'
 
+function Effect({ value, stat, target }) {
+  if (!value) {
+    return null
+  }
+
+  return (
+    <Box direction="row" extend={{ color: value > 0 ? 'green' : 'red' }}>
+      {value > 0 ? '⬆︎' : '⬇︎'}
+      {' '}
+      {value * 25 + '%'} {target ? 'Target' : ''} {stat}
+    </Box>
+  )
+}
+
 export default function ChargeMove({
   isExclusive,
   name,
@@ -18,6 +32,7 @@ export default function ChargeMove({
   actualDamage,
   damagePerEnergy,
   actualDamagePerEnergy,
+  buffs,
 }) {
   const { theme } = useFela()
   const { showRawDamage } = useContext(AppContext)
@@ -62,6 +77,36 @@ export default function ChargeMove({
           {stabFlag}
         </LabelledValue>
       </Box>
+      {!buffs ? null : (
+        <Box
+          marginTop={1}
+          padding={2}
+          space={1}
+          extend={{
+            borderRadius: theme.roundedCorners,
+            backgroundColor: 'rgba(0,0,0,0.05)',
+            fontSize: 14,
+          }}>
+          <Box>{buffs.buffActivationChance * 100}% Chance</Box>
+          <Box paddingLeft={3} extend={{ lineHeight: 1.2 }}>
+            <Effect value={buffs.attackerAttackStatStageChange} stat="Attack" />
+            <Effect
+              value={buffs.attackerDefenseStatStageChange}
+              stat="Attack"
+            />
+            <Effect
+              value={buffs.targetAttackStatStageChange}
+              stat="Defense"
+              target
+            />
+            <Effect
+              value={buffs.targetDefenseStatStageChange}
+              stat="Defense"
+              target
+            />
+          </Box>
+        </Box>
+      )}
     </Box>
   )
 }

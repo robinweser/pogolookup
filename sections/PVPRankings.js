@@ -38,7 +38,7 @@ export default function PVPRankings({
   )
 
   const rank = 1 + pvpRankings.indexOf(selected)
-  const percent = selected.product / pvpRankings[0].product
+  const percent = selected ? selected.product / pvpRankings[0].product : 0
   const best = pvpRankings[0]
 
   const bgColor =
@@ -55,6 +55,11 @@ export default function PVPRankings({
   return (
     <Box>
       <Layout>
+        {selected ? null : (
+          <Box paddingBottom={2}>
+            You entered impossible IV values for that specific Pokemon.
+          </Box>
+        )}
         <Box>
           <Box
             display={['none', , 'flex']}
@@ -76,97 +81,100 @@ export default function PVPRankings({
             </Box>
           </Box>
 
-          <Box
-            direction="row"
-            extend={{
-              borderRadius: theme.roundedCorners,
-              backgroundColor: bgColor,
-            }}>
-            <Cell extend={{ flex: '0 0 50px', fontWeight: 700 }}>{rank}</Cell>
-            <Box grow={1} direction={['column', , 'row']}>
-              <Box grow={4} shrink={0} basis={['auto', , 0]} direction="row">
-                <Cell>
-                  <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
-                    IVs
-                  </Box>
-                  {[
-                    selected.attackIV,
-                    selected.defenseIV,
-                    selected.staminaIV,
-                  ].join(' / ')}
-                </Cell>
-                <Cell
-                  extend={{
-                    display: 'none',
-                    large: { display: 'flex' },
-                  }}>
-                  {selected.level}
-                </Cell>
-                <Cell>
-                  <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
-                    CP / Level
-                  </Box>
-                  <Box direction="row">
-                    {selected.cp}
-                    {' '}
-                    <Box display={['flex', , 'none']}>({selected.level})</Box>
-                  </Box>
-                </Cell>
-                <Cell>
-                  <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
-                    Percent
-                  </Box>
-                  {formatPercent(selected.product / pvpRankings[0].product)}
-                </Cell>
-              </Box>
-              <Box grow={3} shrink={0} basis={['auto', , 0]} direction="row">
-                <Cell>
-                  <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
-                    Attack
-                  </Box>
-                  {formatDecimal(selected.attackStat)}
-                  <br />({best.attackStat - selected.attackStat > 0 ? '-' : '+'}
-                  {Math.abs(
-                    formatDecimal(best.attackStat - selected.attackStat)
-                  )}
-                  )
-                </Cell>
-                <Cell>
-                  <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
-                    Defense
-                  </Box>
-                  {formatDecimal(selected.defenseStat)}
-                  <br />(
-                  {best.defenseStat - selected.defenseStat > 0 ? '-' : '+'}
-                  {Math.abs(
-                    formatDecimal(best.defenseStat - selected.defenseStat)
-                  )}
-                  )
-                </Cell>
-                <Cell>
-                  <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
-                    Stamina
-                  </Box>
-                  {Math.floor(selected.staminaStat)}
-                  <br />(
-                  {Math.floor(best.staminaStat) -
-                    Math.floor(selected.staminaStat) >
-                  0
-                    ? '-'
-                    : '+'}
-                  {Math.floor(
-                    Math.abs(
-                      formatDecimal(
-                        Math.floor(best.staminaStat) -
-                          Math.floor(selected.staminaStat)
-                      )
+          {!selected ? null : (
+            <Box
+              direction="row"
+              extend={{
+                borderRadius: theme.roundedCorners,
+                backgroundColor: bgColor,
+              }}>
+              <Cell extend={{ flex: '0 0 50px', fontWeight: 700 }}>{rank}</Cell>
+              <Box grow={1} direction={['column', , 'row']}>
+                <Box grow={4} shrink={0} basis={['auto', , 0]} direction="row">
+                  <Cell>
+                    <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
+                      IVs
+                    </Box>
+                    {[
+                      selected.attackIV,
+                      selected.defenseIV,
+                      selected.staminaIV,
+                    ].join(' / ')}
+                  </Cell>
+                  <Cell
+                    extend={{
+                      display: 'none',
+                      medium: { display: 'flex' },
+                    }}>
+                    {selected.level}
+                  </Cell>
+                  <Cell>
+                    <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
+                      CP / Level
+                    </Box>
+                    <Box direction="row">
+                      {selected.cp}
+                      {' '}
+                      <Box display={['flex', , 'none']}>({selected.level})</Box>
+                    </Box>
+                  </Cell>
+                  <Cell>
+                    <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
+                      Percent
+                    </Box>
+                    {formatPercent(selected.product / pvpRankings[0].product)}
+                  </Cell>
+                </Box>
+                <Box grow={3} shrink={0} basis={['auto', , 0]} direction="row">
+                  <Cell>
+                    <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
+                      Attack
+                    </Box>
+                    {formatDecimal(selected.attackStat)}
+                    <br />(
+                    {best.attackStat - selected.attackStat > 0 ? '-' : '+'}
+                    {Math.abs(
+                      formatDecimal(best.attackStat - selected.attackStat)
+                    )}
                     )
-                  )}
-                  )
-                </Cell>
+                  </Cell>
+                  <Cell>
+                    <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
+                      Defense
+                    </Box>
+                    {formatDecimal(selected.defenseStat)}
+                    <br />(
+                    {best.defenseStat - selected.defenseStat > 0 ? '-' : '+'}
+                    {Math.abs(
+                      formatDecimal(best.defenseStat - selected.defenseStat)
+                    )}
+                    )
+                  </Cell>
+                  <Cell>
+                    <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
+                      Stamina
+                    </Box>
+                    {Math.floor(selected.staminaStat)}
+                    <br />(
+                    {Math.floor(best.staminaStat) -
+                      Math.floor(selected.staminaStat) >
+                    0
+                      ? '-'
+                      : '+'}
+                    {Math.floor(
+                      Math.abs(
+                        formatDecimal(
+                          Math.floor(best.staminaStat) -
+                            Math.floor(selected.staminaStat)
+                        )
+                      )
+                    )}
+                    )
+                  </Cell>
+                </Box>
               </Box>
             </Box>
-          </Box>
+          )}
           {pvpRankings
             .slice(0, 25)
             .map(
@@ -225,7 +233,7 @@ export default function PVPRankings({
                         <Cell
                           extend={{
                             display: 'none',
-                            large: { display: 'flex' },
+                            medium: { display: 'flex' },
                           }}>
                           {level}
                         </Cell>

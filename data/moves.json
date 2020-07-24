@@ -416,7 +416,11 @@
     "pvp": {
       "damage": 50,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
     }
   },
   "BUBBLE_BEAM": {
@@ -431,7 +435,11 @@
     "pvp": {
       "damage": 25,
       "energy": 40,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "SUBMISSION": {
@@ -536,7 +544,12 @@
     "pvp": {
       "damage": 45,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "attackerDefenseStatStageChange": 2,
+        "buffActivationChance": 0.1
+      }
     }
   },
   "ROCK_TOMB": {
@@ -626,7 +639,12 @@
     "pvp": {
       "damage": 45,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "attackerDefenseStatStageChange": 2,
+        "buffActivationChance": 0.1
+      }
     }
   },
   "SHADOW_BALL": {
@@ -836,7 +854,11 @@
     "pvp": {
       "damage": 110,
       "energy": 60,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
     }
   },
   "PLAY_ROUGH": {
@@ -1106,7 +1128,11 @@
     "pvp": {
       "damage": 90,
       "energy": 55,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.1
+      }
     }
   },
   "PSYSTRIKE": {
@@ -1136,7 +1162,11 @@
     "pvp": {
       "damage": 60,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "GIGA_DRAIN": {
@@ -2066,7 +2096,11 @@
     "pvp": {
       "damage": 100,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   },
   "DYNAMIC_PUNCH": {
@@ -2156,7 +2190,11 @@
     "pvp": {
       "damage": 100,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   },
   "ZAP_CANNON": {
@@ -2261,7 +2299,11 @@
     "pvp": {
       "damage": 25,
       "energy": 40,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "ROCK_BLAST": {
@@ -2321,7 +2363,12 @@
     "pvp": {
       "damage": 45,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "attackerDefenseStatStageChange": 2,
+        "buffActivationChance": 0.1
+      }
     }
   },
   "ASTONISH_FAST": {
@@ -2441,7 +2488,11 @@
     "pvp": {
       "damage": 130,
       "energy": 55,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   },
   "BULLET_SEED_FAST": {
@@ -2486,7 +2537,11 @@
     "pvp": {
       "damage": 90,
       "energy": 55,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.1
+      }
     }
   },
   "EXTRASENSORY_FAST": {
@@ -2666,7 +2721,11 @@
     "pvp": {
       "damage": 150,
       "energy": 65,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   },
   "DOOM_DESIRE": {
@@ -2711,7 +2770,11 @@
     "pvp": {
       "damage": 70,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   },
   "ORIGIN_PULSE": {
@@ -2921,7 +2984,11 @@
     "pvp": {
       "damage": 130,
       "energy": 75,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": 1,
+        "buffActivationChance": 1
+      }
     }
   },
   "ACID_SPRAY": {
@@ -2936,7 +3003,11 @@
     "pvp": {
       "damage": 20,
       "energy": 50,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   },
   "EARTH_POWER": {
@@ -2951,7 +3022,11 @@
     "pvp": {
       "damage": 90,
       "energy": 55,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.1
+      }
     }
   },
   "CRABHAMMER": {
@@ -2966,7 +3041,11 @@
     "pvp": {
       "damage": 75,
       "energy": 50,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
     }
   },
   "OCTAZOOKA": {
@@ -2981,7 +3060,11 @@
     "pvp": {
       "damage": 50,
       "energy": 50,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -2,
+        "buffActivationChance": 0.5
+      }
     }
   },
   "MIRROR_SHOT": {
@@ -2996,7 +3079,11 @@
     "pvp": {
       "damage": 35,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
     }
   },
   "SUPER_POWER": {
@@ -3011,7 +3098,12 @@
     "pvp": {
       "damage": 85,
       "energy": 40,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": -1,
+        "attackerDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "FELL_STINGER": {
@@ -3026,7 +3118,11 @@
     "pvp": {
       "damage": 20,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
     }
   },
   "LEAF_TORNADO": {
@@ -3041,7 +3137,11 @@
     "pvp": {
       "damage": 45,
       "energy": 40,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -2,
+        "buffActivationChance": 0.5
+      }
     }
   },
   "MUDDY_WATER": {
@@ -3056,7 +3156,11 @@
     "pvp": {
       "damage": 35,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
     }
   },
   "BLAZE_KICK": {
@@ -3086,7 +3190,11 @@
     "pvp": {
       "damage": 20,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
     }
   },
   "CHARM_FAST": {
@@ -3267,6 +3375,40 @@
       "damage": 110,
       "energy": 50,
       "turns": 1
+    }
+  },
+  "FLY": {
+    "name": "Fly",
+    "type": "flying",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 1.8
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "V_CREATE": {
+    "name": "V Create",
+    "type": "fire",
+    "pve": {
+      "damage": 95,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 95,
+      "energy": 40,
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": -3,
+        "buffActivationChance": 1
+      }
     }
   }
 }

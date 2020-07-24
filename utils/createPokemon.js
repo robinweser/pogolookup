@@ -109,12 +109,12 @@ export default function createPokemon(name, ivs = {}) {
       return index / 2 + 1
     },
 
-    getCPRangeAtLevel(level) {
+    getCPRangeAtLevel(level, minIV = 0) {
       return {
         min: createPokemon(name, {
-          attack: 0,
-          defense: 0,
-          stamina: 0,
+          attack: minIV,
+          defense: minIV,
+          stamina: minIV,
         }).getStats(level).cp,
         max: createPokemon(name, {
           attack: 15,

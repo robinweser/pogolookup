@@ -11,7 +11,9 @@
     "start": "next start",
     "export": "next export",
     "deploy": "yarn run version && yarn build && now --prod",
-    "data": "babel-node --presets @babel/env scripts/build-data.js",
+    "pokedex": "babel-node --presets @babel/env scripts/build-data.js",
+    "pvp": "babel-node --presets @babel/env scripts/build-pvp.js",
+    "data": "yarn run pokedex && yarn run pvp",
     "version": "babel-node scripts/build-version.js"
   },
   "dependencies": {

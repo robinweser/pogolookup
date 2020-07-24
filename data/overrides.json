@@ -1,4 +1,35 @@
 {
-  "pokedex": {},
+  "pokedex": {
+    "deoxys": {
+      "mythical": true
+    },
+    "deoxys_defense": {
+      "mythical": true
+    },
+    "deoxys_attack": {
+      "mythical": true
+    },
+    "deoxys_speed": {
+      "mythical": true
+    },
+    "mew": {
+      "mythical": true
+    },
+    "jirachi": {
+      "mythical": true
+    },
+    "celebi": {
+      "mythical": true
+    },
+    "darkrai": {
+      "mythical": true
+    },
+    "victini": {
+      "mythical": true
+    },
+    "genesect": {
+      "mythical": true
+    }
+  },
   "moves": {}
 }

@@ -4,7 +4,7 @@ import moves from '../data/moves.json'
 
 export default function getChargeMoveStats(move, mode, types = []) {
   const { name, type } = moves[move]
-  const { damage, energy } = moves[move][mode]
+  const { damage, energy, buffs } = moves[move][mode]
 
   const hasStab = types.find((t) => t === type)
   const actualDamage = formatDecimal(damage * (hasStab ? 1.2 : 1))
@@ -19,5 +19,6 @@ export default function getChargeMoveStats(move, mode, types = []) {
     energy,
     damagePerEnergy: damage / energy,
     actualDamagePerEnergy: actualDamage / energy,
+    buffs,
   }
 }

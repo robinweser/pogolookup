@@ -8,11 +8,9 @@ import TypeTile from '../components/TypeTile'
 import getImageUrl from '../utils/getImageUrl'
 import AppContext from '../utils/AppContext'
 
-const InfoDisplay = ({ children, name, columnOnMobile }) => (
-  <Box
-    direction={[columnOnMobile ? 'column' : 'row', 'row']}
-    alignItems={[columnOnMobile ? 'flex-start' : 'center', 'center']}>
-    <Box grow={0} basis={[columnOnMobile ? 'auto' : 150, 150]}>
+const InfoDisplay = ({ children, name }) => (
+  <Box direction="row" alignItems="center">
+    <Box grow={0} basis={160}>
       {name}:
     </Box>
     <Box grow={1}>{children}</Box>
@@ -23,8 +21,10 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
   const { theme } = useFela()
   const { focusMode } = useContext(AppContext)
 
-  const raidCatch = pokemon.getCPRangeAtLevel(20)
-  const raidCatchWeatherBoost = pokemon.getCPRangeAtLevel(25)
+  const rocket = pokemon.getCPRangeAtLevel(13, 0)
+  const encounter = pokemon.getCPRangeAtLevel(15, 10)
+  const raidCatch = pokemon.getCPRangeAtLevel(20, 10)
+  const raidCatchWeatherBoost = pokemon.getCPRangeAtLevel(25, 10)
 
   if (focusMode) {
     return (
@@ -50,6 +50,8 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
     )
   }
 
+  const highestStat = Math.max(info.attack, info.defense, info.stamina)
+
   return (
     <Box direction={['column', , 'row']} space={4}>
       <Box order={[3, , -1]} grow={1} shrink={0} basis="70%">
@@ -71,6 +73,13 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
           <InfoDisplay name="Candy Distance">
             {info.candyDistance} km
           </InfoDisplay>
+
+          <InfoDisplay name="Rocket CP Range">
+            {rocket.min} - {rocket.max}
+          </InfoDisplay>
+          <InfoDisplay name="Task CP Range">
+            {encounter.min} - {encounter.max}
+          </InfoDisplay>
           <InfoDisplay name="Raid CP Range">
             {raidCatch.min} - {raidCatch.max}
           </InfoDisplay>
@@ -79,9 +88,9 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
           </InfoDisplay>
 
           <Spacer size={2} />
-          <InfoDisplay name="Base Attack" columnOnMobile>
+          <InfoDisplay name="Base Attack">
             <Box
-              width={info.attack}
+              width={(info.attack / highestStat) * 100 + '%'}
               extend={{
                 backgroundColor: 'rgb(190, 190 ,190)',
                 borderRadius: theme.roundedCorners,
@@ -90,9 +99,9 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
               {info.attack}
             </Box>
           </InfoDisplay>
-          <InfoDisplay name="Base Defense" columnOnMobile>
+          <InfoDisplay name="Base Defense">
             <Box
-              width={info.defense}
+              width={(info.defense / highestStat) * 100 + '%'}
               extend={{
                 backgroundColor: 'rgb(190, 190 ,190)',
                 borderRadius: theme.roundedCorners,
@@ -101,9 +110,9 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
               {info.defense}
             </Box>
           </InfoDisplay>
-          <InfoDisplay name="Base Stamina" columnOnMobile>
+          <InfoDisplay name="Base Stamina">
             <Box
-              width={info.stamina}
+              width={(info.stamina / highestStat) * 100 + '%'}
               extend={{
                 backgroundColor: 'rgb(190, 190 ,190)',
                 borderRadius: theme.roundedCorners,
