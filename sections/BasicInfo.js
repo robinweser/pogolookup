@@ -21,7 +21,7 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
   const { theme } = useFela()
   const { focusMode } = useContext(AppContext)
 
-  const rocket = pokemon.getCPRangeAtLevel(13, 0)
+  const rocket = pokemon.getCPRangeAtLevel(8, 0)
   const encounter = pokemon.getCPRangeAtLevel(15, 10)
   const raidCatch = pokemon.getCPRangeAtLevel(20, 10)
   const raidCatchWeatherBoost = pokemon.getCPRangeAtLevel(25, 10)
