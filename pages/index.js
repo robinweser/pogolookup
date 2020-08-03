@@ -35,6 +35,7 @@ import pokedex from '../data/pokedex.json'
 import createPokemon from '../utils/createPokemon'
 import getImageUrl from '../utils/getImageUrl'
 import getDamage from '../utils/getDamage'
+import { useTranslation } from '../utils/TranslationProvider'
 
 const leagueCap = {
   great: 1500,
@@ -146,6 +147,7 @@ function Bookmark({ info, removeBookmark, setPokemon }) {
 const PokemonInfo = memo(
   (props) => {
     const { theme } = useFela()
+    const { translations } = useTranslation()
     const {
       addBookmark,
       focusMode,
@@ -183,7 +185,7 @@ const PokemonInfo = memo(
           </Section>
         </Box>
         {focusMode ? null : evolutions.length === 0 ? null : (
-          <Section title="Evolutions">
+          <Section title={translations.ui.evolutions}>
             <Evolutions
               evolutions={evolutions}
               level={input.level}
@@ -191,13 +193,13 @@ const PokemonInfo = memo(
             />
           </Section>
         )}
-        <Section title="Type Chart">
+        <Section title={translations.ui.type_chart}>
           <TypeChart typeMultipliers={typeMultipliers} />
         </Section>
-        <Section title="Moves">
+        <Section title={translations.ui.moves}>
           <Moves moves={moves} thirdMove={info.thirdMove} />
         </Section>
-        <Section title="Damage">
+        <Section title={translations.ui.damage}>
           <Damage
             pokemon={pokemon}
             stats={stats}
@@ -207,7 +209,7 @@ const PokemonInfo = memo(
           />
         </Section>
         {focusMode ? null : (
-          <Section title="PVP IV Rating">
+          <Section title={translations.ui.pvp_iv_rating}>
             <Layout>
               <Box
                 paddingTop={1}
@@ -239,9 +241,15 @@ const PokemonInfo = memo(
                     onChange={(e) =>
                       setInput({ ...input, league: e.target.value })
                     }>
-                    <option value="great">Great League</option>
-                    <option value="ultra">Ultra League</option>
-                    <option value="master">Master League</option>
+                    <option value="great">
+                      {translations.ui.great_league}
+                    </option>
+                    <option value="ultra">
+                      {translations.ui.ultra_league}
+                    </option>
+                    <option value="master">
+                      {translations.ui.master_league}
+                    </option>
                   </Box>
                 </Box>
 
@@ -260,7 +268,7 @@ const PokemonInfo = memo(
                       checked={maxLevel === 41}
                       onChange={(e) => setMaxLevel(maxLevel === 40 ? 41 : 40)}
                     />{' '}
-                    Best Buddy
+                    {translations.ui.best_buddy}
                   </label>
                 </Box>
                 <a
@@ -270,7 +278,7 @@ const PokemonInfo = memo(
                   href={`https://pvpoke.com/rankings/all/${
                     leagueCap[input.league]
                   }/overall/${info.ref}/`}>
-                  → Ranking on pvpoke.com
+                  → {translations.ui.ranking_on_pvpoke}pvpoke.com
                 </a>
               </Box>
             </Layout>
@@ -318,6 +326,7 @@ export default function Page() {
   const [showRawDamage, setShowRawDamage] = useState(false)
   const [bookmarks, setBookmarks] = useState([])
   const [input, setInput] = useState(initialInput)
+  const { translations } = useTranslation()
 
   const ivs = {
     attack: input.attack,
@@ -578,7 +587,7 @@ export default function Page() {
                             htmlFor="attack"
                             paddingLeft={1}
                             extend={{ fontSize: 14 }}>
-                            Attack
+                            {translations.ui.attack}
                           </Box>
                           <IVInput
                             name="attack"
@@ -595,7 +604,7 @@ export default function Page() {
                             htmlFor="defense"
                             paddingLeft={1}
                             extend={{ fontSize: 14 }}>
-                            Defense
+                            {translations.ui.defense}
                           </Box>
                           <IVInput
                             name="defense"
@@ -612,7 +621,7 @@ export default function Page() {
                             htmlFor="stamina"
                             paddingLeft={1}
                             extend={{ fontSize: 14 }}>
-                            Stamina
+                            {translations.ui.stamina}
                           </Box>
                           <IVInput
                             name="stamina"
@@ -635,7 +644,7 @@ export default function Page() {
                             htmlFor="level"
                             paddingLeft={1}
                             extend={{ fontSize: 14 }}>
-                            Level
+                            {translations.ui.level}
                           </Box>
                           <Box
                             value={input.level}
@@ -668,7 +677,7 @@ export default function Page() {
                             }>
                             {pokemon._getCpCombinations().map((cp, index) => (
                               <option value={index / 2 + 1}>
-                                {index / 2 + 1} ({cp} CP)
+                                {index / 2 + 1} ({cp} {translations.ui.cp})
                               </option>
                             ))}
                           </Box>
