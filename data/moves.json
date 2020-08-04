@@ -250,7 +250,7 @@
     },
     "pvp": {
       "damage": 110,
-      "energy": 65,
+      "energy": 70,
       "turns": 1
     }
   },
@@ -258,13 +258,13 @@
     "name": "Drill Peck",
     "type": "flying",
     "pve": {
-      "damage": 60,
+      "damage": 65,
       "energy": 33,
       "accuracy": 1,
       "turns": 2.3
     },
     "pvp": {
-      "damage": 60,
+      "damage": 65,
       "energy": 40,
       "turns": 1
     }
@@ -294,7 +294,7 @@
       "turns": 3.1
     },
     "pvp": {
-      "damage": 130,
+      "damage": 140,
       "energy": 75,
       "turns": 1
     }
@@ -857,7 +857,7 @@
       "turns": 1,
       "buffs": {
         "targetAttackStatStageChange": -1,
-        "buffActivationChance": 0.3
+        "buffActivationChance": 0.1
       }
     }
   },
@@ -2079,7 +2079,7 @@
       "turns": 1
     },
     "pvp": {
-      "damage": 4,
+      "damage": 5,
       "energy": 8,
       "turns": 2
     }
@@ -2128,7 +2128,7 @@
       "turns": 3.5
     },
     "pvp": {
-      "damage": 150,
+      "damage": 140,
       "energy": 75,
       "turns": 1
     }
@@ -2261,15 +2261,19 @@
     "name": "Brave Bird",
     "type": "flying",
     "pve": {
-      "damage": 90,
+      "damage": 130,
       "energy": 100,
       "accuracy": 1,
       "turns": 2
     },
     "pvp": {
-      "damage": 90,
+      "damage": 130,
       "energy": 55,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": -3,
+        "buffActivationChance": 1
+      }
     }
   },
   "SKY_ATTACK": {
@@ -2332,7 +2336,7 @@
     },
     "pvp": {
       "damage": 6,
-      "energy": 11,
+      "energy": 12,
       "turns": 3
     }
   },
@@ -2391,13 +2395,13 @@
     "type": "ghost",
     "pve": {
       "damage": 10,
-      "energy": 15,
+      "energy": 16,
       "accuracy": 1,
       "turns": 1.2
     },
     "pvp": {
       "damage": 6,
-      "energy": 11,
+      "energy": 12,
       "turns": 3
     }
   },
@@ -2823,7 +2827,7 @@
     }
   },
   "WEATHER_BALL_FIRE": {
-    "name": "Weather Ball Fire",
+    "name": "Weather Ball",
     "type": "fire",
     "pve": {
       "damage": 60,
@@ -2838,7 +2842,7 @@
     }
   },
   "WEATHER_BALL_ICE": {
-    "name": "Weather Ball Ice",
+    "name": "Weather Ball",
     "type": "ice",
     "pve": {
       "damage": 60,
@@ -2853,7 +2857,7 @@
     }
   },
   "WEATHER_BALL_ROCK": {
-    "name": "Weather Ball Rock",
+    "name": "Weather Ball",
     "type": "normal",
     "pve": {
       "damage": 60,
@@ -2868,7 +2872,7 @@
     }
   },
   "WEATHER_BALL_WATER": {
-    "name": "Weather Ball Water",
+    "name": "Weather Ball",
     "type": "water",
     "pve": {
       "damage": 60,
