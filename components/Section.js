@@ -1,12 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Box } from 'kilvin'
 import { useFela } from 'react-fela'
 
 import Layout from './Layout'
 
+let expandedMap = {}
+
 export default function Section({ children, title }) {
-  const [expanded, setExpanded] = useState(true)
+  if (!expandedMap.hasOwnProperty(title)) {
+    expandedMap[title] = true
+  }
+
   const { theme } = useFela()
+  const [expanded, setExpanded] = useState(expandedMap[title])
+
+  useEffect(() => {
+    expandedMap[title] = expanded
+  }, [expanded])
 
   return (
     <Box space={2}>
