@@ -10,9 +10,10 @@ const createPokemon = require('../utils/createPokemon').default
 const capitalizeString = (str) =>
   str.charAt(0).toUpperCase() + str.substr(1).toLowerCase()
 
-// 'https://github.com/pokemongo-dev-contrib/pokemongo-game-master/blob/master/versions/latest/V2_GAME_MASTER.json'
 const GAME_MASTER_URL =
-  'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/1595879989869/GAME_MASTER.json'
+  'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/latest/V2_GAME_MASTER.json'
+// const GAME_MASTER_URL =
+//   'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/1595879989869/GAME_MASTER.json'
 
 // TODO: Make array
 const forms = {
@@ -126,17 +127,17 @@ let generate = async () => {
 
   const excludePokemon = { V0487_POKEMON_GIRATINA: true }
 
-  const pokemonTemplates = GAME_MASTER.itemTemplate.filter((template) => {
+  const pokemonTemplates = GAME_MASTER.template.filter((template) => {
     return excludePokemon[template.templateId]
       ? false
       : pokemonTemplateIdPattern.test(template.templateId)
   })
 
-  const moveTemplates = GAME_MASTER.itemTemplate.filter((template) => {
+  const moveTemplates = GAME_MASTER.template.filter((template) => {
     return moveTemplateIdPattern.test(template.templateId)
   })
 
-  const pvpMoveTemplates = GAME_MASTER.itemTemplate.filter((template) => {
+  const pvpMoveTemplates = GAME_MASTER.template.filter((template) => {
     return pvpMoveTemplateIdPattern.test(template.templateId)
   })
 
@@ -158,7 +159,7 @@ let generate = async () => {
         stats,
       },
       templateId,
-    } = template
+    } = template.data
 
     const ref = getUsefulForm(form) || uniqueId
     const name = normalizeName(ref)
@@ -192,24 +193,17 @@ let generate = async () => {
   const moveList = {}
   moveTemplates.map((template) => {
     const {
-      move: {
-        power,
-        pokemonType,
-        movementId,
-        energyDelta,
-        accuracyChance,
-        durationMs,
-      },
+      move: { power, type, uniqueId, energyDelta, accuracyChance, durationMs },
       templateId,
-    } = template
+    } = template.data
 
-    moveList[movementId] = {
-      name: movementId
+    moveList[uniqueId] = {
+      name: uniqueId
         .replace('_FAST', '')
         .split('_')
         .map(normalizeName)
         .join(' '),
-      type: pokemonType.substr(13).toLowerCase(),
+      type: type.substr(13).toLowerCase(),
       pve: {
         damage: power || 0,
         energy: Math.abs(energyDelta) || 0,
@@ -222,7 +216,7 @@ let generate = async () => {
   pvpMoveTemplates.map((template) => {
     const {
       combatMove: { power, uniqueId, energyDelta, durationTurns, buffs },
-    } = template
+    } = template.data
 
     moveList[uniqueId].pvp = {
       damage: power || 0,

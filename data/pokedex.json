@@ -170,7 +170,8 @@
     ],
     "eliteQuickMoves": [
       "EMBER_FAST",
-      "WING_ATTACK_FAST"
+      "WING_ATTACK_FAST",
+      "DRAGON_BREATH_FAST"
     ],
     "eliteCinematicMoves": [
       "BLAST_BURN",
@@ -4454,7 +4455,8 @@
       "DRAGON_TAIL_FAST"
     ],
     "eliteCinematicMoves": [
-      "DRAGON_PULSE"
+      "DRAGON_PULSE",
+      "AQUA_TAIL"
     ]
   },
   {
@@ -8791,7 +8793,6 @@
       "HYDRO_PUMP",
       "HURRICANE",
       "BLIZZARD",
-      "WEATHER_BALL_WATER",
       "WEATHER_BALL_WATER"
     ],
     "eliteQuickMoves": [],
@@ -8938,7 +8939,8 @@
       "AIR_CUTTER",
       "OMINOUS_WIND",
       "SILVER_WIND",
-      "BUBBLE_BEAM"
+      "BUBBLE_BEAM",
+      "LUNGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12166,7 +12168,6 @@
       "HYDRO_PUMP",
       "BLIZZARD",
       "FLASH_CANNON",
-      "DRILL_PECK",
       "DRILL_PECK"
     ],
     "eliteQuickMoves": [],
@@ -12906,7 +12907,8 @@
       "BUG_BUZZ",
       "POWER_GEM",
       "X_SCISSOR",
-      "FELL_STINGER"
+      "FELL_STINGER",
+      "SIGNAL_BEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -14180,7 +14182,6 @@
       "BLIZZARD",
       "ENERGY_BALL",
       "OUTRAGE",
-      "WEATHER_BALL_ICE",
       "WEATHER_BALL_ICE"
     ],
     "eliteQuickMoves": [],
@@ -14579,7 +14580,9 @@
       "BLIZZARD"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "TRI_ATTACK"
+    ]
   },
   {
     "name": "Gallade",
@@ -18948,7 +18951,8 @@
       "CROSS_POISON",
       "BUG_BUZZ",
       "DISCHARGE",
-      "ENERGY_BALL"
+      "ENERGY_BALL",
+      "LUNGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -19860,7 +19864,6 @@
       "HEAT_WAVE",
       "BRAVE_BIRD",
       "ROCK_SLIDE",
-      "CLOSE_COMBAT",
       "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],

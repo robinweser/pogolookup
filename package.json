@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
-    "dev": "vercel dev",
+    "dev": "next dev",
     "build": "yarn data && next build",
     "now-build": "yarn run version && yarn build",
     "start": "next start",

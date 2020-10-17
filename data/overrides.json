@@ -30,93 +30,9 @@
     "genesect": {
       "mythical": true
     },
-    "braviary": {
-      "cinematicMoves": ["CLOSE_COMBAT"]
-    },
-    "abomasnow": {
-      "cinematicMoves": ["WEATHER_BALL_ICE"]
-    },
-    "pelipper": {
-      "cinematicMoves": ["WEATHER_BALL_WATER"]
-    },
-    "empoleon": {
-      "cinematicMoves": ["DRILL_PECK"]
+    "charizard": {
+      "eliteQuickMoves": ["DRAGON_BREATH_FAST"]
     }
   },
-  "moves": {
-    "WEATHER_BALL_FIRE": {
-      "name": "Weather Ball"
-    },
-    "WEATHER_BALL_WATER": {
-      "name": "Weather Ball"
-    },
-    "WEATHER_BALL_ICE": {
-      "name": "Weather Ball"
-    },
-    "WEATHER_BALL_ROCK": {
-      "name": "Weather Ball"
-    },
-    "DRILL_PECK": {
-      "pve": {
-        "damage": 65
-      },
-      "pvp": {
-        "damage": 65
-      }
-    },
-    "BRAVE_BIRD": {
-      "pve": {
-        "damage": 130
-      },
-      "pvp": {
-        "damage": 130,
-        "energy": 55,
-        "buffs": {
-          "attackerDefenseStatStageChange": -3,
-          "buffActivationChance": 1
-        }
-      }
-    },
-    "BLIZZARD": {
-      "pvp": {
-        "damage": 140
-      }
-    },
-    "FLASH_CANNON": {
-      "pvp": {
-        "energy": 70
-      }
-    },
-    "FOCUS_BLAST": {
-      "pvp": {
-        "damage": 140
-      }
-    },
-    "MOONBLAST": {
-      "pvp": {
-        "buffs": {
-          "targetAttackStatStageChange": -1,
-          "buffActivationChance": 0.1
-        }
-      }
-    },
-    "INFESTATION_FAST": {
-      "pvp": {
-        "energy": 12
-      }
-    },
-    "HEX_FAST": {
-      "pvp": {
-        "energy": 12
-      },
-      "pve": {
-        "energy": 16
-      }
-    },
-    "POWDER_SNOW_FAST": {
-      "pvp": {
-        "damage": 5
-      }
-    }
-  }
+  "moves": {}
 }

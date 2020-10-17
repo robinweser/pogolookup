@@ -386,7 +386,11 @@
     "pvp": {
       "damage": 90,
       "energy": 60,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
     }
   },
   "POISON_FANG": {
@@ -993,7 +997,12 @@
     "pvp": {
       "damage": 75,
       "energy": 55,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.2
+      }
     }
   },
   "X_SCISSOR": {
@@ -1021,9 +1030,13 @@
       "turns": 3.8
     },
     "pvp": {
-      "damage": 70,
+      "damage": 65,
       "energy": 50,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
     }
   },
   "FLAME_BURST": {
@@ -2827,7 +2840,7 @@
     }
   },
   "WEATHER_BALL_FIRE": {
-    "name": "Weather Ball",
+    "name": "Weather Ball Fire",
     "type": "fire",
     "pve": {
       "damage": 60,
@@ -2842,7 +2855,7 @@
     }
   },
   "WEATHER_BALL_ICE": {
-    "name": "Weather Ball",
+    "name": "Weather Ball Ice",
     "type": "ice",
     "pve": {
       "damage": 60,
@@ -2857,7 +2870,7 @@
     }
   },
   "WEATHER_BALL_ROCK": {
-    "name": "Weather Ball",
+    "name": "Weather Ball Rock",
     "type": "normal",
     "pve": {
       "damage": 60,
@@ -2872,7 +2885,7 @@
     }
   },
   "WEATHER_BALL_WATER": {
-    "name": "Weather Ball",
+    "name": "Weather Ball Water",
     "type": "water",
     "pve": {
       "damage": 60,
@@ -3049,6 +3062,25 @@
       "buffs": {
         "attackerAttackStatStageChange": 2,
         "buffActivationChance": 0.125
+      }
+    }
+  },
+  "LUNGE": {
+    "name": "Lunge",
+    "type": "bug",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.9
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
       }
     }
   },
@@ -3413,6 +3445,41 @@
         "attackerDefenseStatStageChange": -3,
         "buffActivationChance": 1
       }
+    }
+  },
+  "TRI_ATTACK": {
+    "name": "Tri Attack",
+    "type": "normal",
+    "pve": {
+      "damage": 75,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 65,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
+    }
+  },
+  "GUST_FAST": {
+    "name": "Gust",
+    "type": "flying",
+    "pve": {
+      "damage": 25,
+      "energy": 20,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 16,
+      "energy": 12,
+      "turns": 4
     }
   }
 }

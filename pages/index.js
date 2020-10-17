@@ -554,7 +554,9 @@ export default function Page() {
                         setInput({ ...input, name: e.target.value })
                       }>
                       {pokedex.map((poke) => (
-                        <option value={poke.name}>{poke.name}</option>
+                        <option key={poke.name} value={poke.name}>
+                          {poke.name}
+                        </option>
                       ))}
                     </Box>
                   </Box>

@@ -256,7 +256,9 @@ export default function Damage({
                     : undefined,
               }}>
               {pokedex.map((poke) => (
-                <option value={poke.name}>{poke.name}</option>
+                <option key={poke.name} value={poke.name}>
+                  {poke.name}
+                </option>
               ))}
             </SelectInput>
 

@@ -6,11 +6,11 @@ const pokemonList = require('../data/pokedex.json')
 
 const PVPOKE_RANKINGS = {
   great:
-    'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gobattleleague/overall/rankings-1500.json',
+    'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-1500.json',
   ultra:
-    'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gobattleleague/overall/rankings-2500.json',
+    'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-2500.json',
   master:
-    'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gobattleleague/overall/rankings-10000.json',
+    'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-10000.json',
 }
 
 let generate = async () => {
