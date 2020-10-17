@@ -8791,6 +8791,7 @@
       "HYDRO_PUMP",
       "HURRICANE",
       "BLIZZARD",
+      "WEATHER_BALL_WATER",
       "WEATHER_BALL_WATER"
     ],
     "eliteQuickMoves": [],
@@ -12165,6 +12166,7 @@
       "HYDRO_PUMP",
       "BLIZZARD",
       "FLASH_CANNON",
+      "DRILL_PECK",
       "DRILL_PECK"
     ],
     "eliteQuickMoves": [],
@@ -14178,6 +14180,7 @@
       "BLIZZARD",
       "ENERGY_BALL",
       "OUTRAGE",
+      "WEATHER_BALL_ICE",
       "WEATHER_BALL_ICE"
     ],
     "eliteQuickMoves": [],
@@ -19857,6 +19860,7 @@
       "HEAT_WAVE",
       "BRAVE_BIRD",
       "ROCK_SLIDE",
+      "CLOSE_COMBAT",
       "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],

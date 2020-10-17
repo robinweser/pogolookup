@@ -24,6 +24,7 @@ import TypeTile from '../components/TypeTile'
 
 import TypeChart from '../sections/TypeChart'
 import Moves from '../sections/Moves'
+import FastPerCharge from '../sections/FastPerCharge'
 import PVPRankings from '../sections/PVPRankings'
 import BasicInfo from '../sections/BasicInfo'
 import Evolutions from '../sections/Evolutions'
@@ -196,6 +197,9 @@ const PokemonInfo = memo(
         </Section>
         <Section title="Moves">
           <Moves moves={moves} thirdMove={info.thirdMove} />
+        </Section>
+        <Section title="Fast Move Count" initialExpanded={false}>
+          <FastPerCharge moves={moves} />
         </Section>
         <Section title="Damage">
           <Damage

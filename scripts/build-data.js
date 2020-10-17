@@ -10,8 +10,9 @@ const createPokemon = require('../utils/createPokemon').default
 const capitalizeString = (str) =>
   str.charAt(0).toUpperCase() + str.substr(1).toLowerCase()
 
+// 'https://github.com/pokemongo-dev-contrib/pokemongo-game-master/blob/master/versions/latest/V2_GAME_MASTER.json'
 const GAME_MASTER_URL =
-  'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/latest/GAME_MASTER.json'
+  'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/1595879989869/GAME_MASTER.json'
 
 // TODO: Make array
 const forms = {

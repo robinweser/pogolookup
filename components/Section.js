@@ -6,13 +6,15 @@ import Layout from './Layout'
 
 let expandedMap = {}
 
-export default function Section({ children, title }) {
+export default function Section({ children, title, initialExpanded = true }) {
   if (!expandedMap.hasOwnProperty(title)) {
-    expandedMap[title] = true
+    expandedMap[title] = initialExpanded
   }
 
   const { theme } = useFela()
-  const [expanded, setExpanded] = useState(expandedMap[title])
+  const [expanded, setExpanded] = useState(
+    expandedMap[title] || initialExpanded
+  )
 
   useEffect(() => {
     expandedMap[title] = expanded

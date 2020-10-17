@@ -1199,10 +1199,10 @@
   resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.3.1.tgz#d5e12855cbb3d9a9b668fdc133d843a025dbdb6c"
   integrity sha512-4mP4m7cuobjLcjltQzPrv9/b/C/AQR3Q1PwQw/0VLkZTsC8HxCt/gbafXdyDmalDPsp6EEZ6IaHUpuFBz+QBmw==
 
-"@now/next@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@now/next/-/next-2.5.0.tgz#7eae3b8eff71c594d4e6e94342c44d8320aa8005"
-  integrity sha512-nEihnsy1zxXf37dYYF6lOcSKvHMFDJbffUWthXP5lSQhUbaoCXwjdsaf1faiM0Ta230Hb5f0hfua8wBCJpwJOg==
+"@vercel/next@^2.5.0":
+  version "2.6.25"
+  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-2.6.25.tgz#438e114e26edc734e93dd18f47f7ed6962a8340d"
+  integrity sha512-RfHwAhCD/XUpFeN5HNF57By/1yz/xjxdra0QNqDYargbTv7QXpzSyzW8YLnSmozwmN9iiDbamG6VKLKctJLG5A==
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"

@@ -2,5 +2,5 @@
   "version": 2,
   "name": "pogolookup.com",
   "alias": "pogolookup.com",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  "builds": [{ "src": "next.config.js", "use": "@vercel/next" }]
 }
