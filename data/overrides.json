@@ -32,7 +32,30 @@
     },
     "charizard": {
       "eliteQuickMoves": ["DRAGON_BREATH_FAST"]
+    },
+    "marowak_alola": {
+      "eliteCinematicMoves": ["SHADOW_BONE"]
     }
   },
-  "moves": {}
+  "moves": {
+    "SHADOW_BONE": {
+      "name": "Shadow Bone",
+      "type": "ghost",
+      "pve": {
+        "damage": 80,
+        "energy": 50,
+        "accuracy": 1,
+        "turns": 3
+      },
+      "pvp": {
+        "damage": 80,
+        "energy": 45,
+        "turns": 1,
+        "buffs": {
+          "targetAttackStatStageChange": -1,
+          "buffActivationChance": 0.2
+        }
+      }
+    }
+  }
 }

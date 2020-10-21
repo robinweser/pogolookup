@@ -3696,7 +3696,9 @@
       "FLAME_WHEEL"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SHADOW_BONE"
+    ]
   },
   {
     "name": "Hitmonlee",
