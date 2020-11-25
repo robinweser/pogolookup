@@ -248,7 +248,34 @@ const PokemonInfo = memo(
                     <option value="master">Master League</option>
                   </Box>
                 </Box>
-
+                <Box
+                  padding={2}
+                  paddingRight={4}
+                  space={2}
+                  extend={{
+                    alignItems: 'baseline',
+                  }}>
+                  <label htmlFor="level-50" style={{ fontSize: 14 }}>
+                    <input
+                      type="checkbox"
+                      id="level-50"
+                      name="level-50"
+                      checked={maxLevel === 50 || maxLevel === 51}
+                      onChange={(e) =>
+                        setMaxLevel(
+                          maxLevel === 41
+                            ? 51
+                            : maxLevel === 40
+                            ? 50
+                            : maxLevel === 51
+                            ? 41
+                            : 40
+                        )
+                      }
+                    />{' '}
+                    Level 50
+                  </label>
+                </Box>
                 <Box
                   padding={2}
                   paddingRight={4}
@@ -261,12 +288,23 @@ const PokemonInfo = memo(
                       type="checkbox"
                       id="best-buddy"
                       name="best-buddy"
-                      checked={maxLevel === 41}
-                      onChange={(e) => setMaxLevel(maxLevel === 40 ? 41 : 40)}
+                      checked={maxLevel === 41 || maxLevel === 51}
+                      onChange={(e) =>
+                        setMaxLevel(
+                          maxLevel === 40
+                            ? 41
+                            : maxLevel === 50
+                            ? 51
+                            : maxLevel === 41
+                            ? 40
+                            : 50
+                        )
+                      }
                     />{' '}
                     Best Buddy
                   </label>
                 </Box>
+
                 <a
                   rel="noopener"
                   target="_blank"
