@@ -143,23 +143,26 @@ let generate = async () => {
 
   let pokemonList = []
   pokemonTemplates.map((template) => {
+    const templateId = template.data.templateId
+
+    if (!template.data.pokemon) {
+      return
+    }
+
     const {
-      pokemon: {
-        uniqueId,
-        form,
-        evolutionBranch,
-        kmBuddyDistance,
-        type1,
-        type2,
-        quickMoves,
-        cinematicMoves,
-        eliteQuickMove,
-        eliteCinematicMove,
-        thirdMove,
-        stats,
-      },
-      templateId,
-    } = template.data
+      uniqueId,
+      form,
+      evolutionBranch,
+      kmBuddyDistance,
+      type1,
+      type2,
+      quickMoves,
+      cinematicMoves,
+      eliteQuickMove,
+      eliteCinematicMove,
+      thirdMove,
+      stats,
+    } = template.data.pokemon
 
     const ref = getUsefulForm(form) || uniqueId
     const name = normalizeName(ref)

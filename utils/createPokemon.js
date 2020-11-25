@@ -181,7 +181,7 @@ export default function createPokemon(name, ivs = {}) {
     _getCpCombinations() {
       const cps = []
 
-      for (let level = 1; level <= 41; level += 0.5) {
+      for (let level = 1; level <= 51; level += 0.5) {
         cps.push(Math.max(10, poke.getStats(level).cp))
       }
 

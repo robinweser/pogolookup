@@ -17,7 +17,10 @@ const formMap = {
   Speed: 14,
   Origin: 12,
   Zen: 12,
+  Incarnate: 11,
   Therian: 12,
+  White: 12,
+  Black: 13,
   Douse: 12,
   Shock: 13,
   Burn: 14,
@@ -33,9 +36,5 @@ export default function getImageURL(id, name) {
     }
   }
 
-  return `https://images.gameinfo.io/pokemon/256/${padLeft(
-    id.toString(),
-    3,
-    '0'
-  )}-${formId}.png`
+  return `/pokemon/pokemon_icon_${padLeft(id.toString(), 3, '0')}_${formId}.png`
 }
