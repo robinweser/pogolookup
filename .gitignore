@@ -4,3 +4,4 @@ node_modules/
 
 data/_MASTER.json
 .vercel
+.DS_Store

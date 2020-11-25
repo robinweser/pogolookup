@@ -1973,7 +1973,7 @@
     },
     "pvp": {
       "damage": 3,
-      "energy": 6,
+      "energy": 8,
       "turns": 2
     }
   },
@@ -3194,8 +3194,9 @@
       "energy": 45,
       "turns": 1,
       "buffs": {
-        "targetAttackStatStageChange": -1,
-        "buffActivationChance": 0.2
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.2,
+        "targetAttackStatStageChange": -1
       }
     }
   },
@@ -3432,6 +3433,25 @@
       "turns": 1
     }
   },
+  "AEROBLAST": {
+    "name": "Aeroblast",
+    "type": "flying",
+    "pve": {
+      "damage": 180,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.4
+    },
+    "pvp": {
+      "damage": 170,
+      "energy": 75,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
+    }
+  },
   "FLY": {
     "name": "Fly",
     "type": "flying",
@@ -3499,6 +3519,21 @@
       "damage": 16,
       "energy": 12,
       "turns": 4
+    }
+  },
+  "INCINERATE_FAST": {
+    "name": "Incinerate",
+    "type": "fire",
+    "pve": {
+      "damage": 29,
+      "energy": 20,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 15,
+      "energy": 20,
+      "turns": 5
     }
   }
 }
