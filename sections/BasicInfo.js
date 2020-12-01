@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
 
@@ -19,12 +19,15 @@ const InfoDisplay = ({ children, name }) => (
 
 export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
   const { theme } = useFela()
+  const [hover, setHover] = useState(false)
   const { focusMode } = useContext(AppContext)
 
   const rocket = pokemon.getCPRangeAtLevel(8, 0)
   const encounter = pokemon.getCPRangeAtLevel(15, 10)
   const raidCatch = pokemon.getCPRangeAtLevel(20, 10)
   const raidCatchWeatherBoost = pokemon.getCPRangeAtLevel(25, 10)
+
+  const imageUrl = getImageUrl(info.id, info.name, hover)
 
   if (focusMode) {
     return (
@@ -37,7 +40,15 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
             backgroundColor: 'white',
             borderRadius: 8,
           }}>
-          <img height={70} width="auto" src={getImageUrl(info.id, info.name)} />
+          <img
+            height={70}
+            width="auto"
+            src={imageUrl}
+            onMouseEnter={() => {
+              setHover(true)
+            }}
+            onMouseLeave={() => setHover(false)}
+          />
         </Box>
         <Box>
           <h1 style={{ fontSize: 20 }}>{info.name}</h1>
@@ -135,7 +146,11 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
           <img
             height={150}
             width="auto"
-            src={getImageUrl(info.id, info.name)}
+            src={imageUrl}
+            onMouseEnter={() => {
+              setHover(true)
+            }}
+            onMouseLeave={() => setHover(false)}
           />
         </Box>
         <Box

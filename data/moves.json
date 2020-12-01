@@ -3187,7 +3187,7 @@
       "damage": 80,
       "energy": 50,
       "accuracy": 1,
-      "turns": 3
+      "turns": 2.8
     },
     "pvp": {
       "damage": 80,
@@ -3195,8 +3195,7 @@
       "turns": 1,
       "buffs": {
         "targetDefenseStatStageChange": -1,
-        "buffActivationChance": 0.2,
-        "targetAttackStatStageChange": -1
+        "buffActivationChance": 0.2
       }
     }
   },

@@ -17,6 +17,7 @@ const GAME_MASTER_URL =
 
 // TODO: Make array
 const forms = {
+  STANDARD: '',
   ALOLA: '(Alolan)',
   GALARIAN: '(Galarian)',
   ORIGIN: '(Origin)',
@@ -71,6 +72,8 @@ const formMap = {
 const nameReplace = {
   NIDORAN_FEMALE: 'Nidoran ♀',
   NIDORAN_MALE: 'Nidoran ♂',
+  MEOWSTIC: 'Meowstic ♂',
+  MEOWSTIC_FEMALE: 'Meowstic ♀',
   MIME_JR: 'Mime Jr.',
   PORYGON_Z: 'Porygon-Z',
   MR_MIME: 'Mr. Mime',
@@ -87,7 +90,11 @@ const normalizeName = (name) => {
   const newName = name.split('_').map(capitalizeString).join(' ')
 
   return Object.keys(forms).reduce(
-    (n, form) => n.replace(' ' + capitalizeString(form), ' ' + forms[form]),
+    (n, form) =>
+      n.replace(
+        ' ' + capitalizeString(form),
+        forms[form] ? ' ' + forms[form] : ''
+      ),
     newName
   )
 }
@@ -96,7 +103,7 @@ function getUsefulForm(form) {
   if (
     !form ||
     form.match(
-      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|EAST_SEA|WEST_SEA|STRIPED|STANDARD/gi
+      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|COSTUME_2020|EAST_SEA|WEST_SEA|STRIPED/gi
     ) !== null
   ) {
     return undefined
@@ -125,7 +132,20 @@ let generate = async () => {
   let moveTemplateIdPattern = /^V[0-9]{4}_MOVE_[a-zA-Z0-9_]+$/
   let pvpMoveTemplateIdPattern = /^COMBAT_V[0-9]{4}_MOVE_[a-zA-Z0-9_]+$/
 
-  const excludePokemon = { V0487_POKEMON_GIRATINA: true }
+  const excludePokemon = {
+    V0487_POKEMON_GIRATINA: true,
+    V0412_POKEMON_BURMY: true,
+    VO413_POKEMON_BURMADAM: true,
+    V0421_POKEMON_CHERRIM: true,
+    V0492_POKEMON_SHAYMIN: true,
+    V0585_POKEMON_DEERLING: true,
+    V0586_POKEMON_SAWSBUCK: true,
+    V0641_POKEMON_TORNADUS: true,
+    V0642_POKEMON_THUNDURUS: true,
+    V0645_POKEMON_LANDORUS: true,
+    V0647_POKEMON_KELDEO: true,
+    V0648_POKEMON_MELOETTA: true,
+  }
 
   const pokemonTemplates = GAME_MASTER.template.filter((template) => {
     return excludePokemon[template.templateId]

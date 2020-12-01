@@ -727,32 +727,6 @@
       "hp": 97
     }
   },
-  "Pikachu Costume 2020": {
-    "great": {
-      "attack": 12,
-      "defense": 15,
-      "stamina": 12,
-      "level": 40,
-      "cp": 904,
-      "hp": 97
-    },
-    "ultra": {
-      "attack": 12,
-      "defense": 15,
-      "stamina": 12,
-      "level": 40,
-      "cp": 904,
-      "hp": 97
-    },
-    "master": {
-      "attack": 15,
-      "defense": 15,
-      "stamina": 13,
-      "level": 40,
-      "cp": 930,
-      "hp": 97
-    }
-  },
   "Raichu": {
     "great": {
       "attack": 1,
@@ -2081,12 +2055,12 @@
   },
   "Machoke": {
     "great": {
-      "attack": 0,
-      "defense": 9,
-      "stamina": 15,
-      "level": 28.5,
-      "cp": 1492,
-      "hp": 146
+      "attack": 3,
+      "defense": 11,
+      "stamina": 14,
+      "level": 28,
+      "cp": 1498,
+      "hp": 144
     },
     "ultra": {
       "attack": 9,
@@ -2990,32 +2964,6 @@
     }
   },
   "Gengar": {
-    "great": {
-      "attack": 0,
-      "defense": 14,
-      "stamina": 10,
-      "level": 19.5,
-      "cp": 1489,
-      "hp": 97
-    },
-    "ultra": {
-      "attack": 4,
-      "defense": 14,
-      "stamina": 14,
-      "level": 33.5,
-      "cp": 2492,
-      "hp": 127
-    },
-    "master": {
-      "attack": 13,
-      "defense": 14,
-      "stamina": 15,
-      "level": 40,
-      "cp": 2848,
-      "hp": 134
-    }
-  },
-  "Gengar Costume 2020": {
     "great": {
       "attack": 0,
       "defense": 14,
@@ -8605,32 +8553,6 @@
       "hp": 118
     }
   },
-  "Sableye Costume 2020": {
-    "great": {
-      "attack": 14,
-      "defense": 13,
-      "stamina": 13,
-      "level": 40,
-      "cp": 1447,
-      "hp": 118
-    },
-    "ultra": {
-      "attack": 14,
-      "defense": 13,
-      "stamina": 13,
-      "level": 40,
-      "cp": 1447,
-      "hp": 118
-    },
-    "master": {
-      "attack": 15,
-      "defense": 15,
-      "stamina": 13,
-      "level": 40,
-      "cp": 1466,
-      "hp": 118
-    }
-  },
   "Mawile": {
     "great": {
       "attack": 3,
@@ -11621,32 +11543,6 @@
       "hp": 133
     }
   },
-  "Burmy": {
-    "great": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 10,
-      "level": 40,
-      "cp": 472,
-      "hp": 102
-    },
-    "ultra": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 10,
-      "level": 40,
-      "cp": 472,
-      "hp": 102
-    },
-    "master": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 14,
-      "level": 40,
-      "cp": 479,
-      "hp": 105
-    }
-  },
   "Burmy (Plant)": {
     "great": {
       "attack": 14,
@@ -12009,32 +11905,6 @@
       "level": 40,
       "cp": 941,
       "hp": 113
-    }
-  },
-  "Cherrim": {
-    "great": {
-      "attack": 0,
-      "defense": 8,
-      "stamina": 14,
-      "level": 28.5,
-      "cp": 1496,
-      "hp": 132
-    },
-    "ultra": {
-      "attack": 11,
-      "defense": 15,
-      "stamina": 14,
-      "level": 40,
-      "cp": 1998,
-      "hp": 146
-    },
-    "master": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 13,
-      "level": 40,
-      "cp": 2026,
-      "hp": 146
     }
   },
   "Cherrim (Overcast)": {
@@ -14063,32 +13933,6 @@
       "level": 40,
       "cp": 3717,
       "hp": 146
-    }
-  },
-  "Shaymin": {
-    "great": {
-      "attack": 1,
-      "defense": 13,
-      "stamina": 6,
-      "level": 17.5,
-      "cp": 1495,
-      "hp": 129
-    },
-    "ultra": {
-      "attack": 0,
-      "defense": 10,
-      "stamina": 14,
-      "level": 29,
-      "cp": 2492,
-      "hp": 171
-    },
-    "master": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 14,
-      "level": 40,
-      "cp": 3244,
-      "hp": 188
     }
   },
   "Shaymin (Land)": {
@@ -16249,6 +16093,32 @@
       "hp": 194
     }
   },
+  "Darmanitan (Galarian)": {
+    "great": {
+      "attack": 6,
+      "defense": 14,
+      "stamina": 14,
+      "level": 17.5,
+      "cp": 1493,
+      "hp": 138
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 11,
+      "stamina": 13,
+      "level": 30.5,
+      "cp": 2499,
+      "hp": 180
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3081,
+      "hp": 194
+    }
+  },
   "Darmanitan (Galarian) (Zen)": {
     "great": {
       "attack": 3,
@@ -17081,32 +16951,6 @@
       "hp": 149
     }
   },
-  "Deerling": {
-    "great": {
-      "attack": 12,
-      "defense": 14,
-      "stamina": 14,
-      "level": 40,
-      "cp": 1100,
-      "hp": 133
-    },
-    "ultra": {
-      "attack": 12,
-      "defense": 14,
-      "stamina": 14,
-      "level": 40,
-      "cp": 1100,
-      "hp": 133
-    },
-    "master": {
-      "attack": 15,
-      "defense": 13,
-      "stamina": 15,
-      "level": 40,
-      "cp": 1125,
-      "hp": 134
-    }
-  },
   "Deerling (Autumn)": {
     "great": {
       "attack": 12,
@@ -17209,32 +17053,6 @@
       "level": 40,
       "cp": 1125,
       "hp": 134
-    }
-  },
-  "Sawsbuck": {
-    "great": {
-      "attack": 0,
-      "defense": 8,
-      "stamina": 12,
-      "level": 24,
-      "cp": 1495,
-      "hp": 132
-    },
-    "ultra": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 11,
-      "level": 40,
-      "cp": 2381,
-      "hp": 158
-    },
-    "master": {
-      "attack": 15,
-      "defense": 13,
-      "stamina": 15,
-      "level": 40,
-      "cp": 2401,
-      "hp": 162
     }
   },
   "Sawsbuck (Autumn)": {
@@ -18823,32 +18641,6 @@
       "hp": 175
     }
   },
-  "Tornadus": {
-    "great": {
-      "attack": 3,
-      "defense": 14,
-      "stamina": 12,
-      "level": 16.5,
-      "cp": 1494,
-      "hp": 108
-    },
-    "ultra": {
-      "attack": 5,
-      "defense": 15,
-      "stamina": 9,
-      "level": 27.5,
-      "cp": 2497,
-      "hp": 138
-    },
-    "master": {
-      "attack": 15,
-      "defense": 14,
-      "stamina": 14,
-      "level": 40,
-      "cp": 3327,
-      "hp": 159
-    }
-  },
   "Tornadus (Incarnate)": {
     "great": {
       "attack": 3,
@@ -18899,32 +18691,6 @@
       "level": 40,
       "cp": 3177,
       "hp": 160
-    }
-  },
-  "Thundurus": {
-    "great": {
-      "attack": 3,
-      "defense": 14,
-      "stamina": 12,
-      "level": 16.5,
-      "cp": 1494,
-      "hp": 108
-    },
-    "ultra": {
-      "attack": 5,
-      "defense": 15,
-      "stamina": 9,
-      "level": 27.5,
-      "cp": 2497,
-      "hp": 138
-    },
-    "master": {
-      "attack": 15,
-      "defense": 14,
-      "stamina": 14,
-      "level": 40,
-      "cp": 3327,
-      "hp": 159
     }
   },
   "Thundurus (Incarnate)": {
@@ -19028,32 +18794,6 @@
       "stamina": 15,
       "level": 40,
       "cp": 4015,
-      "hp": 173
-    }
-  },
-  "Landorus": {
-    "great": {
-      "attack": 1,
-      "defense": 11,
-      "stamina": 14,
-      "level": 15.5,
-      "cp": 1489,
-      "hp": 115
-    },
-    "ultra": {
-      "attack": 1,
-      "defense": 12,
-      "stamina": 12,
-      "level": 26,
-      "cp": 2494,
-      "hp": 147
-    },
-    "master": {
-      "attack": 14,
-      "defense": 14,
-      "stamina": 15,
-      "level": 40,
-      "cp": 3566,
       "hp": 173
     }
   },
@@ -19187,32 +18927,6 @@
       "hp": 203
     }
   },
-  "Keldeo": {
-    "great": {
-      "attack": 4,
-      "defense": 13,
-      "stamina": 11,
-      "level": 15,
-      "cp": 1500,
-      "hp": 113
-    },
-    "ultra": {
-      "attack": 1,
-      "defense": 5,
-      "stamina": 15,
-      "level": 25.5,
-      "cp": 2494,
-      "hp": 151
-    },
-    "master": {
-      "attack": 12,
-      "defense": 15,
-      "stamina": 15,
-      "level": 40,
-      "cp": 3658,
-      "hp": 177
-    }
-  },
   "Keldeo (Ordinary)": {
     "great": {
       "attack": 4,
@@ -19263,32 +18977,6 @@
       "level": 40,
       "cp": 3658,
       "hp": 177
-    }
-  },
-  "Meloetta": {
-    "great": {
-      "attack": 0,
-      "defense": 2,
-      "stamina": 12,
-      "level": 14.5,
-      "cp": 1500,
-      "hp": 120
-    },
-    "ultra": {
-      "attack": 0,
-      "defense": 3,
-      "stamina": 14,
-      "level": 24,
-      "cp": 2499,
-      "hp": 156
-    },
-    "master": {
-      "attack": 14,
-      "defense": 15,
-      "stamina": 13,
-      "level": 40,
-      "cp": 3940,
-      "hp": 188
     }
   },
   "Meloetta (Aria)": {
@@ -20227,7 +19915,7 @@
       "hp": 135
     }
   },
-  "Meowstic": {
+  "Meowstic ♀": {
     "great": {
       "attack": 1,
       "defense": 10,
@@ -20253,7 +19941,7 @@
       "hp": 151
     }
   },
-  "Meowstic Female": {
+  "Meowstic ♂": {
     "great": {
       "attack": 1,
       "defense": 10,
@@ -20284,7 +19972,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -20292,7 +19980,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -20300,7 +19988,7 @@
       "attack": 0,
       "defense": 0,
       "stamina": 9,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     }
@@ -20310,7 +19998,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -20318,7 +20006,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -20326,7 +20014,7 @@
       "attack": 0,
       "defense": 0,
       "stamina": 9,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     }
@@ -20336,7 +20024,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -20344,7 +20032,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -20352,7 +20040,7 @@
       "attack": 0,
       "defense": 0,
       "stamina": 9,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     }
@@ -21090,7 +20778,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -21098,7 +20786,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -21106,7 +20794,7 @@
       "attack": 0,
       "defense": 0,
       "stamina": 9,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     }
@@ -21116,7 +20804,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -21124,7 +20812,7 @@
       "attack": 0,
       "defense": 3,
       "stamina": 1,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     },
@@ -21132,7 +20820,7 @@
       "attack": 0,
       "defense": 0,
       "stamina": 9,
-      "level": 23,
+      "level": 28,
       "cp": null,
       "hp": null
     }
