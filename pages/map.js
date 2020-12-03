@@ -23,8 +23,10 @@ export default function Map(props) {
       const pokemon = pokedex.find((poke) => parseInt(id) === poke.id)
       const formName = forms[form]
 
+      const purePokemon = pokemon.name.split(' (')[0]
+
       const pokemonWithForm = pokedex.find(
-        (poke) => poke.name === pokemon.name + ' (' + formName + ')'
+        (poke) => poke.name === purePokemon + ' (' + formName + ')'
       )
 
       const pokemonName = pokemonWithForm ? pokemonWithForm.name : pokemon.name
