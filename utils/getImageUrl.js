@@ -11,6 +11,7 @@ const formMap = {
   Obstagoon: 31,
   Rotom: 11,
   Genesect: 11,
+  Kyurem: 11,
   'Meowstic ♀': '01',
 
   Alola: 61,
