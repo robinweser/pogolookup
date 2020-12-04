@@ -12,11 +12,14 @@
     "export": "next export",
     "deploy": "yarn run version && yarn build && vercel --prod",
     "pokedex": "babel-node --presets @babel/env scripts/build-data.js",
+    "assets": "git clone https://github.com/PokeMiners/pogo_assets.git",
+    "images": "cp -a \"pogo_assets/Images/Pokemon - 256x256\" public/pokemon",
     "pvp": "babel-node --presets @babel/env scripts/build-pvp.js",
     "data": "yarn run pokedex && yarn run pvp",
     "version": "babel-node scripts/build-version.js"
   },
   "dependencies": {
+    "capitalize-string": "^0.0.4",
     "fela": "^11.2.0",
     "fela-dom": "^11.2.0",
     "fela-plugin-named-keys": "^11.2.0",
@@ -25,6 +28,7 @@
     "fela-sort-media-query-mobile-first": "^11.2.0",
     "kilvin": "^2.0.9",
     "next": "^9.3.1",
+    "pad-left": "^2.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fela": "^11.2.0"
@@ -37,6 +41,7 @@
     "@vercel/next": "^2.5.0",
     "babel-preset-es2015-node5": "^1.2.0",
     "deepmerge": "^4.2.2",
+    "github-download-directory": "^2.0.0",
     "prettier": "^2.0.2",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"

@@ -13,6 +13,7 @@ import getChargeMoveStats from './getChargeMoveStats'
 
 export default function createPokemon(name, ivs = {}) {
   const pokemon = pokedex.find((pokemon) => pokemon.name === name)
+
   const { attack, defense, stamina } = ivs
 
   const poke = {
@@ -33,6 +34,23 @@ export default function createPokemon(name, ivs = {}) {
 
     _getEvolutions(pokemon) {
       return (pokemon.evolutions || []).map((name) => createPokemon(name, ivs))
+    },
+
+    getPreEvolutions(preEvolutions = []) {
+      const preEvos = poke._getPreEvolutions(pokemon)
+
+      preEvos.forEach((evo) => {
+        preEvolutions.push(evo)
+        evo.getPreEvolutions(preEvolutions)
+      })
+
+      return preEvolutions.reverse()
+    },
+
+    _getPreEvolutions(pokemon) {
+      return (pokemon.preEvolutions || []).map((name) =>
+        createPokemon(name, ivs)
+      )
     },
 
     getTypes() {

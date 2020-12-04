@@ -1,12 +1,13 @@
 import React, { useContext, useState } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
+import padLeft from 'pad-left'
 
 import Layout from '../components/Layout'
 import TypeTile from '../components/TypeTile'
 
-import getImageUrl from '../utils/getImageUrl'
 import AppContext from '../utils/AppContext'
+import getImageUrl from '../utils/getImageUrl'
 
 const InfoDisplay = ({ children, name }) => (
   <Box direction="row" alignItems="center">
@@ -27,19 +28,12 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
   const raidCatch = pokemon.getCPRangeAtLevel(20, 10)
   const raidCatchWeatherBoost = pokemon.getCPRangeAtLevel(25, 10)
 
-  const imageUrl = getImageUrl(info.id, info.name, hover)
+  const imageUrl = getImageUrl(info.assetId, hover)
 
   if (focusMode) {
     return (
       <Box alignItems="center" direction="row" space={3}>
-        <Box
-          alignItems="flex-start"
-          alignSelf="flex-start"
-          extend={{
-            boxShadow: '0 0 0 2px rgba(0,0,0,0.2)',
-            backgroundColor: 'white',
-            borderRadius: 8,
-          }}>
+        <Box alignItems="flex-start" alignSelf="flex-start">
           <img
             height={70}
             width="auto"
@@ -134,15 +128,8 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
           </InfoDisplay>
         </Box>
       </Box>
-      <Box order={[-1, , 3]} space={1}>
-        <Box
-          alignItems="flex-start"
-          alignSelf="flex-start"
-          extend={{
-            boxShadow: '0 0 0 2px rgba(0,0,0,0.2)',
-            backgroundColor: 'white',
-            borderRadius: 8,
-          }}>
+      <Box order={[-1, , 3]}>
+        <Box alignItems="flex-start" alignSelf="flex-start">
           <img
             height={150}
             width="auto"

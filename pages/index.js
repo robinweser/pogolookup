@@ -80,6 +80,7 @@ function createData(pokemon, input, moveType, focusMode, maxLevel) {
   })
 
   const evolutions = pokemon.getEvolutions()
+  const preEvolutions = pokemon.getPreEvolutions()
 
   return {
     info,
@@ -87,6 +88,7 @@ function createData(pokemon, input, moveType, focusMode, maxLevel) {
     moves,
     pvpRankings,
     evolutions,
+    preEvolutions,
     typeMultipliers,
   }
 }
@@ -111,7 +113,7 @@ function Bookmark({ info, removeBookmark, setPokemon }) {
         backgroundColor: theme.colors.types[info.type1].backgroundColor + '33',
       }}>
       <Box alignItems="flex-start" alignSelf="flex-start">
-        <img height={40} width="auto" src={getImageUrl(info.id, info.name)} />
+        <img height={40} width="auto" src={getImageUrl(info.assetId)} />
       </Box>
       <Box grow={1} shrink={1}>
         <p
@@ -165,6 +167,7 @@ const PokemonInfo = memo(
       moves,
       pvpRankings,
       evolutions,
+      preEvolutions,
       typeMultipliers,
     } = createData(pokemon, input, moveType, focusMode, maxLevel)
 
@@ -183,10 +186,13 @@ const PokemonInfo = memo(
             </Layout>
           </Section>
         </Box>
-        {focusMode ? null : evolutions.length === 0 ? null : (
-          <Section title="Evolutions">
+        {focusMode ? null : evolutions.length === 0 &&
+          preEvolutions.length === 0 ? null : (
+          <Section title="Evolution Line">
             <Evolutions
+              pokemon={pokemon}
               evolutions={evolutions}
+              preEvolutions={preEvolutions}
               level={input.level}
               setName={(name) => setInput({ ...input, name })}
             />
@@ -427,7 +433,7 @@ export default function Page() {
 
   const addBookmark = () => {
     if (bookmarks.indexOf(input.name) === -1) {
-      setBookmarks([...bookmarks, input.name])
+      setBookmarks((bookmarks) => [...bookmarks, input.name])
     }
   }
 

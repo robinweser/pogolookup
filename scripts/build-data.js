@@ -1,19 +1,16 @@
 const fs = require('fs')
 const request = require('request-promise')
 const merge = require('deepmerge')
+const capitalizeString = require('capitalize-string')
+const padLeft = require('pad-left')
 
 const overrides = require('../data/overrides.json')
 const types = require('../data/types.json')
 
 const createPokemon = require('../utils/createPokemon').default
 
-const capitalizeString = (str) =>
-  str.charAt(0).toUpperCase() + str.substr(1).toLowerCase()
-
 const GAME_MASTER_URL =
   'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/latest/V2_GAME_MASTER.json'
-// const GAME_MASTER_URL =
-//   'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/1595879989869/GAME_MASTER.json'
 
 // TODO: Make array
 const forms = {
@@ -61,7 +58,7 @@ const forms = {
 }
 
 for (let type in types) {
-  forms[type.toUpperCase()] = '(' + capitalizeString(type) + ')'
+  forms[type.toUpperCase()] = '(' + capitalizeString(type.toLowerCase()) + ')'
 }
 
 const formMap = {
@@ -87,12 +84,12 @@ const normalizeName = (name) => {
     return nameReplace[name]
   }
 
-  const newName = name.split('_').map(capitalizeString).join(' ')
+  const newName = name.toLowerCase().split('_').map(capitalizeString).join(' ')
 
   return Object.keys(forms).reduce(
     (n, form) =>
       n.replace(
-        ' ' + capitalizeString(form),
+        ' ' + capitalizeString(form.toLowerCase()),
         forms[form] ? ' ' + forms[form] : ''
       ),
     newName
@@ -131,6 +128,7 @@ let generate = async () => {
   let pokemonTemplateIdPattern = /^V[0-9]{4}_POKEMON_[a-zA-Z0-9_]+$/
   let moveTemplateIdPattern = /^V[0-9]{4}_MOVE_[a-zA-Z0-9_]+$/
   let pvpMoveTemplateIdPattern = /^COMBAT_V[0-9]{4}_MOVE_[a-zA-Z0-9_]+$/
+  let formTemplateIdPattern = /^FORMS_V[0-9]{4}_POKEMON_[a-zA-Z0-9_]+$/
 
   const excludePokemon = {
     V0487_POKEMON_GIRATINA: true,
@@ -147,19 +145,23 @@ let generate = async () => {
     V0648_POKEMON_MELOETTA: true,
   }
 
-  const pokemonTemplates = GAME_MASTER.template.filter((template) => {
-    return excludePokemon[template.templateId]
+  const pokemonTemplates = GAME_MASTER.template.filter((template) =>
+    excludePokemon[template.templateId]
       ? false
       : pokemonTemplateIdPattern.test(template.templateId)
-  })
+  )
 
-  const moveTemplates = GAME_MASTER.template.filter((template) => {
-    return moveTemplateIdPattern.test(template.templateId)
-  })
+  const moveTemplates = GAME_MASTER.template.filter((template) =>
+    moveTemplateIdPattern.test(template.templateId)
+  )
 
-  const pvpMoveTemplates = GAME_MASTER.template.filter((template) => {
-    return pvpMoveTemplateIdPattern.test(template.templateId)
-  })
+  const pvpMoveTemplates = GAME_MASTER.template.filter((template) =>
+    pvpMoveTemplateIdPattern.test(template.templateId)
+  )
+
+  const formTemplates = GAME_MASTER.template.filter((template) =>
+    formTemplateIdPattern.test(template.templateId)
+  )
 
   let pokemonList = []
   pokemonTemplates.map((template) => {
@@ -186,12 +188,46 @@ let generate = async () => {
 
     const ref = getUsefulForm(form) || uniqueId
     const name = normalizeName(ref)
+    const id = parseInt(templateId.match(/[0-9]{4}/)[0])
+
+    let formId = 0
+    let assetId
+
+    const formData = formTemplates.find(
+      (template) => template.data.formSettings.pokemon === uniqueId
+    )
+
+    if (formData && formData.data && formData.data.formSettings.forms) {
+      const formInfo = formData.data.formSettings.forms.find((f) =>
+        form
+          ? f.form === form
+          : f.form === uniqueId + '_NORMAL' || f.form === uniqueId + '_STANDARD'
+      )
+
+      if (formInfo) {
+        formId = formInfo.assetBundleValue || formInfo.assetBundleSuffix || 0
+
+        if (formInfo.assetBundleSuffix) {
+          assetId = formInfo.assetBundleSuffix
+        }
+      }
+    }
+
+    if (!assetId) {
+      assetId = padLeft(id, 3, '0') + '_' + padLeft(formId, 2, '0')
+    }
+
+    const preEvolutions = pokemonList
+      .filter((poke) => poke.evolutions.indexOf(name) !== -1)
+      .map((poke) => poke.name)
 
     if (!pokemonList.find((p) => p.name === name)) {
       pokemonList.push({
         name,
         ref: ref.toLowerCase(),
-        id: parseInt(templateId.match(/[0-9]{4}/)[0]),
+        id,
+        formId,
+        assetId,
         attack: stats.baseAttack,
         defense: stats.baseDefense,
         stamina: stats.baseStamina,
@@ -202,6 +238,7 @@ let generate = async () => {
                 .map((b) => getUsefulForm(b.form) || b.evolution)
                 .map(normalizeName)
             : [],
+        preEvolutions,
         type1: type1.substr(13).toLowerCase(),
         type2: type2 ? type2.substr(13).toLowerCase() : undefined,
         thirdMove,

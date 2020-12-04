@@ -31,7 +31,7 @@ export default [
     style: {
       fontFamily: 'sans-serif',
       overscrollBehavior: 'none',
-      backgroundColor: 'rgb(240, 240, 240)',
+      backgroundColor: 'rgb(250, 250, 250)',
       overflow: 'auto',
       fontSize: 16,
     },

@@ -2,6 +2,7 @@ node_modules/
 .next
 .vscode
 
+pogo_assets
 data/_MASTER.json
 .vercel
-.DS_Store
+**/.DS_Store
