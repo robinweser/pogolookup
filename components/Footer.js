@@ -45,14 +45,6 @@ export default function Footer() {
 
           <p>
             <br />
-            The images are linked from{' '}
-            <a
-              href="https://images.gameinfo.io/pokemon/"
-              style={{ color: 'white' }}>
-              https://gameinfo.io
-            </a>
-            .
-            <br />
             Huge thanks to the folks from{' '}
             <a href="https://pvpoke.com" style={{ color: 'white' }}>
               pvpoke.com
