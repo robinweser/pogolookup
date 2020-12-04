@@ -141,6 +141,7 @@ export default function Page() {
                     attack: info.attack,
                     defense: info.defense,
                     stamina: info.stamina,
+                    assetId: info.assetId,
                     id: info.id,
                     ref: info.ref,
                   }
