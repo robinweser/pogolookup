@@ -38,6 +38,7 @@ import getImageUrl from '../utils/getImageUrl'
 import getDamage from '../utils/getDamage'
 
 const leagueCap = {
+  little: 500,
   great: 1500,
   ultra: 2500,
   master: 10000,
@@ -249,6 +250,7 @@ const PokemonInfo = memo(
                     onChange={(e) =>
                       setInput({ ...input, league: e.target.value })
                     }>
+                    <option value="little">Little League</option>
                     <option value="great">Great League</option>
                     <option value="ultra">Ultra League</option>
                     <option value="master">Master League</option>
@@ -256,7 +258,7 @@ const PokemonInfo = memo(
                 </Box>
                 <Box
                   padding={2}
-                  paddingRight={4}
+                  paddingRight={0}
                   space={2}
                   extend={{
                     alignItems: 'baseline',
