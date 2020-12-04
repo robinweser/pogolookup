@@ -63,6 +63,8 @@ const formMap = {
   Resolute: 12,
   Aria: 11,
   Pirouette: 12,
+  'West Sea': 11,
+  'East Sea': 12,
 }
 
 export default function Map(props) {

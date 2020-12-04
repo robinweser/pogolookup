@@ -55,6 +55,8 @@ const forms = {
   SHOCK: '(Shock)',
   ORDINARY: '(Ordinary)',
   RESOLUTE: '(Resolute)',
+  'EAST SEA': '(East)',
+  'WEST SEA': '(West)',
 }
 
 for (let type in types) {
@@ -100,7 +102,7 @@ function getUsefulForm(form) {
   if (
     !form ||
     form.match(
-      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|COSTUME_2020|EAST_SEA|WEST_SEA|STRIPED/gi
+      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|COSTUME_2020|STRIPED/gi
     ) !== null
   ) {
     return undefined
@@ -131,6 +133,8 @@ let generate = async () => {
   let formTemplateIdPattern = /^FORMS_V[0-9]{4}_POKEMON_[a-zA-Z0-9_]+$/
 
   const excludePokemon = {
+    V0422_POKEMON_SHELLOS: true,
+    V0423_POKEMON_GASTRODON: true,
     V0487_POKEMON_GIRATINA: true,
     V0412_POKEMON_BURMY: true,
     VO413_POKEMON_BURMADAM: true,
