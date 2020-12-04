@@ -156,6 +156,7 @@ export default function Page() {
                     type1,
                     type2,
                     name,
+                    assetId,
                     attack,
                     defense,
                     stamina,
@@ -184,7 +185,7 @@ export default function Page() {
                           <img
                             height={50}
                             width="auto"
-                            src={getImageUrl(id, name)}
+                            src={getImageUrl(assetId)}
                           />
                         </Box>
                         <Box
