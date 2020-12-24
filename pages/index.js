@@ -50,6 +50,24 @@ const useDebounce = (value, delay) => {
   return debouncedValue
 }
 
+function getPokemonFromParam(param = '') {
+  const [
+    name = 'Bulbasaur',
+    attack = 10,
+    defense = 10,
+    stamina = 10,
+    level = 20,
+  ] = param.split(';')
+
+  return {
+    name: decodeURIComponent(name),
+    attack: parseInt(attack),
+    defense: parseInt(defense),
+    stamina: parseInt(stamina),
+    level: parseInt(level),
+  }
+}
+
 function createData(pokemon, input, moveType, focusMode, maxLevel) {
   const info = pokemon.getInfo()
   const moves = pokemon.getMoves(moveType)
@@ -362,7 +380,7 @@ const initialInput = {
   purified: false,
 }
 
-export default function Page(props) {
+export default function Page(initialPokemon) {
   const { theme } = useFela()
   const [search, setSearch] = useState('')
   const [moveType, setMoveType] = useState('pvp')
@@ -371,7 +389,7 @@ export default function Page(props) {
   const [maxLevel, setMaxLevel] = useState(40)
   const [showRawDamage, setShowRawDamage] = useState(false)
   const [bookmarks, setBookmarks] = useState([])
-  const [input, setInput] = useState(initialInput)
+  const [input, setInput] = useState({ ...initialInput, ...initialPokemon })
 
   const ivs = {
     attack: input.attack,
@@ -383,35 +401,37 @@ export default function Page(props) {
   const searchStr = useDebounce(search, 100)
 
   useEffect(() => {
-    if (window.location.hash) {
-      const [name, ...stats] = window.location.hash.substr(1).split(';')
-      const [attack, defense, stamina, level] = stats.map((s) => parseInt(s))
-
-      setInput({
-        ...input,
-        name: decodeURIComponent(name),
-        attack,
-        defense,
-        stamina,
-        level,
-      })
-    }
-  }, [])
-
-  useEffect(() => {
     if (window.localStorage.hasOwnProperty('pogo_lookup')) {
       setBookmarks(JSON.parse(window.localStorage.getItem('pogo_lookup')))
     }
   }, [])
 
   useEffect(() => {
-    window.location.hash = [
-      input.name,
+    window.onpopstate = () => {
+      // weird browser behaviour dunno what to do
+      const param = window.location.search.substr(3)
+
+      setInput({
+        ...input,
+        ...getPokemonFromParam(decodeURIComponent(param)),
+      })
+    }
+
+    const param = [
+      encodeURIComponent(input.name),
       input.attack,
       input.defense,
       input.stamina,
       input.level,
     ].join(';')
+
+    if (window.location.search.substr(3) !== param) {
+      window.history.pushState(
+        { p: param },
+        '',
+        window.location.origin + '/' + '?p=' + param
+      )
+    }
   }, [input])
 
   useEffect(() => {
@@ -765,20 +785,4 @@ export default function Page(props) {
   )
 }
 
-Page.getInitialProps = ({ query }) => {
-  const [
-    pokemon = 'Bulbasaur',
-    attack = 10,
-    defense = 10,
-    stamina = 10,
-    level = 20,
-  ] = (query.pokemon || '').split(';')
-
-  return {
-    pokemon,
-    attack,
-    defense,
-    stamina,
-    level,
-  }
-}
+Page.getInitialProps = ({ query }) => getPokemonFromParam(query.p)

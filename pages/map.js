@@ -97,10 +97,14 @@ export default function Map(props) {
       }
 
       router.replace(
-        '/#' +
-          encodeURIComponent(pokemon.name) +
-          ';' +
-          [attack, defense, stamina, level].join(';')
+        '/?p=' +
+          [
+            encodeURIComponent(pokemon.name),
+            attack,
+            defense,
+            stamina,
+            level,
+          ].join(';')
       )
     }
   }, [router.query])
