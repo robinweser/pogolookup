@@ -50,7 +50,7 @@ const useDebounce = (value, delay) => {
   return debouncedValue
 }
 
-function getPokemonFromParam(param = '') {
+function getPokemonFromParam(param = 'Bulbasaur;10;10;10;20') {
   const [
     name = 'Bulbasaur',
     attack = 10,
