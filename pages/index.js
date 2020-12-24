@@ -1,12 +1,3 @@
-/*
-TODO:
-- Evolution Item
-- Patreon
-- Crypto / Purified / Lucky
-- Translations (Names / Moves): German, French, Spanish
-- Weather Boosts
-*/
-
 import React, { useState, useEffect, useContext, memo } from 'react'
 import { Box, Spacer } from 'kilvin'
 import { useFela } from 'react-fela'
@@ -153,6 +144,7 @@ const PokemonInfo = memo(
     const {
       addBookmark,
       focusMode,
+      ivRankingMode,
       showRawDamage,
       moveType,
       maxLevel,
@@ -174,20 +166,22 @@ const PokemonInfo = memo(
 
     return (
       <Box space={focusMode ? 6 : 10}>
-        <Box marginTop={focusMode ? -2 : -5}>
-          <Section>
-            <Layout>
-              <BasicInfo
-                ivs={ivs}
-                info={info}
-                stats={stats}
-                pokemon={pokemon}
-                addBookmark={addBookmark}
-              />
-            </Layout>
-          </Section>
-        </Box>
-        {focusMode ? null : evolutions.length === 0 &&
+        {ivRankingMode ? null : (
+          <Box marginTop={focusMode ? -2 : -5}>
+            <Section>
+              <Layout>
+                <BasicInfo
+                  ivs={ivs}
+                  info={info}
+                  stats={stats}
+                  pokemon={pokemon}
+                  addBookmark={addBookmark}
+                />
+              </Layout>
+            </Section>
+          </Box>
+        )}
+        {focusMode || ivRankingMode ? null : evolutions.length === 0 &&
           preEvolutions.length === 0 ? null : (
           <Section title="Evolution Line">
             <Evolutions
@@ -199,24 +193,32 @@ const PokemonInfo = memo(
             />
           </Section>
         )}
-        <Section title="Type Chart">
-          <TypeChart typeMultipliers={typeMultipliers} />
-        </Section>
-        <Section title="Moves">
-          <Moves moves={moves} thirdMove={info.thirdMove} />
-        </Section>
-        <Section title="Fast Move Count" initialExpanded={false}>
-          <FastPerCharge moves={moves} />
-        </Section>
-        <Section title="Damage">
-          <Damage
-            pokemon={pokemon}
-            stats={stats}
-            info={info}
-            level={input.level}
-            setInput={(values) => setInput({ ...input, ...values })}
-          />
-        </Section>
+        {ivRankingMode ? null : (
+          <Section title="Type Chart">
+            <TypeChart typeMultipliers={typeMultipliers} />
+          </Section>
+        )}
+        {ivRankingMode ? null : (
+          <Section title="Moves">
+            <Moves moves={moves} thirdMove={info.thirdMove} />
+          </Section>
+        )}
+        {ivRankingMode ? null : (
+          <Section title="Fast Move Count" initialExpanded={false}>
+            <FastPerCharge moves={moves} />
+          </Section>
+        )}
+        {ivRankingMode ? null : (
+          <Section title="Damage">
+            <Damage
+              pokemon={pokemon}
+              stats={stats}
+              info={info}
+              level={input.level}
+              setInput={(values) => setInput({ ...input, ...values })}
+            />
+          </Section>
+        )}
         {focusMode ? null : (
           <Section title="PVP IV Rating">
             <Layout>
@@ -342,6 +344,7 @@ const PokemonInfo = memo(
     prevProps.input.level === newProps.input.level &&
     prevProps.input.league === newProps.input.league &&
     prevProps.focusMode === newProps.focusMode &&
+    prevProps.ivRankingMode === newProps.ivRankingMode &&
     prevProps.showRawDamage === newProps.showRawDamage &&
     prevProps.moveType === newProps.moveType &&
     prevProps.maxLevel === newProps.maxLevel
@@ -359,11 +362,12 @@ const initialInput = {
   purified: false,
 }
 
-export default function Page() {
+export default function Page(props) {
   const { theme } = useFela()
   const [search, setSearch] = useState('')
   const [moveType, setMoveType] = useState('pvp')
   const [focusMode, setFocusMode] = useState(false)
+  const [ivRankingMode, setIvRankingMode] = useState(false)
   const [maxLevel, setMaxLevel] = useState(40)
   const [showRawDamage, setShowRawDamage] = useState(false)
   const [bookmarks, setBookmarks] = useState([])
@@ -517,6 +521,16 @@ export default function Page() {
               onChange={(e) => setFocusMode(!focusMode)}
             />{' '}
             Battle Mode
+          </label>
+          <label htmlFor="iv-ranking-mode" style={{ fontSize: 14 }}>
+            <input
+              type="checkbox"
+              id="iv-ranking-mode"
+              name="iv-ranking-mode"
+              value={ivRankingMode}
+              onChange={(e) => setIvRankingMode(!ivRankingMode)}
+            />{' '}
+            IV Ranking Mode
           </label>
           <label htmlFor="move-type" style={{ fontSize: 14 }}>
             <input
@@ -736,6 +750,7 @@ export default function Page() {
             addBookmark={addBookmark}
             moveType={moveType}
             focusMode={focusMode}
+            ivRankingMode={ivRankingMode}
             showRawDamage={showRawDamage}
             maxLevel={maxLevel}
             ivs={ivs}
@@ -748,4 +763,22 @@ export default function Page() {
       </Template>
     </AppContext.Provider>
   )
+}
+
+Page.getInitialProps = ({ query }) => {
+  const [
+    pokemon = 'Bulbasaur',
+    attack = 10,
+    defense = 10,
+    stamina = 10,
+    level = 20,
+  ] = (query.pokemon || '').split(';')
+
+  return {
+    pokemon,
+    attack,
+    defense,
+    stamina,
+    level,
+  }
 }

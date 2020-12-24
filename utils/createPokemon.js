@@ -170,7 +170,6 @@ export default function createPokemon(name, ivs = {}) {
       }
 
       const products = []
-
       for (let i = 0; i < combos.length; ++i) {
         const combo = combos[i]
 
@@ -187,7 +186,11 @@ export default function createPokemon(name, ivs = {}) {
 
       const sorted = products.sort((a, b) => {
         if (a.product === b.product) {
-          return a.cp > b.cp ? -1 : 1
+          if (a.attack === b.attack) {
+            return a.cp > b.cp ? -1 : 1
+          }
+
+          return a.attack > b.attack ? -1 : 1
         }
 
         return a.product > b.product ? -1 : 1

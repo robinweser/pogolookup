@@ -57,7 +57,7 @@ function SplitLine() {
       marginBottom={2}
       width={['100%', , 2]}
       height={[2, , 'auto']}
-      extend={{ backgroundColor: 'grey' }}
+      extend={{ backgroundColor: 'rgb(200, 200, 200)' }}
     />
   )
 }

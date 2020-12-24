@@ -117,7 +117,7 @@ export default function PVPRankings({ pvpRankings, ivs, setInput }) {
                     <Box display={['flex', , 'none']} extend={{ fontSize: 10 }}>
                       Percent
                     </Box>
-                    {formatPercent(selected.product / pvpRankings[0].product)}
+                    {selected.alternativeProduct}
                   </Cell>
                 </Box>
                 <Box grow={3} shrink={0} basis={['auto', , 0]} direction="row">
@@ -181,6 +181,7 @@ export default function PVPRankings({ pvpRankings, ivs, setInput }) {
                   attackStat,
                   defenseStat,
                   staminaStat,
+                  alternativeProduct,
                   product,
                   level,
                   cp,
@@ -250,7 +251,7 @@ export default function PVPRankings({ pvpRankings, ivs, setInput }) {
                             extend={{ fontSize: 10 }}>
                             Percent
                           </Box>
-                          {formatPercent(product / pvpRankings[0].product)}
+                          {alternativeProduct}
                         </Cell>
                       </Box>
                       <Box
