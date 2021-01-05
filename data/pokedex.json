@@ -924,6 +924,74 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Pikachu (Winter) 2020",
+    "ref": "pikachu_winter_2020",
+    "id": 25,
+    "formId": "pm0025_00_pgo_winter2020",
+    "assetId": "pm0025_00_pgo_winter2020",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [
+      "PRESENT_FAST"
+    ],
+    "eliteCinematicMoves": [
+      "SURF",
+      "THUNDER"
+    ]
+  },
+  {
+    "name": "Pikachu Adventure Hat 2020",
+    "ref": "pikachu_adventure_hat_2020",
+    "id": 25,
+    "formId": "pm0025_00_pgo_movie2020",
+    "assetId": "pm0025_00_pgo_movie2020",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [
+      "PRESENT_FAST"
+    ],
+    "eliteCinematicMoves": [
+      "SURF",
+      "THUNDER"
+    ]
+  },
+  {
     "name": "Raichu",
     "ref": "raichu",
     "id": 26,
@@ -3213,6 +3281,38 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Slowpoke 2020",
+    "ref": "slowpoke_2020",
+    "id": 79,
+    "formId": "pm0079_00_pgo_2020",
+    "assetId": "pm0079_00_pgo_2020",
+    "attack": 109,
+    "defense": 98,
+    "stamina": 207,
+    "candyDistance": 3,
+    "evolutions": [
+      "Slowbro 2021"
+    ],
+    "preEvolutions": [],
+    "type1": "water",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATER_GUN_FAST",
+      "CONFUSION_FAST"
+    ],
+    "cinematicMoves": [
+      "WATER_PULSE",
+      "PSYSHOCK",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Slowbro",
     "ref": "slowbro",
     "id": 80,
@@ -3225,6 +3325,38 @@
     "evolutions": [],
     "preEvolutions": [
       "Slowpoke"
+    ],
+    "type1": "water",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATER_GUN_FAST",
+      "CONFUSION_FAST"
+    ],
+    "cinematicMoves": [
+      "WATER_PULSE",
+      "PSYCHIC",
+      "ICE_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Slowbro 2021",
+    "ref": "slowbro_2021",
+    "id": 80,
+    "formId": "pm0080_00_pgo_2021",
+    "assetId": "pm0080_00_pgo_2021",
+    "attack": 177,
+    "defense": 180,
+    "stamina": 216,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Slowpoke 2020"
     ],
     "type1": "water",
     "type2": "psychic",
@@ -4811,6 +4943,38 @@
     "eliteQuickMoves": [
       "TACKLE_FAST"
     ],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mr Mime (Galarian)",
+    "ref": "mr_mime_galarian",
+    "id": 122,
+    "formId": 31,
+    "assetId": "122_31",
+    "attack": 183,
+    "defense": 169,
+    "stamina": 137,
+    "candyDistance": 5,
+    "evolutions": [
+      "Mr Rime"
+    ],
+    "preEvolutions": [],
+    "type1": "ice",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "ZEN_HEADBUTT_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "ICE_PUNCH"
+    ],
+    "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
@@ -8218,6 +8382,35 @@
     "id": 225,
     "formId": 0,
     "assetId": "225_00",
+    "attack": 128,
+    "defense": 90,
+    "stamina": 128,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "PRESENT_FAST"
+    ],
+    "cinematicMoves": [
+      "ICE_PUNCH",
+      "ICY_WIND",
+      "AERIAL_ACE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Delibird (Winter) 2020",
+    "ref": "delibird_winter_2020",
+    "id": 225,
+    "formId": "pm0225_00_pgo_winter2020",
+    "assetId": "pm0225_00_pgo_winter2020",
     "attack": 128,
     "defense": 90,
     "stamina": 128,
@@ -22152,6 +22345,35 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Cubchoo (Winter) 2020",
+    "ref": "cubchoo_winter_2020",
+    "id": 613,
+    "formId": "pm0613_00_pgo_winter2020",
+    "assetId": "pm0613_00_pgo_winter2020",
+    "attack": 128,
+    "defense": 74,
+    "stamina": 146,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "ICE_PUNCH",
+      "ICY_WIND",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Beartic",
     "ref": "beartic",
     "id": 614,
@@ -23551,7 +23773,10 @@
       "FLAMETHROWER"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "TECHNO_BLAST_BURN"
+    ],
+    "mythical": true
   },
   {
     "name": "Genesect (Chill)",
@@ -26038,6 +26263,40 @@
       "BRAVE_BIRD",
       "LEAF_BLADE",
       "NIGHT_SLASH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mr Rime",
+    "ref": "mr_rime",
+    "id": 866,
+    "formId": 31,
+    "assetId": "866_31",
+    "attack": 212,
+    "defense": 179,
+    "stamina": 190,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Mr Mime (Galarian)"
+    ],
+    "type1": "ice",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "ZEN_HEADBUTT_FAST",
+      "ICE_SHARD_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "ICE_PUNCH",
+      "ICY_WIND"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
