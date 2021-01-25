@@ -581,7 +581,7 @@
       "turns": 2.7
     },
     "pvp": {
-      "damage": 80,
+      "damage": 75,
       "energy": 45,
       "turns": 1
     }
@@ -1568,7 +1568,7 @@
     },
     "pvp": {
       "damage": 5,
-      "energy": 7,
+      "energy": 8,
       "turns": 2
     }
   },
@@ -1582,7 +1582,7 @@
       "turns": 1
     },
     "pvp": {
-      "damage": 6,
+      "damage": 7,
       "energy": 6,
       "turns": 2
     }
@@ -1672,7 +1672,7 @@
       "turns": 1
     },
     "pvp": {
-      "damage": 11,
+      "damage": 10,
       "energy": 4,
       "turns": 2
     }
@@ -1987,7 +1987,7 @@
       "turns": 1.2
     },
     "pvp": {
-      "damage": 8,
+      "damage": 7,
       "energy": 11,
       "turns": 3
     }
@@ -2299,7 +2299,7 @@
       "turns": 2
     },
     "pvp": {
-      "damage": 80,
+      "damage": 75,
       "energy": 45,
       "turns": 1
     }
@@ -3056,7 +3056,7 @@
       "turns": 1.9
     },
     "pvp": {
-      "damage": 75,
+      "damage": 85,
       "energy": 50,
       "turns": 1,
       "buffs": {
@@ -3190,7 +3190,7 @@
       "turns": 2.8
     },
     "pvp": {
-      "damage": 80,
+      "damage": 75,
       "energy": 45,
       "turns": 1,
       "buffs": {
@@ -3417,6 +3417,21 @@
       "turns": 1
     }
   },
+  "PAYBACK": {
+    "name": "Payback",
+    "type": "dark",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 60,
+      "turns": 1
+    }
+  },
   "ROCK_WRECKER": {
     "name": "Rock Wrecker",
     "type": "rock",
@@ -3449,6 +3464,81 @@
         "attackerAttackStatStageChange": 2,
         "buffActivationChance": 0.125
       }
+    }
+  },
+  "TECHNO_BLAST_NORMAL": {
+    "name": "Techno Blast Normal",
+    "type": "normal",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "TECHNO_BLAST_BURN": {
+    "name": "Techno Blast Burn",
+    "type": "fire",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "TECHNO_BLAST_CHILL": {
+    "name": "Techno Blast Chill",
+    "type": "ice",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "TECHNO_BLAST_WATER": {
+    "name": "Techno Blast Water",
+    "type": "water",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 55,
+      "turns": 1
+    }
+  },
+  "TECHNO_BLAST_SHOCK": {
+    "name": "Techno Blast Shock",
+    "type": "electric",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 55,
+      "turns": 1
     }
   },
   "FLY": {
@@ -3533,21 +3623,6 @@
       "damage": 15,
       "energy": 20,
       "turns": 5
-    }
-  },
-  "TECHNO_BLAST_BURN": {
-    "name": "Techno Blast",
-    "type": "fire",
-    "pve": {
-      "damage": 120,
-      "energy": 100,
-      "accuracy": 1,
-      "turns": 2
-    },
-    "pvp": {
-      "damage": 120,
-      "energy": 55,
-      "turns": 1
     }
   }
 }

@@ -1476,7 +1476,8 @@
     "cinematicMoves": [
       "BODY_SLAM",
       "FLAMETHROWER",
-      "FLAME_CHARGE"
+      "FLAME_CHARGE",
+      "WEATHER_BALL_FIRE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -1507,7 +1508,8 @@
     "cinematicMoves": [
       "DARK_PULSE",
       "ICE_BEAM",
-      "BLIZZARD"
+      "BLIZZARD",
+      "WEATHER_BALL_ICE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -1539,7 +1541,8 @@
       "HEAT_WAVE",
       "OVERHEAT",
       "SOLAR_BEAM",
-      "PSYSHOCK"
+      "PSYSHOCK",
+      "WEATHER_BALL_FIRE"
     ],
     "eliteQuickMoves": [
       "EMBER_FAST"
@@ -1578,7 +1581,8 @@
       "DAZZLING_GLEAM",
       "ICE_BEAM",
       "BLIZZARD",
-      "PSYSHOCK"
+      "PSYSHOCK",
+      "WEATHER_BALL_ICE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -2362,7 +2366,8 @@
     "cinematicMoves": [
       "CLOSE_COMBAT",
       "LOW_SWEEP",
-      "NIGHT_SLASH"
+      "NIGHT_SLASH",
+      "ICE_PUNCH"
     ],
     "eliteQuickMoves": [
       "KARATE_CHOP_FAST"
@@ -2746,7 +2751,8 @@
     ],
     "eliteCinematicMoves": [
       "STONE_EDGE",
-      "SUBMISSION"
+      "SUBMISSION",
+      "PAYBACK"
     ]
   },
   {
@@ -7172,7 +7178,8 @@
     "cinematicMoves": [
       "HYDRO_PUMP",
       "BLIZZARD",
-      "SURF"
+      "SURF",
+      "WEATHER_BALL_WATER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -8689,7 +8696,8 @@
     "cinematicMoves": [
       "SOLAR_BEAM",
       "HYPER_BEAM",
-      "ZAP_CANNON"
+      "ZAP_CANNON",
+      "TRI_ATTACK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12288,7 +12296,9 @@
       "GYRO_BALL",
       "PSYCHIC",
       "EARTHQUAKE",
-      "EARTH_POWER"
+      "EARTH_POWER",
+      "ICE_BEAM",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -13621,7 +13631,9 @@
       "ANCIENT_POWER"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "HURRICANE"
+    ]
   },
   {
     "name": "Jirachi",
@@ -19286,7 +19298,8 @@
     },
     "quickMoves": [
       "METAL_CLAW_FAST",
-      "MUD_SLAP_FAST"
+      "MUD_SLAP_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
       "ROCK_SLIDE",
@@ -23773,9 +23786,7 @@
       "FLAMETHROWER"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": [
-      "TECHNO_BLAST_BURN"
-    ],
+    "eliteCinematicMoves": [],
     "mythical": true
   },
   {

@@ -31,25 +31,8 @@
       "mythical": true
     },
     "genesect_burn": {
-      "mythical": true,
-      "eliteCinematicMoves": ["TECHNO_BLAST_BURN"]
+      "mythical": true
     }
   },
-  "moves": {
-    "TECHNO_BLAST_BURN": {
-      "name": "Techno Blast",
-      "type": "fire",
-      "pve": {
-        "damage": 120,
-        "energy": 100,
-        "accuracy": 1,
-        "turns": 2
-      },
-      "pvp": {
-        "damage": 120,
-        "energy": 55,
-        "turns": 1
-      }
-    }
-  }
+  "moves": {}
 }
