@@ -86,7 +86,7 @@ function createData(pokemon, input, moveType, focusMode, maxLevel) {
   const pvpRankings = pokemon.getPVPRankings({
     CPCap: leagueCap[input.league],
     maxLevel,
-    minIV: info.mythical ? 10 : 0,
+    minIV: info.mythical ? 10 : input.minIV,
   })
 
   const evolutions = pokemon.getEvolutions()
@@ -276,9 +276,50 @@ const PokemonInfo = memo(
                     <option value="master">Master League</option>
                   </Box>
                 </Box>
+                {!info.mythical && (
+                  <Box
+                    alignItems="flex-start"
+                    direction="row"
+                    paddingTop={[1, , 0]}
+                    paddingLeft={[0, , 1]}>
+                    <Box
+                      value={input.minIV}
+                      as="select"
+                      paddingTop={1}
+                      paddingBottom={1}
+                      paddingRight={3}
+                      paddingLeft={3}
+                      extend={{
+                        fontSize: 18,
+                        width: 180,
+                        borderRadius: theme.roundedCorners,
+                        backgroundColor: 'white',
+                        appearance: 'none',
+                        border: '1px solid rgb(170, 170, 170)',
+                        backgroundSize: '12px 12px',
+                        backgroundPosition: 'right 10px center',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundImage:
+                          'url("data:image/svg+xml;base64,' + icon + '")',
+                      }}
+                      onChange={(e) =>
+                        setInput({ ...input, minIV: parseInt(e.target.value) })
+                      }>
+                      <option value="0">Wild Catch</option>
+                      <option value="1">Good Friend</option>
+                      <option value="2">Great Friend</option>
+                      <option value="3">Ultra Friend</option>
+                      <option value="4">Wild Catch (Weather-boost)</option>
+                      <option value="5">Best Friend</option>
+                      <option value="10">Raid/Egg/Research</option>
+                      <option value="12">Lucky Trade</option>
+                    </Box>
+                  </Box>
+                )}
                 <Box
                   padding={2}
                   paddingRight={0}
+                  paddingBottom={[0, , 2]}
                   space={2}
                   extend={{
                     alignItems: 'baseline',
@@ -306,7 +347,7 @@ const PokemonInfo = memo(
                 </Box>
                 <Box
                   padding={2}
-                  paddingRight={4}
+                  paddingRight={2}
                   space={2}
                   extend={{
                     alignItems: 'baseline',
@@ -361,6 +402,7 @@ const PokemonInfo = memo(
     prevProps.input.stamina === newProps.input.stamina &&
     prevProps.input.level === newProps.input.level &&
     prevProps.input.league === newProps.input.league &&
+    prevProps.input.minIV === newProps.input.minIV &&
     prevProps.focusMode === newProps.focusMode &&
     prevProps.ivRankingMode === newProps.ivRankingMode &&
     prevProps.showRawDamage === newProps.showRawDamage &&
@@ -387,6 +429,7 @@ export default function Page(initialPokemon) {
   const [focusMode, setFocusMode] = useState(false)
   const [ivRankingMode, setIvRankingMode] = useState(false)
   const [maxLevel, setMaxLevel] = useState(40)
+  const [minIV, setMinIV] = useState(0)
   const [showRawDamage, setShowRawDamage] = useState(false)
   const [bookmarks, setBookmarks] = useState([])
   const [input, setInput] = useState({ ...initialInput, ...initialPokemon })
@@ -777,6 +820,8 @@ export default function Page(initialPokemon) {
             input={input}
             setInput={setInput}
             setMaxLevel={setMaxLevel}
+            minIV={minIV}
+            setMinIV={setMinIV}
             pokemon={pokemon}
           />
         </Box>

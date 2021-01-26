@@ -51,10 +51,14 @@ export default function PVPRankings({ pvpRankings, ivs, setInput }) {
     <Box>
       <Layout>
         {selected ? null : (
-          <Box paddingBottom={2}>
+          <Box
+            paddingBottom={3}
+            paddingTop={1}
+            extend={{ color: theme.colors.types.fighting.backgroundColor }}>
             You entered impossible IV values for that specific Pokemon.
           </Box>
         )}
+
         <Box>
           <Box
             display={['none', , 'flex']}
@@ -289,6 +293,11 @@ export default function PVPRankings({ pvpRankings, ivs, setInput }) {
                 )
             )}
         </Box>
+        {selected && (
+          <Box paddingTop={4} extend={{ color: 'rgb(50, 50, 50)' }}>
+            {pvpRankings.length} possible combinations.
+          </Box>
+        )}
       </Layout>
     </Box>
   )
