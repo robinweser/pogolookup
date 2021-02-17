@@ -24334,7 +24334,9 @@
       "FLAME_CHARGE",
       "HURRICANE"
     ],
-    "eliteQuickMoves": [],
+    "eliteQuickMoves": [
+      "INCINERATE_FAST"
+    ],
     "eliteCinematicMoves": []
   },
   {
