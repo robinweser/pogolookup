@@ -13,7 +13,7 @@
     "deploy": "yarn run version && yarn build && vercel --prod",
     "pokedex": "babel-node --presets @babel/env scripts/build-data.js",
     "assets": "git clone https://github.com/PokeMiners/pogo_assets.git",
-    "images": "cp -a \"pogo_assets/Images/Pokemon - 256x256\" public/pokemon",
+    "images": "cp -a \"pogo_assets/Images/Pokemon - 256x256/\" public/pokemon",
     "pvp": "babel-node --presets @babel/env scripts/build-pvp.js",
     "data": "yarn run pokedex && yarn run pvp",
     "version": "babel-node scripts/build-version.js"

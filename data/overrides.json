@@ -32,9 +32,6 @@
     },
     "genesect_burn": {
       "mythical": true
-    },
-    "talonflame": {
-      "eliteQuickMoves": ["INCINERATE_FAST"]
     }
   },
   "moves": {}
