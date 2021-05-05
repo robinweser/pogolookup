@@ -32,6 +32,16 @@
     },
     "genesect_burn": {
       "mythical": true
+    },
+    "xerneas": {
+      "attack": 250,
+      "defense": 185,
+      "stamina": 246
+    },
+    "yveltal": {
+      "attack": 250,
+      "defense": 185,
+      "stamina": 246
     }
   },
   "moves": {}

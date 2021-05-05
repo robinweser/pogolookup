@@ -21166,18 +21166,18 @@
   "Xerneas": {
     "great": {
       "attack": 5,
-      "defense": 15,
-      "stamina": 15,
-      "level": 12,
-      "cp": 1494,
+      "defense": 14,
+      "stamina": 12,
+      "level": 14.5,
+      "cp": 1495,
       "hp": 131
     },
     "ultra": {
-      "attack": 4,
-      "defense": 9,
-      "stamina": 13,
-      "level": 20.5,
-      "cp": 2499,
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 24.5,
+      "cp": 2493,
       "hp": 171
     },
     "master": {
@@ -21185,25 +21185,25 @@
       "defense": 13,
       "stamina": 15,
       "level": 40,
-      "cp": 4493,
-      "hp": 225
+      "cp": 3762,
+      "hp": 206
     }
   },
   "Yveltal": {
     "great": {
       "attack": 5,
-      "defense": 15,
-      "stamina": 15,
-      "level": 12,
-      "cp": 1494,
+      "defense": 14,
+      "stamina": 12,
+      "level": 14.5,
+      "cp": 1495,
       "hp": 131
     },
     "ultra": {
-      "attack": 4,
-      "defense": 9,
-      "stamina": 13,
-      "level": 20.5,
-      "cp": 2499,
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 24.5,
+      "cp": 2493,
       "hp": 171
     },
     "master": {
@@ -21211,8 +21211,8 @@
       "defense": 13,
       "stamina": 15,
       "level": 40,
-      "cp": 4493,
-      "hp": 225
+      "cp": 3762,
+      "hp": 206
     }
   },
   "Meltan": {
