@@ -27,7 +27,7 @@
     "fela-preset-web": "^11.2.0",
     "fela-sort-media-query-mobile-first": "^11.2.0",
     "kilvin": "^2.0.9",
-    "next": "^9.3.1",
+    "next": "^11.1.0",
     "pad-left": "^2.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
