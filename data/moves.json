@@ -405,7 +405,11 @@
     "pvp": {
       "damage": 40,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "NIGHT_SLASH": {
@@ -890,9 +894,13 @@
       "turns": 1.5
     },
     "pvp": {
-      "damage": 40,
+      "damage": 50,
       "energy": 35,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
     }
   },
   "SLUDGE_BOMB": {
@@ -1807,7 +1815,7 @@
       "turns": 0.8
     },
     "pvp": {
-      "damage": 6,
+      "damage": 7,
       "energy": 7,
       "turns": 2
     }
@@ -1973,7 +1981,7 @@
     },
     "pvp": {
       "damage": 3,
-      "energy": 8,
+      "energy": 9,
       "turns": 2
     }
   },
@@ -2141,7 +2149,7 @@
       "turns": 3.5
     },
     "pvp": {
-      "damage": 140,
+      "damage": 150,
       "energy": 75,
       "turns": 1
     }
@@ -2235,8 +2243,8 @@
       "turns": 1.1
     },
     "pvp": {
-      "damage": 9,
-      "energy": 10,
+      "damage": 13,
+      "energy": 9,
       "turns": 3
     }
   },
@@ -2871,7 +2879,7 @@
   },
   "WEATHER_BALL_ROCK": {
     "name": "Weather Ball Rock",
-    "type": "normal",
+    "type": "rock",
     "pve": {
       "damage": 60,
       "energy": 33,
@@ -3019,7 +3027,7 @@
     },
     "pvp": {
       "damage": 20,
-      "energy": 50,
+      "energy": 45,
       "turns": 1,
       "buffs": {
         "targetDefenseStatStageChange": -2,
@@ -3575,6 +3583,25 @@
       }
     }
   },
+  "LEAF_STORM": {
+    "name": "Leaf Storm",
+    "type": "grass",
+    "pve": {
+      "damage": 130,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 55,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": -2,
+        "buffActivationChance": 1
+      }
+    }
+  },
   "TRI_ATTACK": {
     "name": "Tri Attack",
     "type": "normal",
@@ -3623,6 +3650,25 @@
       "damage": 15,
       "energy": 20,
       "turns": 5
+    }
+  },
+  "FEATHER_DANCE": {
+    "name": "Feather Dance",
+    "type": "flying",
+    "pve": {
+      "damage": 35,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.8
+    },
+    "pvp": {
+      "damage": 35,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -2,
+        "buffActivationChance": 1
+      }
     }
   }
 }

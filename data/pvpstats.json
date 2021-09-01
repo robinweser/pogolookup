@@ -2573,6 +2573,32 @@
       "hp": 175
     }
   },
+  "Slowpoke (Galarian)": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1188,
+      "hp": 173
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1188,
+      "hp": 173
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1211,
+      "hp": 175
+    }
+  },
   "Slowpoke 2020": {
     "great": {
       "attack": 12,
@@ -2623,6 +2649,32 @@
       "level": 40,
       "cp": 2534,
       "hp": 180
+    }
+  },
+  "Slowbro (Galarian)": {
+    "great": {
+      "attack": 3,
+      "defense": 15,
+      "stamina": 11,
+      "level": 23,
+      "cp": 1495,
+      "hp": 145
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2403,
+      "hp": 180
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2432,
+      "hp": 181
     }
   },
   "Slowbro 2021": {
@@ -5950,6 +6002,32 @@
       "stamina": 13,
       "level": 40,
       "cp": 2534,
+      "hp": 180
+    }
+  },
+  "Slowking (Galarian)": {
+    "great": {
+      "attack": 2,
+      "defense": 9,
+      "stamina": 14,
+      "level": 21,
+      "cp": 1500,
+      "hp": 140
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 13,
+      "stamina": 12,
+      "level": 39.5,
+      "cp": 2497,
+      "hp": 179
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2705,
       "hp": 180
     }
   },
@@ -20123,6 +20201,266 @@
       "hp": 154
     }
   },
+  "Furfrou Dandy": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Debutante": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Diamond": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Heart": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Kabuki": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou La Reine": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Matron": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Natural": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Pharaoh": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
+  "Furfrou Star": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 14,
+      "level": 27,
+      "cp": 1494,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 2084,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2093,
+      "hp": 154
+    }
+  },
   "Espurr": {
     "great": {
       "attack": 15,
@@ -21009,54 +21347,54 @@
   },
   "Pumpkaboo": {
     "great": {
-      "attack": 0,
-      "defense": 3,
-      "stamina": 1,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 13,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1191,
+      "hp": 117
     },
     "ultra": {
-      "attack": 0,
-      "defense": 3,
-      "stamina": 1,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 13,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1191,
+      "hp": 117
     },
     "master": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 9,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1213,
+      "hp": 116
     }
   },
   "Gourgeist": {
     "great": {
       "attack": 0,
-      "defense": 3,
-      "stamina": 1,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "defense": 15,
+      "stamina": 10,
+      "level": 24,
+      "cp": 1488,
+      "hp": 113
     },
     "ultra": {
-      "attack": 0,
-      "defense": 3,
-      "stamina": 1,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 14,
+      "defense": 12,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2355,
+      "hp": 139
     },
     "master": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 9,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 15,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2371,
+      "hp": 139
     }
   },
   "Bergmite": {
@@ -21213,6 +21551,32 @@
       "level": 40,
       "cp": 3762,
       "hp": 206
+    }
+  },
+  "Zygarde": {
+    "great": {
+      "attack": 0,
+      "defense": 3,
+      "stamina": 1,
+      "level": 28,
+      "cp": null,
+      "hp": null
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 3,
+      "stamina": 1,
+      "level": 28,
+      "cp": null,
+      "hp": null
+    },
+    "master": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 9,
+      "level": 28,
+      "cp": null,
+      "hp": null
     }
   },
   "Meltan": {
