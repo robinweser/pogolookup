@@ -99,7 +99,7 @@
       "turns": 2.2
     },
     "pvp": {
-      "damage": 100,
+      "damage": 110,
       "energy": 55,
       "turns": 1
     }
@@ -378,13 +378,13 @@
     "name": "Bug Buzz",
     "type": "bug",
     "pve": {
-      "damage": 90,
+      "damage": 100,
       "energy": 50,
       "accuracy": 1,
       "turns": 3.7
     },
     "pvp": {
-      "damage": 90,
+      "damage": 100,
       "energy": 60,
       "turns": 1,
       "buffs": {
@@ -572,7 +572,11 @@
     "pvp": {
       "damage": 70,
       "energy": 60,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "ROCK_SLIDE": {
@@ -704,13 +708,13 @@
     "name": "Parabolic Charge",
     "type": "electric",
     "pve": {
-      "damage": 25,
+      "damage": 65,
       "energy": 50,
       "accuracy": 1,
       "turns": 2.8
     },
     "pvp": {
-      "damage": 25,
+      "damage": 65,
       "energy": 55,
       "turns": 1
     }
@@ -1118,8 +1122,12 @@
     },
     "pvp": {
       "damage": 80,
-      "energy": 60,
-      "turns": 1
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
     }
   },
   "HYDRO_PUMP": {
@@ -1785,7 +1793,7 @@
       "turns": 0.6
     },
     "pvp": {
-      "damage": 5,
+      "damage": 4,
       "energy": 4,
       "turns": 2
     }
@@ -2230,7 +2238,11 @@
     "pvp": {
       "damage": 150,
       "energy": 80,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "DRAGON_TAIL_FAST": {
@@ -2656,7 +2668,11 @@
     "pvp": {
       "damage": 70,
       "energy": 45,
-      "turns": 1
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
     }
   },
   "FOUL_PLAY": {
@@ -2851,13 +2867,13 @@
     "name": "Weather Ball Fire",
     "type": "fire",
     "pve": {
-      "damage": 60,
+      "damage": 55,
       "energy": 33,
       "accuracy": 1,
       "turns": 1.6
     },
     "pvp": {
-      "damage": 60,
+      "damage": 55,
       "energy": 35,
       "turns": 1
     }
@@ -2866,13 +2882,13 @@
     "name": "Weather Ball Ice",
     "type": "ice",
     "pve": {
-      "damage": 60,
+      "damage": 55,
       "energy": 33,
       "accuracy": 1,
       "turns": 1.6
     },
     "pvp": {
-      "damage": 60,
+      "damage": 55,
       "energy": 35,
       "turns": 1
     }
@@ -2881,13 +2897,13 @@
     "name": "Weather Ball Rock",
     "type": "rock",
     "pve": {
-      "damage": 60,
+      "damage": 55,
       "energy": 33,
       "accuracy": 1,
       "turns": 1.6
     },
     "pvp": {
-      "damage": 60,
+      "damage": 55,
       "energy": 35,
       "turns": 1
     }
@@ -2896,13 +2912,13 @@
     "name": "Weather Ball Water",
     "type": "water",
     "pve": {
-      "damage": 60,
+      "damage": 55,
       "energy": 33,
       "accuracy": 1,
       "turns": 1.6
     },
     "pvp": {
-      "damage": 60,
+      "damage": 55,
       "energy": 35,
       "turns": 1
     }
@@ -3239,6 +3255,25 @@
       "damage": 55,
       "energy": 40,
       "turns": 1
+    }
+  },
+  "RAZOR_SHELL": {
+    "name": "Razor Shell",
+    "type": "water",
+    "pve": {
+      "damage": 45,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.3
+    },
+    "pvp": {
+      "damage": 35,
+      "energy": 35,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
     }
   },
   "POWER_UP_PUNCH": {
@@ -3663,12 +3698,186 @@
     },
     "pvp": {
       "damage": 35,
-      "energy": 45,
+      "energy": 50,
       "turns": 1,
       "buffs": {
         "targetAttackStatStageChange": -2,
         "buffActivationChance": 1
       }
+    }
+  },
+  "WEATHER_BALL_NORMAL": {
+    "name": "Weather Ball Normal",
+    "type": "normal",
+    "pve": {
+      "damage": 55,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 55,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "PSYCHIC_FANGS": {
+    "name": "Psychic Fangs",
+    "type": "psychic",
+    "pve": {
+      "damage": 30,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.2
+    },
+    "pvp": {
+      "damage": 40,
+      "energy": 35,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "MAGICAL_LEAF_FAST": {
+    "name": "Magical Leaf",
+    "type": "grass",
+    "pve": {
+      "damage": 16,
+      "energy": 16,
+      "accuracy": 1,
+      "turns": 1.4
+    },
+    "pvp": {
+      "damage": 10,
+      "energy": 10,
+      "turns": 3
+    }
+  },
+  "SACRED_FIRE": {
+    "name": "Sacred Fire",
+    "type": "fire",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 65,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
+    }
+  },
+  "ICICLE_SPEAR": {
+    "name": "Icicle Spear",
+    "type": "ice",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 35,
+      "turns": 1
+    }
+  },
+  "AEROBLAST_PLUS": {
+    "name": "Aeroblast Plus",
+    "type": "flying",
+    "pve": {
+      "damage": 200,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.4
+    },
+    "pvp": {
+      "damage": 170,
+      "energy": 75,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
+    }
+  },
+  "AEROBLAST_PLUS_PLUS": {
+    "name": "Aeroblast Plus Plus",
+    "type": "flying",
+    "pve": {
+      "damage": 225,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.4
+    },
+    "pvp": {
+      "damage": 170,
+      "energy": 75,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
+    }
+  },
+  "SACRED_FIRE_PLUS": {
+    "name": "Sacred Fire Plus",
+    "type": "fire",
+    "pve": {
+      "damage": 135,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 65,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
+    }
+  },
+  "SACRED_FIRE_PLUS_PLUS": {
+    "name": "Sacred Fire Plus Plus",
+    "type": "fire",
+    "pve": {
+      "damage": 155,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.6
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 65,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
+    }
+  },
+  "ACROBATICS": {
+    "name": "Acrobatics",
+    "type": "flying",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 60,
+      "turns": 1
     }
   }
 }

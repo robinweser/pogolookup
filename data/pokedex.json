@@ -896,6 +896,38 @@
     ]
   },
   {
+    "name": "Pikachu (Flying) 5th Anniv",
+    "ref": "pikachu_flying_5th_anniv",
+    "id": 25,
+    "formId": "pm0025_00_pgo_5thanniversary",
+    "assetId": "pm0025_00_pgo_5thanniversary",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE",
+      "FLY"
+    ],
+    "eliteQuickMoves": [
+      "PRESENT_FAST"
+    ],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Pikachu (Libre)",
     "ref": "pikachu_libre",
     "id": 25,
@@ -918,6 +950,35 @@
     ],
     "cinematicMoves": [
       "FLYING_PRESS",
+      "THUNDER_PUNCH",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pikachu (Rock) Star",
+    "ref": "pikachu_rock_star",
+    "id": 25,
+    "formId": "pm0025_00_pgo_rockstar",
+    "assetId": "pm0025_00_pgo_rockstar",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "METEOR_MASH",
       "THUNDER_PUNCH",
       "PLAY_ROUGH"
     ],
@@ -991,6 +1052,64 @@
       "SURF",
       "THUNDER"
     ]
+  },
+  {
+    "name": "Pikachu Kariyushi",
+    "ref": "pikachu_kariyushi",
+    "id": 25,
+    "formId": "pm0025_00_pikachu_pgo_kariyushi",
+    "assetId": "pm0025_00_pikachu_pgo_kariyushi",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pikachu Pop Star",
+    "ref": "pikachu_pop_star",
+    "id": 25,
+    "formId": "pm0025_00_pgo_popstar",
+    "assetId": "pm0025_00_pgo_popstar",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAINING_KISS",
+      "THUNDER_PUNCH",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
   },
   {
     "name": "Raichu",
@@ -1379,7 +1498,8 @@
       "EARTHQUAKE",
       "SLUDGE_WAVE",
       "MEGAHORN",
-      "EARTH_POWER"
+      "EARTH_POWER",
+      "SAND_TOMB"
     ],
     "eliteQuickMoves": [
       "FURY_CUTTER_FAST"
@@ -2544,7 +2664,8 @@
       "HYDRO_PUMP",
       "DYNAMIC_PUNCH",
       "ICE_PUNCH",
-      "POWER_UP_PUNCH"
+      "POWER_UP_PUNCH",
+      "SCALD"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -3301,7 +3422,8 @@
     "stamina": 207,
     "candyDistance": 3,
     "evolutions": [
-      "Slowbro (Galarian)"
+      "Slowbro (Galarian)",
+      "Slowking (Galarian)"
     ],
     "preEvolutions": [],
     "type1": "psychic",
@@ -3332,7 +3454,8 @@
     "stamina": 207,
     "candyDistance": 3,
     "evolutions": [
-      "Slowbro 2021"
+      "Slowbro 2021",
+      "Slowking 2022"
     ],
     "preEvolutions": [],
     "type1": "water",
@@ -4233,6 +4356,38 @@
     ]
   },
   {
+    "name": "Voltorb Hisuian",
+    "ref": "voltorb_hisuian",
+    "id": 100,
+    "formId": 0,
+    "assetId": "100_00",
+    "attack": 109,
+    "defense": 111,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Electrode Hisuian"
+    ],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "CHARGE_BEAM_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "SWIFT",
+      "THUNDERBOLT",
+      "ENERGY_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Electrode",
     "ref": "electrode",
     "id": 101,
@@ -4264,6 +4419,38 @@
     "eliteQuickMoves": [
       "TACKLE_FAST"
     ],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Electrode Hisuian",
+    "ref": "electrode_hisuian",
+    "id": 101,
+    "formId": 0,
+    "assetId": "101_00",
+    "attack": 176,
+    "defense": 176,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Voltorb Hisuian"
+    ],
+    "type1": "electric",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "SWIFT",
+      "WILD_CHARGE",
+      "ENERGY_BALL"
+    ],
+    "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
@@ -5473,7 +5660,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "LAST_RESORT"
+      "LAST_RESORT",
+      "SCALD"
     ]
   },
   {
@@ -5506,7 +5694,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "LAST_RESORT"
+      "LAST_RESORT",
+      "ZAP_CANNON"
     ]
   },
   {
@@ -5540,7 +5729,8 @@
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
       "LAST_RESORT",
-      "HEAT_WAVE"
+      "HEAT_WAVE",
+      "SUPER_POWER"
     ]
   },
   {
@@ -6534,7 +6724,8 @@
     "cinematicMoves": [
       "PSYCHIC",
       "SKY_ATTACK",
-      "NIGHT_SHADE"
+      "NIGHT_SHADE",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7218,7 +7409,8 @@
     "cinematicMoves": [
       "STONE_EDGE",
       "EARTHQUAKE",
-      "ROCK_SLIDE"
+      "ROCK_SLIDE",
+      "ROCK_TOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7354,7 +7546,9 @@
       "AERIAL_ACE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "ACROBATICS"
+    ]
   },
   {
     "name": "Aipom",
@@ -7577,7 +7771,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "LAST_RESORT"
+      "LAST_RESORT",
+      "SHADOW_BALL"
     ]
   },
   {
@@ -7609,7 +7804,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "LAST_RESORT"
+      "LAST_RESORT",
+      "PSYCHIC"
     ]
   },
   {
@@ -7687,7 +7883,9 @@
     "stamina": 216,
     "candyDistance": 3,
     "evolutions": [],
-    "preEvolutions": [],
+    "preEvolutions": [
+      "Slowpoke (Galarian)"
+    ],
     "type1": "poison",
     "type2": "psychic",
     "thirdMove": {
@@ -7703,6 +7901,38 @@
       "FUTURESIGHT",
       "SHADOW_BALL",
       "SLUDGE_WAVE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Slowking 2022",
+    "ref": "slowking_2022",
+    "id": 199,
+    "formId": 0,
+    "assetId": "199_00",
+    "attack": 177,
+    "defense": 180,
+    "stamina": 216,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Slowpoke 2020"
+    ],
+    "type1": "water",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATER_GUN_FAST",
+      "CONFUSION_FAST"
+    ],
+    "cinematicMoves": [
+      "BLIZZARD",
+      "PSYCHIC",
+      "FIRE_BLAST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8163,7 +8393,8 @@
     "cinematicMoves": [
       "MEGAHORN",
       "CLOSE_COMBAT",
-      "EARTHQUAKE"
+      "EARTHQUAKE",
+      "ROCK_BLAST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8316,12 +8547,14 @@
     },
     "quickMoves": [
       "EMBER_FAST",
-      "ROCK_THROW_FAST"
+      "ROCK_THROW_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
       "HEAT_WAVE",
       "OVERHEAT",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "ROCK_TOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8474,7 +8707,8 @@
     },
     "quickMoves": [
       "WATER_GUN_FAST",
-      "MUD_SHOT_FAST"
+      "MUD_SHOT_FAST",
+      "LOCK_ON_FAST"
     ],
     "cinematicMoves": [
       "GUNK_SHOT",
@@ -8765,7 +8999,8 @@
     "cinematicMoves": [
       "EARTHQUAKE",
       "HEAVY_SLAM",
-      "PLAY_ROUGH"
+      "PLAY_ROUGH",
+      "BODY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -9110,6 +9345,36 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Raikou S",
+    "ref": "raikou_s",
+    "id": 243,
+    "formId": 0,
+    "assetId": "243_00",
+    "attack": 241,
+    "defense": 195,
+    "stamina": 207,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "VOLT_SWITCH_FAST"
+    ],
+    "cinematicMoves": [
+      "THUNDER",
+      "THUNDERBOLT",
+      "WILD_CHARGE",
+      "SHADOW_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Entei",
     "ref": "entei",
     "id": 244,
@@ -9141,8 +9406,72 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Entei S",
+    "ref": "entei_s",
+    "id": 244,
+    "formId": 0,
+    "assetId": "244_00",
+    "attack": 235,
+    "defense": 171,
+    "stamina": 251,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "FIRE_SPIN_FAST",
+      "FIRE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "FLAMETHROWER",
+      "FIRE_BLAST",
+      "OVERHEAT",
+      "IRON_HEAD",
+      "FLAME_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Suicune",
     "ref": "suicune",
+    "id": 245,
+    "formId": 0,
+    "assetId": "245_00",
+    "attack": 180,
+    "defense": 235,
+    "stamina": 225,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "EXTRASENSORY_FAST",
+      "SNARL_FAST",
+      "ICE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "HYDRO_PUMP",
+      "BUBBLE_BEAM",
+      "WATER_PULSE",
+      "ICE_BEAM"
+    ],
+    "eliteQuickMoves": [
+      "HIDDEN_POWER_FAST"
+    ],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Suicune S",
+    "ref": "suicune_s",
     "id": 245,
     "formId": 0,
     "assetId": "245_00",
@@ -9306,6 +9635,73 @@
     ]
   },
   {
+    "name": "Lugia S",
+    "ref": "lugia_s",
+    "id": 249,
+    "formId": 0,
+    "assetId": "249_00",
+    "attack": 193,
+    "defense": 310,
+    "stamina": 235,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "EXTRASENSORY_FAST",
+      "DRAGON_TAIL_FAST"
+    ],
+    "cinematicMoves": [
+      "SKY_ATTACK",
+      "HYDRO_PUMP",
+      "FUTURESIGHT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": [
+      "AEROBLAST"
+    ]
+  },
+  {
+    "name": "Ho Oh S",
+    "ref": "ho_oh_s",
+    "id": 250,
+    "formId": 0,
+    "assetId": "250_00",
+    "attack": 239,
+    "defense": 244,
+    "stamina": 214,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fire",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "EXTRASENSORY_FAST",
+      "STEEL_WING_FAST",
+      "HIDDEN_POWER_FAST",
+      "INCINERATE_FAST"
+    ],
+    "cinematicMoves": [
+      "BRAVE_BIRD",
+      "FIRE_BLAST",
+      "SOLAR_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": [
+      "EARTHQUAKE",
+      "SACRED_FIRE"
+    ]
+  },
+  {
     "name": "Ho-Oh",
     "ref": "ho_oh",
     "id": 250,
@@ -9336,7 +9732,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "EARTHQUAKE"
+      "EARTHQUAKE",
+      "SACRED_FIRE"
     ]
   },
   {
@@ -9368,7 +9765,9 @@
       "SEED_BOMB",
       "LEAF_STORM"
     ],
-    "eliteQuickMoves": [],
+    "eliteQuickMoves": [
+      "MAGICAL_LEAF_FAST"
+    ],
     "eliteCinematicMoves": [],
     "mythical": true
   },
@@ -11179,7 +11578,8 @@
     "cinematicMoves": [
       "BODY_SLAM",
       "ROCK_SLIDE",
-      "HEAVY_SLAM"
+      "HEAVY_SLAM",
+      "ROCK_TOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -11212,7 +11612,8 @@
     "cinematicMoves": [
       "THUNDER",
       "STONE_EDGE",
-      "HEAVY_SLAM"
+      "HEAVY_SLAM",
+      "ROCK_TOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -11334,12 +11735,14 @@
     },
     "quickMoves": [
       "SNARL_FAST",
-      "CHARGE_BEAM_FAST"
+      "CHARGE_BEAM_FAST",
+      "THUNDER_FANG_FAST"
     ],
     "cinematicMoves": [
       "THUNDER",
       "WILD_CHARGE",
-      "FLAME_BURST"
+      "FLAME_BURST",
+      "OVERHEAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12407,7 +12810,8 @@
       "EARTHQUAKE",
       "EARTH_POWER",
       "ICE_BEAM",
-      "SHADOW_BALL"
+      "SHADOW_BALL",
+      "ROCK_TOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -13151,8 +13555,12 @@
       "EARTHQUAKE",
       "WATER_PULSE"
     ],
-    "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteQuickMoves": [
+      "POWDER_SNOW_FAST"
+    ],
+    "eliteCinematicMoves": [
+      "ICICLE_SPEAR"
+    ]
   },
   {
     "name": "Clamperl",
@@ -13530,7 +13938,9 @@
       "FOCUS_BLAST"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "EARTHQUAKE"
+    ]
   },
   {
     "name": "Regice",
@@ -13560,7 +13970,9 @@
       "FOCUS_BLAST"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "THUNDER"
+    ]
   },
   {
     "name": "Registeel",
@@ -13590,7 +14002,9 @@
       "FOCUS_BLAST"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "ZAP_CANNON"
+    ]
   },
   {
     "name": "Latias",
@@ -14319,7 +14733,12 @@
       "GRASS_KNOT"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SHADOW_BALL",
+      "THUNDERBOLT",
+      "ICE_BEAM",
+      "SUPER_POWER"
+    ]
   },
   {
     "name": "Bibarel",
@@ -14507,7 +14926,9 @@
       "CRUNCH"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "PSYCHIC_FANGS"
+    ]
   },
   {
     "name": "Budew",
@@ -16839,7 +17260,9 @@
       "LEAF_BLADE",
       "ENERGY_BALL"
     ],
-    "eliteQuickMoves": [],
+    "eliteQuickMoves": [
+      "BULLET_SEED_FAST"
+    ],
     "eliteCinematicMoves": [
       "LAST_RESORT"
     ]
@@ -16874,7 +17297,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "LAST_RESORT"
+      "LAST_RESORT",
+      "WATER_PULSE"
     ]
   },
   {
@@ -17075,7 +17499,9 @@
       "DARK_PULSE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SHADOW_BALL"
+    ]
   },
   {
     "name": "Froslass",
@@ -17673,7 +18099,9 @@
       "DARK_PULSE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": [],
+    "eliteCinematicMoves": [
+      "SLUDGE_BOMB"
+    ],
     "mythical": true
   },
   {
@@ -18482,7 +18910,9 @@
       "FLAME_CHARGE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "BLAST_BURN"
+    ]
   },
   {
     "name": "Oshawott",
@@ -18574,10 +19004,13 @@
     "cinematicMoves": [
       "HYDRO_PUMP",
       "BLIZZARD",
-      "MEGAHORN"
+      "MEGAHORN",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "HYDRO_CANNON"
+    ]
   },
   {
     "name": "Patrat",
@@ -20620,7 +21053,8 @@
     },
     "quickMoves": [
       "ASTONISH_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "SHADOW_CLAW_FAST"
     ],
     "cinematicMoves": [
       "SHADOW_BALL",
@@ -23357,7 +23791,9 @@
       "ROCK_SLIDE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SACRED_SWORD"
+    ]
   },
   {
     "name": "Virizion",
@@ -23387,7 +23823,9 @@
       "STONE_EDGE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SACRED_SWORD"
+    ]
   },
   {
     "name": "Tornadus (Incarnate)",
@@ -24669,7 +25107,162 @@
     "stamina": 127,
     "candyDistance": 3,
     "evolutions": [
-      "Floette"
+      "Floette Red"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Flabebe (White)",
+    "ref": "flabebe_white",
+    "id": 669,
+    "formId": 0,
+    "assetId": "669_00",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127,
+    "candyDistance": 3,
+    "evolutions": [
+      "Floette (White)"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Flabebe Blue",
+    "ref": "flabebe_blue",
+    "id": 669,
+    "formId": 0,
+    "assetId": "669_00",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127,
+    "candyDistance": 3,
+    "evolutions": [
+      "Floette Blue"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Flabebe Orange",
+    "ref": "flabebe_orange",
+    "id": 669,
+    "formId": 0,
+    "assetId": "669_00",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127,
+    "candyDistance": 3,
+    "evolutions": [
+      "Floette Orange"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Flabebe Red",
+    "ref": "flabebe_red",
+    "id": 669,
+    "formId": 0,
+    "assetId": "669_00",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127,
+    "candyDistance": 3,
+    "evolutions": [
+      "Floette Red"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Flabebe Yellow",
+    "ref": "flabebe_yellow",
+    "id": 669,
+    "formId": 0,
+    "assetId": "669_00",
+    "attack": 108,
+    "defense": 120,
+    "stamina": 127,
+    "candyDistance": 3,
+    "evolutions": [
+      "Floette Yellow"
     ],
     "preEvolutions": [],
     "type1": "fairy",
@@ -24700,10 +25293,174 @@
     "stamina": 144,
     "candyDistance": 3,
     "evolutions": [
-      "Florges"
+      "Florges Red"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Floette (White)",
+    "ref": "floette_white",
+    "id": 670,
+    "formId": 0,
+    "assetId": "670_00",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144,
+    "candyDistance": 3,
+    "evolutions": [
+      "Florges (White)"
     ],
     "preEvolutions": [
-      "Flabebe"
+      "Flabebe (White)"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Floette Blue",
+    "ref": "floette_blue",
+    "id": 670,
+    "formId": 0,
+    "assetId": "670_00",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144,
+    "candyDistance": 3,
+    "evolutions": [
+      "Florges Blue"
+    ],
+    "preEvolutions": [
+      "Flabebe Blue"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Floette Orange",
+    "ref": "floette_orange",
+    "id": 670,
+    "formId": 0,
+    "assetId": "670_00",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144,
+    "candyDistance": 3,
+    "evolutions": [
+      "Florges Orange"
+    ],
+    "preEvolutions": [
+      "Flabebe Orange"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Floette Red",
+    "ref": "floette_red",
+    "id": 670,
+    "formId": 0,
+    "assetId": "670_00",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144,
+    "candyDistance": 3,
+    "evolutions": [
+      "Florges Red"
+    ],
+    "preEvolutions": [
+      "Flabebe",
+      "Flabebe Red"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PETAL_BLIZZARD",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Floette Yellow",
+    "ref": "floette_yellow",
+    "id": 670,
+    "formId": 0,
+    "assetId": "670_00",
+    "attack": 136,
+    "defense": 151,
+    "stamina": 144,
+    "candyDistance": 3,
+    "evolutions": [
+      "Florges Yellow"
+    ],
+    "preEvolutions": [
+      "Flabebe Yellow"
     ],
     "type1": "fairy",
     "thirdMove": {
@@ -24733,8 +25490,172 @@
     "stamina": 186,
     "candyDistance": 3,
     "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "PSYCHIC",
+      "DISARMING_VOICE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Florges (White)",
+    "ref": "florges_white",
+    "id": 671,
+    "formId": 0,
+    "assetId": "671_00",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [],
     "preEvolutions": [
-      "Floette"
+      "Floette (White)"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "PSYCHIC",
+      "DISARMING_VOICE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Florges Blue",
+    "ref": "florges_blue",
+    "id": 671,
+    "formId": 0,
+    "assetId": "671_00",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Floette Blue"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "PSYCHIC",
+      "DISARMING_VOICE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Florges Orange",
+    "ref": "florges_orange",
+    "id": 671,
+    "formId": 0,
+    "assetId": "671_00",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Floette Orange"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "PSYCHIC",
+      "DISARMING_VOICE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Florges Red",
+    "ref": "florges_red",
+    "id": 671,
+    "formId": 0,
+    "assetId": "671_00",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Floette",
+      "Floette Red"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "TACKLE_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "PSYCHIC",
+      "DISARMING_VOICE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Florges Yellow",
+    "ref": "florges_yellow",
+    "id": 671,
+    "formId": 0,
+    "assetId": "671_00",
+    "attack": 212,
+    "defense": 244,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Floette Yellow"
     ],
     "type1": "fairy",
     "thirdMove": {
@@ -25805,7 +26726,7 @@
     "cinematicMoves": [
       "PARABOLIC_CHARGE",
       "BULLDOZE",
-      "DISCHARGE"
+      "THUNDERBOLT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -26008,7 +26929,8 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
-      "LAST_RESORT"
+      "LAST_RESORT",
+      "PSYSHOCK"
     ]
   },
   {
@@ -26066,7 +26988,6 @@
       "THUNDER_SHOCK_FAST"
     ],
     "cinematicMoves": [
-      "PARABOLIC_CHARGE",
       "DISCHARGE",
       "PLAY_ROUGH"
     ],
@@ -26301,12 +27222,12 @@
     "id": 710,
     "formId": 0,
     "assetId": "710_00",
-    "attack": 121,
-    "defense": 123,
-    "stamina": 135,
+    "attack": 122,
+    "defense": 124,
+    "stamina": 127,
     "candyDistance": 5,
     "evolutions": [
-      "Gourgeist"
+      "Gourgeist Small"
     ],
     "preEvolutions": [],
     "type1": "ghost",
@@ -26322,8 +27243,135 @@
     "cinematicMoves": [
       "GRASS_KNOT",
       "SHADOW_SNEAK",
-      "FOUL_PLAY",
-      "EARTHQUAKE"
+      "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pumpkaboo Average",
+    "ref": "pumpkaboo_average",
+    "id": 710,
+    "formId": 1,
+    "assetId": "710_01",
+    "attack": 121,
+    "defense": 123,
+    "stamina": 135,
+    "candyDistance": 5,
+    "evolutions": [
+      "Gourgeist Average"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "GRASS_KNOT",
+      "SHADOW_SNEAK",
+      "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pumpkaboo Large",
+    "ref": "pumpkaboo_large",
+    "id": 710,
+    "formId": 2,
+    "assetId": "710_02",
+    "attack": 120,
+    "defense": 122,
+    "stamina": 144,
+    "candyDistance": 5,
+    "evolutions": [
+      "Gourgeist Large"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "GRASS_KNOT",
+      "SHADOW_SNEAK",
+      "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pumpkaboo Small",
+    "ref": "pumpkaboo_small",
+    "id": 710,
+    "formId": 0,
+    "assetId": "710_00",
+    "attack": 122,
+    "defense": 124,
+    "stamina": 127,
+    "candyDistance": 5,
+    "evolutions": [
+      "Gourgeist Small"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "GRASS_KNOT",
+      "SHADOW_SNEAK",
+      "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pumpkaboo Super",
+    "ref": "pumpkaboo_super",
+    "id": 710,
+    "formId": 3,
+    "assetId": "710_03",
+    "attack": 118,
+    "defense": 120,
+    "stamina": 153,
+    "candyDistance": 5,
+    "evolutions": [
+      "Gourgeist Super"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "GRASS_KNOT",
+      "SHADOW_SNEAK",
+      "FOUL_PLAY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -26334,13 +27382,144 @@
     "id": 711,
     "formId": 0,
     "assetId": "711_00",
+    "attack": 171,
+    "defense": 219,
+    "stamina": 146,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "HEX_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SEED_BOMB",
+      "SHADOW_BALL",
+      "FOUL_PLAY",
+      "FIRE_BLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Gourgeist Average",
+    "ref": "gourgeist_average",
+    "id": 711,
+    "formId": 1,
+    "assetId": "711_01",
     "attack": 175,
     "defense": 213,
     "stamina": 163,
     "candyDistance": 5,
     "evolutions": [],
     "preEvolutions": [
-      "Pumpkaboo"
+      "Pumpkaboo Average"
+    ],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "HEX_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SEED_BOMB",
+      "SHADOW_BALL",
+      "FOUL_PLAY",
+      "FIRE_BLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Gourgeist Large",
+    "ref": "gourgeist_large",
+    "id": 711,
+    "formId": 2,
+    "assetId": "711_02",
+    "attack": 179,
+    "defense": 206,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Pumpkaboo Large"
+    ],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "HEX_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SEED_BOMB",
+      "SHADOW_BALL",
+      "FOUL_PLAY",
+      "FIRE_BLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Gourgeist Small",
+    "ref": "gourgeist_small",
+    "id": 711,
+    "formId": 0,
+    "assetId": "711_00",
+    "attack": 171,
+    "defense": 219,
+    "stamina": 146,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Pumpkaboo",
+      "Pumpkaboo Small"
+    ],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "HEX_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SEED_BOMB",
+      "SHADOW_BALL",
+      "FOUL_PLAY",
+      "FIRE_BLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Gourgeist Super",
+    "ref": "gourgeist_super",
+    "id": 711,
+    "formId": 3,
+    "assetId": "711_03",
+    "attack": 182,
+    "defense": 200,
+    "stamina": 198,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Pumpkaboo Super"
     ],
     "type1": "ghost",
     "type2": "grass",
@@ -26585,6 +27764,3572 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Diancie",
+    "ref": "diancie",
+    "id": 719,
+    "formId": 0,
+    "assetId": "719_00",
+    "attack": 190,
+    "defense": 285,
+    "stamina": 137,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ROCK_THROW_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_SLIDE",
+      "MOONBLAST",
+      "POWER_GEM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hoopa",
+    "ref": "hoopa",
+    "id": 720,
+    "formId": 0,
+    "assetId": "720_00",
+    "attack": 261,
+    "defense": 187,
+    "stamina": 173,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "ASTONISH_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "PSYBEAM",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hoopa Confined",
+    "ref": "hoopa_confined",
+    "id": 720,
+    "formId": 0,
+    "assetId": "720_00",
+    "attack": 261,
+    "defense": 187,
+    "stamina": 173,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "ASTONISH_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "PSYBEAM",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hoopa Unbound",
+    "ref": "hoopa_unbound",
+    "id": 720,
+    "formId": 1,
+    "assetId": "720_01",
+    "attack": 311,
+    "defense": 191,
+    "stamina": 173,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "ASTONISH_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Volcanion",
+    "ref": "volcanion",
+    "id": 721,
+    "formId": 0,
+    "assetId": "721_00",
+    "attack": 252,
+    "defense": 216,
+    "stamina": 190,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fire",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "INCINERATE_FAST",
+      "WATER_GUN_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "HYDRO_PUMP",
+      "OVERHEAT",
+      "EARTH_POWER",
+      "SLUDGE_BOMB"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Rowlet",
+    "ref": "rowlet",
+    "id": 722,
+    "formId": 0,
+    "assetId": "722_00",
+    "attack": 102,
+    "defense": 99,
+    "stamina": 169,
+    "candyDistance": 3,
+    "evolutions": [
+      "Dartrix"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SEED_BOMB",
+      "ENERGY_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dartrix",
+    "ref": "dartrix",
+    "id": 723,
+    "formId": 0,
+    "assetId": "723_00",
+    "attack": 142,
+    "defense": 139,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [
+      "Decidueye"
+    ],
+    "preEvolutions": [
+      "Rowlet"
+    ],
+    "type1": "grass",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Decidueye",
+    "ref": "decidueye",
+    "id": 724,
+    "formId": 0,
+    "assetId": "724_00",
+    "attack": 210,
+    "defense": 179,
+    "stamina": 186,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Dartrix"
+    ],
+    "type1": "grass",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_SNEAK",
+      "ENERGY_BALL",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Litten",
+    "ref": "litten",
+    "id": 725,
+    "formId": 0,
+    "assetId": "725_00",
+    "attack": 128,
+    "defense": 79,
+    "stamina": 128,
+    "candyDistance": 3,
+    "evolutions": [
+      "Torracat"
+    ],
+    "preEvolutions": [],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SCRATCH_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "FLAMETHROWER",
+      "FLAME_CHARGE",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Torracat",
+    "ref": "torracat",
+    "id": 726,
+    "formId": 0,
+    "assetId": "726_00",
+    "attack": 174,
+    "defense": 103,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [
+      "Incineroar"
+    ],
+    "preEvolutions": [
+      "Litten"
+    ],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BITE_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "FLAMETHROWER",
+      "FLAME_CHARGE",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Incineroar",
+    "ref": "incineroar",
+    "id": 727,
+    "formId": 0,
+    "assetId": "727_00",
+    "attack": 214,
+    "defense": 175,
+    "stamina": 216,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Torracat"
+    ],
+    "type1": "fire",
+    "type2": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SNARL_FAST",
+      "FIRE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "FIRE_BLAST",
+      "FLAME_CHARGE",
+      "DARK_PULSE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Popplio",
+    "ref": "popplio",
+    "id": 728,
+    "formId": 0,
+    "assetId": "728_00",
+    "attack": 120,
+    "defense": 103,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Brionne"
+    ],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "POUND_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "AQUA_JET",
+      "WATER_PULSE",
+      "AQUA_TAIL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Brionne",
+    "ref": "brionne",
+    "id": 729,
+    "formId": 0,
+    "assetId": "729_00",
+    "attack": 168,
+    "defense": 145,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [
+      "Primarina"
+    ],
+    "preEvolutions": [
+      "Popplio"
+    ],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "CHARM_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "AQUA_JET",
+      "WATER_PULSE",
+      "DISARMING_VOICE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Primarina",
+    "ref": "primarina",
+    "id": 730,
+    "formId": 0,
+    "assetId": "730_00",
+    "attack": 232,
+    "defense": 195,
+    "stamina": 190,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Brionne"
+    ],
+    "type1": "water",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "CHARM_FAST",
+      "WATERFALL_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYCHIC",
+      "HYDRO_PUMP",
+      "MOONBLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pikipek",
+    "ref": "pikipek",
+    "id": 731,
+    "formId": 0,
+    "assetId": "731_00",
+    "attack": 136,
+    "defense": 59,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [
+      "Trumbeak"
+    ],
+    "preEvolutions": [],
+    "type1": "normal",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "AERIAL_ACE",
+      "SKY_ATTACK"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Trumbeak",
+    "ref": "trumbeak",
+    "id": 732,
+    "formId": 0,
+    "assetId": "732_00",
+    "attack": 159,
+    "defense": 100,
+    "stamina": 146,
+    "candyDistance": 1,
+    "evolutions": [
+      "Toucannon"
+    ],
+    "preEvolutions": [
+      "Pikipek"
+    ],
+    "type1": "normal",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "ROCK_BLAST",
+      "SKY_ATTACK"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Toucannon",
+    "ref": "toucannon",
+    "id": 733,
+    "formId": 0,
+    "assetId": "733_00",
+    "attack": 222,
+    "defense": 146,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Trumbeak"
+    ],
+    "type1": "normal",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "ROCK_SMASH_FAST",
+      "BULLET_SEED_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "ROCK_BLAST",
+      "FLASH_CANNON"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Yungoos",
+    "ref": "yungoos",
+    "id": 734,
+    "formId": 0,
+    "assetId": "734_00",
+    "attack": 122,
+    "defense": 56,
+    "stamina": 134,
+    "candyDistance": 1,
+    "evolutions": [
+      "Gumshoos"
+    ],
+    "preEvolutions": [],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "HYPER_FANG",
+      "CRUNCH",
+      "ROCK_TOMB"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Gumshoos",
+    "ref": "gumshoos",
+    "id": 735,
+    "formId": 0,
+    "assetId": "735_00",
+    "attack": 194,
+    "defense": 113,
+    "stamina": 204,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Yungoos"
+    ],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "HYPER_FANG",
+      "CRUNCH",
+      "ROCK_TOMB"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Grubbin",
+    "ref": "grubbin",
+    "id": 736,
+    "formId": 0,
+    "assetId": "736_00",
+    "attack": 115,
+    "defense": 85,
+    "stamina": 132,
+    "candyDistance": 1,
+    "evolutions": [
+      "Charjabug"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Charjabug",
+    "ref": "charjabug",
+    "id": 737,
+    "formId": 0,
+    "assetId": "737_00",
+    "attack": 145,
+    "defense": 161,
+    "stamina": 149,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vikavolt"
+    ],
+    "preEvolutions": [
+      "Grubbin"
+    ],
+    "type1": "bug",
+    "type2": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vikavolt",
+    "ref": "vikavolt",
+    "id": 738,
+    "formId": 0,
+    "assetId": "738_00",
+    "attack": 254,
+    "defense": 158,
+    "stamina": 184,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Charjabug"
+    ],
+    "type1": "bug",
+    "type2": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Crabrawler",
+    "ref": "crabrawler",
+    "id": 739,
+    "formId": 0,
+    "assetId": "739_00",
+    "attack": 150,
+    "defense": 104,
+    "stamina": 132,
+    "candyDistance": 3,
+    "evolutions": [
+      "Crabominable"
+    ],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Crabominable",
+    "ref": "crabominable",
+    "id": 740,
+    "formId": 0,
+    "assetId": "740_00",
+    "attack": 231,
+    "defense": 138,
+    "stamina": 219,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Crabrawler"
+    ],
+    "type1": "fighting",
+    "type2": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cutiefly",
+    "ref": "cutiefly",
+    "id": 742,
+    "formId": 0,
+    "assetId": "742_00",
+    "attack": 110,
+    "defense": 81,
+    "stamina": 120,
+    "candyDistance": 1,
+    "evolutions": [
+      "Ribombee"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Ribombee",
+    "ref": "ribombee",
+    "id": 743,
+    "formId": 0,
+    "assetId": "743_00",
+    "attack": 198,
+    "defense": 146,
+    "stamina": 155,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Cutiefly"
+    ],
+    "type1": "bug",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Rockruff",
+    "ref": "rockruff",
+    "id": 744,
+    "formId": 0,
+    "assetId": "744_00",
+    "attack": 117,
+    "defense": 78,
+    "stamina": 128,
+    "candyDistance": 5,
+    "evolutions": [
+      "Lycanroc Midday",
+      "Lycanroc Midnight"
+    ],
+    "preEvolutions": [],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ROCK_THROW_FAST"
+    ],
+    "cinematicMoves": [
+      "STONE_EDGE",
+      "ROCK_TOMB",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Lycanroc",
+    "ref": "lycanroc",
+    "id": 745,
+    "formId": 0,
+    "assetId": "745_00",
+    "attack": 231,
+    "defense": 140,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "SUCKER_PUNCH_FAST",
+      "ROCK_THROW_FAST"
+    ],
+    "cinematicMoves": [
+      "STONE_EDGE",
+      "DRILL_RUN",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Lycanroc Dusk",
+    "ref": "lycanroc_dusk",
+    "id": 745,
+    "formId": 0,
+    "assetId": "745_00",
+    "attack": 234,
+    "defense": 139,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Lycanroc Midday",
+    "ref": "lycanroc_midday",
+    "id": 745,
+    "formId": 0,
+    "assetId": "745_00",
+    "attack": 231,
+    "defense": 140,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Rockruff"
+    ],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "SUCKER_PUNCH_FAST",
+      "ROCK_THROW_FAST"
+    ],
+    "cinematicMoves": [
+      "STONE_EDGE",
+      "DRILL_RUN",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Lycanroc Midnight",
+    "ref": "lycanroc_midnight",
+    "id": 745,
+    "formId": 0,
+    "assetId": "745_00",
+    "attack": 218,
+    "defense": 152,
+    "stamina": 198,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Rockruff"
+    ],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "COUNTER_FAST",
+      "ROCK_THROW_FAST"
+    ],
+    "cinematicMoves": [
+      "STONE_EDGE",
+      "PSYCHIC_FANGS",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Wishiwashi",
+    "ref": "wishiwashi",
+    "id": 746,
+    "formId": 0,
+    "assetId": "746_00",
+    "attack": 46,
+    "defense": 43,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Wishiwashi School",
+    "ref": "wishiwashi_school",
+    "id": 746,
+    "formId": 0,
+    "assetId": "746_00",
+    "attack": 255,
+    "defense": 242,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Wishiwashi Solo",
+    "ref": "wishiwashi_solo",
+    "id": 746,
+    "formId": 0,
+    "assetId": "746_00",
+    "attack": 46,
+    "defense": 43,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mareanie",
+    "ref": "mareanie",
+    "id": 747,
+    "formId": 0,
+    "assetId": "747_00",
+    "attack": 98,
+    "defense": 110,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Toxapex"
+    ],
+    "preEvolutions": [],
+    "type1": "poison",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Toxapex",
+    "ref": "toxapex",
+    "id": 748,
+    "formId": 0,
+    "assetId": "748_00",
+    "attack": 114,
+    "defense": 273,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Mareanie"
+    ],
+    "type1": "poison",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mudbray",
+    "ref": "mudbray",
+    "id": 749,
+    "formId": 0,
+    "assetId": "749_00",
+    "attack": 175,
+    "defense": 121,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [
+      "Mudsdale"
+    ],
+    "preEvolutions": [],
+    "type1": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mudsdale",
+    "ref": "mudsdale",
+    "id": 750,
+    "formId": 0,
+    "assetId": "750_00",
+    "attack": 214,
+    "defense": 174,
+    "stamina": 225,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Mudbray"
+    ],
+    "type1": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dewpider",
+    "ref": "dewpider",
+    "id": 751,
+    "formId": 0,
+    "assetId": "751_00",
+    "attack": 72,
+    "defense": 117,
+    "stamina": 116,
+    "candyDistance": 3,
+    "evolutions": [
+      "Araquanid"
+    ],
+    "preEvolutions": [],
+    "type1": "water",
+    "type2": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Araquanid",
+    "ref": "araquanid",
+    "id": 752,
+    "formId": 0,
+    "assetId": "752_00",
+    "attack": 126,
+    "defense": 219,
+    "stamina": 169,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Dewpider"
+    ],
+    "type1": "water",
+    "type2": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Fomantis",
+    "ref": "fomantis",
+    "id": 753,
+    "formId": 0,
+    "assetId": "753_00",
+    "attack": 100,
+    "defense": 64,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Lurantis"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Lurantis",
+    "ref": "lurantis",
+    "id": 754,
+    "formId": 0,
+    "assetId": "754_00",
+    "attack": 192,
+    "defense": 169,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Fomantis"
+    ],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Morelull",
+    "ref": "morelull",
+    "id": 755,
+    "formId": 0,
+    "assetId": "755_00",
+    "attack": 108,
+    "defense": 119,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Shiinotic"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Shiinotic",
+    "ref": "shiinotic",
+    "id": 756,
+    "formId": 0,
+    "assetId": "756_00",
+    "attack": 154,
+    "defense": 168,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Morelull"
+    ],
+    "type1": "grass",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Salandit",
+    "ref": "salandit",
+    "id": 757,
+    "formId": 0,
+    "assetId": "757_00",
+    "attack": 136,
+    "defense": 80,
+    "stamina": 134,
+    "candyDistance": 3,
+    "evolutions": [
+      "Salazzle"
+    ],
+    "preEvolutions": [],
+    "type1": "poison",
+    "type2": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Salazzle",
+    "ref": "salazzle",
+    "id": 758,
+    "formId": 0,
+    "assetId": "758_00",
+    "attack": 228,
+    "defense": 130,
+    "stamina": 169,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Salandit"
+    ],
+    "type1": "poison",
+    "type2": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Stufful",
+    "ref": "stufful",
+    "id": 759,
+    "formId": 0,
+    "assetId": "759_00",
+    "attack": 136,
+    "defense": 95,
+    "stamina": 172,
+    "candyDistance": 1,
+    "evolutions": [
+      "Bewear"
+    ],
+    "preEvolutions": [],
+    "type1": "normal",
+    "type2": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Bewear",
+    "ref": "bewear",
+    "id": 760,
+    "formId": 0,
+    "assetId": "760_00",
+    "attack": 226,
+    "defense": 141,
+    "stamina": 260,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Stufful"
+    ],
+    "type1": "normal",
+    "type2": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Bounsweet",
+    "ref": "bounsweet",
+    "id": 761,
+    "formId": 0,
+    "assetId": "761_00",
+    "attack": 55,
+    "defense": 69,
+    "stamina": 123,
+    "candyDistance": 3,
+    "evolutions": [
+      "Steenee"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Steenee",
+    "ref": "steenee",
+    "id": 762,
+    "formId": 0,
+    "assetId": "762_00",
+    "attack": 78,
+    "defense": 94,
+    "stamina": 141,
+    "candyDistance": 3,
+    "evolutions": [
+      "Tsareena"
+    ],
+    "preEvolutions": [
+      "Bounsweet"
+    ],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Tsareena",
+    "ref": "tsareena",
+    "id": 763,
+    "formId": 0,
+    "assetId": "763_00",
+    "attack": 222,
+    "defense": 195,
+    "stamina": 176,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Steenee"
+    ],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Comfey",
+    "ref": "comfey",
+    "id": 764,
+    "formId": 0,
+    "assetId": "764_00",
+    "attack": 165,
+    "defense": 215,
+    "stamina": 139,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "HIDDEN_POWER_FAST"
+    ],
+    "cinematicMoves": [
+      "PETAL_BLIZZARD",
+      "GRASS_KNOT",
+      "DRAINING_KISS"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Oranguru",
+    "ref": "oranguru",
+    "id": 765,
+    "formId": 0,
+    "assetId": "765_00",
+    "attack": 168,
+    "defense": 192,
+    "stamina": 207,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "normal",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Passimian",
+    "ref": "passimian",
+    "id": 766,
+    "formId": 0,
+    "assetId": "766_00",
+    "attack": 222,
+    "defense": 160,
+    "stamina": 225,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Wimpod",
+    "ref": "wimpod",
+    "id": 767,
+    "formId": 0,
+    "assetId": "767_00",
+    "attack": 67,
+    "defense": 74,
+    "stamina": 93,
+    "candyDistance": 1,
+    "evolutions": [
+      "Golisopod"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Golisopod",
+    "ref": "golisopod",
+    "id": 768,
+    "formId": 0,
+    "assetId": "768_00",
+    "attack": 218,
+    "defense": 226,
+    "stamina": 181,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Wimpod"
+    ],
+    "type1": "bug",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sandygast",
+    "ref": "sandygast",
+    "id": 769,
+    "formId": 0,
+    "assetId": "769_00",
+    "attack": 120,
+    "defense": 118,
+    "stamina": 146,
+    "candyDistance": 3,
+    "evolutions": [
+      "Palossand"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Palossand",
+    "ref": "palossand",
+    "id": 770,
+    "formId": 0,
+    "assetId": "770_00",
+    "attack": 178,
+    "defense": 178,
+    "stamina": 198,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Sandygast"
+    ],
+    "type1": "ghost",
+    "type2": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pyukumuku",
+    "ref": "pyukumuku",
+    "id": 771,
+    "formId": 0,
+    "assetId": "771_00",
+    "attack": 97,
+    "defense": 224,
+    "stamina": 146,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Type Null",
+    "ref": "type_null",
+    "id": 772,
+    "formId": 0,
+    "assetId": "772_00",
+    "attack": 184,
+    "defense": 184,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [
+      "Silvally"
+    ],
+    "preEvolutions": [],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally",
+    "ref": "silvally",
+    "id": 773,
+    "formId": 11,
+    "assetId": "773_11",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [
+      "Type Null"
+    ],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Bug)",
+    "ref": "silvally_bug",
+    "id": 773,
+    "formId": 17,
+    "assetId": "773_17",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Dark)",
+    "ref": "silvally_dark",
+    "id": 773,
+    "formId": 27,
+    "assetId": "773_27",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Dragon)",
+    "ref": "silvally_dragon",
+    "id": 773,
+    "formId": 26,
+    "assetId": "773_26",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Electric)",
+    "ref": "silvally_electric",
+    "id": 773,
+    "formId": 23,
+    "assetId": "773_23",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Fairy)",
+    "ref": "silvally_fairy",
+    "id": 773,
+    "formId": 28,
+    "assetId": "773_28",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Fighting)",
+    "ref": "silvally_fighting",
+    "id": 773,
+    "formId": 12,
+    "assetId": "773_12",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Fire)",
+    "ref": "silvally_fire",
+    "id": 773,
+    "formId": 20,
+    "assetId": "773_20",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Flying)",
+    "ref": "silvally_flying",
+    "id": 773,
+    "formId": 13,
+    "assetId": "773_13",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Ghost)",
+    "ref": "silvally_ghost",
+    "id": 773,
+    "formId": 18,
+    "assetId": "773_18",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Grass)",
+    "ref": "silvally_grass",
+    "id": 773,
+    "formId": 22,
+    "assetId": "773_22",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Ground)",
+    "ref": "silvally_ground",
+    "id": 773,
+    "formId": 15,
+    "assetId": "773_15",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Ice)",
+    "ref": "silvally_ice",
+    "id": 773,
+    "formId": 25,
+    "assetId": "773_25",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Poison)",
+    "ref": "silvally_poison",
+    "id": 773,
+    "formId": 14,
+    "assetId": "773_14",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Psychic)",
+    "ref": "silvally_psychic",
+    "id": 773,
+    "formId": 24,
+    "assetId": "773_24",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Rock)",
+    "ref": "silvally_rock",
+    "id": 773,
+    "formId": 16,
+    "assetId": "773_16",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Steel)",
+    "ref": "silvally_steel",
+    "id": 773,
+    "formId": 19,
+    "assetId": "773_19",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silvally (Water)",
+    "ref": "silvally_water",
+    "id": 773,
+    "formId": 21,
+    "assetId": "773_21",
+    "attack": 198,
+    "defense": 198,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior",
+    "ref": "minior",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 116,
+    "defense": 194,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Blue",
+    "ref": "minior_blue",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Green",
+    "ref": "minior_green",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Indigo",
+    "ref": "minior_indigo",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Meteor",
+    "ref": "minior_meteor",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 116,
+    "defense": 194,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Orange",
+    "ref": "minior_orange",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Red",
+    "ref": "minior_red",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Violet",
+    "ref": "minior_violet",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior Yellow",
+    "ref": "minior_yellow",
+    "id": 774,
+    "formId": 0,
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Komala",
+    "ref": "komala",
+    "id": 775,
+    "formId": 0,
+    "assetId": "775_00",
+    "attack": 216,
+    "defense": 165,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Turtonator",
+    "ref": "turtonator",
+    "id": 776,
+    "formId": 0,
+    "assetId": "776_00",
+    "attack": 165,
+    "defense": 215,
+    "stamina": 155,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fire",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Togedemaru",
+    "ref": "togedemaru",
+    "id": 777,
+    "formId": 0,
+    "assetId": "777_00",
+    "attack": 190,
+    "defense": 145,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mimikyu",
+    "ref": "mimikyu",
+    "id": 778,
+    "formId": 0,
+    "assetId": "778_00",
+    "attack": 177,
+    "defense": 199,
+    "stamina": 146,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mimikyu Busted",
+    "ref": "mimikyu_busted",
+    "id": 778,
+    "formId": 0,
+    "assetId": "778_00",
+    "attack": 177,
+    "defense": 199,
+    "stamina": 146,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Mimikyu Disguised",
+    "ref": "mimikyu_disguised",
+    "id": 778,
+    "formId": 0,
+    "assetId": "778_00",
+    "attack": 177,
+    "defense": 199,
+    "stamina": 146,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Bruxish",
+    "ref": "bruxish",
+    "id": 779,
+    "formId": 0,
+    "assetId": "779_00",
+    "attack": 208,
+    "defense": 145,
+    "stamina": 169,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Drampa",
+    "ref": "drampa",
+    "id": 780,
+    "formId": 0,
+    "assetId": "780_00",
+    "attack": 231,
+    "defense": 164,
+    "stamina": 186,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "normal",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dhelmise",
+    "ref": "dhelmise",
+    "id": 781,
+    "formId": 0,
+    "assetId": "781_00",
+    "attack": 233,
+    "defense": 179,
+    "stamina": 172,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Jangmo O",
+    "ref": "jangmo_o",
+    "id": 782,
+    "formId": 0,
+    "assetId": "782_00",
+    "attack": 102,
+    "defense": 108,
+    "stamina": 128,
+    "candyDistance": 5,
+    "evolutions": [
+      "Hakamo O"
+    ],
+    "preEvolutions": [],
+    "type1": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "DRAGON_TAIL_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_CLAW",
+      "BRICK_BREAK",
+      "DRAGON_PULSE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hakamo O",
+    "ref": "hakamo_o",
+    "id": 783,
+    "formId": 0,
+    "assetId": "783_00",
+    "attack": 145,
+    "defense": 162,
+    "stamina": 146,
+    "candyDistance": 5,
+    "evolutions": [
+      "Kommo O"
+    ],
+    "preEvolutions": [
+      "Jangmo O"
+    ],
+    "type1": "dragon",
+    "type2": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "DRAGON_TAIL_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_CLAW",
+      "BRICK_BREAK",
+      "DRAGON_PULSE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Kommo O",
+    "ref": "kommo_o",
+    "id": 784,
+    "formId": 0,
+    "assetId": "784_00",
+    "attack": 222,
+    "defense": 240,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Hakamo O"
+    ],
+    "type1": "dragon",
+    "type2": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POISON_JAB_FAST",
+      "DRAGON_TAIL_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_CLAW",
+      "CLOSE_COMBAT",
+      "FLAMETHROWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Tapu Koko",
+    "ref": "tapu_koko",
+    "id": 785,
+    "formId": 0,
+    "assetId": "785_00",
+    "attack": 250,
+    "defense": 181,
+    "stamina": 172,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "VOLT_SWITCH_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "THUNDERBOLT",
+      "DAZZLING_GLEAM",
+      "BRAVE_BIRD",
+      "THUNDER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Tapu Lele",
+    "ref": "tapu_lele",
+    "id": 786,
+    "formId": 0,
+    "assetId": "786_00",
+    "attack": 259,
+    "defense": 208,
+    "stamina": 172,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Tapu Bulu",
+    "ref": "tapu_bulu",
+    "id": 787,
+    "formId": 0,
+    "assetId": "787_00",
+    "attack": 249,
+    "defense": 215,
+    "stamina": 172,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "grass",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Tapu Fini",
+    "ref": "tapu_fini",
+    "id": 788,
+    "formId": 0,
+    "assetId": "788_00",
+    "attack": 189,
+    "defense": 254,
+    "stamina": 172,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cosmog",
+    "ref": "cosmog",
+    "id": 789,
+    "formId": 0,
+    "assetId": "789_00",
+    "attack": 54,
+    "defense": 57,
+    "stamina": 125,
+    "candyDistance": 20,
+    "evolutions": [
+      "Cosmoem"
+    ],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cosmoem",
+    "ref": "cosmoem",
+    "id": 790,
+    "formId": 0,
+    "assetId": "790_00",
+    "attack": 54,
+    "defense": 242,
+    "stamina": 125,
+    "candyDistance": 20,
+    "evolutions": [
+      "Solgaleo",
+      "Lunala"
+    ],
+    "preEvolutions": [
+      "Cosmog"
+    ],
+    "type1": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Solgaleo",
+    "ref": "solgaleo",
+    "id": 791,
+    "formId": 0,
+    "assetId": "791_00",
+    "attack": 255,
+    "defense": 191,
+    "stamina": 264,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [
+      "Cosmoem"
+    ],
+    "type1": "psychic",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Lunala",
+    "ref": "lunala",
+    "id": 792,
+    "formId": 0,
+    "assetId": "792_00",
+    "attack": 255,
+    "defense": 191,
+    "stamina": 264,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [
+      "Cosmoem"
+    ],
+    "type1": "psychic",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Nihilego",
+    "ref": "nihilego",
+    "id": 793,
+    "formId": 0,
+    "assetId": "793_00",
+    "attack": 249,
+    "defense": 210,
+    "stamina": 240,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Buzzwole",
+    "ref": "buzzwole",
+    "id": 794,
+    "formId": 0,
+    "assetId": "794_00",
+    "attack": 236,
+    "defense": 196,
+    "stamina": 216,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "bug",
+    "type2": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pheromosa",
+    "ref": "pheromosa",
+    "id": 795,
+    "formId": 0,
+    "assetId": "795_00",
+    "attack": 316,
+    "defense": 85,
+    "stamina": 174,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "bug",
+    "type2": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Xurkitree",
+    "ref": "xurkitree",
+    "id": 796,
+    "formId": 0,
+    "assetId": "796_00",
+    "attack": 330,
+    "defense": 144,
+    "stamina": 195,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Celesteela",
+    "ref": "celesteela",
+    "id": 797,
+    "formId": 0,
+    "assetId": "797_00",
+    "attack": 207,
+    "defense": 199,
+    "stamina": 219,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "steel",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Kartana",
+    "ref": "kartana",
+    "id": 798,
+    "formId": 0,
+    "assetId": "798_00",
+    "attack": 323,
+    "defense": 182,
+    "stamina": 139,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "grass",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Guzzlord",
+    "ref": "guzzlord",
+    "id": 799,
+    "formId": 0,
+    "assetId": "799_00",
+    "attack": 188,
+    "defense": 99,
+    "stamina": 440,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "dark",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Necrozma",
+    "ref": "necrozma",
+    "id": 800,
+    "formId": 0,
+    "assetId": "800_00",
+    "attack": 251,
+    "defense": 195,
+    "stamina": 219,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Necrozma Dawn Wings",
+    "ref": "necrozma_dawn_wings",
+    "id": 800,
+    "formId": 0,
+    "assetId": "800_00",
+    "attack": 277,
+    "defense": 220,
+    "stamina": 200,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Necrozma Dusk Mane",
+    "ref": "necrozma_dusk_mane",
+    "id": 800,
+    "formId": 0,
+    "assetId": "800_00",
+    "attack": 277,
+    "defense": 220,
+    "stamina": 200,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Necrozma Ultra",
+    "ref": "necrozma_ultra",
+    "id": 800,
+    "formId": 0,
+    "assetId": "800_00",
+    "attack": 337,
+    "defense": 196,
+    "stamina": 200,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Magearna",
+    "ref": "magearna",
+    "id": 801,
+    "formId": 0,
+    "assetId": "801_00",
+    "attack": 246,
+    "defense": 225,
+    "stamina": 190,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "steel",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Magearna (Origin)al Color",
+    "ref": "magearna_original_color",
+    "id": 801,
+    "formId": 0,
+    "assetId": "801_00",
+    "attack": 246,
+    "defense": 225,
+    "stamina": 190,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "steel",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Marshadow",
+    "ref": "marshadow",
+    "id": 802,
+    "formId": 0,
+    "assetId": "802_00",
+    "attack": 265,
+    "defense": 190,
+    "stamina": 207,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Poipole",
+    "ref": "poipole",
+    "id": 803,
+    "formId": 0,
+    "assetId": "803_00",
+    "attack": 145,
+    "defense": 133,
+    "stamina": 167,
+    "candyDistance": 20,
+    "evolutions": [
+      "Naganadel"
+    ],
+    "preEvolutions": [],
+    "type1": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Naganadel",
+    "ref": "naganadel",
+    "id": 804,
+    "formId": 0,
+    "assetId": "804_00",
+    "attack": 263,
+    "defense": 159,
+    "stamina": 177,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [
+      "Poipole"
+    ],
+    "type1": "poison",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Stakataka",
+    "ref": "stakataka",
+    "id": 805,
+    "formId": 0,
+    "assetId": "805_00",
+    "attack": 213,
+    "defense": 298,
+    "stamina": 156,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Blacephalon",
+    "ref": "blacephalon",
+    "id": 806,
+    "formId": 0,
+    "assetId": "806_00",
+    "attack": 315,
+    "defense": 148,
+    "stamina": 142,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fire",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zeraora",
+    "ref": "zeraora",
+    "id": 807,
+    "formId": 0,
+    "assetId": "807_00",
+    "attack": 252,
+    "defense": 177,
+    "stamina": 204,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "STRUGGLE"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Meltan",
     "ref": "meltan",
     "id": 808,
@@ -26641,6 +31386,1829 @@
       "HYPER_BEAM",
       "ROCK_SLIDE",
       "SUPER_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Grookey",
+    "ref": "grookey",
+    "id": 810,
+    "formId": 0,
+    "assetId": "810_00",
+    "attack": 122,
+    "defense": 91,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Thwackey"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SCRATCH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "ENERGY_BALL",
+      "GRASS_KNOT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Thwackey",
+    "ref": "thwackey",
+    "id": 811,
+    "formId": 0,
+    "assetId": "811_00",
+    "attack": 165,
+    "defense": 134,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [
+      "Rillaboom"
+    ],
+    "preEvolutions": [
+      "Grookey"
+    ],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SCRATCH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "ENERGY_BALL",
+      "GRASS_KNOT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Rillaboom",
+    "ref": "rillaboom",
+    "id": 812,
+    "formId": 0,
+    "assetId": "812_00",
+    "attack": 239,
+    "defense": 168,
+    "stamina": 225,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Thwackey"
+    ],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SCRATCH_FAST",
+      "RAZOR_LEAF_FAST"
+    ],
+    "cinematicMoves": [
+      "ENERGY_BALL",
+      "GRASS_KNOT",
+      "EARTH_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scorbunny",
+    "ref": "scorbunny",
+    "id": 813,
+    "formId": 0,
+    "assetId": "813_00",
+    "attack": 132,
+    "defense": 79,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Raboot"
+    ],
+    "preEvolutions": [],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "FLAME_CHARGE",
+      "FLAMETHROWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Raboot",
+    "ref": "raboot",
+    "id": 814,
+    "formId": 0,
+    "assetId": "814_00",
+    "attack": 170,
+    "defense": 125,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [
+      "Cinderace"
+    ],
+    "preEvolutions": [
+      "Scorbunny"
+    ],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "FLAME_CHARGE",
+      "FLAMETHROWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cinderace",
+    "ref": "cinderace",
+    "id": 815,
+    "formId": 0,
+    "assetId": "815_00",
+    "attack": 238,
+    "defense": 163,
+    "stamina": 190,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Raboot"
+    ],
+    "type1": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "FLAME_CHARGE",
+      "FLAMETHROWER",
+      "FOCUS_BLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sobble",
+    "ref": "sobble",
+    "id": 816,
+    "formId": 0,
+    "assetId": "816_00",
+    "attack": 132,
+    "defense": 79,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Drizzile"
+    ],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "POUND_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "WATER_PULSE",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Drizzile",
+    "ref": "drizzile",
+    "id": 817,
+    "formId": 0,
+    "assetId": "817_00",
+    "attack": 186,
+    "defense": 113,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [
+      "Inteleon"
+    ],
+    "preEvolutions": [
+      "Sobble"
+    ],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "POUND_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "WATER_PULSE",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Inteleon",
+    "ref": "inteleon",
+    "id": 818,
+    "formId": 0,
+    "assetId": "818_00",
+    "attack": 262,
+    "defense": 142,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Drizzile"
+    ],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "POUND_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "WATER_PULSE",
+      "SURF",
+      "SHADOW_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Skwovet",
+    "ref": "skwovet",
+    "id": 819,
+    "formId": 0,
+    "assetId": "819_00",
+    "attack": 95,
+    "defense": 86,
+    "stamina": 172,
+    "candyDistance": 1,
+    "evolutions": [
+      "Greedent"
+    ],
+    "preEvolutions": [],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "BITE_FAST",
+      "BULLET_SEED_FAST"
+    ],
+    "cinematicMoves": [
+      "BODY_SLAM",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Greedent",
+    "ref": "greedent",
+    "id": 820,
+    "formId": 0,
+    "assetId": "820_00",
+    "attack": 160,
+    "defense": 156,
+    "stamina": 260,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Skwovet"
+    ],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "BITE_FAST",
+      "BULLET_SEED_FAST"
+    ],
+    "cinematicMoves": [
+      "BODY_SLAM",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Rookidee",
+    "ref": "rookidee",
+    "id": 821,
+    "formId": 0,
+    "assetId": "821_00",
+    "attack": 88,
+    "defense": 67,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Corvisquire"
+    ],
+    "preEvolutions": [],
+    "type1": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Corvisquire",
+    "ref": "corvisquire",
+    "id": 822,
+    "formId": 0,
+    "assetId": "822_00",
+    "attack": 129,
+    "defense": 110,
+    "stamina": 169,
+    "candyDistance": 1,
+    "evolutions": [
+      "Corviknight"
+    ],
+    "preEvolutions": [
+      "Rookidee"
+    ],
+    "type1": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Corviknight",
+    "ref": "corviknight",
+    "id": 823,
+    "formId": 0,
+    "assetId": "823_00",
+    "attack": 163,
+    "defense": 192,
+    "stamina": 221,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Corvisquire"
+    ],
+    "type1": "flying",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STEEL_WING_FAST",
+      "AIR_SLASH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "BRAVE_BIRD",
+      "IRON_HEAD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Blipbug",
+    "ref": "blipbug",
+    "id": 824,
+    "formId": 0,
+    "assetId": "824_00",
+    "attack": 46,
+    "defense": 67,
+    "stamina": 93,
+    "candyDistance": 1,
+    "evolutions": [
+      "Dottler"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dottler",
+    "ref": "dottler",
+    "id": 825,
+    "formId": 0,
+    "assetId": "825_00",
+    "attack": 87,
+    "defense": 157,
+    "stamina": 137,
+    "candyDistance": 1,
+    "evolutions": [
+      "Orbeetle"
+    ],
+    "preEvolutions": [
+      "Blipbug"
+    ],
+    "type1": "bug",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST",
+      "CONFUSION_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Orbeetle",
+    "ref": "orbeetle",
+    "id": 826,
+    "formId": 0,
+    "assetId": "826_00",
+    "attack": 156,
+    "defense": 240,
+    "stamina": 155,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Dottler"
+    ],
+    "type1": "bug",
+    "type2": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST",
+      "CONFUSION_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Nickit",
+    "ref": "nickit",
+    "id": 827,
+    "formId": 0,
+    "assetId": "827_00",
+    "attack": 85,
+    "defense": 82,
+    "stamina": 120,
+    "candyDistance": 1,
+    "evolutions": [
+      "Thievul"
+    ],
+    "preEvolutions": [],
+    "type1": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "QUICK_ATTACK_FAST",
+      "SNARL_FAST"
+    ],
+    "cinematicMoves": [
+      "NIGHT_SLASH",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Thievul",
+    "ref": "thievul",
+    "id": 828,
+    "formId": 0,
+    "assetId": "828_00",
+    "attack": 172,
+    "defense": 164,
+    "stamina": 172,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Nickit"
+    ],
+    "type1": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "QUICK_ATTACK_FAST",
+      "SNARL_FAST"
+    ],
+    "cinematicMoves": [
+      "NIGHT_SLASH",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Gossifleur",
+    "ref": "gossifleur",
+    "id": 829,
+    "formId": 0,
+    "assetId": "829_00",
+    "attack": 70,
+    "defense": 104,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Eldegoss"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "RAZOR_LEAF_FAST",
+      "BULLET_SEED_FAST"
+    ],
+    "cinematicMoves": [
+      "ENERGY_BALL",
+      "GRASS_KNOT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Eldegoss",
+    "ref": "eldegoss",
+    "id": 830,
+    "formId": 0,
+    "assetId": "830_00",
+    "attack": 148,
+    "defense": 211,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Gossifleur"
+    ],
+    "type1": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "RAZOR_LEAF_FAST",
+      "BULLET_SEED_FAST"
+    ],
+    "cinematicMoves": [
+      "ENERGY_BALL",
+      "GRASS_KNOT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Wooloo",
+    "ref": "wooloo",
+    "id": 831,
+    "formId": 0,
+    "assetId": "831_00",
+    "attack": 76,
+    "defense": 97,
+    "stamina": 123,
+    "candyDistance": 3,
+    "evolutions": [
+      "Dubwool"
+    ],
+    "preEvolutions": [],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "WILD_CHARGE",
+      "PAYBACK",
+      "STOMP"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dubwool",
+    "ref": "dubwool",
+    "id": 832,
+    "formId": 0,
+    "assetId": "832_00",
+    "attack": 159,
+    "defense": 198,
+    "stamina": 176,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Wooloo"
+    ],
+    "type1": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "WILD_CHARGE",
+      "PAYBACK",
+      "BODY_SLAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Chewtle",
+    "ref": "chewtle",
+    "id": 833,
+    "formId": 0,
+    "assetId": "833_00",
+    "attack": 114,
+    "defense": 85,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Drednaw"
+    ],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATER_GUN_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "BODY_SLAM",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Drednaw",
+    "ref": "drednaw",
+    "id": 834,
+    "formId": 0,
+    "assetId": "834_00",
+    "attack": 213,
+    "defense": 164,
+    "stamina": 207,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Chewtle"
+    ],
+    "type1": "water",
+    "type2": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATERFALL_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "BODY_SLAM",
+      "SURF",
+      "ROCK_BLAST"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Yamper",
+    "ref": "yamper",
+    "id": 835,
+    "formId": 0,
+    "assetId": "835_00",
+    "attack": 80,
+    "defense": 90,
+    "stamina": 153,
+    "candyDistance": 1,
+    "evolutions": [
+      "Boltund"
+    ],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "SPARK_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "THUNDER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Boltund",
+    "ref": "boltund",
+    "id": 836,
+    "formId": 0,
+    "assetId": "836_00",
+    "attack": 197,
+    "defense": 131,
+    "stamina": 170,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Yamper"
+    ],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "SPARK_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "THUNDER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Rolycoly",
+    "ref": "rolycoly",
+    "id": 837,
+    "formId": 0,
+    "assetId": "837_00",
+    "attack": 73,
+    "defense": 91,
+    "stamina": 102,
+    "candyDistance": 3,
+    "evolutions": [
+      "Carkol"
+    ],
+    "preEvolutions": [],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SMACK_DOWN_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_BLAST",
+      "ROCK_SLIDE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Carkol",
+    "ref": "carkol",
+    "id": 838,
+    "formId": 0,
+    "assetId": "838_00",
+    "attack": 114,
+    "defense": 157,
+    "stamina": 190,
+    "candyDistance": 3,
+    "evolutions": [
+      "Coalossal"
+    ],
+    "preEvolutions": [
+      "Rolycoly"
+    ],
+    "type1": "rock",
+    "type2": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SMACK_DOWN_FAST",
+      "INCINERATE_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "FLAME_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Coalossal",
+    "ref": "coalossal",
+    "id": 839,
+    "formId": 0,
+    "assetId": "839_00",
+    "attack": 146,
+    "defense": 198,
+    "stamina": 242,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Carkol"
+    ],
+    "type1": "rock",
+    "type2": "fire",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "SMACK_DOWN_FAST",
+      "INCINERATE_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_BLAST",
+      "ROCK_SLIDE",
+      "FLAME_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Applin",
+    "ref": "applin",
+    "id": 840,
+    "formId": 0,
+    "assetId": "840_00",
+    "attack": 71,
+    "defense": 116,
+    "stamina": 120,
+    "candyDistance": 5,
+    "evolutions": [
+      "Flapple",
+      "Appletun"
+    ],
+    "preEvolutions": [],
+    "type1": "grass",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Flapple",
+    "ref": "flapple",
+    "id": 841,
+    "formId": 0,
+    "assetId": "841_00",
+    "attack": 214,
+    "defense": 144,
+    "stamina": 172,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Applin"
+    ],
+    "type1": "grass",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "BULLET_SEED_FAST",
+      "DRAGON_BREATH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_PULSE",
+      "FLY",
+      "OUTRAGE",
+      "SEED_BOMB"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Appletun",
+    "ref": "appletun",
+    "id": 842,
+    "formId": 0,
+    "assetId": "842_00",
+    "attack": 178,
+    "defense": 146,
+    "stamina": 242,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Applin"
+    ],
+    "type1": "grass",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "BULLET_SEED_FAST",
+      "ASTONISH_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_PULSE",
+      "ENERGY_BALL",
+      "OUTRAGE",
+      "SEED_BOMB"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Silicobra",
+    "ref": "silicobra",
+    "id": 843,
+    "formId": 0,
+    "assetId": "843_00",
+    "attack": 103,
+    "defense": 123,
+    "stamina": 141,
+    "candyDistance": 3,
+    "evolutions": [
+      "Sandaconda"
+    ],
+    "preEvolutions": [],
+    "type1": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "MUD_SLAP_FAST",
+      "MUD_SHOT_FAST"
+    ],
+    "cinematicMoves": [
+      "DIG",
+      "BULLDOZE",
+      "EARTH_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sandaconda",
+    "ref": "sandaconda",
+    "id": 844,
+    "formId": 0,
+    "assetId": "844_00",
+    "attack": 202,
+    "defense": 207,
+    "stamina": 176,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Silicobra"
+    ],
+    "type1": "ground",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "MUD_SLAP_FAST",
+      "MUD_SHOT_FAST"
+    ],
+    "cinematicMoves": [
+      "DIG",
+      "BULLDOZE",
+      "EARTH_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cramorant",
+    "ref": "cramorant",
+    "id": 845,
+    "formId": 0,
+    "assetId": "845_00",
+    "attack": 173,
+    "defense": 163,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "flying",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "PECK_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "DRILL_PECK",
+      "FLY",
+      "HYDRO_PUMP"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Arrokuda",
+    "ref": "arrokuda",
+    "id": 846,
+    "formId": 0,
+    "assetId": "846_00",
+    "attack": 118,
+    "defense": 72,
+    "stamina": 121,
+    "candyDistance": 3,
+    "evolutions": [
+      "Barraskewda"
+    ],
+    "preEvolutions": [],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATERFALL_FAST",
+      "BITE_FAST",
+      "PECK_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "AQUA_JET",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Barraskewda",
+    "ref": "barraskewda",
+    "id": 847,
+    "formId": 0,
+    "assetId": "847_00",
+    "attack": 258,
+    "defense": 127,
+    "stamina": 156,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Arrokuda"
+    ],
+    "type1": "water",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "WATERFALL_FAST",
+      "BITE_FAST",
+      "PECK_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "AQUA_JET",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Toxel",
+    "ref": "toxel",
+    "id": 848,
+    "formId": 0,
+    "assetId": "848_00",
+    "attack": 97,
+    "defense": 65,
+    "stamina": 120,
+    "candyDistance": 5,
+    "evolutions": [
+      "Toxtricity Low Key",
+      "Toxtricity Amped"
+    ],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ACID_FAST"
+    ],
+    "cinematicMoves": [
+      "POWER_UP_PUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Toxtricity",
+    "ref": "toxtricity",
+    "id": 849,
+    "formId": 0,
+    "assetId": "849_00",
+    "attack": 224,
+    "defense": 140,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ACID_FAST",
+      "SPARK_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "ACID_SPRAY",
+      "DISCHARGE",
+      "WILD_CHARGE",
+      "POWER_UP_PUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Toxtricity Amped",
+    "ref": "toxtricity_amped",
+    "id": 849,
+    "formId": 0,
+    "assetId": "849_00",
+    "attack": 224,
+    "defense": 140,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Toxel"
+    ],
+    "type1": "electric",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ACID_FAST",
+      "SPARK_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "ACID_SPRAY",
+      "DISCHARGE",
+      "WILD_CHARGE",
+      "POWER_UP_PUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Toxtricity Low Key",
+    "ref": "toxtricity_low_key",
+    "id": 849,
+    "formId": 0,
+    "assetId": "849_00",
+    "attack": 224,
+    "defense": 140,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Toxel"
+    ],
+    "type1": "electric",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ACID_FAST",
+      "SPARK_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "ACID_SPRAY",
+      "DISCHARGE",
+      "WILD_CHARGE",
+      "POWER_UP_PUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sizzlipede",
+    "ref": "sizzlipede",
+    "id": 850,
+    "formId": 0,
+    "assetId": "850_00",
+    "attack": 118,
+    "defense": 90,
+    "stamina": 137,
+    "candyDistance": 5,
+    "evolutions": [
+      "Centiskorch"
+    ],
+    "preEvolutions": [],
+    "type1": "fire",
+    "type2": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "HEAT_WAVE",
+      "BUG_BUZZ",
+      "CRUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Centiskorch",
+    "ref": "centiskorch",
+    "id": 851,
+    "formId": 0,
+    "assetId": "851_00",
+    "attack": 220,
+    "defense": 158,
+    "stamina": 225,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Sizzlipede"
+    ],
+    "type1": "fire",
+    "type2": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "EMBER_FAST"
+    ],
+    "cinematicMoves": [
+      "HEAT_WAVE",
+      "BUG_BUZZ",
+      "CRUNCH",
+      "LUNGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Clobbopus",
+    "ref": "clobbopus",
+    "id": 852,
+    "formId": 0,
+    "assetId": "852_00",
+    "attack": 121,
+    "defense": 103,
+    "stamina": 137,
+    "candyDistance": 3,
+    "evolutions": [
+      "Grapploct"
+    ],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "SUPER_POWER",
+      "ICE_PUNCH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Grapploct",
+    "ref": "grapploct",
+    "id": 853,
+    "formId": 0,
+    "assetId": "853_00",
+    "attack": 209,
+    "defense": 162,
+    "stamina": 190,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Clobbopus"
+    ],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "WATERFALL_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "SUPER_POWER",
+      "ICE_PUNCH",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sinistea",
+    "ref": "sinistea",
+    "id": 854,
+    "formId": 0,
+    "assetId": "854_00",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Polteageist"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "SUCKER_PUNCH_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sinistea Antique",
+    "ref": "sinistea_antique",
+    "id": 854,
+    "formId": 0,
+    "assetId": "854_00",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Polteageist Antique"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "SUCKER_PUNCH_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sinistea Phony",
+    "ref": "sinistea_phony",
+    "id": 854,
+    "formId": 0,
+    "assetId": "854_00",
+    "attack": 134,
+    "defense": 96,
+    "stamina": 120,
+    "candyDistance": 3,
+    "evolutions": [
+      "Polteageist Phony"
+    ],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "SUCKER_PUNCH_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Polteageist",
+    "ref": "polteageist",
+    "id": 855,
+    "formId": 0,
+    "assetId": "855_00",
+    "attack": 248,
+    "defense": 189,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Sinistea"
+    ],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "SUCKER_PUNCH_FAST",
+      "HEX_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Polteageist Antique",
+    "ref": "polteageist_antique",
+    "id": 855,
+    "formId": 0,
+    "assetId": "855_00",
+    "attack": 248,
+    "defense": 189,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Sinistea Antique"
+    ],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "SUCKER_PUNCH_FAST",
+      "HEX_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Polteageist Phony",
+    "ref": "polteageist_phony",
+    "id": 855,
+    "formId": 0,
+    "assetId": "855_00",
+    "attack": 248,
+    "defense": 189,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Sinistea Phony"
+    ],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "SUCKER_PUNCH_FAST",
+      "HEX_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hatenna",
+    "ref": "hatenna",
+    "id": 856,
+    "formId": 0,
+    "assetId": "856_00",
+    "attack": 98,
+    "defense": 93,
+    "stamina": 123,
+    "candyDistance": 5,
+    "evolutions": [
+      "Hattrem"
+    ],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "DAZZLING_GLEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hattrem",
+    "ref": "hattrem",
+    "id": 857,
+    "formId": 0,
+    "assetId": "857_00",
+    "attack": 153,
+    "defense": 133,
+    "stamina": 149,
+    "candyDistance": 5,
+    "evolutions": [
+      "Hatterene"
+    ],
+    "preEvolutions": [
+      "Hatenna"
+    ],
+    "type1": "psychic",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "DAZZLING_GLEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Hatterene",
+    "ref": "hatterene",
+    "id": 858,
+    "formId": 0,
+    "assetId": "858_00",
+    "attack": 237,
+    "defense": 182,
+    "stamina": 149,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Hattrem"
+    ],
+    "type1": "psychic",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "CHARM_FAST",
+      "PSYCHO_CUT_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "DAZZLING_GLEAM",
+      "POWER_WHIP"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Impidimp",
+    "ref": "impidimp",
+    "id": 859,
+    "formId": 0,
+    "assetId": "859_00",
+    "attack": 103,
+    "defense": 69,
+    "stamina": 128,
+    "candyDistance": 5,
+    "evolutions": [
+      "Morgrem"
+    ],
+    "preEvolutions": [],
+    "type1": "dark",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "BITE_FAST",
+      "SUCKER_PUNCH_FAST"
+    ],
+    "cinematicMoves": [
+      "FOUL_PLAY",
+      "DARK_PULSE",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Morgrem",
+    "ref": "morgrem",
+    "id": 860,
+    "formId": 0,
+    "assetId": "860_00",
+    "attack": 145,
+    "defense": 102,
+    "stamina": 163,
+    "candyDistance": 5,
+    "evolutions": [
+      "Grimmsnarl"
+    ],
+    "preEvolutions": [
+      "Impidimp"
+    ],
+    "type1": "dark",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "BITE_FAST",
+      "SUCKER_PUNCH_FAST"
+    ],
+    "cinematicMoves": [
+      "FOUL_PLAY",
+      "DARK_PULSE",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Grimmsnarl",
+    "ref": "grimmsnarl",
+    "id": 861,
+    "formId": 0,
+    "assetId": "861_00",
+    "attack": 227,
+    "defense": 139,
+    "stamina": 216,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Morgrem"
+    ],
+    "type1": "dark",
+    "type2": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "BITE_FAST",
+      "SUCKER_PUNCH_FAST",
+      "LOW_KICK_FAST"
+    ],
+    "cinematicMoves": [
+      "FOUL_PLAY",
+      "DARK_PULSE",
+      "PLAY_ROUGH",
+      "POWER_UP_PUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -26706,6 +33274,36 @@
       "CLOSE_COMBAT",
       "PLAY_ROUGH",
       "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cursola",
+    "ref": "cursola",
+    "id": 864,
+    "formId": 31,
+    "assetId": "864_31",
+    "attack": 253,
+    "defense": 182,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "HEX_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_BLAST",
+      "BRINE",
+      "NIGHT_SHADE",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -26803,6 +33401,1382 @@
       "SHADOW_BALL",
       "SAND_TOMB",
       "ROCK_TOMB"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Milcery",
+    "ref": "milcery",
+    "id": 868,
+    "formId": 0,
+    "assetId": "868_00",
+    "attack": 90,
+    "defense": 97,
+    "stamina": 128,
+    "candyDistance": 3,
+    "evolutions": [
+      "Alcremie"
+    ],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Alcremie",
+    "ref": "alcremie",
+    "id": 869,
+    "formId": 0,
+    "assetId": "869_00",
+    "attack": 203,
+    "defense": 203,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Milcery"
+    ],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "CHARM_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "PSYSHOCK",
+      "ENERGY_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Falinks",
+    "ref": "falinks",
+    "id": 870,
+    "formId": 0,
+    "assetId": "870_00",
+    "attack": 193,
+    "defense": 170,
+    "stamina": 163,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "COUNTER_FAST"
+    ],
+    "cinematicMoves": [
+      "SUPER_POWER",
+      "BRICK_BREAK",
+      "MEGAHORN"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pincurchin",
+    "ref": "pincurchin",
+    "id": 871,
+    "formId": 0,
+    "assetId": "871_00",
+    "attack": 176,
+    "defense": 161,
+    "stamina": 134,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "WATER_GUN_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "BUBBLE_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Snom",
+    "ref": "snom",
+    "id": 872,
+    "formId": 0,
+    "assetId": "872_00",
+    "attack": 76,
+    "defense": 59,
+    "stamina": 102,
+    "candyDistance": 5,
+    "evolutions": [
+      "Frosmoth"
+    ],
+    "preEvolutions": [],
+    "type1": "ice",
+    "type2": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "ICY_WIND",
+      "BUG_BUZZ"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Frosmoth",
+    "ref": "frosmoth",
+    "id": 873,
+    "formId": 0,
+    "assetId": "873_00",
+    "attack": 230,
+    "defense": 155,
+    "stamina": 172,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Snom"
+    ],
+    "type1": "ice",
+    "type2": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST",
+      "BUG_BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "ICY_WIND",
+      "BUG_BUZZ",
+      "ICE_BEAM",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Stonjourner",
+    "ref": "stonjourner",
+    "id": 874,
+    "formId": 0,
+    "assetId": "874_00",
+    "attack": 222,
+    "defense": 182,
+    "stamina": 225,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ROCK_THROW_FAST"
+    ],
+    "cinematicMoves": [
+      "STONE_EDGE",
+      "ROCK_SLIDE",
+      "STOMP"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Eiscue",
+    "ref": "eiscue",
+    "id": 875,
+    "formId": 0,
+    "assetId": "875_00",
+    "attack": 148,
+    "defense": 195,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST"
+    ],
+    "cinematicMoves": [
+      "ICY_WIND",
+      "WEATHER_BALL_ICE",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Eiscue (Ice)",
+    "ref": "eiscue_ice",
+    "id": 875,
+    "formId": 0,
+    "assetId": "875_00",
+    "attack": 148,
+    "defense": 195,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST"
+    ],
+    "cinematicMoves": [
+      "ICY_WIND",
+      "WEATHER_BALL_ICE",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Eiscue Noice",
+    "ref": "eiscue_noice",
+    "id": 875,
+    "formId": 0,
+    "assetId": "875_00",
+    "attack": 173,
+    "defense": 139,
+    "stamina": 181,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST"
+    ],
+    "cinematicMoves": [
+      "ICY_WIND",
+      "WEATHER_BALL_ICE",
+      "SURF"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Indeedee",
+    "ref": "indeedee",
+    "id": 876,
+    "formId": 0,
+    "assetId": "876_00",
+    "attack": 208,
+    "defense": 166,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "EXTRASENSORY_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "SHADOW_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Indeedee Female",
+    "ref": "indeedee_female",
+    "id": 876,
+    "formId": 0,
+    "assetId": "876_00",
+    "attack": 184,
+    "defense": 184,
+    "stamina": 172,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "EXTRASENSORY_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "ENERGY_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Indeedee Male",
+    "ref": "indeedee_male",
+    "id": 876,
+    "formId": 0,
+    "assetId": "876_00",
+    "attack": 208,
+    "defense": 166,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "EXTRASENSORY_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "SHADOW_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Morpeko",
+    "ref": "morpeko",
+    "id": 877,
+    "formId": 0,
+    "assetId": "877_00",
+    "attack": 192,
+    "defense": 121,
+    "stamina": 151,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "PAYBACK",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Morpeko Full Belly",
+    "ref": "morpeko_full_belly",
+    "id": 877,
+    "formId": 0,
+    "assetId": "877_00",
+    "attack": 192,
+    "defense": 121,
+    "stamina": 151,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "PAYBACK",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Morpeko Hangry",
+    "ref": "morpeko_hangry",
+    "id": 877,
+    "formId": 0,
+    "assetId": "877_00",
+    "attack": 192,
+    "defense": 121,
+    "stamina": 151,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "PAYBACK",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Cufant",
+    "ref": "cufant",
+    "id": 878,
+    "formId": 0,
+    "assetId": "878_00",
+    "attack": 140,
+    "defense": 91,
+    "stamina": 176,
+    "candyDistance": 5,
+    "evolutions": [
+      "Copperajah"
+    ],
+    "preEvolutions": [],
+    "type1": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "IRON_HEAD",
+      "DIG",
+      "PLAY_ROUGH"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Copperajah",
+    "ref": "copperajah",
+    "id": 879,
+    "formId": 0,
+    "assetId": "879_00",
+    "attack": 226,
+    "defense": 126,
+    "stamina": 263,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Cufant"
+    ],
+    "type1": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "IRON_HEAD",
+      "DIG",
+      "PLAY_ROUGH",
+      "HEAVY_SLAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dracozolt",
+    "ref": "dracozolt",
+    "id": 880,
+    "formId": 0,
+    "assetId": "880_00",
+    "attack": 195,
+    "defense": 165,
+    "stamina": 207,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "DRAGON_TAIL_FAST",
+      "THUNDER_SHOCK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "DRAGON_PULSE",
+      "ANCIENT_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Arctozolt",
+    "ref": "arctozolt",
+    "id": 881,
+    "formId": 0,
+    "assetId": "881_00",
+    "attack": 190,
+    "defense": 166,
+    "stamina": 207,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "type2": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST",
+      "THUNDER_SHOCK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "AVALANCHE",
+      "ANCIENT_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dracovish",
+    "ref": "dracovish",
+    "id": 882,
+    "formId": 0,
+    "assetId": "882_00",
+    "attack": 175,
+    "defense": 185,
+    "stamina": 207,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "DRAGON_BREATH_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "BRINE",
+      "DRAGON_PULSE",
+      "ANCIENT_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Arctovish",
+    "ref": "arctovish",
+    "id": 883,
+    "formId": 0,
+    "assetId": "883_00",
+    "attack": 171,
+    "defense": 185,
+    "stamina": 207,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "water",
+    "type2": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POWDER_SNOW_FAST",
+      "WATER_GUN_FAST"
+    ],
+    "cinematicMoves": [
+      "BRINE",
+      "AVALANCHE",
+      "ANCIENT_POWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Duraludon",
+    "ref": "duraludon",
+    "id": 884,
+    "formId": 0,
+    "assetId": "884_00",
+    "attack": 239,
+    "defense": 185,
+    "stamina": 172,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "steel",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "DRAGON_TAIL_FAST",
+      "METAL_CLAW_FAST"
+    ],
+    "cinematicMoves": [
+      "FLASH_CANNON",
+      "DRAGON_CLAW",
+      "HYPER_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dreepy",
+    "ref": "dreepy",
+    "id": 885,
+    "formId": 0,
+    "assetId": "885_00",
+    "attack": 117,
+    "defense": 61,
+    "stamina": 99,
+    "candyDistance": 5,
+    "evolutions": [
+      "Drakloak"
+    ],
+    "preEvolutions": [],
+    "type1": "dragon",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Drakloak",
+    "ref": "drakloak",
+    "id": 886,
+    "formId": 0,
+    "assetId": "886_00",
+    "attack": 163,
+    "defense": 105,
+    "stamina": 169,
+    "candyDistance": 5,
+    "evolutions": [
+      "Dragapult"
+    ],
+    "preEvolutions": [
+      "Dreepy"
+    ],
+    "type1": "dragon",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ASTONISH_FAST",
+      "DRAGON_TAIL_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_PULSE",
+      "SHADOW_BALL",
+      "OUTRAGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Dragapult",
+    "ref": "dragapult",
+    "id": 887,
+    "formId": 0,
+    "assetId": "887_00",
+    "attack": 266,
+    "defense": 170,
+    "stamina": 204,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Drakloak"
+    ],
+    "type1": "dragon",
+    "type2": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "HEX_FAST",
+      "DRAGON_TAIL_FAST"
+    ],
+    "cinematicMoves": [
+      "DRAGON_PULSE",
+      "SHADOW_BALL",
+      "OUTRAGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zacian",
+    "ref": "zacian",
+    "id": 888,
+    "formId": 0,
+    "assetId": "888_00",
+    "attack": 254,
+    "defense": 236,
+    "stamina": 192,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "SNARL_FAST",
+      "QUICK_ATTACK_FAST",
+      "FIRE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "PLAY_ROUGH",
+      "IRON_HEAD",
+      "WILD_CHARGE",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zacian Crowned Sword",
+    "ref": "zacian_crowned_sword",
+    "id": 888,
+    "formId": 0,
+    "assetId": "888_00",
+    "attack": 332,
+    "defense": 240,
+    "stamina": 192,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "SNARL_FAST",
+      "QUICK_ATTACK_FAST",
+      "FIRE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "PLAY_ROUGH",
+      "IRON_HEAD",
+      "WILD_CHARGE",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zacian Hero",
+    "ref": "zacian_hero",
+    "id": 888,
+    "formId": 0,
+    "assetId": "888_00",
+    "attack": 254,
+    "defense": 236,
+    "stamina": 192,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fairy",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "SNARL_FAST",
+      "QUICK_ATTACK_FAST",
+      "FIRE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "PLAY_ROUGH",
+      "IRON_HEAD",
+      "WILD_CHARGE",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zamazenta",
+    "ref": "zamazenta",
+    "id": 889,
+    "formId": 0,
+    "assetId": "889_00",
+    "attack": 254,
+    "defense": 236,
+    "stamina": 192,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "SNARL_FAST",
+      "QUICK_ATTACK_FAST",
+      "ICE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "IRON_HEAD",
+      "CRUNCH",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zamazenta Crowned Shield",
+    "ref": "zamazenta_crowned_shield",
+    "id": 889,
+    "formId": 0,
+    "assetId": "889_00",
+    "attack": 250,
+    "defense": 292,
+    "stamina": 192,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "type2": "steel",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "SNARL_FAST",
+      "QUICK_ATTACK_FAST",
+      "ICE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "IRON_HEAD",
+      "CRUNCH",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zamazenta Hero",
+    "ref": "zamazenta_hero",
+    "id": 889,
+    "formId": 0,
+    "assetId": "889_00",
+    "attack": 254,
+    "defense": 236,
+    "stamina": 192,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "METAL_CLAW_FAST",
+      "SNARL_FAST",
+      "QUICK_ATTACK_FAST",
+      "ICE_FANG_FAST"
+    ],
+    "cinematicMoves": [
+      "MOONBLAST",
+      "IRON_HEAD",
+      "CRUNCH",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Eternatus",
+    "ref": "eternatus",
+    "id": 890,
+    "formId": 0,
+    "assetId": "890_00",
+    "attack": 278,
+    "defense": 192,
+    "stamina": 268,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "poison",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "DRAGON_TAIL_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "CROSS_POISON",
+      "DRAGON_PULSE",
+      "FLAMETHROWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Eternatus Eternamax",
+    "ref": "eternatus_eternamax",
+    "id": 890,
+    "formId": 0,
+    "assetId": "890_00",
+    "attack": 251,
+    "defense": 505,
+    "stamina": 452,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "poison",
+    "type2": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "DRAGON_TAIL_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "CROSS_POISON",
+      "DRAGON_PULSE",
+      "FLAMETHROWER",
+      "HYPER_BEAM"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Kubfu",
+    "ref": "kubfu",
+    "id": 891,
+    "formId": 0,
+    "assetId": "891_00",
+    "attack": 170,
+    "defense": 112,
+    "stamina": 155,
+    "candyDistance": 20,
+    "evolutions": [
+      "Urshifu Single Strike",
+      "Urshifu Rapid Strike"
+    ],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "COUNTER_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "DYNAMIC_PUNCH",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Urshifu",
+    "ref": "urshifu",
+    "id": 892,
+    "formId": 0,
+    "assetId": "892_00",
+    "attack": 254,
+    "defense": 177,
+    "stamina": 225,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "COUNTER_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "DYNAMIC_PUNCH",
+      "CLOSE_COMBAT"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Urshifu Rapid Strike",
+    "ref": "urshifu_rapid_strike",
+    "id": 892,
+    "formId": 0,
+    "assetId": "892_00",
+    "attack": 254,
+    "defense": 177,
+    "stamina": 225,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [
+      "Kubfu"
+    ],
+    "type1": "fighting",
+    "type2": "water",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "COUNTER_FAST",
+      "WATERFALL_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "DYNAMIC_PUNCH",
+      "CLOSE_COMBAT",
+      "AQUA_JET"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Urshifu Single Strike",
+    "ref": "urshifu_single_strike",
+    "id": 892,
+    "formId": 0,
+    "assetId": "892_00",
+    "attack": 254,
+    "defense": 177,
+    "stamina": 225,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [
+      "Kubfu"
+    ],
+    "type1": "fighting",
+    "type2": "dark",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "COUNTER_FAST",
+      "SUCKER_PUNCH_FAST"
+    ],
+    "cinematicMoves": [
+      "BRICK_BREAK",
+      "DYNAMIC_PUNCH",
+      "CLOSE_COMBAT",
+      "PAYBACK"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zarude",
+    "ref": "zarude",
+    "id": 893,
+    "formId": 0,
+    "assetId": "893_00",
+    "attack": 242,
+    "defense": 215,
+    "stamina": 233,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "dark",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "VINE_WHIP_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "POWER_WHIP",
+      "ENERGY_BALL",
+      "DARK_PULSE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Regieleki",
+    "ref": "regieleki",
+    "id": 894,
+    "formId": 0,
+    "assetId": "894_00",
+    "attack": 250,
+    "defense": 125,
+    "stamina": 190,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "LOCK_ON_FAST"
+    ],
+    "cinematicMoves": [
+      "HYPER_BEAM",
+      "THUNDER",
+      "ZAP_CANNON"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Regidrago",
+    "ref": "regidrago",
+    "id": 895,
+    "formId": 0,
+    "assetId": "895_00",
+    "attack": 202,
+    "defense": 101,
+    "stamina": 400,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "dragon",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "HYPER_BEAM",
+      "OUTRAGE",
+      "DRAGON_PULSE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Glastrier",
+    "ref": "glastrier",
+    "id": 896,
+    "formId": 0,
+    "assetId": "896_00",
+    "attack": 246,
+    "defense": 223,
+    "stamina": 225,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "AVALANCHE",
+      "ICY_WIND",
+      "BULLDOZE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spectrier",
+    "ref": "spectrier",
+    "id": 897,
+    "formId": 0,
+    "assetId": "897_00",
+    "attack": 273,
+    "defense": 146,
+    "stamina": 205,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ghost",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "SHADOW_BALL",
+      "FOUL_PLAY",
+      "BULLDOZE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Calyrex",
+    "ref": "calyrex",
+    "id": 898,
+    "formId": 0,
+    "assetId": "898_00",
+    "attack": 162,
+    "defense": 162,
+    "stamina": 225,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "grass",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "POUND_FAST",
+      "CONFUSION_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYSHOCK",
+      "PSYCHIC",
+      "ENERGY_BALL"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Calyrex (Ice) Rider",
+    "ref": "calyrex_ice_rider",
+    "id": 898,
+    "formId": 0,
+    "assetId": "898_00",
+    "attack": 268,
+    "defense": 246,
+    "stamina": 205,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "ice",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "PSYSHOCK",
+      "PSYCHIC",
+      "ENERGY_BALL",
+      "AVALANCHE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []

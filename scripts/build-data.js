@@ -10,7 +10,7 @@ const types = require('../data/types.json')
 const createPokemon = require('../utils/createPokemon').default
 
 const GAME_MASTER_URL =
-  'https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/latest/V2_GAME_MASTER.json'
+  'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json'
 
 // TODO: Make array
 const forms = {
@@ -149,21 +149,21 @@ let generate = async () => {
     V0648_POKEMON_MELOETTA: true,
   }
 
-  const pokemonTemplates = GAME_MASTER.template.filter((template) =>
+  const pokemonTemplates = GAME_MASTER.filter((template) =>
     excludePokemon[template.templateId]
       ? false
       : pokemonTemplateIdPattern.test(template.templateId)
   )
 
-  const moveTemplates = GAME_MASTER.template.filter((template) =>
+  const moveTemplates = GAME_MASTER.filter((template) =>
     moveTemplateIdPattern.test(template.templateId)
   )
 
-  const pvpMoveTemplates = GAME_MASTER.template.filter((template) =>
+  const pvpMoveTemplates = GAME_MASTER.filter((template) =>
     pvpMoveTemplateIdPattern.test(template.templateId)
   )
 
-  const formTemplates = GAME_MASTER.template.filter((template) =>
+  const formTemplates = GAME_MASTER.filter((template) =>
     formTemplateIdPattern.test(template.templateId)
   )
 
@@ -171,16 +171,16 @@ let generate = async () => {
   pokemonTemplates.map((template) => {
     const templateId = template.data.templateId
 
-    if (!template.data.pokemon) {
+    if (!template.data.pokemonSettings) {
       return
     }
 
     const {
-      uniqueId,
+      pokemonId,
       form,
       evolutionBranch,
       kmBuddyDistance,
-      type1,
+      type: type1,
       type2,
       quickMoves,
       cinematicMoves,
@@ -188,9 +188,9 @@ let generate = async () => {
       eliteCinematicMove,
       thirdMove,
       stats,
-    } = template.data.pokemon
+    } = template.data.pokemonSettings
 
-    const ref = getUsefulForm(form) || uniqueId
+    const ref = getUsefulForm(form) || pokemonId
     const name = normalizeName(ref)
     const id = parseInt(templateId.match(/[0-9]{4}/)[0])
 
@@ -198,14 +198,15 @@ let generate = async () => {
     let assetId
 
     const formData = formTemplates.find(
-      (template) => template.data.formSettings.pokemon === uniqueId
+      (template) => template.data.formSettings.pokemon === pokemonId
     )
 
     if (formData && formData.data && formData.data.formSettings.forms) {
       const formInfo = formData.data.formSettings.forms.find((f) =>
         form
           ? f.form === form
-          : f.form === uniqueId + '_NORMAL' || f.form === uniqueId + '_STANDARD'
+          : f.form === pokemonId + '_NORMAL' ||
+            f.form === pokemonId + '_STANDARD'
       )
 
       if (formInfo) {
@@ -257,17 +258,24 @@ let generate = async () => {
   const moveList = {}
   moveTemplates.map((template) => {
     const {
-      move: { power, type, uniqueId, energyDelta, accuracyChance, durationMs },
+      moveSettings: {
+        power,
+        pokemonType,
+        movementId,
+        energyDelta,
+        accuracyChance,
+        durationMs,
+      },
       templateId,
     } = template.data
 
-    moveList[uniqueId] = {
-      name: uniqueId
+    moveList[movementId] = {
+      name: movementId
         .replace('_FAST', '')
         .split('_')
         .map(normalizeName)
         .join(' '),
-      type: type.substr(13).toLowerCase(),
+      type: pokemonType.substr(13).toLowerCase(),
       pve: {
         damage: power || 0,
         energy: Math.abs(energyDelta) || 0,

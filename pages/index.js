@@ -123,7 +123,7 @@ function Bookmark({ info, removeBookmark, setPokemon }) {
         backgroundColor: theme.colors.types[info.type1].backgroundColor + '33',
       }}>
       <Box alignItems="flex-start" alignSelf="flex-start">
-        <img height={40} width="auto" src={getImageUrl(info.assetId)} />
+        <img height={40} width="auto" src={getImageUrl(info.id,)} />
       </Box>
       <Box grow={1} shrink={1}>
         <p
