@@ -29,7 +29,7 @@ export default function Section({ children, title, initialExpanded = true }) {
             as="h2"
             onClick={() => setExpanded(!expanded)}
             extend={{
-              scrollMarginTop: 60,
+              scrollMarginTop: 70,
               borderBottomWidth: title ? 1 : 0,
               borderBottomStyle: 'solid',
               borderBottomColor: theme.colors.border,
