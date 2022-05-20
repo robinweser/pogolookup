@@ -51,9 +51,9 @@ const forms = {
   ORANGE: '(Orange)',
   RED: '(Red)',
   YELLOW: '(Yellow)',
-  GREEN: "(Green)",
-  INDIGO: "(Indigo)",
-  VIOLET: "(Violet)"
+  GREEN: '(Green)',
+  INDIGO: '(Indigo)',
+  VIOLET: '(Violet)',
   ARIA: '(Aria)',
   PIROUETTE: '(Pirouette)',
   BURN: '(Burn)',
@@ -88,8 +88,8 @@ const forms = {
   DUSK: '(Dusk)',
   SCHOOL: '(School)',
   SOLO: '(Solo)',
-  BUSTED: "(Busted)",
-  DISGUISED: "(Disguised)"
+  BUSTED: '(Busted)',
+  DISGUISED: '(Disguised)',
 }
 
 for (let type in types) {
