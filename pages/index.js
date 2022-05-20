@@ -123,7 +123,11 @@ function Bookmark({ info, removeBookmark, setPokemon }) {
         backgroundColor: theme.colors.types[info.type1].backgroundColor + '33',
       }}>
       <Box alignItems="flex-start" alignSelf="flex-start">
-        <img height={40} width="auto" src={getImageUrl(info.id,)} />
+        <img
+          height={40}
+          width="auto"
+          src={getImageUrl(info.id, info.formType)}
+        />
       </Box>
       <Box grow={1} shrink={1}>
         <p
@@ -428,7 +432,7 @@ export default function Page(initialPokemon) {
   const [moveType, setMoveType] = useState('pvp')
   const [focusMode, setFocusMode] = useState(false)
   const [ivRankingMode, setIvRankingMode] = useState(false)
-  const [maxLevel, setMaxLevel] = useState(40)
+  const [maxLevel, setMaxLevel] = useState(50)
   const [minIV, setMinIV] = useState(0)
   const [showRawDamage, setShowRawDamage] = useState(false)
   const [bookmarks, setBookmarks] = useState([])

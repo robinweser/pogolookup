@@ -11,6 +11,8 @@ function EvolutionTile({ pokemon, level, setName }) {
   const info = pokemon.getInfo()
   const stats = pokemon.getStats(level)
 
+  console.log(info)
+
   return (
     <Box
       padding={3}
@@ -37,7 +39,7 @@ function EvolutionTile({ pokemon, level, setName }) {
         },
       }}
       onClick={() => setName(info.name)}>
-      <img src={getImageUrl(info.assetId)} height={80} width="auto" />
+      <img src={getImageUrl(info.id, info.formType)} height={80} width="auto" />
       <p style={{ fontSize: 20, fontWeight: 700 }}>{info.name}</p>
       <Box direction="row" space={1} alignItems="center">
         <TypeTile type={info.type1} />

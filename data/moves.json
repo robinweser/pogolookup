@@ -3204,6 +3204,25 @@
       }
     }
   },
+  "DRAIN_PUNCH": {
+    "name": "Drain Punch",
+    "type": "fighting",
+    "pve": {
+      "damage": 50,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.4
+    },
+    "pvp": {
+      "damage": 20,
+      "energy": 40,
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": 1,
+        "buffActivationChance": 1
+      }
+    }
+  },
   "SHADOW_BONE": {
     "name": "Shadow Bone",
     "type": "ghost",
@@ -3878,6 +3897,59 @@
       "damage": 110,
       "energy": 60,
       "turns": 1
+    }
+  },
+  "LUSTER_PURGE": {
+    "name": "Luster Purge",
+    "type": "psychic",
+    "pve": {
+      "damage": 100,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 60,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
+    }
+  },
+  "MIST_BALL": {
+    "name": "Mist Ball",
+    "type": "psychic",
+    "pve": {
+      "damage": 105,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 60,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.5
+      }
+    }
+  },
+  "ROLLOUT_FAST": {
+    "name": "Rollout",
+    "type": "rock",
+    "pve": {
+      "damage": 14,
+      "energy": 18,
+      "accuracy": 1,
+      "turns": 1.4
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 8,
+      "turns": 3
     }
   }
 }

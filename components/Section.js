@@ -25,10 +25,11 @@ export default function Section({ children, title, initialExpanded = true }) {
       {!title ? null : (
         <Layout>
           <Box
-            id={title.toLowerCase().replace(' ', '-')}
+            id={title.toLowerCase().replace(/ /gi, '-')}
             as="h2"
             onClick={() => setExpanded(!expanded)}
             extend={{
+              scrollMarginTop: 60,
               borderBottomWidth: title ? 1 : 0,
               borderBottomStyle: 'solid',
               borderBottomColor: theme.colors.border,

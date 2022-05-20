@@ -12,10 +12,10 @@ const createPokemon = require('../utils/createPokemon').default
 const GAME_MASTER_URL =
   'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json'
 
-// TODO: Make array
 const forms = {
   STANDARD: '',
   ALOLA: '(Alolan)',
+  HISUIAN: '(Hisuian)',
   GALARIAN: '(Galarian)',
   ORIGIN: '(Origin)',
   ALTERED: '(Altered)',
@@ -47,6 +47,13 @@ const forms = {
   SUMMER: '(Summer)',
   BLACK: '(Black)',
   WHITE: '(White)',
+  BLUE: '(Blue)',
+  ORANGE: '(Orange)',
+  RED: '(Red)',
+  YELLOW: '(Yellow)',
+  GREEN: "(Green)",
+  INDIGO: "(Indigo)",
+  VIOLET: "(Violet)"
   ARIA: '(Aria)',
   PIROUETTE: '(Pirouette)',
   BURN: '(Burn)',
@@ -55,8 +62,34 @@ const forms = {
   SHOCK: '(Shock)',
   ORDINARY: '(Ordinary)',
   RESOLUTE: '(Resolute)',
+  DANDY: '(Dandy)',
+  DEBUTANTE: '(Debutante)',
+  DIAMOND: '(Diamond)',
+  HEART: '(Heart)',
+  KABUKI: '(Kabuki)',
+  'LA REINE': '(La Reine)',
+  MATRON: '(Matron)',
+  NATURAL: '(Natural)',
+  PHARAOH: '(Pharaoh)',
+  STAR: '(Star)',
+  AVERAGE: '(Average)',
+  LARGE: '(Large)',
+  SUPER: '(Super)',
+  SMALL: '(Small)',
   'EAST SEA': '(East)',
   'WEST SEA': '(West)',
+  UNBOUND: '(Unbound)',
+  BAILE: '(Baile)',
+  PAU: '(Pau)',
+  POMPOM: '(Pompom)',
+  SENSU: '(Sensu)',
+  MIDNIGHT: '(Midnight)',
+  MIDDAY: '(Midday)',
+  DUSK: '(Dusk)',
+  SCHOOL: '(School)',
+  SOLO: '(Solo)',
+  BUSTED: "(Busted)",
+  DISGUISED: "(Disguised)"
 }
 
 for (let type in types) {
@@ -72,10 +105,17 @@ const nameReplace = {
   NIDORAN_FEMALE: 'Nidoran ♀',
   NIDORAN_MALE: 'Nidoran ♂',
   MEOWSTIC: 'Meowstic ♂',
+  FRILLISH: 'Frillish ♂',
+  FRILLISH_FEMALE: 'Frillish ♀',
+  PYROAR: 'Pyroar ♂',
+  PYROAR_FEMALE: 'Pyroar ♀',
+  JELLICENT: 'Jellicent ♂',
+  JELLICENT_FEMALE: 'Jellicent ♀',
   MEOWSTIC_FEMALE: 'Meowstic ♀',
   MIME_JR: 'Mime Jr.',
   PORYGON_Z: 'Porygon-Z',
   MR_MIME: 'Mr. Mime',
+  MR_MIME_GALARIAN: 'Mr. Mime (Galarian)',
   HO_OH: 'Ho-Oh',
 }
 
@@ -102,7 +142,7 @@ function getUsefulForm(form) {
   if (
     !form ||
     form.match(
-      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|COSTUME_2020|STRIPED/gi
+      /PURIFIED|SHADOW|NORMAL|FALL_2019|COPY_2019|CONFINED|2020|2021|2022|2023|STRIPED|ROCK_STAR|FLYING|POP_STAR|KARIYUSHI/gi
     ) !== null
   ) {
     return undefined
@@ -111,6 +151,10 @@ function getUsefulForm(form) {
   for (let key in formMap) {
     if (form.indexOf(key) !== -1) {
       return formMap[key]
+    }
+
+    if (form.match(/_S$/)) {
+      return 'SHADOW'
     }
   }
 
@@ -139,6 +183,7 @@ let generate = async () => {
     V0412_POKEMON_BURMY: true,
     VO413_POKEMON_BURMADAM: true,
     V0421_POKEMON_CHERRIM: true,
+    V0479_POKEMON_ROTOM: true,
     V0492_POKEMON_SHAYMIN: true,
     V0585_POKEMON_DEERLING: true,
     V0586_POKEMON_SAWSBUCK: true,
@@ -147,6 +192,13 @@ let generate = async () => {
     V0645_POKEMON_LANDORUS: true,
     V0647_POKEMON_KELDEO: true,
     V0648_POKEMON_MELOETTA: true,
+    V0669_POKEMON_FLABEBE: true,
+    V0670_POKEMON_FLOETTE: true,
+    V0671_POKEMON_FLORGES: true,
+    V0676_POKEMON_FURFROU: true,
+    V0741_POKEMON_ORICORIO: true,
+    V0745_POKEMON_LICANROC: true,
+    V0746_POKEMON_WISHIWASHI: true,
   }
 
   const pokemonTemplates = GAME_MASTER.filter((template) =>
@@ -190,6 +242,11 @@ let generate = async () => {
       stats,
     } = template.data.pokemonSettings
 
+    let formType
+    if (form) {
+      formType = form.replace(pokemonId + '_', '').replace('NORMAL', '')
+    }
+
     const ref = getUsefulForm(form) || pokemonId
     const name = normalizeName(ref)
     const id = parseInt(templateId.match(/[0-9]{4}/)[0])
@@ -202,11 +259,8 @@ let generate = async () => {
     )
 
     if (formData && formData.data && formData.data.formSettings.forms) {
-      const formInfo = formData.data.formSettings.forms.find((f) =>
-        form
-          ? f.form === form
-          : f.form === pokemonId + '_NORMAL' ||
-            f.form === pokemonId + '_STANDARD'
+      const formInfo = formData.data.formSettings.forms.find(
+        (f) => form && f.form === form
       )
 
       if (formInfo) {
@@ -232,6 +286,7 @@ let generate = async () => {
         ref: ref.toLowerCase(),
         id,
         formId,
+        formType,
         assetId,
         attack: stats.baseAttack,
         defense: stats.baseDefense,
@@ -242,6 +297,7 @@ let generate = async () => {
             ? evolutionBranch
                 .map((b) => getUsefulForm(b.form) || b.evolution)
                 .map(normalizeName)
+                .filter((name) => name !== 'Shadow')
             : [],
         preEvolutions,
         type1: type1.substr(13).toLowerCase(),

@@ -28,7 +28,9 @@ export default function BaseInfo({ info, stats, pokemon, addBookmark }) {
   const raidCatch = pokemon.getCPRangeAtLevel(20, 10)
   const raidCatchWeatherBoost = pokemon.getCPRangeAtLevel(25, 10)
 
-  const imageUrl = getImageUrl(info.assetId, hover)
+  console.log(info)
+
+  const imageUrl = getImageUrl(info.id, info.formType, hover)
 
   if (focusMode) {
     return (

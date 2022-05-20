@@ -72,7 +72,11 @@ function DamageDisplay({
         x
       </Box>
       <Box alignItems="center" alignSelf={['flex-start', , 'center']}>
-        <img height={40} width="auto" src={getImageUrl(info.assetId)} />
+        <img
+          height={40}
+          width="auto"
+          src={getImageUrl(info.id, info.formType)}
+        />
       </Box>
       <Box flex="1 1 50%">
         <Box extend={{ fontWeight: 700 }}>{info.name}</Box>

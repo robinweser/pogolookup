@@ -16,7 +16,7 @@ export default function Header() {
         left: 0,
         right: 0,
         top: 0,
-        height: 42,
+        height: 56,
         zIndex: 1,
         backgroundColor: theme.colors.text,
       }}>
@@ -30,12 +30,12 @@ export default function Header() {
             <a style={{ textDecoration: 'none' }}>
               <img
                 src="/wordmark.png"
-                height={16}
+                height={18}
+                width={130}
                 style={{
                   marginTop: 4,
                   marginLeft: 3,
                   paddingRight: 14,
-                  width: 117,
                 }}
               />
             </a>
@@ -43,6 +43,7 @@ export default function Header() {
           <Link href="/">
             <a
               style={{
+                fontSize: 18,
                 fontWeight: 500,
                 color: 'white',
                 textDecoration: 'none',
@@ -53,6 +54,7 @@ export default function Header() {
           <Link href="/lists">
             <a
               style={{
+                fontSize: 18,
                 fontWeight: 500,
                 color: 'white',
                 textDecoration: 'none',
@@ -63,6 +65,7 @@ export default function Header() {
           <Link href="/calculators">
             <a
               style={{
+                fontSize: 18,
                 fontWeight: 500,
                 color: 'white',
                 textDecoration: 'none',

@@ -5,7 +5,8 @@ import Link from 'next/link'
 
 import Layout from './Layout'
 
-import { version, timestamp } from '../data/version'
+import versionData from '../data/version'
+const { version, timestamp } = versionData
 
 export default function Footer() {
   const { theme } = useFela()

@@ -7,7 +7,7 @@ export default function Template({ children }) {
   return (
     <Box>
       <Header />
-      <Box paddingTop="42px" minHeight="100vh">
+      <Box paddingTop={14} minHeight="100vh">
         {children}
       </Box>
       <Box paddingTop={10}>

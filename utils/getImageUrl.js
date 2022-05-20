@@ -1,3 +1,5 @@
-export default function getImageUrl(assetId, shiny) {
-  return `/pokemon/pokemon_icon_${assetId}${shiny ? '_shiny' : ''}.png`
+export default function getImageUrl(id, form = '', shiny) {
+  return `pokemon/pm${id}.${form ? 'f' + form + '.' : ''}${
+    shiny ? 's.' : ''
+  }icon.png`
 }
