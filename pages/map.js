@@ -104,7 +104,8 @@ export default function Map(props) {
             defense,
             stamina,
             level,
-          ].join(';')
+          ].join(';') +
+          '#pvp-iv-rankings'
       )
     }
   }, [router.query])
