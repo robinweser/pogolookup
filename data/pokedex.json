@@ -1190,7 +1190,8 @@
     "cinematicMoves": [
       "POISON_FANG",
       "DIG",
-      "SLUDGE_BOMB"
+      "SLUDGE_BOMB",
+      "THUNDERBOLT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -1288,7 +1289,8 @@
     "cinematicMoves": [
       "HORN_ATTACK",
       "DIG",
-      "SLUDGE_BOMB"
+      "SLUDGE_BOMB",
+      "ICE_BEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -1315,7 +1317,8 @@
     },
     "quickMoves": [
       "POISON_JAB_FAST",
-      "IRON_TAIL_FAST"
+      "IRON_TAIL_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "EARTHQUAKE",
@@ -2362,6 +2365,39 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Growlithe (Hisuian)",
+    "ref": "growlithe_hisuian",
+    "id": 58,
+    "formId": 0,
+    "formType": "HISUIAN",
+    "assetId": "058_00",
+    "attack": 142,
+    "defense": 92,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [
+      "Arcanine (Hisuian)"
+    ],
+    "preEvolutions": [],
+    "type1": "fire",
+    "type2": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "EMBER_FAST",
+      "BITE_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_SLIDE",
+      "CRUNCH",
+      "FLAMETHROWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Arcanine",
     "ref": "arcanine",
     "id": 59,
@@ -2389,7 +2425,8 @@
       "FIRE_BLAST",
       "WILD_CHARGE",
       "CRUNCH",
-      "FLAMETHROWER"
+      "FLAMETHROWER",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [
       "BITE_FAST"
@@ -2397,6 +2434,41 @@
     "eliteCinematicMoves": [
       "BULLDOZE"
     ]
+  },
+  {
+    "name": "Arcanine (Hisuian)",
+    "ref": "arcanine_hisuian",
+    "id": 59,
+    "formId": 0,
+    "formType": "HISUIAN",
+    "assetId": "059_00",
+    "attack": 232,
+    "defense": 165,
+    "stamina": 216,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Growlithe (Hisuian)"
+    ],
+    "type1": "fire",
+    "type2": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "FIRE_FANG_FAST",
+      "SNARL_FAST",
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "ROCK_SLIDE",
+      "WILD_CHARGE",
+      "CRUNCH",
+      "FLAMETHROWER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
   },
   {
     "name": "Poliwag",
@@ -2872,7 +2944,8 @@
       "HYDRO_PUMP",
       "SLUDGE_WAVE",
       "BLIZZARD",
-      "ACID_SPRAY"
+      "ACID_SPRAY",
+      "SCALD"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -3076,7 +3149,9 @@
       "ROCK_BLAST",
       "WILD_CHARGE"
     ],
-    "eliteQuickMoves": [],
+    "eliteQuickMoves": [
+      "ROLLOUT_FAST"
+    ],
     "eliteCinematicMoves": []
   },
   {
@@ -3202,7 +3277,8 @@
     },
     "quickMoves": [
       "LOW_KICK_FAST",
-      "PSYCHO_CUT_FAST"
+      "PSYCHO_CUT_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "PLAY_ROUGH",
@@ -3882,7 +3958,8 @@
       "SHADOW_PUNCH",
       "DARK_PULSE",
       "SLUDGE_BOMB",
-      "SHADOW_BALL"
+      "SHADOW_BALL",
+      "ICE_PUNCH"
     ],
     "eliteQuickMoves": [
       "LICK_FAST"
@@ -4387,7 +4464,8 @@
     "cinematicMoves": [
       "BONE_CLUB",
       "DIG",
-      "EARTHQUAKE"
+      "EARTHQUAKE",
+      "ROCK_SLIDE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -4446,7 +4524,8 @@
     },
     "quickMoves": [
       "LOW_KICK_FAST",
-      "ROCK_SMASH_FAST"
+      "ROCK_SMASH_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "CLOSE_COMBAT",
@@ -4610,7 +4689,8 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "TACKLE_FAST"
+      "TACKLE_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "SLUDGE",
@@ -5794,6 +5874,37 @@
     ]
   },
   {
+    "name": "Articuno (Galarian)",
+    "ref": "articuno_galarian",
+    "id": 144,
+    "formId": 31,
+    "formType": "GALARIAN",
+    "assetId": "144_31",
+    "attack": 250,
+    "defense": 197,
+    "stamina": 207,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "CONFUSION_FAST",
+      "PSYCHO_CUT_FAST"
+    ],
+    "cinematicMoves": [
+      "FUTURESIGHT",
+      "ANCIENT_POWER",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Zapdos",
     "ref": "zapdos",
     "id": 145,
@@ -5824,6 +5935,36 @@
     "eliteQuickMoves": [
       "THUNDER_SHOCK_FAST"
     ],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Zapdos (Galarian)",
+    "ref": "zapdos_galarian",
+    "id": 145,
+    "formId": 31,
+    "formType": "GALARIAN",
+    "assetId": "145_31",
+    "attack": 252,
+    "defense": 189,
+    "stamina": 207,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "COUNTER_FAST"
+    ],
+    "cinematicMoves": [
+      "CLOSE_COMBAT",
+      "ANCIENT_POWER",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
@@ -5858,6 +5999,37 @@
     "eliteCinematicMoves": [
       "SKY_ATTACK"
     ]
+  },
+  {
+    "name": "Moltres (Galarian)",
+    "ref": "moltres_galarian",
+    "id": 146,
+    "formId": 31,
+    "formType": "GALARIAN",
+    "assetId": "146_31",
+    "attack": 202,
+    "defense": 231,
+    "stamina": 207,
+    "candyDistance": 20,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "dark",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 100000,
+      "candyToUnlock": 100
+    },
+    "quickMoves": [
+      "SUCKER_PUNCH_FAST",
+      "WING_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "PAYBACK",
+      "ANCIENT_POWER",
+      "BRAVE_BIRD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
   },
   {
     "name": "Dratini",
@@ -5918,7 +6090,8 @@
     "cinematicMoves": [
       "WRAP",
       "AQUA_TAIL",
-      "DRAGON_PULSE"
+      "DRAGON_PULSE",
+      "BODY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -5952,7 +6125,8 @@
       "HURRICANE",
       "HYPER_BEAM",
       "OUTRAGE",
-      "DRAGON_CLAW"
+      "DRAGON_CLAW",
+      "SUPER_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -6573,7 +6747,8 @@
     "cinematicMoves": [
       "BUG_BUZZ",
       "SILVER_WIND",
-      "AERIAL_ACE"
+      "AERIAL_ACE",
+      "DYNAMIC_PUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -6737,7 +6912,8 @@
     "cinematicMoves": [
       "HYDRO_PUMP",
       "THUNDERBOLT",
-      "THUNDER"
+      "THUNDER",
+      "SURF"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7321,7 +7497,8 @@
     },
     "quickMoves": [
       "INFESTATION_FAST",
-      "BULLET_SEED_FAST"
+      "BULLET_SEED_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "ENERGY_BALL",
@@ -7551,7 +7728,8 @@
     "cinematicMoves": [
       "PSYBEAM",
       "PSYCHIC",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -7795,12 +7973,14 @@
     },
     "quickMoves": [
       "TACKLE_FAST",
-      "CONFUSION_FAST"
+      "CONFUSION_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "PSYCHIC",
       "THUNDERBOLT",
-      "MIRROR_COAT"
+      "MIRROR_COAT",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7889,7 +8069,8 @@
     },
     "quickMoves": [
       "BITE_FAST",
-      "ASTONISH_FAST"
+      "ASTONISH_FAST",
+      "ROLLOUT_FAST"
     ],
     "cinematicMoves": [
       "DIG",
@@ -7959,7 +8140,8 @@
     "cinematicMoves": [
       "EARTHQUAKE",
       "HEAVY_SLAM",
-      "CRUNCH"
+      "CRUNCH",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8055,6 +8237,41 @@
       "SLUDGE_WAVE",
       "ACID_SPRAY",
       "FELL_STINGER"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Qwilfish (Hisuian)",
+    "ref": "qwilfish_hisuian",
+    "id": 211,
+    "formId": 0,
+    "formType": "HISUIAN",
+    "assetId": "211_00",
+    "attack": 184,
+    "defense": 151,
+    "stamina": 163,
+    "candyDistance": 3,
+    "evolutions": [
+      "Overqwil"
+    ],
+    "preEvolutions": [],
+    "type1": "dark",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "POISON_STING_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "AQUA_TAIL",
+      "ICE_BEAM",
+      "SLUDGE_BOMB",
+      "DARK_PULSE",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8180,6 +8397,39 @@
       "AVALANCHE",
       "ICE_PUNCH",
       "FOUL_PLAY"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sneasel (Hisuian)",
+    "ref": "sneasel_hisuian",
+    "id": 215,
+    "formId": 0,
+    "formType": "HISUIAN",
+    "assetId": "215_00",
+    "attack": 189,
+    "defense": 146,
+    "stamina": 146,
+    "candyDistance": 3,
+    "evolutions": [
+      "Sneasler"
+    ],
+    "preEvolutions": [],
+    "type1": "fighting",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "AERIAL_ACE",
+      "CLOSE_COMBAT",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8995,7 +9245,8 @@
     },
     "quickMoves": [
       "TACKLE_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "ROLLOUT_FAST"
     ],
     "cinematicMoves": [
       "STOMP",
@@ -11102,7 +11353,8 @@
       "BITE_FAST",
       "ASTONISH_FAST",
       "ICE_FANG_FAST",
-      "FIRE_FANG_FAST"
+      "FIRE_FANG_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "PLAY_ROUGH",
@@ -11338,7 +11590,8 @@
       "THUNDER",
       "WILD_CHARGE",
       "FLAME_BURST",
-      "OVERHEAT"
+      "OVERHEAT",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -11736,7 +11989,8 @@
     },
     "quickMoves": [
       "EMBER_FAST",
-      "ROCK_SMASH_FAST"
+      "ROCK_SMASH_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
       "EARTHQUAKE",
@@ -14307,7 +14561,9 @@
       "HEAT_WAVE",
       "CLOSE_COMBAT"
     ],
-    "eliteQuickMoves": [],
+    "eliteQuickMoves": [
+      "GUST_FAST"
+    ],
     "eliteCinematicMoves": []
   },
   {
@@ -15514,7 +15770,8 @@
     },
     "quickMoves": [
       "POUND_FAST",
-      "LOW_KICK_FAST"
+      "LOW_KICK_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "FIRE_PUNCH",
@@ -17755,7 +18012,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "GRASS_KNOT",
-      "SOLAR_BEAM"
+      "SOLAR_BEAM",
+      "SEED_FLARE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -17786,7 +18044,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "GRASS_KNOT",
-      "SOLAR_BEAM"
+      "SOLAR_BEAM",
+      "SEED_FLARE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -19411,7 +19670,8 @@
     "cinematicMoves": [
       "PSYCHIC",
       "AERIAL_ACE",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -23047,6 +23307,38 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Braviary (Hisuian)",
+    "ref": "braviary_hisuian",
+    "id": 628,
+    "formId": 0,
+    "formType": "HISUIAN",
+    "assetId": "628_00",
+    "attack": 213,
+    "defense": 137,
+    "stamina": 242,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "psychic",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "AIR_SLASH_FAST",
+      "ZEN_HEADBUTT_FAST"
+    ],
+    "cinematicMoves": [
+      "DAZZLING_GLEAM",
+      "BRAVE_BIRD",
+      "PSYCHIC",
+      "OMINOUS_WIND"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Vullaby",
     "ref": "vullaby",
     "id": 629,
@@ -23266,7 +23558,9 @@
       "FLASH_CANNON"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "BRUTAL_SWING"
+    ]
   },
   {
     "name": "Larvesta",
@@ -23353,7 +23647,8 @@
     },
     "quickMoves": [
       "METAL_CLAW_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "CLOSE_COMBAT",
@@ -23385,7 +23680,8 @@
     },
     "quickMoves": [
       "SMACK_DOWN_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "CLOSE_COMBAT",
@@ -23417,7 +23713,8 @@
     },
     "quickMoves": [
       "QUICK_ATTACK_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "CLOSE_COMBAT",
@@ -23963,7 +24260,9 @@
       "FLAMETHROWER"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": [],
+    "eliteCinematicMoves": [
+      "TECHNO_BLAST_BURN"
+    ],
     "mythical": true
   },
   {
@@ -23995,7 +24294,9 @@
       "ICE_BEAM"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "TECHNO_BLAST_CHILL"
+    ]
   },
   {
     "name": "Genesect (Douse)",
@@ -24026,7 +24327,9 @@
       "GUNK_SHOT"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "TECHNO_BLAST_WATER"
+    ]
   },
   {
     "name": "Genesect (Shock)",
@@ -24057,7 +24360,9 @@
       "ZAP_CANNON"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "TECHNO_BLAST_SHOCK"
+    ]
   },
   {
     "name": "Chespin",
@@ -25068,7 +25373,8 @@
     "quickMoves": [
       "VINE_WHIP_FAST",
       "TACKLE_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "MOONBLAST",
@@ -25102,7 +25408,8 @@
     "quickMoves": [
       "VINE_WHIP_FAST",
       "TACKLE_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "MOONBLAST",
@@ -25136,7 +25443,8 @@
     "quickMoves": [
       "VINE_WHIP_FAST",
       "TACKLE_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "MOONBLAST",
@@ -25170,7 +25478,8 @@
     "quickMoves": [
       "VINE_WHIP_FAST",
       "TACKLE_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "MOONBLAST",
@@ -25204,7 +25513,8 @@
     "quickMoves": [
       "VINE_WHIP_FAST",
       "TACKLE_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "MOONBLAST",
@@ -25948,7 +26258,8 @@
     },
     "quickMoves": [
       "TACKLE_FAST",
-      "CHARM_FAST"
+      "CHARM_FAST",
+      "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
       "PLAY_ROUGH",
@@ -27597,7 +27908,8 @@
     },
     "quickMoves": [
       "SNARL_FAST",
-      "FIRE_FANG_FAST"
+      "FIRE_FANG_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "FIRE_BLAST",
@@ -27884,10 +28196,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "BUG_BITE_FAST",
+      "SPARK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      "VICE_GRIP",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27915,10 +28230,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "BUG_BITE_FAST",
+      "SPARK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      "DISCHARGE",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27944,10 +28262,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "BUG_BITE_FAST",
+      "SPARK_FAST",
+      "MUD_SLAP_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      "DISCHARGE",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27972,10 +28294,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROCK_SMASH_FAST",
+      "BUBBLE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_UP_PUNCH",
+      "CRABHAMMER",
+      "PAYBACK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28001,10 +28326,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROCK_SMASH_FAST",
+      "BUBBLE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_UP_PUNCH",
+      "CRABHAMMER",
+      "PAYBACK",
+      "ICE_PUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28154,10 +28483,12 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "FAIRY_WIND_FAST",
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DAZZLING_GLEAM",
+      "BUG_BUZZ"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28183,10 +28514,12 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "FAIRY_WIND_FAST",
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DAZZLING_GLEAM",
+      "BUG_BUZZ"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28202,8 +28535,8 @@
     "stamina": 128,
     "candyDistance": 5,
     "evolutions": [
-      "Lycanroc Midday",
-      "Lycanroc Midnight"
+      "Lycanroc (Midday)",
+      "Lycanroc (Midnight)"
     ],
     "preEvolutions": [],
     "type1": "rock",
@@ -28253,7 +28586,7 @@
     "eliteCinematicMoves": []
   },
   {
-    "name": "Lycanroc Dusk",
+    "name": "Lycanroc (Dusk)",
     "ref": "lycanroc_dusk",
     "id": 745,
     "formId": 0,
@@ -28271,16 +28604,20 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SUCKER_PUNCH_FAST",
+      "COUNTER_FAST",
+      "ROCK_THROW_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "STONE_EDGE",
+      "IRON_HEAD",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
-    "name": "Lycanroc Midday",
+    "name": "Lycanroc (Midday)",
     "ref": "lycanroc_midday",
     "id": 745,
     "formId": 0,
@@ -28312,7 +28649,7 @@
     "eliteCinematicMoves": []
   },
   {
-    "name": "Lycanroc Midnight",
+    "name": "Lycanroc (Midnight)",
     "ref": "lycanroc_midnight",
     "id": 745,
     "formId": 0,
@@ -28344,33 +28681,7 @@
     "eliteCinematicMoves": []
   },
   {
-    "name": "Wishiwashi",
-    "ref": "wishiwashi",
-    "id": 746,
-    "formId": 0,
-    "assetId": "746_00",
-    "attack": 46,
-    "defense": 43,
-    "stamina": 128,
-    "candyDistance": 1,
-    "evolutions": [],
-    "preEvolutions": [],
-    "type1": "water",
-    "thirdMove": {
-      "stardustToUnlock": 75000,
-      "candyToUnlock": 75
-    },
-    "quickMoves": [
-      "STRUGGLE"
-    ],
-    "cinematicMoves": [
-      "STRUGGLE"
-    ],
-    "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
-  },
-  {
-    "name": "Wishiwashi School",
+    "name": "Wishiwashi (School)",
     "ref": "wishiwashi_school",
     "id": 746,
     "formId": 0,
@@ -28388,16 +28699,20 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "STRUGGLE"
+      "WATER_GUN_FAST",
+      "WATERFALL_FAST",
+      "IRON_TAIL_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BRINE",
+      "SURF",
+      "AQUA_TAIL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
-    "name": "Wishiwashi Solo",
+    "name": "Wishiwashi (Solo)",
     "ref": "wishiwashi_solo",
     "id": 746,
     "formId": 0,
@@ -28415,10 +28730,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "STRUGGLE"
+      "WATER_GUN_FAST",
+      "WATERFALL_FAST",
+      "IRON_TAIL_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BRINE",
+      "SURF",
+      "AQUA_TAIL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28444,10 +28763,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "POISON_STING_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "MUDDY_WATER",
+      "GUNK_SHOT",
+      "SLUDGE_WAVE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28473,10 +28795,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "POISON_JAB_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "MUDDY_WATER",
+      "GUNK_SHOT",
+      "SLUDGE_WAVE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28501,10 +28826,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "MUD_SLAP_FAST",
+      "ROCK_SMASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BULLDOZE",
+      "BODY_SLAM",
+      "EARTHQUAKE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28529,10 +28857,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "MUD_SLAP_FAST",
+      "ROCK_SMASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BULLDOZE",
+      "BODY_SLAM",
+      "EARTHQUAKE",
+      "HEAVY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28685,10 +29017,12 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ASTONISH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "GIGA_DRAIN",
+      "DAZZLING_GLEAM",
+      "SEED_BOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28714,10 +29048,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ASTONISH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "GIGA_DRAIN",
+      "MOONBLAST",
+      "SEED_BOMB",
+      "SLUDGE_BOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28874,10 +29211,12 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "RAZOR_LEAF_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ENERGY_BALL",
+      "DRAINING_KISS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28904,10 +29243,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "RAZOR_LEAF_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ENERGY_BALL",
+      "DRAINING_KISS",
+      "GRASS_KNOT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28932,10 +29274,15 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "RAZOR_LEAF_FAST",
+      "CHARM_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ENERGY_BALL",
+      "DRAINING_KISS",
+      "GRASS_KNOT",
+      "STOMP"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29018,10 +29365,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "STRUGGLE"
+      "COUNTER_FAST",
+      "ROCK_SMASH_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BRICK_BREAK",
+      "CLOSE_COMBAT",
+      "SUPER_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29047,10 +29398,10 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BUG_BUZZ"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29076,10 +29427,15 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "STRUGGLE"
+      "FURY_CUTTER_FAST",
+      "METAL_CLAW_FAST",
+      "WATERFALL_FAST",
+      "SHADOW_CLAW_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      "AQUA_JET",
+      "AERIAL_ACE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29105,10 +29461,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ASTONISH_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SAND_TOMB",
+      "SHADOW_BALL",
+      "EARTH_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29134,10 +29493,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ASTONISH_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SAND_TOMB",
+      "SHADOW_BALL",
+      "EARTH_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29160,10 +29522,10 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "STRUGGLE"
+      "COUNTER_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "MIRROR_COAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29188,10 +29550,13 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29216,10 +29581,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29243,10 +29613,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29270,10 +29645,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29297,10 +29677,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29324,10 +29709,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29351,10 +29741,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29378,10 +29773,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29405,10 +29805,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29432,10 +29837,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29459,10 +29869,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29486,10 +29901,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29513,10 +29933,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29540,10 +29965,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29567,10 +29997,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29594,10 +30029,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29621,10 +30061,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29648,10 +30093,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "TRI_ATTACK",
+      "IRON_HEAD",
+      "AERIAL_ACE",
+      "X_SCISSOR"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29675,10 +30125,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29703,10 +30156,75 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior (Green)",
+    "ref": "minior_green",
+    "id": 774,
+    "formId": 0,
+    "formType": "GREEN",
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior (Indigo)",
+    "ref": "minior_indigo",
+    "id": 774,
+    "formId": 0,
+    "formType": "INDIGO",
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29731,10 +30249,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29759,10 +30280,44 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Minior (Violet)",
+    "ref": "minior_violet",
+    "id": 774,
+    "formId": 0,
+    "formType": "VIOLET",
+    "assetId": "774_00",
+    "attack": 218,
+    "defense": 131,
+    "stamina": 155,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "rock",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
+    ],
+    "cinematicMoves": [
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29787,94 +30342,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROLLOUT_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
-    ],
-    "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
-  },
-  {
-    "name": "Minior Green",
-    "ref": "minior_green",
-    "id": 774,
-    "formId": 0,
-    "formType": "GREEN",
-    "assetId": "774_00",
-    "attack": 218,
-    "defense": 131,
-    "stamina": 155,
-    "candyDistance": 3,
-    "evolutions": [],
-    "preEvolutions": [],
-    "type1": "rock",
-    "type2": "flying",
-    "thirdMove": {
-      "stardustToUnlock": 50000,
-      "candyToUnlock": 50
-    },
-    "quickMoves": [
-      "STRUGGLE"
-    ],
-    "cinematicMoves": [
-      "STRUGGLE"
-    ],
-    "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
-  },
-  {
-    "name": "Minior Indigo",
-    "ref": "minior_indigo",
-    "id": 774,
-    "formId": 0,
-    "formType": "INDIGO",
-    "assetId": "774_00",
-    "attack": 218,
-    "defense": 131,
-    "stamina": 155,
-    "candyDistance": 3,
-    "evolutions": [],
-    "preEvolutions": [],
-    "type1": "rock",
-    "type2": "flying",
-    "thirdMove": {
-      "stardustToUnlock": 50000,
-      "candyToUnlock": 50
-    },
-    "quickMoves": [
-      "STRUGGLE"
-    ],
-    "cinematicMoves": [
-      "STRUGGLE"
-    ],
-    "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
-  },
-  {
-    "name": "Minior Violet",
-    "ref": "minior_violet",
-    "id": 774,
-    "formId": 0,
-    "formType": "VIOLET",
-    "assetId": "774_00",
-    "attack": 218,
-    "defense": 131,
-    "stamina": 155,
-    "candyDistance": 3,
-    "evolutions": [],
-    "preEvolutions": [],
-    "type1": "rock",
-    "type2": "flying",
-    "thirdMove": {
-      "stardustToUnlock": 50000,
-      "candyToUnlock": 50
-    },
-    "quickMoves": [
-      "STRUGGLE"
-    ],
-    "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_GEM",
+      "ANCIENT_POWER",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29897,10 +30371,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ROLLOUT_FAST",
+      "YAWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PLAY_ROUGH",
+      "BULLDOZE",
+      "PAYBACK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29924,10 +30401,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "STRUGGLE"
+      "EMBER_FAST",
+      "FIRE_SPIN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OVERHEAT",
+      "FLAMETHROWER",
+      "DRAGON_PULSE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29951,10 +30431,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "THUNDER_SHOCK_FAST",
+      "SPARK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FELL_STINGER",
+      "WILD_CHARGE",
+      "GYRO_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -29978,16 +30461,19 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SHADOW_CLAW_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_SNEAK",
+      "PLAY_ROUGH",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
-    "name": "Mimikyu Busted",
+    "name": "Mimikyu (Busted)",
     "ref": "mimikyu_busted",
     "id": 778,
     "formId": 0,
@@ -30006,16 +30492,19 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SHADOW_CLAW_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_SNEAK",
+      "PLAY_ROUGH",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
   },
   {
-    "name": "Mimikyu Disguised",
+    "name": "Mimikyu (Disguised)",
     "ref": "mimikyu_disguised",
     "id": 778,
     "formId": 0,
@@ -30034,10 +30523,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SHADOW_CLAW_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_SNEAK",
+      "PLAY_ROUGH",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30061,10 +30553,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "WATER_GUN_FAST",
+      "CONFUSION_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PSYCHIC_FANGS",
+      "AQUA_TAIL",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30088,10 +30584,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "STRUGGLE"
+      "DRAGON_BREATH_FAST",
+      "EXTRASENSORY_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OUTRAGE",
+      "DRAGON_PULSE",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30115,10 +30614,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ASTONISH_FAST",
+      "SHADOW_CLAW_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_WHIP",
+      "SHADOW_BALL",
+      "HEAVY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30354,9 +30856,7 @@
     "defense": 57,
     "stamina": 125,
     "candyDistance": 20,
-    "evolutions": [
-      "Cosmoem"
-    ],
+    "evolutions": [],
     "preEvolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -30364,7 +30864,7 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SPLASH_FAST"
     ],
     "cinematicMoves": [
       "STRUGGLE"
@@ -30382,20 +30882,15 @@
     "defense": 242,
     "stamina": 125,
     "candyDistance": 20,
-    "evolutions": [
-      "Solgaleo",
-      "Lunala"
-    ],
-    "preEvolutions": [
-      "Cosmog"
-    ],
+    "evolutions": [],
+    "preEvolutions": [],
     "type1": "psychic",
     "thirdMove": {
       "stardustToUnlock": 100000,
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SPLASH_FAST"
     ],
     "cinematicMoves": [
       "STRUGGLE"
@@ -30414,9 +30909,7 @@
     "stamina": 264,
     "candyDistance": 20,
     "evolutions": [],
-    "preEvolutions": [
-      "Cosmoem"
-    ],
+    "preEvolutions": [],
     "type1": "psychic",
     "type2": "steel",
     "thirdMove": {
@@ -30424,10 +30917,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ZEN_HEADBUTT_FAST",
+      "FIRE_SPIN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "IRON_HEAD",
+      "PSYCHIC_FANGS",
+      "SOLAR_BEAM",
+      "FLAMETHROWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30443,9 +30940,7 @@
     "stamina": 264,
     "candyDistance": 20,
     "evolutions": [],
-    "preEvolutions": [
-      "Cosmoem"
-    ],
+    "preEvolutions": [],
     "type1": "psychic",
     "type2": "ghost",
     "thirdMove": {
@@ -30453,10 +30948,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "CONFUSION_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_BALL",
+      "PSYCHIC",
+      "MOONBLAST",
+      "FUTURESIGHT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30480,10 +30979,15 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "ACID_FAST",
+      "POUND_FAST",
+      "POISON_JAB_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_GEM",
+      "GUNK_SHOT",
+      "SLUDGE_BOMB",
+      "ROCK_SLIDE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30507,10 +31011,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "COUNTER_FAST",
+      "POISON_JAB_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "POWER_UP_PUNCH",
+      "FELL_STINGER",
+      "LUNGE",
+      "SUPER_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30534,10 +31042,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "BUG_BITE_FAST",
+      "LOW_KICK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FOCUS_BLAST",
+      "BUG_BUZZ",
+      "LUNGE",
+      "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30560,10 +31072,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "THUNDER_SHOCK_FAST",
+      "SPARK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DISCHARGE",
+      "THUNDER",
+      "POWER_WHIP",
+      "DAZZLING_GLEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30587,10 +31103,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "AIR_SLASH_FAST",
+      "SMACK_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "IRON_HEAD",
+      "BODY_SLAM",
+      "HEAVY_SLAM",
+      "BULLDOZE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30614,10 +31134,14 @@
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "AIR_SLASH_FAST",
+      "RAZOR_LEAF_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "LEAF_BLADE",
+      "X_SCISSOR",
+      "NIGHT_SLASH",
+      "AERIAL_ACE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30676,11 +31200,11 @@
     "eliteCinematicMoves": []
   },
   {
-    "name": "Necrozma Dawn Wings",
-    "ref": "necrozma_dawn_wings",
+    "name": "Necrozma (Dusk) Mane",
+    "ref": "necrozma_dusk_mane",
     "id": 800,
     "formId": 0,
-    "formType": "DAWN_WINGS",
+    "formType": "DUSK_MANE",
     "assetId": "800_00",
     "attack": 277,
     "defense": 220,
@@ -30689,7 +31213,7 @@
     "evolutions": [],
     "preEvolutions": [],
     "type1": "psychic",
-    "type2": "ghost",
+    "type2": "steel",
     "thirdMove": {
       "stardustToUnlock": 100000,
       "candyToUnlock": 100
@@ -30704,11 +31228,11 @@
     "eliteCinematicMoves": []
   },
   {
-    "name": "Necrozma Dusk Mane",
-    "ref": "necrozma_dusk_mane",
+    "name": "Necrozma Dawn Wings",
+    "ref": "necrozma_dawn_wings",
     "id": 800,
     "formId": 0,
-    "formType": "DUSK_MANE",
+    "formType": "DAWN_WINGS",
     "assetId": "800_00",
     "attack": 277,
     "defense": 220,
@@ -30717,7 +31241,7 @@
     "evolutions": [],
     "preEvolutions": [],
     "type1": "psychic",
-    "type2": "steel",
+    "type2": "ghost",
     "thirdMove": {
       "stardustToUnlock": 100000,
       "candyToUnlock": 100
@@ -31738,7 +32262,8 @@
     },
     "quickMoves": [
       "TACKLE_FAST",
-      "TAKE_DOWN_FAST"
+      "TAKE_DOWN_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
       "WILD_CHARGE",
@@ -32899,7 +33424,9 @@
       "GUNK_SHOT"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "OBSTRUCT"
+    ]
   },
   {
     "name": "Perrserker",
@@ -33050,7 +33577,8 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "ASTONISH_FAST"
+      "ASTONISH_FAST",
+      "SHADOW_CLAW_FAST"
     ],
     "cinematicMoves": [
       "SHADOW_BALL",
@@ -34446,6 +34974,73 @@
       "PSYCHIC",
       "ENERGY_BALL",
       "AVALANCHE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Sneasler",
+    "ref": "sneasler",
+    "id": 903,
+    "formId": 0,
+    "assetId": "903_00",
+    "attack": 259,
+    "defense": 158,
+    "stamina": 190,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Sneasel (Hisuian)"
+    ],
+    "type1": "fighting",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "ROCK_SMASH_FAST",
+      "POISON_JAB_FAST",
+      "SHADOW_CLAW_FAST"
+    ],
+    "cinematicMoves": [
+      "AERIAL_ACE",
+      "CLOSE_COMBAT",
+      "X_SCISSOR"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Overqwil",
+    "ref": "overqwil",
+    "id": 904,
+    "formId": 0,
+    "assetId": "904_00",
+    "attack": 222,
+    "defense": 171,
+    "stamina": 198,
+    "candyDistance": 5,
+    "evolutions": [],
+    "preEvolutions": [
+      "Qwilfish (Hisuian)"
+    ],
+    "type1": "dark",
+    "type2": "poison",
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "quickMoves": [
+      "POISON_STING_FAST",
+      "POISON_JAB_FAST"
+    ],
+    "cinematicMoves": [
+      "AQUA_TAIL",
+      "ICE_BEAM",
+      "SLUDGE_BOMB",
+      "DARK_PULSE",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []

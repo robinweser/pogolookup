@@ -550,12 +550,12 @@
       "turns": 3.5
     },
     "pvp": {
-      "damage": 45,
+      "damage": 60,
       "energy": 45,
       "turns": 1,
       "buffs": {
-        "attackerAttackStatStageChange": 2,
-        "attackerDefenseStatStageChange": 2,
+        "attackerAttackStatStageChange": 1,
+        "attackerDefenseStatStageChange": 1,
         "buffActivationChance": 0.1
       }
     }
@@ -653,8 +653,8 @@
       "energy": 45,
       "turns": 1,
       "buffs": {
-        "attackerAttackStatStageChange": 2,
-        "attackerDefenseStatStageChange": 2,
+        "attackerAttackStatStageChange": 1,
+        "attackerDefenseStatStageChange": 1,
         "buffActivationChance": 0.1
       }
     }
@@ -1749,7 +1749,7 @@
     },
     "pvp": {
       "damage": 5,
-      "energy": 7,
+      "energy": 8,
       "turns": 2
     }
   },
@@ -1779,7 +1779,7 @@
     },
     "pvp": {
       "damage": 3,
-      "energy": 2,
+      "energy": 3,
       "turns": 1
     }
   },
@@ -2241,7 +2241,7 @@
       "turns": 1,
       "buffs": {
         "targetAttackStatStageChange": -1,
-        "buffActivationChance": 1
+        "buffActivationChance": 0.66
       }
     }
   },
@@ -2398,12 +2398,12 @@
       "turns": 3.7
     },
     "pvp": {
-      "damage": 45,
+      "damage": 60,
       "energy": 45,
       "turns": 1,
       "buffs": {
-        "attackerAttackStatStageChange": 2,
-        "attackerDefenseStatStageChange": 2,
+        "attackerAttackStatStageChange": 1,
+        "attackerDefenseStatStageChange": 1,
         "buffActivationChance": 0.1
       }
     }
@@ -3725,6 +3725,21 @@
       }
     }
   },
+  "FAIRY_WIND_FAST": {
+    "name": "Fairy Wind",
+    "type": "fairy",
+    "pve": {
+      "damage": 9,
+      "energy": 13,
+      "accuracy": 1,
+      "turns": 0.97
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 9,
+      "turns": 2
+    }
+  },
   "WEATHER_BALL_NORMAL": {
     "name": "Weather Ball Normal",
     "type": "normal",
@@ -3757,6 +3772,21 @@
         "targetDefenseStatStageChange": -1,
         "buffActivationChance": 1
       }
+    }
+  },
+  "DOUBLE_KICK_FAST": {
+    "name": "Double Kick",
+    "type": "fighting",
+    "pve": {
+      "damage": 10,
+      "energy": 13,
+      "accuracy": 1,
+      "turns": 1
+    },
+    "pvp": {
+      "damage": 8,
+      "energy": 12,
+      "turns": 3
     }
   },
   "MAGICAL_LEAF_FAST": {
@@ -3804,7 +3834,7 @@
     },
     "pvp": {
       "damage": 60,
-      "energy": 35,
+      "energy": 40,
       "turns": 1
     }
   },
@@ -3937,6 +3967,21 @@
       }
     }
   },
+  "BRUTAL_SWING": {
+    "name": "Brutal Swing",
+    "type": "dark",
+    "pve": {
+      "damage": 65,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 65,
+      "energy": 40,
+      "turns": 1
+    }
+  },
   "ROLLOUT_FAST": {
     "name": "Rollout",
     "type": "rock",
@@ -3948,8 +3993,66 @@
     },
     "pvp": {
       "damage": 4,
-      "energy": 8,
+      "energy": 13,
       "turns": 3
+    }
+  },
+  "SEED_FLARE": {
+    "name": "Seed Flare",
+    "type": "grass",
+    "pve": {
+      "damage": 120,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.7
+    },
+    "pvp": {
+      "damage": 130,
+      "energy": 75,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -2,
+        "buffActivationChance": 0.4
+      }
+    }
+  },
+  "OBSTRUCT": {
+    "name": "Obstruct",
+    "type": "dark",
+    "pve": {
+      "damage": 20,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 1.7
+    },
+    "pvp": {
+      "damage": 15,
+      "energy": 40,
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": 1,
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "METEOR_BEAM": {
+    "name": "Meteor Beam",
+    "type": "rock",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 60,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
     }
   }
 }
