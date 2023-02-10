@@ -404,7 +404,7 @@
     },
     "pvp": {
       "damage": 40,
-      "energy": 35,
+      "energy": 40,
       "turns": 1,
       "buffs": {
         "targetDefenseStatStageChange": -1,
@@ -1614,7 +1614,7 @@
     },
     "pvp": {
       "damage": 5,
-      "energy": 7,
+      "energy": 8,
       "turns": 2
     }
   },
@@ -3324,7 +3324,7 @@
       "turns": 1.5
     },
     "pvp": {
-      "damage": 16,
+      "damage": 15,
       "energy": 6,
       "turns": 3
     }
@@ -4036,6 +4036,21 @@
       }
     }
   },
+  "SHADOW_FORCE": {
+    "name": "Shadow Force",
+    "type": "ghost",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.9
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 90,
+      "turns": 1
+    }
+  },
   "METEOR_BEAM": {
     "name": "Meteor Beam",
     "type": "rock",
@@ -4053,6 +4068,119 @@
         "attackerAttackStatStageChange": 1,
         "buffActivationChance": 1
       }
+    }
+  },
+  "FUSION_BOLT": {
+    "name": "Fusion Bolt",
+    "type": "electric",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "FUSION_FLARE": {
+    "name": "Fusion Flare",
+    "type": "fire",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 45,
+      "turns": 1
+    }
+  },
+  "POLTERGEIST": {
+    "name": "Poltergeist",
+    "type": "ghost",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.6
+    },
+    "pvp": {
+      "damage": 140,
+      "energy": 75,
+      "turns": 1
+    }
+  },
+  "HIGH_HORSEPOWER": {
+    "name": "High Horsepower",
+    "type": "ground",
+    "pve": {
+      "damage": 110,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.6
+    },
+    "pvp": {
+      "damage": 100,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "GLACIATE": {
+    "name": "Glaciate",
+    "type": "ice",
+    "pve": {
+      "damage": 160,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 40,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "BREAKING_SWIPE": {
+    "name": "Breaking Swipe",
+    "type": "dragon",
+    "pve": {
+      "damage": 35,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 0.8
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 35,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "BOOMBURST": {
+    "name": "Boomburst",
+    "type": "normal",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 75,
+      "turns": 1
     }
   }
 }

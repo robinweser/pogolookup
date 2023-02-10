@@ -727,6 +727,58 @@
       "hp": 97
     }
   },
+  "Pikachu Tshirt 01": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 930,
+      "hp": 97
+    }
+  },
+  "Pikachu Tshirt 02": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 930,
+      "hp": 97
+    }
+  },
   "Raichu": {
     "great": {
       "attack": 1,
@@ -19967,6 +20019,526 @@
       "hp": 103
     }
   },
+  "Scatterbug (Fan)cy": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Archipelago": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Continental": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Elegant": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Garden": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug High Plains": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Icy Snow": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Jungle": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Marine": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Meadow": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Modern": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Monsoon": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Ocean": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Pokeball": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Polar": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug River": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Sandstorm": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Savanna": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Sun": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
+  "Scatterbug Tundra": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 473,
+      "hp": 101
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 486,
+      "hp": 103
+    }
+  },
   "Spewpa": {
     "great": {
       "attack": 15,
@@ -19993,7 +20565,1047 @@
       "hp": 110
     }
   },
+  "Spewpa (Fan)cy": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Archipelago": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Continental": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Elegant": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Garden": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa High Plains": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Icy Snow": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Jungle": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Marine": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Meadow": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Modern": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Monsoon": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Ocean": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Pokeball": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Polar": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa River": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Sandstorm": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Savanna": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Sun": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
+  "Spewpa Tundra": {
+    "great": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 10,
+      "level": 40,
+      "cp": 466,
+      "hp": 109
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 474,
+      "hp": 110
+    }
+  },
   "Vivillon": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon (Fan)cy": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Archipelago": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Continental": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Elegant": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Garden": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon High Plains": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Icy Snow": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Jungle": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Marine": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Meadow": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Modern": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Monsoon": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Ocean": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Pokeball": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Polar": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon River": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Sandstorm": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Savanna": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Sun": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 33.5,
+      "cp": 1499,
+      "hp": 152
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1829,
+      "hp": 158
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1826,
+      "hp": 162
+    }
+  },
+  "Vivillon Tundra": {
     "great": {
       "attack": 0,
       "defense": 9,
@@ -22044,6 +23656,32 @@
       "stamina": 13,
       "level": 40,
       "cp": 3184,
+      "hp": 180
+    }
+  },
+  "Avalugg (Hisuian)": {
+    "great": {
+      "attack": 0,
+      "defense": 7,
+      "stamina": 14,
+      "level": 16.5,
+      "cp": 1495,
+      "hp": 124
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 8,
+      "level": 27.5,
+      "cp": 2495,
+      "hp": 156
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3442,
       "hp": 180
     }
   },
@@ -28337,6 +29975,32 @@
       "level": 40,
       "cp": 4212,
       "hp": 173
+    }
+  },
+  "Ursaluna": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 8,
+      "level": 14.5,
+      "cp": 1500,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 14,
+      "level": 24,
+      "cp": 2479,
+      "hp": 190
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3830,
+      "hp": 230
     }
   },
   "Sneasler": {

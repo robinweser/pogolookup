@@ -928,6 +928,66 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Pikachu Tshirt 01",
+    "ref": "pikachu_tshirt_01",
+    "id": 25,
+    "formId": "pm0025_00_pgo_tshirt",
+    "formType": "TSHIRT_01",
+    "assetId": "pm0025_00_pgo_tshirt",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Pikachu Tshirt 02",
+    "ref": "pikachu_tshirt_02",
+    "id": 25,
+    "formId": "pm0025_00_pgo_tshirt",
+    "formType": "TSHIRT_02",
+    "assetId": "pm0025_00_pgo_tshirt",
+    "attack": 112,
+    "defense": 96,
+    "stamina": 111,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "electric",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Raichu",
     "ref": "raichu",
     "id": 26,
@@ -3284,7 +3344,8 @@
       "PLAY_ROUGH",
       "PSYCHIC",
       "BODY_SLAM",
-      "MEGAHORN"
+      "MEGAHORN",
+      "HIGH_HORSEPOWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -4697,7 +4758,8 @@
       "HYPER_BEAM",
       "PLAY_ROUGH",
       "HYPER_BEAM",
-      "OVERHEAT"
+      "OVERHEAT",
+      "BRUTAL_SWING"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7242,7 +7304,8 @@
       "FOCUS_BLAST",
       "THUNDER",
       "POWER_GEM",
-      "THUNDER_PUNCH"
+      "THUNDER_PUNCH",
+      "BRUTAL_SWING"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -7370,7 +7433,8 @@
       "STONE_EDGE",
       "EARTHQUAKE",
       "ROCK_SLIDE",
-      "ROCK_TOMB"
+      "ROCK_TOMB",
+      "METEOR_BEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8475,7 +8539,9 @@
     "defense": 144,
     "stamina": 207,
     "candyDistance": 3,
-    "evolutions": [],
+    "evolutions": [
+      "Ursaluna"
+    ],
     "preEvolutions": [
       "Teddiursa"
     ],
@@ -8623,7 +8689,8 @@
     "cinematicMoves": [
       "AVALANCHE",
       "BULLDOZE",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "HIGH_HORSEPOWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -11461,7 +11528,8 @@
       "THUNDER",
       "STONE_EDGE",
       "HEAVY_SLAM",
-      "ROCK_TOMB"
+      "ROCK_TOMB",
+      "METEOR_BEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -13126,7 +13194,8 @@
     "cinematicMoves": [
       "SHADOW_PUNCH",
       "ICE_PUNCH",
-      "FIRE_PUNCH"
+      "FIRE_PUNCH",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -17236,7 +17305,8 @@
     "cinematicMoves": [
       "AVALANCHE",
       "BULLDOZE",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "HIGH_HORSEPOWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -17371,7 +17441,8 @@
     "cinematicMoves": [
       "OMINOUS_WIND",
       "PSYCHIC",
-      "DARK_PULSE"
+      "DARK_PULSE",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -17833,7 +17904,9 @@
       "SHADOW_SNEAK"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SHADOW_FORCE"
+    ]
   },
   {
     "name": "Giratina (Origin)",
@@ -17864,7 +17937,9 @@
       "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "SHADOW_FORCE"
+    ]
   },
   {
     "name": "Cresselia",
@@ -19609,7 +19684,9 @@
       "HEAVY_SLAM"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "METEOR_BEAM"
+    ]
   },
   {
     "name": "Woobat",
@@ -22676,7 +22753,9 @@
       "FLAME_CHARGE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "POLTERGEIST"
+    ]
   },
   {
     "name": "Axew",
@@ -23141,7 +23220,8 @@
     "cinematicMoves": [
       "SHADOW_PUNCH",
       "DYNAMIC_PUNCH",
-      "EARTH_POWER"
+      "EARTH_POWER",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -23881,7 +23961,9 @@
       "STONE_EDGE"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "FUSION_FLARE"
+    ]
   },
   {
     "name": "Zekrom",
@@ -23912,7 +23994,9 @@
       "CRUNCH"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "FUSION_BOLT"
+    ]
   },
   {
     "name": "Landorus (Incarnate)",
@@ -24099,7 +24183,8 @@
       "AQUA_JET",
       "CLOSE_COMBAT",
       "HYDRO_PUMP",
-      "X_SCISSOR"
+      "X_SCISSOR",
+      "SACRED_SWORD"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -24131,7 +24216,8 @@
       "AQUA_JET",
       "CLOSE_COMBAT",
       "HYDRO_PUMP",
-      "X_SCISSOR"
+      "X_SCISSOR",
+      "SACRED_SWORD"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -24460,7 +24546,9 @@
       "SOLAR_BEAM"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "FRENZY_PLANT"
+    ]
   },
   {
     "name": "Fennekin",
@@ -24854,6 +24942,606 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Scatterbug (Fan)cy",
+    "ref": "scatterbug_fancy",
+    "id": 664,
+    "formId": 0,
+    "formType": "FANCY",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa (Fan)cy"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Archipelago",
+    "ref": "scatterbug_archipelago",
+    "id": 664,
+    "formId": 0,
+    "formType": "ARCHIPELAGO",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Archipelago"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Continental",
+    "ref": "scatterbug_continental",
+    "id": 664,
+    "formId": 0,
+    "formType": "CONTINENTAL",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Continental"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Elegant",
+    "ref": "scatterbug_elegant",
+    "id": 664,
+    "formId": 0,
+    "formType": "ELEGANT",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Elegant"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Garden",
+    "ref": "scatterbug_garden",
+    "id": 664,
+    "formId": 0,
+    "formType": "GARDEN",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Garden"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug High Plains",
+    "ref": "scatterbug_high_plains",
+    "id": 664,
+    "formId": 0,
+    "formType": "HIGH_PLAINS",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa High Plains"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Icy Snow",
+    "ref": "scatterbug_icy_snow",
+    "id": 664,
+    "formId": 0,
+    "formType": "ICY_SNOW",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Icy Snow"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Jungle",
+    "ref": "scatterbug_jungle",
+    "id": 664,
+    "formId": 0,
+    "formType": "JUNGLE",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Jungle"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Marine",
+    "ref": "scatterbug_marine",
+    "id": 664,
+    "formId": 0,
+    "formType": "MARINE",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Marine"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Meadow",
+    "ref": "scatterbug_meadow",
+    "id": 664,
+    "formId": 0,
+    "formType": "MEADOW",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Meadow"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Modern",
+    "ref": "scatterbug_modern",
+    "id": 664,
+    "formId": 0,
+    "formType": "MODERN",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Modern"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Monsoon",
+    "ref": "scatterbug_monsoon",
+    "id": 664,
+    "formId": 0,
+    "formType": "MONSOON",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Monsoon"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Ocean",
+    "ref": "scatterbug_ocean",
+    "id": 664,
+    "formId": 0,
+    "formType": "OCEAN",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Ocean"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Pokeball",
+    "ref": "scatterbug_pokeball",
+    "id": 664,
+    "formId": 0,
+    "formType": "POKEBALL",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Pokeball"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Polar",
+    "ref": "scatterbug_polar",
+    "id": 664,
+    "formId": 0,
+    "formType": "POLAR",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Polar"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug River",
+    "ref": "scatterbug_river",
+    "id": 664,
+    "formId": 0,
+    "formType": "RIVER",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa River"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Sandstorm",
+    "ref": "scatterbug_sandstorm",
+    "id": 664,
+    "formId": 0,
+    "formType": "SANDSTORM",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Sandstorm"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Savanna",
+    "ref": "scatterbug_savanna",
+    "id": 664,
+    "formId": 0,
+    "formType": "SAVANNA",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Savanna"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Sun",
+    "ref": "scatterbug_sun",
+    "id": 664,
+    "formId": 0,
+    "formType": "SUN",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Sun"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Scatterbug Tundra",
+    "ref": "scatterbug_tundra",
+    "id": 664,
+    "formId": 0,
+    "formType": "TUNDRA",
+    "assetId": "664_00",
+    "attack": 63,
+    "defense": 63,
+    "stamina": 116,
+    "candyDistance": 1,
+    "evolutions": [
+      "Spewpa Tundra"
+    ],
+    "preEvolutions": [],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "BUG_BITE_FAST",
+      "TACKLE_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Spewpa",
     "ref": "spewpa",
     "id": 665,
@@ -24875,8 +25563,627 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "BUG_BITE_FAST",
-      "TACKLE_FAST"
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa (Fan)cy",
+    "ref": "spewpa_fancy",
+    "id": 665,
+    "formId": 0,
+    "formType": "FANCY",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon (Fan)cy"
+    ],
+    "preEvolutions": [
+      "Scatterbug (Fan)cy"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Archipelago",
+    "ref": "spewpa_archipelago",
+    "id": 665,
+    "formId": 0,
+    "formType": "ARCHIPELAGO",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Archipelago"
+    ],
+    "preEvolutions": [
+      "Scatterbug Archipelago"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Continental",
+    "ref": "spewpa_continental",
+    "id": 665,
+    "formId": 0,
+    "formType": "CONTINENTAL",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Continental"
+    ],
+    "preEvolutions": [
+      "Scatterbug Continental"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Elegant",
+    "ref": "spewpa_elegant",
+    "id": 665,
+    "formId": 0,
+    "formType": "ELEGANT",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Elegant"
+    ],
+    "preEvolutions": [
+      "Scatterbug Elegant"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Garden",
+    "ref": "spewpa_garden",
+    "id": 665,
+    "formId": 0,
+    "formType": "GARDEN",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Garden"
+    ],
+    "preEvolutions": [
+      "Scatterbug Garden"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa High Plains",
+    "ref": "spewpa_high_plains",
+    "id": 665,
+    "formId": 0,
+    "formType": "HIGH_PLAINS",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon High Plains"
+    ],
+    "preEvolutions": [
+      "Scatterbug High Plains"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Icy Snow",
+    "ref": "spewpa_icy_snow",
+    "id": 665,
+    "formId": 0,
+    "formType": "ICY_SNOW",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Icy Snow"
+    ],
+    "preEvolutions": [
+      "Scatterbug Icy Snow"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Jungle",
+    "ref": "spewpa_jungle",
+    "id": 665,
+    "formId": 0,
+    "formType": "JUNGLE",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Jungle"
+    ],
+    "preEvolutions": [
+      "Scatterbug Jungle"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Marine",
+    "ref": "spewpa_marine",
+    "id": 665,
+    "formId": 0,
+    "formType": "MARINE",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Marine"
+    ],
+    "preEvolutions": [
+      "Scatterbug Marine"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Meadow",
+    "ref": "spewpa_meadow",
+    "id": 665,
+    "formId": 0,
+    "formType": "MEADOW",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Meadow"
+    ],
+    "preEvolutions": [
+      "Scatterbug Meadow"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Modern",
+    "ref": "spewpa_modern",
+    "id": 665,
+    "formId": 0,
+    "formType": "MODERN",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Modern"
+    ],
+    "preEvolutions": [
+      "Scatterbug Modern"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Monsoon",
+    "ref": "spewpa_monsoon",
+    "id": 665,
+    "formId": 0,
+    "formType": "MONSOON",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Monsoon"
+    ],
+    "preEvolutions": [
+      "Scatterbug Monsoon"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Ocean",
+    "ref": "spewpa_ocean",
+    "id": 665,
+    "formId": 0,
+    "formType": "OCEAN",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Ocean"
+    ],
+    "preEvolutions": [
+      "Scatterbug Ocean"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Pokeball",
+    "ref": "spewpa_pokeball",
+    "id": 665,
+    "formId": 0,
+    "formType": "POKEBALL",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Pokeball"
+    ],
+    "preEvolutions": [
+      "Scatterbug Pokeball"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Polar",
+    "ref": "spewpa_polar",
+    "id": 665,
+    "formId": 0,
+    "formType": "POLAR",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Polar"
+    ],
+    "preEvolutions": [
+      "Scatterbug Polar"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa River",
+    "ref": "spewpa_river",
+    "id": 665,
+    "formId": 0,
+    "formType": "RIVER",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon River"
+    ],
+    "preEvolutions": [
+      "Scatterbug River"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Sandstorm",
+    "ref": "spewpa_sandstorm",
+    "id": 665,
+    "formId": 0,
+    "formType": "SANDSTORM",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Sandstorm"
+    ],
+    "preEvolutions": [
+      "Scatterbug Sandstorm"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Savanna",
+    "ref": "spewpa_savanna",
+    "id": 665,
+    "formId": 0,
+    "formType": "SAVANNA",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Savanna"
+    ],
+    "preEvolutions": [
+      "Scatterbug Savanna"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Sun",
+    "ref": "spewpa_sun",
+    "id": 665,
+    "formId": 0,
+    "formType": "SUN",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Sun"
+    ],
+    "preEvolutions": [
+      "Scatterbug Sun"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Spewpa Tundra",
+    "ref": "spewpa_tundra",
+    "id": 665,
+    "formId": 0,
+    "formType": "TUNDRA",
+    "assetId": "665_00",
+    "attack": 48,
+    "defense": 89,
+    "stamina": 128,
+    "candyDistance": 1,
+    "evolutions": [
+      "Vivillon Tundra"
+    ],
+    "preEvolutions": [
+      "Scatterbug Tundra"
+    ],
+    "type1": "bug",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
       "STRUGGLE"
@@ -24905,7 +26212,686 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "BUG_BITE_FAST",
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon (Fan)cy",
+    "ref": "vivillon_fancy",
+    "id": 666,
+    "formId": 0,
+    "formType": "FANCY",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa (Fan)cy"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Archipelago",
+    "ref": "vivillon_archipelago",
+    "id": 666,
+    "formId": 0,
+    "formType": "ARCHIPELAGO",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Archipelago"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Continental",
+    "ref": "vivillon_continental",
+    "id": 666,
+    "formId": 0,
+    "formType": "CONTINENTAL",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Continental"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Elegant",
+    "ref": "vivillon_elegant",
+    "id": 666,
+    "formId": 0,
+    "formType": "ELEGANT",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Elegant"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Garden",
+    "ref": "vivillon_garden",
+    "id": 666,
+    "formId": 0,
+    "formType": "GARDEN",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Garden"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon High Plains",
+    "ref": "vivillon_high_plains",
+    "id": 666,
+    "formId": 0,
+    "formType": "HIGH_PLAINS",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa High Plains"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Icy Snow",
+    "ref": "vivillon_icy_snow",
+    "id": 666,
+    "formId": 0,
+    "formType": "ICY_SNOW",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Icy Snow"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Jungle",
+    "ref": "vivillon_jungle",
+    "id": 666,
+    "formId": 0,
+    "formType": "JUNGLE",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Jungle"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Marine",
+    "ref": "vivillon_marine",
+    "id": 666,
+    "formId": 0,
+    "formType": "MARINE",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Marine"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Meadow",
+    "ref": "vivillon_meadow",
+    "id": 666,
+    "formId": 0,
+    "formType": "MEADOW",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Meadow"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Modern",
+    "ref": "vivillon_modern",
+    "id": 666,
+    "formId": 0,
+    "formType": "MODERN",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Modern"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Monsoon",
+    "ref": "vivillon_monsoon",
+    "id": 666,
+    "formId": 0,
+    "formType": "MONSOON",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Monsoon"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Ocean",
+    "ref": "vivillon_ocean",
+    "id": 666,
+    "formId": 0,
+    "formType": "OCEAN",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Ocean"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Pokeball",
+    "ref": "vivillon_pokeball",
+    "id": 666,
+    "formId": 0,
+    "formType": "POKEBALL",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Pokeball"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Polar",
+    "ref": "vivillon_polar",
+    "id": 666,
+    "formId": 0,
+    "formType": "POLAR",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Polar"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon River",
+    "ref": "vivillon_river",
+    "id": 666,
+    "formId": 0,
+    "formType": "RIVER",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa River"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Sandstorm",
+    "ref": "vivillon_sandstorm",
+    "id": 666,
+    "formId": 0,
+    "formType": "SANDSTORM",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Sandstorm"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Savanna",
+    "ref": "vivillon_savanna",
+    "id": 666,
+    "formId": 0,
+    "formType": "SAVANNA",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Savanna"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Sun",
+    "ref": "vivillon_sun",
+    "id": 666,
+    "formId": 0,
+    "formType": "SUN",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Sun"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
+      "GUST_FAST",
+      "STRUGGLE_BUG_FAST"
+    ],
+    "cinematicMoves": [
+      "BUG_BUZZ",
+      "AERIAL_ACE",
+      "ENERGY_BALL",
+      "HURRICANE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
+    "name": "Vivillon Tundra",
+    "ref": "vivillon_tundra",
+    "id": 666,
+    "formId": 0,
+    "formType": "TUNDRA",
+    "assetId": "666_00",
+    "attack": 176,
+    "defense": 103,
+    "stamina": 190,
+    "candyDistance": 1,
+    "evolutions": [],
+    "preEvolutions": [
+      "Spewpa Tundra"
+    ],
+    "type1": "bug",
+    "type2": "flying",
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "quickMoves": [
       "GUST_FAST",
       "STRUGGLE_BUG_FAST"
     ],
@@ -24942,7 +26928,8 @@
     "quickMoves": [
       "FIRE_FANG_FAST",
       "TACKLE_FAST",
-      "EMBER_FAST"
+      "EMBER_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
       "FLAME_CHARGE",
@@ -24975,7 +26962,9 @@
     },
     "quickMoves": [
       "FIRE_FANG_FAST",
-      "TAKE_DOWN_FAST"
+      "TAKE_DOWN_FAST",
+      "EMBER_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
       "FLAME_CHARGE",
@@ -25009,7 +26998,8 @@
     "quickMoves": [
       "FIRE_FANG_FAST",
       "TAKE_DOWN_FAST",
-      "EMBER_FAST"
+      "EMBER_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
       "FLAME_CHARGE",
@@ -26657,7 +28647,8 @@
       "CRUNCH",
       "STONE_EDGE",
       "OUTRAGE",
-      "EARTHQUAKE"
+      "EARTHQUAKE",
+      "METEOR_BEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -26725,7 +28716,8 @@
       "ANCIENT_POWER",
       "BLIZZARD",
       "THUNDERBOLT",
-      "HYPER_BEAM"
+      "HYPER_BEAM",
+      "METEOR_BEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27237,7 +29229,8 @@
       "SEED_BOMB",
       "SHADOW_BALL",
       "FOUL_PLAY",
-      "FIRE_BLAST"
+      "FIRE_BLAST",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27271,7 +29264,8 @@
       "SEED_BOMB",
       "SHADOW_BALL",
       "FOUL_PLAY",
-      "FIRE_BLAST"
+      "FIRE_BLAST",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27305,7 +29299,8 @@
       "SEED_BOMB",
       "SHADOW_BALL",
       "FOUL_PLAY",
-      "FIRE_BLAST"
+      "FIRE_BLAST",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27340,7 +29335,8 @@
       "SEED_BOMB",
       "SHADOW_BALL",
       "FOUL_PLAY",
-      "FIRE_BLAST"
+      "FIRE_BLAST",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27374,7 +29370,8 @@
       "SEED_BOMB",
       "SHADOW_BALL",
       "FOUL_PLAY",
-      "FIRE_BLAST"
+      "FIRE_BLAST",
+      "POLTERGEIST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -27444,6 +29441,38 @@
     "eliteCinematicMoves": []
   },
   {
+    "name": "Avalugg (Hisuian)",
+    "ref": "avalugg_hisuian",
+    "id": 713,
+    "formId": 0,
+    "formType": "HISUIAN",
+    "assetId": "713_00",
+    "attack": 214,
+    "defense": 238,
+    "stamina": 216,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [],
+    "type1": "ice",
+    "type2": "rock",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "BITE_FAST",
+      "TACKLE_FAST",
+      "POWDER_SNOW_FAST"
+    ],
+    "cinematicMoves": [
+      "CRUNCH",
+      "ROCK_SLIDE",
+      "BLIZZARD"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": []
+  },
+  {
     "name": "Noibat",
     "ref": "noibat",
     "id": 714,
@@ -27506,7 +29535,9 @@
       "PSYCHIC"
     ],
     "eliteQuickMoves": [],
-    "eliteCinematicMoves": []
+    "eliteCinematicMoves": [
+      "BOOMBURST"
+    ]
   },
   {
     "name": "Xerneas",
@@ -28767,7 +30798,7 @@
       "BITE_FAST"
     ],
     "cinematicMoves": [
-      "MUDDY_WATER",
+      "BRINE",
       "GUNK_SHOT",
       "SLUDGE_WAVE"
     ],
@@ -28799,7 +30830,7 @@
       "BITE_FAST"
     ],
     "cinematicMoves": [
-      "MUDDY_WATER",
+      "BRINE",
       "GUNK_SHOT",
       "SLUDGE_WAVE"
     ],
@@ -29020,7 +31051,6 @@
       "ASTONISH_FAST"
     ],
     "cinematicMoves": [
-      "GIGA_DRAIN",
       "DAZZLING_GLEAM",
       "SEED_BOMB"
     ],
@@ -29051,7 +31081,6 @@
       "ASTONISH_FAST"
     ],
     "cinematicMoves": [
-      "GIGA_DRAIN",
       "MOONBLAST",
       "SEED_BOMB",
       "SLUDGE_BOMB"
@@ -30856,7 +32885,9 @@
     "defense": 57,
     "stamina": 125,
     "candyDistance": 20,
-    "evolutions": [],
+    "evolutions": [
+      "Cosmoem"
+    ],
     "preEvolutions": [],
     "type1": "psychic",
     "thirdMove": {
@@ -30882,8 +32913,13 @@
     "defense": 242,
     "stamina": 125,
     "candyDistance": 20,
-    "evolutions": [],
-    "preEvolutions": [],
+    "evolutions": [
+      "Solgaleo",
+      "Lunala"
+    ],
+    "preEvolutions": [
+      "Cosmog"
+    ],
     "type1": "psychic",
     "thirdMove": {
       "stardustToUnlock": 100000,
@@ -30909,7 +32945,9 @@
     "stamina": 264,
     "candyDistance": 20,
     "evolutions": [],
-    "preEvolutions": [],
+    "preEvolutions": [
+      "Cosmoem"
+    ],
     "type1": "psychic",
     "type2": "steel",
     "thirdMove": {
@@ -30940,7 +32978,9 @@
     "stamina": 264,
     "candyDistance": 20,
     "evolutions": [],
-    "preEvolutions": [],
+    "preEvolutions": [
+      "Cosmoem"
+    ],
     "type1": "psychic",
     "type2": "ghost",
     "thirdMove": {
@@ -31159,16 +33199,20 @@
     "evolutions": [],
     "preEvolutions": [],
     "type1": "dark",
-    "type2": "ghost",
+    "type2": "dragon",
     "thirdMove": {
       "stardustToUnlock": 100000,
       "candyToUnlock": 100
     },
     "quickMoves": [
-      "STRUGGLE"
+      "SNARL_FAST",
+      "DRAGON_TAIL_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BRUTAL_SWING",
+      "DRAGON_CLAW",
+      "CRUNCH",
+      "SLUDGE_BOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -34977,6 +37021,40 @@
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
+  },
+  {
+    "name": "Ursaluna",
+    "ref": "ursaluna",
+    "id": 901,
+    "formId": 0,
+    "assetId": "901_00",
+    "attack": 243,
+    "defense": 181,
+    "stamina": 277,
+    "candyDistance": 3,
+    "evolutions": [],
+    "preEvolutions": [
+      "Ursaring"
+    ],
+    "type1": "ground",
+    "type2": "normal",
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "quickMoves": [
+      "TACKLE_FAST",
+      "ROCK_SMASH_FAST"
+    ],
+    "cinematicMoves": [
+      "FIRE_PUNCH",
+      "THUNDER_PUNCH",
+      "AERIAL_ACE"
+    ],
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": [
+      "HIGH_HORSEPOWER"
+    ]
   },
   {
     "name": "Sneasler",
