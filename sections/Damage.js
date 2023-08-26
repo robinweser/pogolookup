@@ -91,11 +91,6 @@ function DamageDisplay({
       <Box space={1} paddingTop={[2, , 0]}>
         {[...moves.chargeMoves, ...moves.eliteChargeMoves].map(
           ({ name, type, id, energy }) => {
-            console.log(
-              attacker.getStats(attackerLevel),
-              defender.getStats(defenderLevel)
-            )
-
             const damage = getDamage(
               attacker,
               attackerLevel,

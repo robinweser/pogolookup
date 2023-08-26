@@ -11,8 +11,6 @@ function EvolutionTile({ pokemon, level, setName }) {
   const info = pokemon.getInfo()
   const stats = pokemon.getStats(level)
 
-  console.log(info)
-
   return (
     <Box
       padding={3}

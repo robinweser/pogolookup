@@ -1,4 +1,82 @@
 {
+  "3011": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 930,
+      "hp": 97
+    }
+  },
+  "3012": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 930,
+      "hp": 97
+    }
+  },
+  "3014": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 904,
+      "hp": 97
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 930,
+      "hp": 97
+    }
+  },
   "Bulbasaur": {
     "great": {
       "attack": 14,
@@ -23791,28 +23869,158 @@
   },
   "Zygarde": {
     "great": {
-      "attack": 0,
-      "defense": 3,
-      "stamina": 1,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 1,
+      "defense": 13,
+      "stamina": 12,
+      "level": 16.5,
+      "cp": 1489,
+      "hp": 136
     },
     "ultra": {
-      "attack": 0,
-      "defense": 3,
-      "stamina": 1,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "attack": 4,
+      "defense": 14,
+      "stamina": 15,
+      "level": 27,
+      "cp": 2493,
+      "hp": 176
     },
     "master": {
-      "attack": 0,
-      "defense": 0,
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3379,
+      "hp": 200
+    }
+  },
+  "Zygarde Complete": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 14,
+      "level": 15,
+      "cp": 1493,
+      "hp": 208
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 12,
       "stamina": 9,
-      "level": 28,
-      "cp": null,
-      "hp": null
+      "level": 25.5,
+      "cp": 2498,
+      "hp": 268
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 3703,
+      "hp": 316
+    }
+  },
+  "Zygarde Complete Fifty Percent": {
+    "great": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 12,
+      "level": 16.5,
+      "cp": 1489,
+      "hp": 136
+    },
+    "ultra": {
+      "attack": 4,
+      "defense": 14,
+      "stamina": 15,
+      "level": 27,
+      "cp": 2493,
+      "hp": 176
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3379,
+      "hp": 200
+    }
+  },
+  "Zygarde Complete Ten Percent": {
+    "great": {
+      "attack": 0,
+      "defense": 13,
+      "stamina": 6,
+      "level": 24.5,
+      "cp": 1497,
+      "hp": 99
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 10,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2343,
+      "hp": 125
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2349,
+      "hp": 124
+    }
+  },
+  "Zygarde Fifty Percent": {
+    "great": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 12,
+      "level": 16.5,
+      "cp": 1489,
+      "hp": 136
+    },
+    "ultra": {
+      "attack": 4,
+      "defense": 14,
+      "stamina": 15,
+      "level": 27,
+      "cp": 2493,
+      "hp": 176
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3379,
+      "hp": 200
+    }
+  },
+  "Zygarde Ten Percent": {
+    "great": {
+      "attack": 0,
+      "defense": 13,
+      "stamina": 6,
+      "level": 24.5,
+      "cp": 1497,
+      "hp": 99
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 10,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2343,
+      "hp": 125
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2349,
+      "hp": 124
     }
   },
   "Diancie": {
@@ -29977,6 +30185,32 @@
       "hp": 173
     }
   },
+  "Kleavor": {
+    "great": {
+      "attack": 0,
+      "defense": 11,
+      "stamina": 11,
+      "level": 18,
+      "cp": 1495,
+      "hp": 103
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 11,
+      "stamina": 10,
+      "level": 30,
+      "cp": 2495,
+      "hp": 133
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3130,
+      "hp": 147
+    }
+  },
   "Ursaluna": {
     "great": {
       "attack": 3,
@@ -30053,6 +30287,3100 @@
       "level": 40,
       "cp": 2932,
       "hp": 166
+    }
+  },
+  "Sprigatito": {
+    "great": {
+      "attack": 12,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 983,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 983,
+      "hp": 106
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1006,
+      "hp": 106
+    }
+  },
+  "Floragato": {
+    "great": {
+      "attack": 0,
+      "defense": 11,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1498,
+      "hp": 132
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1649,
+      "hp": 132
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1670,
+      "hp": 133
+    }
+  },
+  "Meowscarada": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 11,
+      "level": 20,
+      "cp": 1500,
+      "hp": 115
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 15,
+      "stamina": 8,
+      "level": 36.5,
+      "cp": 2497,
+      "hp": 147
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2809,
+      "hp": 155
+    }
+  },
+  "Fuecoco": {
+    "great": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 8,
+      "level": 40,
+      "cp": 1105,
+      "hp": 138
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 8,
+      "level": 40,
+      "cp": 1105,
+      "hp": 138
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1109,
+      "hp": 143
+    }
+  },
+  "Crocalor": {
+    "great": {
+      "attack": 0,
+      "defense": 15,
+      "stamina": 5,
+      "level": 30.5,
+      "cp": 1494,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 11,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1910,
+      "hp": 162
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1916,
+      "hp": 161
+    }
+  },
+  "Skeledirge": {
+    "great": {
+      "attack": 1,
+      "defense": 8,
+      "stamina": 11,
+      "level": 19,
+      "cp": 1499,
+      "hp": 141
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 13,
+      "stamina": 9,
+      "level": 33,
+      "cp": 2496,
+      "hp": 180
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3011,
+      "hp": 195
+    }
+  },
+  "Quaxly": {
+    "great": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1048,
+      "hp": 124
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1048,
+      "hp": 124
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1064,
+      "hp": 127
+    }
+  },
+  "Quaxwell": {
+    "great": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 15,
+      "level": 34.5,
+      "cp": 1496,
+      "hp": 141
+    },
+    "ultra": {
+      "attack": 11,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1729,
+      "hp": 147
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1761,
+      "hp": 145
+    }
+  },
+  "Quaquaval": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 13,
+      "level": 18.5,
+      "cp": 1492,
+      "hp": 121
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 12,
+      "stamina": 9,
+      "level": 33,
+      "cp": 2495,
+      "hp": 155
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3003,
+      "hp": 166
+    }
+  },
+  "Lechonk": {
+    "great": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 708,
+      "hp": 122
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 708,
+      "hp": 122
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 724,
+      "hp": 124
+    }
+  },
+  "Oinkologne": {
+    "great": {
+      "attack": 2,
+      "defense": 15,
+      "stamina": 13,
+      "level": 21.5,
+      "cp": 1492,
+      "hp": 157
+    },
+    "ultra": {
+      "attack": 8,
+      "defense": 14,
+      "stamina": 14,
+      "level": 39.5,
+      "cp": 2487,
+      "hp": 201
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2592,
+      "hp": 203
+    }
+  },
+  "Oinkologne Female": {
+    "great": {
+      "attack": 2,
+      "defense": 9,
+      "stamina": 15,
+      "level": 23,
+      "cp": 1496,
+      "hp": 170
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2456,
+      "hp": 208
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2479,
+      "hp": 210
+    }
+  },
+  "Tarountula": {
+    "great": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 554,
+      "hp": 97
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 554,
+      "hp": 97
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 561,
+      "hp": 99
+    }
+  },
+  "Spidops": {
+    "great": {
+      "attack": 3,
+      "defense": 15,
+      "stamina": 12,
+      "level": 38,
+      "cp": 1497,
+      "hp": 130
+    },
+    "ultra": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1632,
+      "hp": 134
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1677,
+      "hp": 132
+    }
+  },
+  "Nymble": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 569,
+      "hp": 94
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 569,
+      "hp": 94
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 582,
+      "hp": 96
+    }
+  },
+  "Lokix": {
+    "great": {
+      "attack": 3,
+      "defense": 15,
+      "stamina": 13,
+      "level": 24,
+      "cp": 1491,
+      "hp": 122
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 2270,
+      "hp": 146
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2304,
+      "hp": 147
+    }
+  },
+  "Pawmi": {
+    "great": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 8,
+      "level": 40,
+      "cp": 620,
+      "hp": 107
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 8,
+      "level": 40,
+      "cp": 620,
+      "hp": 107
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 629,
+      "hp": 110
+    }
+  },
+  "Pawmo": {
+    "great": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1273,
+      "hp": 131
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1273,
+      "hp": 131
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1275,
+      "hp": 134
+    }
+  },
+  "Pawmot": {
+    "great": {
+      "attack": 4,
+      "defense": 12,
+      "stamina": 15,
+      "level": 21,
+      "cp": 1495,
+      "hp": 114
+    },
+    "ultra": {
+      "attack": 4,
+      "defense": 14,
+      "stamina": 14,
+      "level": 39.5,
+      "cp": 2484,
+      "hp": 146
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2602,
+      "hp": 147
+    }
+  },
+  "Tandemaus": {
+    "great": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 852,
+      "hp": 120
+    },
+    "ultra": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 852,
+      "hp": 120
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 883,
+      "hp": 120
+    }
+  },
+  "Maushold": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 14,
+      "level": 28.5,
+      "cp": 1496,
+      "hp": 137
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1946,
+      "hp": 151
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1974,
+      "hp": 151
+    }
+  },
+  "Maushold Family Of Four": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 14,
+      "level": 28.5,
+      "cp": 1496,
+      "hp": 137
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1946,
+      "hp": 151
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1974,
+      "hp": 151
+    }
+  },
+  "Maushold Family Of Three": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 14,
+      "level": 28.5,
+      "cp": 1496,
+      "hp": 137
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1946,
+      "hp": 151
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1974,
+      "hp": 151
+    }
+  },
+  "Fidough": {
+    "great": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 966,
+      "hp": 98
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 966,
+      "hp": 98
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 973,
+      "hp": 101
+    }
+  },
+  "Dachsbun": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 12,
+      "level": 27.5,
+      "cp": 1500,
+      "hp": 112
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 12,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2058,
+      "hp": 128
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2079,
+      "hp": 128
+    }
+  },
+  "Smoliv": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 829,
+      "hp": 105
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 829,
+      "hp": 105
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 846,
+      "hp": 106
+    }
+  },
+  "Dolliv": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1395,
+      "hp": 121
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1395,
+      "hp": 121
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1423,
+      "hp": 121
+    }
+  },
+  "Arboliva": {
+    "great": {
+      "attack": 3,
+      "defense": 11,
+      "stamina": 12,
+      "level": 19,
+      "cp": 1497,
+      "hp": 115
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 14,
+      "level": 32.5,
+      "cp": 2494,
+      "hp": 149
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2939,
+      "hp": 158
+    }
+  },
+  "Squawkabilly": {
+    "great": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 8,
+      "level": 29,
+      "cp": 1495,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1931,
+      "hp": 162
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1960,
+      "hp": 163
+    }
+  },
+  "Squawkabilly (Blue)": {
+    "great": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 8,
+      "level": 29,
+      "cp": 1495,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1931,
+      "hp": 162
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1960,
+      "hp": 163
+    }
+  },
+  "Squawkabilly (Green)": {
+    "great": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 8,
+      "level": 29,
+      "cp": 1495,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1931,
+      "hp": 162
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1960,
+      "hp": 163
+    }
+  },
+  "Squawkabilly (White)": {
+    "great": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 8,
+      "level": 29,
+      "cp": 1495,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1931,
+      "hp": 162
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1960,
+      "hp": 163
+    }
+  },
+  "Squawkabilly (Yellow)": {
+    "great": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 8,
+      "level": 29,
+      "cp": 1495,
+      "hp": 144
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1931,
+      "hp": 162
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1960,
+      "hp": 163
+    }
+  },
+  "Nacli": {
+    "great": {
+      "attack": 14,
+      "defense": 12,
+      "stamina": 14,
+      "level": 40,
+      "cp": 943,
+      "hp": 126
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 12,
+      "stamina": 14,
+      "level": 40,
+      "cp": 943,
+      "hp": 126
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 949,
+      "hp": 127
+    }
+  },
+  "Naclstack": {
+    "great": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 10,
+      "level": 40,
+      "cp": 1269,
+      "hp": 130
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 10,
+      "level": 40,
+      "cp": 1269,
+      "hp": 130
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1271,
+      "hp": 134
+    }
+  },
+  "Garganacl": {
+    "great": {
+      "attack": 2,
+      "defense": 12,
+      "stamina": 12,
+      "level": 21,
+      "cp": 1493,
+      "hp": 145
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 10,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2494,
+      "hp": 189
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 2694,
+      "hp": 187
+    }
+  },
+  "Charcadet": {
+    "great": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 712,
+      "hp": 102
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 10,
+      "level": 40,
+      "cp": 712,
+      "hp": 102
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 721,
+      "hp": 106
+    }
+  },
+  "Armarouge": {
+    "great": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 2,
+      "level": 18,
+      "cp": 1499,
+      "hp": 113
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 11,
+      "stamina": 15,
+      "level": 29,
+      "cp": 2484,
+      "hp": 153
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3194,
+      "hp": 166
+    }
+  },
+  "Ceruledge": {
+    "great": {
+      "attack": 0,
+      "defense": 13,
+      "stamina": 7,
+      "level": 18,
+      "cp": 1496,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 11,
+      "stamina": 12,
+      "level": 29.5,
+      "cp": 2492,
+      "hp": 140
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3151,
+      "hp": 154
+    }
+  },
+  "Tadbulb": {
+    "great": {
+      "attack": 11,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 876,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 11,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 876,
+      "hp": 135
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 903,
+      "hp": 132
+    }
+  },
+  "Bellibolt": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 14,
+      "level": 21,
+      "cp": 1494,
+      "hp": 155
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2485,
+      "hp": 199
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2642,
+      "hp": 201
+    }
+  },
+  "Wattrel": {
+    "great": {
+      "attack": 15,
+      "defense": 11,
+      "stamina": 15,
+      "level": 40,
+      "cp": 807,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 11,
+      "stamina": 15,
+      "level": 40,
+      "cp": 807,
+      "hp": 106
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 814,
+      "hp": 106
+    }
+  },
+  "Kilowattrel": {
+    "great": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 10,
+      "level": 23,
+      "cp": 1498,
+      "hp": 116
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 12,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2412,
+      "hp": 146
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2412,
+      "hp": 147
+    }
+  },
+  "Maschiff": {
+    "great": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1372,
+      "hp": 131
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1372,
+      "hp": 131
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1388,
+      "hp": 134
+    }
+  },
+  "Mabosstiff": {
+    "great": {
+      "attack": 2,
+      "defense": 13,
+      "stamina": 10,
+      "level": 19,
+      "cp": 1496,
+      "hp": 116
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 14,
+      "level": 33,
+      "cp": 2495,
+      "hp": 152
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2927,
+      "hp": 162
+    }
+  },
+  "Shroodle": {
+    "great": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 902,
+      "hp": 103
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 902,
+      "hp": 103
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 917,
+      "hp": 106
+    }
+  },
+  "Grafaiai": {
+    "great": {
+      "attack": 6,
+      "defense": 12,
+      "stamina": 14,
+      "level": 24.5,
+      "cp": 1500,
+      "hp": 115
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2223,
+      "hp": 136
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2232,
+      "hp": 138
+    }
+  },
+  "Bramblin": {
+    "great": {
+      "attack": 9,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 838,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 9,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 838,
+      "hp": 106
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 865,
+      "hp": 106
+    }
+  },
+  "Brambleghast": {
+    "great": {
+      "attack": 2,
+      "defense": 14,
+      "stamina": 12,
+      "level": 23,
+      "cp": 1491,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 2397,
+      "hp": 124
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2413,
+      "hp": 126
+    }
+  },
+  "Toedscool": {
+    "great": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1010,
+      "hp": 104
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1010,
+      "hp": 104
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1022,
+      "hp": 106
+    }
+  },
+  "Toedscruel": {
+    "great": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 12,
+      "level": 24,
+      "cp": 1491,
+      "hp": 132
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2378,
+      "hp": 160
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2410,
+      "hp": 160
+    }
+  },
+  "Klawf": {
+    "great": {
+      "attack": 2,
+      "defense": 14,
+      "stamina": 13,
+      "level": 23.5,
+      "cp": 1496,
+      "hp": 119
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 2365,
+      "hp": 144
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2384,
+      "hp": 146
+    }
+  },
+  "Capsakid": {
+    "great": {
+      "attack": 12,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 944,
+      "hp": 120
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 944,
+      "hp": 120
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 966,
+      "hp": 120
+    }
+  },
+  "Scovillain": {
+    "great": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 5,
+      "level": 25,
+      "cp": 1500,
+      "hp": 112
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 12,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2287,
+      "hp": 139
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2287,
+      "hp": 140
+    }
+  },
+  "Rellor": {
+    "great": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 795,
+      "hp": 105
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 795,
+      "hp": 105
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 14,
+      "level": 40,
+      "cp": 804,
+      "hp": 106
+    }
+  },
+  "Rabsca": {
+    "great": {
+      "attack": 2,
+      "defense": 13,
+      "stamina": 12,
+      "level": 21.5,
+      "cp": 1495,
+      "hp": 119
+    },
+    "ultra": {
+      "attack": 5,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 2483,
+      "hp": 152
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2604,
+      "hp": 154
+    }
+  },
+  "Flittle": {
+    "great": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 676,
+      "hp": 90
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 676,
+      "hp": 90
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 694,
+      "hp": 91
+    }
+  },
+  "Espathra": {
+    "great": {
+      "attack": 4,
+      "defense": 15,
+      "stamina": 11,
+      "level": 22.5,
+      "cp": 1499,
+      "hp": 143
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 12,
+      "level": 40,
+      "cp": 2430,
+      "hp": 180
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2463,
+      "hp": 181
+    }
+  },
+  "Tinkatink": {
+    "great": {
+      "attack": 13,
+      "defense": 12,
+      "stamina": 15,
+      "level": 40,
+      "cp": 833,
+      "hp": 120
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 12,
+      "stamina": 15,
+      "level": 40,
+      "cp": 833,
+      "hp": 120
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 843,
+      "hp": 120
+    }
+  },
+  "Tinkatuff": {
+    "great": {
+      "attack": 14,
+      "defense": 11,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1280,
+      "hp": 140
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 11,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1280,
+      "hp": 140
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 12,
+      "level": 40,
+      "cp": 1295,
+      "hp": 138
+    }
+  },
+  "Tinkaton": {
+    "great": {
+      "attack": 3,
+      "defense": 9,
+      "stamina": 14,
+      "level": 25.5,
+      "cp": 1498,
+      "hp": 143
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2200,
+      "hp": 167
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2240,
+      "hp": 166
+    }
+  },
+  "Wiglett": {
+    "great": {
+      "attack": 12,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 551,
+      "hp": 64
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 551,
+      "hp": 64
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 565,
+      "hp": 64
+    }
+  },
+  "Wugtrio": {
+    "great": {
+      "attack": 0,
+      "defense": 8,
+      "stamina": 12,
+      "level": 31.5,
+      "cp": 1497,
+      "hp": 91
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 10,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1863,
+      "hp": 99
+    },
+    "master": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1871,
+      "hp": 99
+    }
+  },
+  "Bombirdier": {
+    "great": {
+      "attack": 2,
+      "defense": 14,
+      "stamina": 13,
+      "level": 22.5,
+      "cp": 1489,
+      "hp": 117
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 2454,
+      "hp": 144
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2462,
+      "hp": 146
+    }
+  },
+  "Finizen": {
+    "great": {
+      "attack": 13,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 848,
+      "hp": 147
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 848,
+      "hp": 147
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 864,
+      "hp": 146
+    }
+  },
+  "Palafin": {
+    "great": {
+      "attack": 1,
+      "defense": 14,
+      "stamina": 10,
+      "level": 30.5,
+      "cp": 1497,
+      "hp": 172
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1899,
+      "hp": 186
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1907,
+      "hp": 188
+    }
+  },
+  "Palafin Hero": {
+    "great": {
+      "attack": 4,
+      "defense": 12,
+      "stamina": 14,
+      "level": 11.5,
+      "cp": 1491,
+      "hp": 108
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 9,
+      "stamina": 13,
+      "level": 19.5,
+      "cp": 2497,
+      "hp": 140
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 4694,
+      "hp": 189
+    }
+  },
+  "Palafin Zero": {
+    "great": {
+      "attack": 1,
+      "defense": 14,
+      "stamina": 10,
+      "level": 30.5,
+      "cp": 1497,
+      "hp": 172
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1899,
+      "hp": 186
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1907,
+      "hp": 188
+    }
+  },
+  "Varoom": {
+    "great": {
+      "attack": 15,
+      "defense": 10,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1114,
+      "hp": 113
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 10,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1114,
+      "hp": 113
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1130,
+      "hp": 111
+    }
+  },
+  "Revavroom": {
+    "great": {
+      "attack": 0,
+      "defense": 11,
+      "stamina": 7,
+      "level": 19.5,
+      "cp": 1496,
+      "hp": 116
+    },
+    "ultra": {
+      "attack": 5,
+      "defense": 14,
+      "stamina": 15,
+      "level": 32,
+      "cp": 2500,
+      "hp": 152
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2915,
+      "hp": 162
+    }
+  },
+  "Cyclizar": {
+    "great": {
+      "attack": 5,
+      "defense": 15,
+      "stamina": 13,
+      "level": 23.5,
+      "cp": 1500,
+      "hp": 119
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2302,
+      "hp": 146
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2339,
+      "hp": 147
+    }
+  },
+  "Orthworm": {
+    "great": {
+      "attack": 1,
+      "defense": 10,
+      "stamina": 14,
+      "level": 25,
+      "cp": 1491,
+      "hp": 124
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 12,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2259,
+      "hp": 146
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2273,
+      "hp": 147
+    }
+  },
+  "Glimmet": {
+    "great": {
+      "attack": 1,
+      "defense": 14,
+      "stamina": 12,
+      "level": 38,
+      "cp": 1497,
+      "hp": 113
+    },
+    "ultra": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1632,
+      "hp": 116
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1655,
+      "hp": 117
+    }
+  },
+  "Glimmora": {
+    "great": {
+      "attack": 2,
+      "defense": 11,
+      "stamina": 14,
+      "level": 17,
+      "cp": 1491,
+      "hp": 115
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 11,
+      "stamina": 8,
+      "level": 29,
+      "cp": 2497,
+      "hp": 146
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3252,
+      "hp": 165
+    }
+  },
+  "Greavard": {
+    "great": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 984,
+      "hp": 118
+    },
+    "ultra": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 984,
+      "hp": 118
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 999,
+      "hp": 120
+    }
+  },
+  "Houndstone": {
+    "great": {
+      "attack": 2,
+      "defense": 13,
+      "stamina": 13,
+      "level": 22.5,
+      "cp": 1496,
+      "hp": 119
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 11,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2477,
+      "hp": 150
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2495,
+      "hp": 150
+    }
+  },
+  "Flamigo": {
+    "great": {
+      "attack": 4,
+      "defense": 14,
+      "stamina": 13,
+      "level": 20,
+      "cp": 1492,
+      "hp": 123
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 15,
+      "stamina": 9,
+      "level": 38,
+      "cp": 2497,
+      "hp": 157
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2742,
+      "hp": 163
+    }
+  },
+  "Cetoddle": {
+    "great": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1271,
+      "hp": 199
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 13,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1271,
+      "hp": 199
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1289,
+      "hp": 197
+    }
+  },
+  "Cetitan": {
+    "great": {
+      "attack": 4,
+      "defense": 15,
+      "stamina": 5,
+      "level": 18,
+      "cp": 1500,
+      "hp": 199
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 10,
+      "stamina": 8,
+      "level": 32,
+      "cp": 2500,
+      "hp": 264
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3090,
+      "hp": 284
+    }
+  },
+  "Veluza": {
+    "great": {
+      "attack": 3,
+      "defense": 15,
+      "stamina": 11,
+      "level": 23,
+      "cp": 1496,
+      "hp": 139
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 14,
+      "stamina": 13,
+      "level": 40,
+      "cp": 2394,
+      "hp": 173
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2423,
+      "hp": 174
+    }
+  },
+  "Dondozo": {
+    "great": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 12,
+      "level": 19,
+      "cp": 1492,
+      "hp": 188
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 14,
+      "stamina": 14,
+      "level": 33,
+      "cp": 2489,
+      "hp": 244
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2973,
+      "hp": 258
+    }
+  },
+  "Tatsugiri": {
+    "great": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 5,
+      "level": 21,
+      "cp": 1498,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 10,
+      "stamina": 15,
+      "level": 38,
+      "cp": 2500,
+      "hp": 143
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2712,
+      "hp": 145
+    }
+  },
+  "Tatsugiri Curly": {
+    "great": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 5,
+      "level": 21,
+      "cp": 1498,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 10,
+      "stamina": 15,
+      "level": 38,
+      "cp": 2500,
+      "hp": 143
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2712,
+      "hp": 145
+    }
+  },
+  "Tatsugiri Droopy": {
+    "great": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 5,
+      "level": 21,
+      "cp": 1498,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 10,
+      "stamina": 15,
+      "level": 38,
+      "cp": 2500,
+      "hp": 143
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2712,
+      "hp": 145
+    }
+  },
+  "Tatsugiri Stretchy": {
+    "great": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 5,
+      "level": 21,
+      "cp": 1498,
+      "hp": 106
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 10,
+      "stamina": 15,
+      "level": 38,
+      "cp": 2500,
+      "hp": 143
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2712,
+      "hp": 145
+    }
+  },
+  "Annihilape": {
+    "great": {
+      "attack": 3,
+      "defense": 12,
+      "stamina": 15,
+      "level": 17,
+      "cp": 1494,
+      "hp": 141
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 9,
+      "stamina": 11,
+      "level": 29,
+      "cp": 2499,
+      "hp": 182
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3251,
+      "hp": 203
+    }
+  },
+  "Clodsire": {
+    "great": {
+      "attack": 0,
+      "defense": 12,
+      "stamina": 3,
+      "level": 32,
+      "cp": 1500,
+      "hp": 208
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 1919,
+      "hp": 227
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 1932,
+      "hp": 229
+    }
+  },
+  "Farigiraf": {
+    "great": {
+      "attack": 0,
+      "defense": 5,
+      "stamina": 13,
+      "level": 20.5,
+      "cp": 1500,
+      "hp": 165
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 15,
+      "stamina": 4,
+      "level": 37,
+      "cp": 2494,
+      "hp": 204
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2831,
+      "hp": 217
+    }
+  },
+  "Dudunsparce": {
+    "great": {
+      "attack": 6,
+      "defense": 15,
+      "stamina": 15,
+      "level": 20,
+      "cp": 1496,
+      "hp": 169
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 7,
+      "level": 40,
+      "cp": 2493,
+      "hp": 217
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2726,
+      "hp": 222
+    }
+  },
+  "Dudunsparce Three": {
+    "great": {
+      "attack": 6,
+      "defense": 15,
+      "stamina": 15,
+      "level": 20,
+      "cp": 1496,
+      "hp": 169
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 7,
+      "level": 40,
+      "cp": 2493,
+      "hp": 217
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2726,
+      "hp": 222
+    }
+  },
+  "Dudunsparce Two": {
+    "great": {
+      "attack": 6,
+      "defense": 15,
+      "stamina": 15,
+      "level": 20,
+      "cp": 1496,
+      "hp": 169
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 7,
+      "level": 40,
+      "cp": 2493,
+      "hp": 217
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2726,
+      "hp": 222
+    }
+  },
+  "Kingambit": {
+    "great": {
+      "attack": 1,
+      "defense": 9,
+      "stamina": 15,
+      "level": 15.5,
+      "cp": 1491,
+      "hp": 126
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 13,
+      "level": 25.5,
+      "cp": 2492,
+      "hp": 160
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3585,
+      "hp": 188
+    }
+  },
+  "Greattusk": {
+    "great": {
+      "attack": 3,
+      "defense": 7,
+      "stamina": 12,
+      "level": 14,
+      "cp": 1500,
+      "hp": 131
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 7,
+      "stamina": 12,
+      "level": 23.5,
+      "cp": 2498,
+      "hp": 170
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 4009,
+      "hp": 208
+    }
+  },
+  "Screamtail": {
+    "great": {
+      "attack": 1,
+      "defense": 12,
+      "stamina": 13,
+      "level": 23.5,
+      "cp": 1496,
+      "hp": 170
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 11,
+      "level": 40,
+      "cp": 2435,
+      "hp": 207
+    },
+    "master": {
+      "attack": 15,
+      "defense": 12,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2460,
+      "hp": 210
+    }
+  },
+  "Brutebonnet": {
+    "great": {
+      "attack": 6,
+      "defense": 12,
+      "stamina": 13,
+      "level": 15.5,
+      "cp": 1500,
+      "hp": 135
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 10,
+      "stamina": 11,
+      "level": 26.5,
+      "cp": 2499,
+      "hp": 175
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 3539,
+      "hp": 203
+    }
+  },
+  "Fluttermane": {
+    "great": {
+      "attack": 3,
+      "defense": 13,
+      "stamina": 11,
+      "level": 15,
+      "cp": 1494,
+      "hp": 81
+    },
+    "ultra": {
+      "attack": 7,
+      "defense": 14,
+      "stamina": 13,
+      "level": 24.5,
+      "cp": 2496,
+      "hp": 105
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 14,
+      "level": 40,
+      "cp": 3672,
+      "hp": 126
+    }
+  },
+  "Slitherwing": {
+    "great": {
+      "attack": 5,
+      "defense": 15,
+      "stamina": 14,
+      "level": 15,
+      "cp": 1495,
+      "hp": 109
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 7,
+      "stamina": 14,
+      "level": 26,
+      "cp": 2493,
+      "hp": 144
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3588,
+      "hp": 168
+    }
+  },
+  "Sandyshocks": {
+    "great": {
+      "attack": 1,
+      "defense": 14,
+      "stamina": 7,
+      "level": 16.5,
+      "cp": 1493,
+      "hp": 111
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 3,
+      "level": 28,
+      "cp": 2498,
+      "hp": 142
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3381,
+      "hp": 168
+    }
+  },
+  "Irontreads": {
+    "great": {
+      "attack": 1,
+      "defense": 11,
+      "stamina": 11,
+      "level": 16.5,
+      "cp": 1493,
+      "hp": 118
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 8,
+      "stamina": 15,
+      "level": 27.5,
+      "cp": 2495,
+      "hp": 155
+    },
+    "master": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 13,
+      "level": 40,
+      "cp": 3407,
+      "hp": 173
+    }
+  },
+  "Ironbundle": {
+    "great": {
+      "attack": 9,
+      "defense": 15,
+      "stamina": 13,
+      "level": 16,
+      "cp": 1497,
+      "hp": 86
+    },
+    "ultra": {
+      "attack": 3,
+      "defense": 14,
+      "stamina": 11,
+      "level": 27.5,
+      "cp": 2496,
+      "hp": 111
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3349,
+      "hp": 128
+    }
+  },
+  "Ironhands": {
+    "great": {
+      "attack": 0,
+      "defense": 10,
+      "stamina": 2,
+      "level": 14,
+      "cp": 1499,
+      "hp": 160
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 0,
+      "level": 23,
+      "cp": 2498,
+      "hp": 204
+    },
+    "master": {
+      "attack": 13,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 4080,
+      "hp": 263
+    }
+  },
+  "Ironjugulis": {
+    "great": {
+      "attack": 1,
+      "defense": 15,
+      "stamina": 0,
+      "level": 16.5,
+      "cp": 1499,
+      "hp": 116
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 8,
+      "stamina": 14,
+      "level": 27,
+      "cp": 2497,
+      "hp": 158
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3453,
+      "hp": 180
+    }
+  },
+  "Ironmoth": {
+    "great": {
+      "attack": 1,
+      "defense": 14,
+      "stamina": 9,
+      "level": 14.5,
+      "cp": 1491,
+      "hp": 101
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 11,
+      "stamina": 15,
+      "level": 24,
+      "cp": 2479,
+      "hp": 134
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 3826,
+      "hp": 161
+    }
+  },
+  "Ironthorns": {
+    "great": {
+      "attack": 2,
+      "defense": 14,
+      "stamina": 6,
+      "level": 15,
+      "cp": 1499,
+      "hp": 119
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 8,
+      "stamina": 14,
+      "level": 25,
+      "cp": 2496,
+      "hp": 159
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3742,
+      "hp": 189
+    }
+  },
+  "Frigibax": {
+    "great": {
+      "attack": 14,
+      "defense": 12,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1220,
+      "hp": 140
+    },
+    "ultra": {
+      "attack": 14,
+      "defense": 12,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1220,
+      "hp": 140
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 1233,
+      "hp": 140
+    }
+  },
+  "Arctibax": {
+    "great": {
+      "attack": 4,
+      "defense": 14,
+      "stamina": 11,
+      "level": 27,
+      "cp": 1500,
+      "hp": 151
+    },
+    "ultra": {
+      "attack": 15,
+      "defense": 15,
+      "stamina": 9,
+      "level": 40,
+      "cp": 2063,
+      "hp": 170
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 2080,
+      "hp": 174
+    }
+  },
+  "Baxcalibur": {
+    "great": {
+      "attack": 3,
+      "defense": 15,
+      "stamina": 10,
+      "level": 13,
+      "cp": 1496,
+      "hp": 125
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 15,
+      "level": 22,
+      "cp": 2490,
+      "hp": 166
+    },
+    "master": {
+      "attack": 15,
+      "defense": 13,
+      "stamina": 15,
+      "level": 40,
+      "cp": 4217,
+      "hp": 210
+    }
+  },
+  "Gimmighoul": {
+    "great": {
+      "attack": 13,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1074,
+      "hp": 112
+    },
+    "ultra": {
+      "attack": 13,
+      "defense": 13,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1074,
+      "hp": 112
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 1094,
+      "hp": 112
+    }
+  },
+  "Gholdengo": {
+    "great": {
+      "attack": 2,
+      "defense": 9,
+      "stamina": 13,
+      "level": 16,
+      "cp": 1500,
+      "hp": 114
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 5,
+      "stamina": 15,
+      "level": 27,
+      "cp": 2497,
+      "hp": 150
+    },
+    "master": {
+      "attack": 12,
+      "defense": 15,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3477,
+      "hp": 171
+    }
+  },
+  "Wochien": {
+    "great": {
+      "attack": 4,
+      "defense": 13,
+      "stamina": 14,
+      "level": 19,
+      "cp": 1497,
+      "hp": 123
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 14,
+      "stamina": 13,
+      "level": 34,
+      "cp": 2495,
+      "hp": 159
+    },
+    "master": {
+      "attack": 15,
+      "defense": 12,
+      "stamina": 15,
+      "level": 40,
+      "cp": 2920,
+      "hp": 168
+    }
+  },
+  "Chienpao": {
+    "great": {
+      "attack": 1,
+      "defense": 10,
+      "stamina": 11,
+      "level": 17,
+      "cp": 1499,
+      "hp": 110
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 12,
+      "stamina": 13,
+      "level": 28,
+      "cp": 2486,
+      "hp": 143
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 3312,
+      "hp": 161
+    }
+  },
+  "Tinglu": {
+    "great": {
+      "attack": 0,
+      "defense": 3,
+      "stamina": 14,
+      "level": 16.5,
+      "cp": 1500,
+      "hp": 181
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 9,
+      "stamina": 14,
+      "level": 27,
+      "cp": 2491,
+      "hp": 232
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3507,
+      "hp": 265
+    }
+  },
+  "Chiyu": {
+    "great": {
+      "attack": 10,
+      "defense": 15,
+      "stamina": 14,
+      "level": 15.5,
+      "cp": 1499,
+      "hp": 84
+    },
+    "ultra": {
+      "attack": 2,
+      "defense": 11,
+      "stamina": 12,
+      "level": 27,
+      "cp": 2500,
+      "hp": 109
+    },
+    "master": {
+      "attack": 14,
+      "defense": 15,
+      "stamina": 14,
+      "level": 40,
+      "cp": 3434,
+      "hp": 126
+    }
+  },
+  "Roaringmoon": {
+    "great": {
+      "attack": 1,
+      "defense": 11,
+      "stamina": 4,
+      "level": 13.5,
+      "cp": 1499,
+      "hp": 116
+    },
+    "ultra": {
+      "attack": 0,
+      "defense": 14,
+      "stamina": 11,
+      "level": 22,
+      "cp": 2488,
+      "hp": 152
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 4190,
+      "hp": 195
+    }
+  },
+  "Ironvaliant": {
+    "great": {
+      "attack": 0,
+      "defense": 6,
+      "stamina": 9,
+      "level": 16.5,
+      "cp": 1498,
+      "hp": 102
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 13,
+      "stamina": 7,
+      "level": 27,
+      "cp": 2495,
+      "hp": 129
+    },
+    "master": {
+      "attack": 15,
+      "defense": 14,
+      "stamina": 14,
+      "level": 40,
+      "cp": 3469,
+      "hp": 152
+    }
+  },
+  "Koraidon": {
+    "great": {
+      "attack": 0,
+      "defense": 5,
+      "stamina": 8,
+      "level": 14.5,
+      "cp": 1499,
+      "hp": 108
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 9,
+      "stamina": 14,
+      "level": 23.5,
+      "cp": 2495,
+      "hp": 141
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3950,
+      "hp": 173
+    }
+  },
+  "Koraidon Apex": {
+    "great": {
+      "attack": 0,
+      "defense": 5,
+      "stamina": 8,
+      "level": 14.5,
+      "cp": 1499,
+      "hp": 108
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 9,
+      "stamina": 14,
+      "level": 23.5,
+      "cp": 2495,
+      "hp": 141
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3950,
+      "hp": 173
+    }
+  },
+  "Miraidon": {
+    "great": {
+      "attack": 0,
+      "defense": 5,
+      "stamina": 8,
+      "level": 14.5,
+      "cp": 1499,
+      "hp": 108
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 9,
+      "stamina": 14,
+      "level": 23.5,
+      "cp": 2495,
+      "hp": 141
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3950,
+      "hp": 173
+    }
+  },
+  "Miraidon Ultimate": {
+    "great": {
+      "attack": 0,
+      "defense": 5,
+      "stamina": 8,
+      "level": 14.5,
+      "cp": 1499,
+      "hp": 108
+    },
+    "ultra": {
+      "attack": 1,
+      "defense": 9,
+      "stamina": 14,
+      "level": 23.5,
+      "cp": 2495,
+      "hp": 141
+    },
+    "master": {
+      "attack": 14,
+      "defense": 14,
+      "stamina": 15,
+      "level": 40,
+      "cp": 3950,
+      "hp": 173
     }
   }
 }

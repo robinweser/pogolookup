@@ -2,11 +2,9 @@ import React from 'react'
 import { Box } from 'kilvin'
 import { useFela } from 'react-fela'
 import Link from 'next/link'
+import { format } from 'small-date'
 
 import Layout from './Layout'
-
-import versionData from '../data/version'
-const { version, timestamp } = versionData
 
 export default function Footer() {
   const { theme } = useFela()
@@ -39,9 +37,7 @@ export default function Footer() {
               <a style={{ color: 'white' }}>Privacy</a>
             </Link>
           </Box>
-          <p>
-            Version: {version} ({new Date(timestamp).toLocaleString()})
-          </p>
+          <p>Last Updated: {format(new Date(), 'MMM dd, yyyy')}</p>
           <p>Copyright &copy; Robin Weser {new Date().getFullYear()}</p>
 
           <p>

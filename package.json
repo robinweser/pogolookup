@@ -27,7 +27,8 @@
     "pad-left": "^2.1.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-fela": "^12.1.2"
+    "react-fela": "^12.1.2",
+    "small-date": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

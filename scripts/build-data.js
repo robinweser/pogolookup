@@ -229,7 +229,7 @@ let generate = async () => {
 
     const {
       pokemonId,
-      form,
+      form: rawForm,
       evolutionBranch,
       kmBuddyDistance,
       type: type1,
@@ -241,6 +241,8 @@ let generate = async () => {
       thirdMove,
       stats,
     } = template.data.pokemonSettings
+
+    const form = rawForm?.toString()
 
     let formType
     if (form) {
@@ -326,8 +328,9 @@ let generate = async () => {
     } = template.data
 
     moveList[movementId] = {
-      name: movementId
+      name: templateId
         .replace('_FAST', '')
+        .replace(/V[0-9]*_MOVE_/g, '')
         .split('_')
         .map(normalizeName)
         .join(' '),
