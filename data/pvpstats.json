@@ -33047,28 +33047,28 @@
   },
   "Baxcalibur": {
     "great": {
-      "attack": 3,
-      "defense": 15,
-      "stamina": 10,
-      "level": 13,
-      "cp": 1496,
-      "hp": 125
+      "attack": 5,
+      "defense": 11,
+      "stamina": 15,
+      "level": 15.5,
+      "cp": 1497,
+      "hp": 128
     },
     "ultra": {
-      "attack": 0,
-      "defense": 9,
-      "stamina": 15,
-      "level": 22,
-      "cp": 2490,
-      "hp": 166
+      "attack": 7,
+      "defense": 15,
+      "stamina": 13,
+      "level": 25.5,
+      "cp": 2499,
+      "hp": 163
     },
     "master": {
-      "attack": 15,
-      "defense": 13,
-      "stamina": 15,
+      "attack": 14,
+      "defense": 15,
+      "stamina": 13,
       "level": 40,
-      "cp": 4217,
-      "hp": 210
+      "cp": 3522,
+      "hp": 191
     }
   },
   "Gimmighoul": {

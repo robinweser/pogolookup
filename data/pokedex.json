@@ -1246,7 +1246,8 @@
     "cinematicMoves": [
       "EARTHQUAKE",
       "ROCK_TOMB",
-      "BULLDOZE"
+      "BULLDOZE",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -1651,7 +1652,8 @@
       "OVERHEAT",
       "SOLAR_BEAM",
       "PSYSHOCK",
-      "WEATHER_BALL_FIRE"
+      "WEATHER_BALL_FIRE",
+      393
     ],
     "eliteQuickMoves": [
       "EMBER_FAST"
@@ -2290,7 +2292,8 @@
     "cinematicMoves": [
       "NIGHT_SLASH",
       "GYRO_BALL",
-      "DIG"
+      "DIG",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -2588,7 +2591,8 @@
       "WILD_CHARGE",
       "CRUNCH",
       "FLAMETHROWER",
-      "PSYCHIC_FANGS"
+      "PSYCHIC_FANGS",
+      393
     ],
     "eliteQuickMoves": [
       "BITE_FAST"
@@ -3411,7 +3415,8 @@
       "FIRE_BLAST",
       "DRILL_RUN",
       "HEAT_WAVE",
-      "FLAME_CHARGE"
+      "FLAME_CHARGE",
+      393
     ],
     "eliteQuickMoves": [
       "EMBER_FAST"
@@ -3611,7 +3616,8 @@
     },
     "quickMoves": [
       "SPARK_FAST",
-      "THUNDER_SHOCK_FAST"
+      "THUNDER_SHOCK_FAST",
+      "VOLT_SWITCH_FAST"
     ],
     "cinematicMoves": [
       "DISCHARGE",
@@ -3646,7 +3652,8 @@
     "quickMoves": [
       "SPARK_FAST",
       "CHARGE_BEAM_FAST",
-      "THUNDER_SHOCK_FAST"
+      "THUNDER_SHOCK_FAST",
+      "VOLT_SWITCH_FAST"
     ],
     "cinematicMoves": [
       "ZAP_CANNON",
@@ -4023,7 +4030,8 @@
     "cinematicMoves": [
       "BUBBLE_BEAM",
       "WATER_PULSE",
-      "ICY_WIND"
+      "ICY_WIND",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -4057,7 +4065,8 @@
       "HYDRO_PUMP",
       "AVALANCHE",
       "ICY_WIND",
-      "LIQUIDATION"
+      "LIQUIDATION",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -4205,7 +4214,8 @@
     "cinematicMoves": [
       "SAND_TOMB",
       "STONE_EDGE",
-      "HEAVY_SLAM"
+      "HEAVY_SLAM",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -4307,7 +4317,8 @@
     "cinematicMoves": [
       "VICE_GRIP",
       "BUBBLE_BEAM",
-      "WATER_PULSE"
+      "WATER_PULSE",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -4339,7 +4350,8 @@
       "VICE_GRIP",
       "X_SCISSOR",
       "WATER_PULSE",
-      "CRABHAMMER"
+      "CRABHAMMER",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [
       "MUD_SHOT_FAST"
@@ -4702,7 +4714,8 @@
     "cinematicMoves": [
       "CLOSE_COMBAT",
       "LOW_SWEEP",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "BLAZE_KICK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -4936,7 +4949,8 @@
     "cinematicMoves": [
       "SURF",
       "EARTHQUAKE",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -5260,7 +5274,8 @@
     },
     "quickMoves": [
       "CONFUSION_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PSYBEAM",
@@ -5298,7 +5313,8 @@
     "cinematicMoves": [
       "PSYBEAM",
       "PSYCHIC",
-      "ICE_PUNCH"
+      "ICE_PUNCH",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -5330,7 +5346,8 @@
     "cinematicMoves": [
       "NIGHT_SLASH",
       "X_SCISSOR",
-      "AERIAL_ACE"
+      "AERIAL_ACE",
+      392
     ],
     "eliteQuickMoves": [
       "STEEL_WING_FAST"
@@ -5431,7 +5448,8 @@
     "cinematicMoves": [
       "FIRE_BLAST",
       "FIRE_PUNCH",
-      "FLAMETHROWER"
+      "FLAMETHROWER",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -5493,7 +5511,8 @@
     "cinematicMoves": [
       "HORN_ATTACK",
       "IRON_HEAD",
-      "EARTHQUAKE"
+      "EARTHQUAKE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -6461,7 +6480,8 @@
     },
     "quickMoves": [
       "VINE_WHIP_FAST",
-      "TACKLE_FAST"
+      "TACKLE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "ENERGY_BALL",
@@ -6494,7 +6514,8 @@
     },
     "quickMoves": [
       "RAZOR_LEAF_FAST",
-      "TACKLE_FAST"
+      "TACKLE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "ENERGY_BALL",
@@ -6525,7 +6546,8 @@
     },
     "quickMoves": [
       "RAZOR_LEAF_FAST",
-      "VINE_WHIP_FAST"
+      "VINE_WHIP_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PETAL_BLIZZARD",
@@ -7351,7 +7373,8 @@
     "cinematicMoves": [
       "BODY_SLAM",
       "THUNDERBOLT",
-      "DISCHARGE"
+      "DISCHARGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7384,7 +7407,8 @@
     "cinematicMoves": [
       "POWER_GEM",
       "THUNDERBOLT",
-      "DISCHARGE"
+      "DISCHARGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -7418,7 +7442,8 @@
       "THUNDER",
       "POWER_GEM",
       "THUNDER_PUNCH",
-      "BRUTAL_SWING"
+      "BRUTAL_SWING",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -7447,7 +7472,8 @@
     "quickMoves": [
       "RAZOR_LEAF_FAST",
       "ACID_FAST",
-      "BULLET_SEED_FAST"
+      "BULLET_SEED_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "LEAF_BLADE",
@@ -7547,7 +7573,8 @@
       "EARTHQUAKE",
       "ROCK_SLIDE",
       "ROCK_TOMB",
-      "METEOR_BEAM"
+      "METEOR_BEAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8163,7 +8190,8 @@
       "PSYCHIC",
       "THUNDERBOLT",
       "MIRROR_COAT",
-      "PSYCHIC_FANGS"
+      "PSYCHIC_FANGS",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8324,7 +8352,8 @@
       "EARTHQUAKE",
       "HEAVY_SLAM",
       "CRUNCH",
-      "PSYCHIC_FANGS"
+      "PSYCHIC_FANGS",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8486,7 +8515,8 @@
     "cinematicMoves": [
       "X_SCISSOR",
       "IRON_HEAD",
-      "NIGHT_SLASH"
+      "NIGHT_SLASH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8579,7 +8609,8 @@
     "cinematicMoves": [
       "AVALANCHE",
       "ICE_PUNCH",
-      "FOUL_PLAY"
+      "FOUL_PLAY",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8643,7 +8674,8 @@
     "cinematicMoves": [
       "CROSS_CHOP",
       "CRUNCH",
-      "PLAY_ROUGH"
+      "PLAY_ROUGH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -8677,7 +8709,8 @@
     "cinematicMoves": [
       "CLOSE_COMBAT",
       "HYPER_BEAM",
-      "PLAY_ROUGH"
+      "PLAY_ROUGH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -9126,7 +9159,8 @@
     "cinematicMoves": [
       "BULLDOZE",
       "ROCK_SLIDE",
-      "BODY_SLAM"
+      "BODY_SLAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -9160,7 +9194,8 @@
       "EARTHQUAKE",
       "HEAVY_SLAM",
       "PLAY_ROUGH",
-      "BODY_SLAM"
+      "BODY_SLAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -9307,7 +9342,8 @@
     "cinematicMoves": [
       "CLOSE_COMBAT",
       "GYRO_BALL",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -9562,7 +9598,8 @@
       "FIRE_BLAST",
       "OVERHEAT",
       "IRON_HEAD",
-      "FLAME_CHARGE"
+      "FLAME_CHARGE",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -9894,7 +9931,8 @@
       "LEAF_BLADE",
       "AERIAL_ACE",
       "EARTHQUAKE",
-      "DRAGON_CLAW"
+      "DRAGON_CLAW",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -10837,12 +10875,14 @@
     },
     "quickMoves": [
       "CONFUSION_FAST",
-      "CHARGE_BEAM_FAST"
+      "CHARGE_BEAM_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PSYCHIC",
       "DISARMING_VOICE",
-      "SHADOW_SNEAK"
+      "SHADOW_SNEAK",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -10870,12 +10910,14 @@
     "quickMoves": [
       "CONFUSION_FAST",
       "CHARGE_BEAM_FAST",
-      "CHARM_FAST"
+      "CHARM_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PSYCHIC",
       "DAZZLING_GLEAM",
-      "SHADOW_BALL"
+      "SHADOW_BALL",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -11925,7 +11967,8 @@
     },
     "quickMoves": [
       "POISON_JAB_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PETAL_BLIZZARD",
@@ -11987,7 +12030,8 @@
     },
     "quickMoves": [
       "ROCK_SMASH_FAST",
-      "INFESTATION_FAST"
+      "INFESTATION_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
       "GUNK_SHOT",
@@ -12336,7 +12380,8 @@
     "cinematicMoves": [
       "SAND_TOMB",
       "DIG",
-      "CRUNCH"
+      "CRUNCH",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12370,7 +12415,8 @@
     "cinematicMoves": [
       "SAND_TOMB",
       "BULLDOZE",
-      "BUG_BUZZ"
+      "BUG_BUZZ",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12403,7 +12449,8 @@
       "EARTHQUAKE",
       "DRAGON_CLAW",
       "STONE_EDGE",
-      "BOOMBURST"
+      "BOOMBURST",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -12749,7 +12796,8 @@
     "cinematicMoves": [
       "VICE_GRIP",
       "BUBBLE_BEAM",
-      "AQUA_JET"
+      "AQUA_JET",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12782,7 +12830,8 @@
       "VICE_GRIP",
       "BUBBLE_BEAM",
       "NIGHT_SLASH",
-      "CRABHAMMER"
+      "CRABHAMMER",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -12851,7 +12900,8 @@
       "EARTH_POWER",
       "ICE_BEAM",
       "SHADOW_BALL",
-      "ROCK_TOMB"
+      "ROCK_TOMB",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -15042,7 +15092,8 @@
     },
     "quickMoves": [
       "POISON_JAB_FAST",
-      "RAZOR_LEAF_FAST"
+      "RAZOR_LEAF_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "SOLAR_BEAM",
@@ -15975,7 +16026,8 @@
     "cinematicMoves": [
       "FIRE_PUNCH",
       "HYPER_BEAM",
-      "FOCUS_BLAST"
+      "FOCUS_BLAST",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -16001,7 +16053,8 @@
     },
     "quickMoves": [
       "SUCKER_PUNCH_FAST",
-      "HEX_FAST"
+      "HEX_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "SHADOW_BALL",
@@ -16164,7 +16217,8 @@
     "cinematicMoves": [
       "CRUNCH",
       "FLAMETHROWER",
-      "SLUDGE_BOMB"
+      "SLUDGE_BOMB",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -16196,7 +16250,8 @@
     "cinematicMoves": [
       "CRUNCH",
       "FLAMETHROWER",
-      "SLUDGE_BOMB"
+      "SLUDGE_BOMB",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -16579,7 +16634,8 @@
     "cinematicMoves": [
       "BRICK_BREAK",
       "LOW_SWEEP",
-      "CROSS_CHOP"
+      "CROSS_CHOP",
+      "BLAZE_KICK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -16613,7 +16669,8 @@
       "SHADOW_BALL",
       "CLOSE_COMBAT",
       "POWER_UP_PUNCH",
-      "AURA_SPHERE"
+      "AURA_SPHERE",
+      "BLAZE_KICK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -16679,7 +16736,8 @@
       "STONE_EDGE",
       "BODY_SLAM",
       "EARTH_POWER",
-      "WEATHER_BALL_ROCK"
+      "WEATHER_BALL_ROCK",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -16773,7 +16831,8 @@
     },
     "quickMoves": [
       "POISON_STING_FAST",
-      "POISON_JAB_FAST"
+      "POISON_JAB_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
       "BRICK_BREAK",
@@ -16805,7 +16864,8 @@
     },
     "quickMoves": [
       "POISON_JAB_FAST",
-      "COUNTER_FAST"
+      "COUNTER_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
       "DYNAMIC_PUNCH",
@@ -17033,7 +17093,8 @@
     "cinematicMoves": [
       "AVALANCHE",
       "FOCUS_BLAST",
-      "FOUL_PLAY"
+      "FOUL_PLAY",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -17060,7 +17121,8 @@
     },
     "quickMoves": [
       "SPARK_FAST",
-      "CHARGE_BEAM_FAST"
+      "CHARGE_BEAM_FAST",
+      "VOLT_SWITCH_FAST"
     ],
     "cinematicMoves": [
       "ZAP_CANNON",
@@ -17134,7 +17196,8 @@
       "EARTHQUAKE",
       "STONE_EDGE",
       "SKULL_BASH",
-      "SUPER_POWER"
+      "SUPER_POWER",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -17235,7 +17298,8 @@
       "BRICK_BREAK",
       "FIRE_PUNCH",
       "FIRE_BLAST",
-      "PSYCHIC"
+      "PSYCHIC",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -17621,7 +17685,7 @@
     "ref": "rotom",
     "id": 479,
     "formId": 11,
-    "formType": "NORMAL",
+    "formType": "",
     "assetId": "479_11",
     "attack": 185,
     "defense": 159,
@@ -18220,7 +18284,8 @@
     },
     "quickMoves": [
       "HIDDEN_POWER_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "ENERGY_BALL",
@@ -18252,7 +18317,8 @@
     },
     "quickMoves": [
       "HIDDEN_POWER_FAST",
-      "ZEN_HEADBUTT_FAST"
+      "ZEN_HEADBUTT_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "ENERGY_BALL",
@@ -19952,7 +20018,8 @@
       "ROCK_SLIDE",
       "EARTHQUAKE",
       "DRILL_RUN",
-      "IRON_HEAD"
+      "IRON_HEAD",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -20551,7 +20618,8 @@
     },
     "quickMoves": [
       "CHARM_FAST",
-      "HIDDEN_POWER_FAST"
+      "HIDDEN_POWER_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PETAL_BLIZZARD",
@@ -21855,7 +21923,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "SEED_BOMB",
-      "WILD_CHARGE"
+      "WILD_CHARGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -21888,7 +21957,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "SEED_BOMB",
-      "WILD_CHARGE"
+      "WILD_CHARGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -21921,7 +21991,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "SEED_BOMB",
-      "WILD_CHARGE"
+      "WILD_CHARGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -21954,7 +22025,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "SEED_BOMB",
-      "WILD_CHARGE"
+      "WILD_CHARGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -21988,7 +22060,8 @@
       "MEGAHORN",
       "SOLAR_BEAM",
       "WILD_CHARGE",
-      "HYPER_BEAM"
+      "HYPER_BEAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -22022,7 +22095,8 @@
       "MEGAHORN",
       "SOLAR_BEAM",
       "WILD_CHARGE",
-      "HYPER_BEAM"
+      "HYPER_BEAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -22056,7 +22130,8 @@
       "MEGAHORN",
       "SOLAR_BEAM",
       "WILD_CHARGE",
-      "HYPER_BEAM"
+      "HYPER_BEAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -22090,7 +22165,8 @@
       "MEGAHORN",
       "SOLAR_BEAM",
       "WILD_CHARGE",
-      "HYPER_BEAM"
+      "HYPER_BEAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -23147,7 +23223,8 @@
     },
     "quickMoves": [
       "ACID_FAST",
-      "INFESTATION_FAST"
+      "INFESTATION_FAST",
+      "WATER_SHURIKEN_FAST"
     ],
     "cinematicMoves": [
       "BUG_BUZZ",
@@ -23277,7 +23354,8 @@
     "cinematicMoves": [
       "BRICK_BREAK",
       "GRASS_KNOT",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "BLAZE_KICK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -24962,7 +25040,8 @@
       "DIG",
       "HYPER_BEAM",
       "EARTHQUAKE",
-      "FIRE_PUNCH"
+      "FIRE_PUNCH",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28166,7 +28245,8 @@
     },
     "quickMoves": [
       "CONFUSION_FAST",
-      "CHARM_FAST"
+      "CHARM_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "PSYCHIC",
@@ -28543,7 +28623,8 @@
       "SKULL_BASH",
       "CROSS_CHOP",
       "STONE_EDGE",
-      "GRASS_KNOT"
+      "GRASS_KNOT",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -28739,7 +28820,8 @@
       "PARABOLIC_CHARGE",
       "BULLDOZE",
       "THUNDERBOLT",
-      "GRASS_KNOT"
+      "GRASS_KNOT",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30121,7 +30203,8 @@
     "quickMoves": [
       "TACKLE_FAST",
       "RAZOR_LEAF_FAST",
-      "LEAFAGE_FAST"
+      "LEAFAGE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "SEED_BOMB",
@@ -30155,7 +30238,8 @@
     "quickMoves": [
       "PECK_FAST",
       "RAZOR_LEAF_FAST",
-      "LEAFAGE_FAST"
+      "LEAFAGE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "SEED_BOMB",
@@ -30188,7 +30272,8 @@
     "quickMoves": [
       "ASTONISH_FAST",
       "RAZOR_LEAF_FAST",
-      "LEAFAGE_FAST"
+      "LEAFAGE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
       "SHADOW_SNEAK",
@@ -30290,7 +30375,8 @@
     "cinematicMoves": [
       "FIRE_BLAST",
       "FLAME_CHARGE",
-      "DARK_PULSE"
+      "DARK_PULSE",
+      "BLAZE_KICK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30928,7 +31014,8 @@
     "cinematicMoves": [
       "STONE_EDGE",
       "ROCK_TOMB",
-      "CRUNCH"
+      "CRUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30957,7 +31044,8 @@
     "cinematicMoves": [
       "STONE_EDGE",
       "DRILL_RUN",
-      "CRUNCH"
+      "CRUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -30988,7 +31076,8 @@
     "cinematicMoves": [
       "STONE_EDGE",
       "IRON_HEAD",
-      "CRUNCH"
+      "CRUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31020,7 +31109,8 @@
     "cinematicMoves": [
       "STONE_EDGE",
       "DRILL_RUN",
-      "CRUNCH"
+      "CRUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31052,7 +31142,8 @@
     "cinematicMoves": [
       "STONE_EDGE",
       "PSYCHIC_FANGS",
-      "CRUNCH"
+      "CRUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31337,7 +31428,8 @@
     "cinematicMoves": [
       "LEAF_BLADE",
       "ENERGY_BALL",
-      "GRASS_KNOT"
+      "GRASS_KNOT",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31370,7 +31462,8 @@
       "LEAF_BLADE",
       "LEAF_STORM",
       "SUPER_POWER",
-      "X_SCISSOR"
+      "X_SCISSOR",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31626,7 +31719,8 @@
     "cinematicMoves": [
       "ENERGY_BALL",
       "DRAINING_KISS",
-      "GRASS_KNOT"
+      "GRASS_KNOT",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31659,7 +31753,8 @@
       "ENERGY_BALL",
       "DRAINING_KISS",
       "GRASS_KNOT",
-      "STOMP"
+      "STOMP",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31813,7 +31908,8 @@
       "X_SCISSOR",
       "AQUA_JET",
       "AERIAL_ACE",
-      "LIQUIDATION"
+      "LIQUIDATION",
+      "RAZOR_SHELL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31845,7 +31941,8 @@
     "cinematicMoves": [
       "SAND_TOMB",
       "SHADOW_BALL",
-      "EARTH_POWER"
+      "EARTH_POWER",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -31877,7 +31974,8 @@
     "cinematicMoves": [
       "SAND_TOMB",
       "SHADOW_BALL",
-      "EARTH_POWER"
+      "EARTH_POWER",
+      393
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -34266,7 +34364,8 @@
     ],
     "cinematicMoves": [
       "BODY_SLAM",
-      "CRUNCH"
+      "CRUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -34293,7 +34392,8 @@
     "quickMoves": [
       "TACKLE_FAST",
       "BITE_FAST",
-      "BULLET_SEED_FAST"
+      "BULLET_SEED_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
       "BODY_SLAM",
@@ -35853,7 +35953,8 @@
       "IRON_HEAD",
       "CLOSE_COMBAT",
       "PLAY_ROUGH",
-      "FOUL_PLAY"
+      "FOUL_PLAY",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -35949,7 +36050,8 @@
       "PSYBEAM",
       "PSYCHIC",
       "ICE_PUNCH",
-      "ICY_WIND"
+      "ICY_WIND",
+      391
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37218,7 +37320,8 @@
     },
     "quickMoves": [
       "THUNDER_SHOCK_FAST",
-      "LOCK_ON_FAST"
+      "LOCK_ON_FAST",
+      "VOLT_SWITCH_FAST"
     ],
     "cinematicMoves": [
       "HYPER_BEAM",
@@ -37251,7 +37354,8 @@
     "cinematicMoves": [
       "HYPER_BEAM",
       "OUTRAGE",
-      "DRAGON_PULSE"
+      "DRAGON_PULSE",
+      "BREAKING_SWIPE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37401,7 +37505,8 @@
     "cinematicMoves": [
       "X_SCISSOR",
       "ROCK_SLIDE",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37434,7 +37539,8 @@
       "FIRE_PUNCH",
       "THUNDER_PUNCH",
       "AERIAL_ACE",
-      "ICE_PUNCH"
+      "ICE_PUNCH",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": [
@@ -37528,10 +37634,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LEAFAGE_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "GRASS_KNOT",
+      "PLAY_ROUGH",
+      "ENERGY_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37558,10 +37667,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LEAFAGE_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "GRASS_KNOT",
+      "PLAY_ROUGH",
+      "ENERGY_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37587,10 +37699,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LEAFAGE_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "GRASS_KNOT",
+      "PLAY_ROUGH",
+      "ENERGY_BALL",
+      "NIGHT_SLASH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37615,10 +37731,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "INCINERATE_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FLAMETHROWER",
+      "DISARMING_VOICE",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37645,10 +37764,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "INCINERATE_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FLAMETHROWER",
+      "DISARMING_VOICE",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37674,10 +37796,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "INCINERATE_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FLAMETHROWER",
+      "DISARMING_VOICE",
+      "CRUNCH",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37702,10 +37828,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATER_GUN_FAST",
+      "WING_ATTACK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "AERIAL_ACE",
+      "LIQUIDATION"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37732,10 +37861,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATER_GUN_FAST",
+      "WING_ATTACK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "AERIAL_ACE",
+      "LIQUIDATION"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37761,10 +37893,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATER_GUN_FAST",
+      "WING_ATTACK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "AERIAL_ACE",
+      "LIQUIDATION",
+      "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37790,10 +37926,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      392,
+      "BODY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37818,10 +37957,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      392,
+      "BODY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37847,10 +37989,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TACKLE_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      392,
+      "BODY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37875,10 +38020,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BUG_BITE_FAST",
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      "GRASS_KNOT",
+      "LUNGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37903,10 +38051,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BUG_BITE_FAST",
+      "COUNTER_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      "GRASS_KNOT",
+      "LUNGE",
+      "ROCK_TOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37931,10 +38083,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BUG_BITE_FAST",
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      392,
+      "BUG_BUZZ"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37960,10 +38115,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BUG_BITE_FAST",
+      "SUCKER_PUNCH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "X_SCISSOR",
+      392,
+      "BUG_BUZZ",
+      "DARK_PULSE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -37988,10 +38147,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SPARK_FAST",
+      "CHARGE_BEAM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "THUNDERBOLT",
+      "DISCHARGE",
+      "WILD_CHARGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38019,10 +38181,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SPARK_FAST",
+      "CHARGE_BEAM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "THUNDERBOLT",
+      "DISCHARGE",
+      "WILD_CHARGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38048,10 +38213,15 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SPARK_FAST",
+      "CHARGE_BEAM_FAST",
+      "LOW_KICK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "THUNDERBOLT",
+      "DISCHARGE",
+      "WILD_CHARGE",
+      "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38077,10 +38247,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "MUD_SHOT_FAST",
+      "BULLET_SEED_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38103,10 +38277,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "MUD_SHOT_FAST",
+      "BULLET_SEED_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38132,10 +38310,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "MUD_SHOT_FAST",
+      "BULLET_SEED_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38161,10 +38343,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "MUD_SHOT_FAST",
+      "BULLET_SEED_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SWIFT",
+      "PLAY_ROUGH",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38189,10 +38375,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "CHARM_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BODY_SLAM",
+      "PLAY_ROUGH",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38217,10 +38406,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "CHARM_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BODY_SLAM",
+      "PLAY_ROUGH",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38246,10 +38438,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "RAZOR_LEAF_FAST",
+      "TACKLE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "EARTH_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38277,10 +38472,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "RAZOR_LEAF_FAST",
+      "TACKLE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "EARTH_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38306,10 +38505,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "RAZOR_LEAF_FAST",
+      "TACKLE_FAST",
+      "MAGICAL_LEAF_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SEED_BOMB",
+      "ENERGY_BALL",
+      "EARTH_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38333,10 +38536,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38361,10 +38567,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38389,10 +38598,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38417,10 +38629,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38445,10 +38660,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38473,10 +38691,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ROCK_THROW_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ROCK_BLAST",
+      "ROCK_TOMB",
+      "ANCIENT_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38503,10 +38724,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SMACK_DOWN_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ROCK_BLAST",
+      "ROCK_TOMB",
+      "ANCIENT_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38531,10 +38755,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SMACK_DOWN_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "ANCIENT_POWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38560,10 +38787,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "EMBER_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FLAME_CHARGE",
+      "HEAT_WAVE",
+      "FLAMETHROWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38589,10 +38819,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "EMBER_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FLAME_CHARGE",
+      "HEAT_WAVE",
+      "FLAMETHROWER",
+      "PSYSHOCK"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38618,10 +38852,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "EMBER_FAST",
+      "INCINERATE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "FLAME_CHARGE",
+      "HEAT_WAVE",
+      "FLAMETHROWER",
+      "SHADOW_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38646,10 +38884,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "THUNDER_SHOCK_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PARABOLIC_CHARGE",
+      "DISCHARGE",
+      "ZAP_CANNON"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38674,10 +38915,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "THUNDER_SHOCK_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PARABOLIC_CHARGE",
+      "DISCHARGE",
+      "ZAP_CANNON"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38703,10 +38947,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "THUNDER_SHOCK_FAST",
+      "PECK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ACROBATICS",
+      "AERIAL_ACE",
+      "THUNDERBOLT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38732,10 +38979,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "THUNDER_SHOCK_FAST",
+      "AIR_SLASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ACROBATICS",
+      "AERIAL_ACE",
+      "THUNDERBOLT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38760,10 +39010,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SNARL_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "CRUNCH",
+      "PAYBACK",
+      "DIG"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38788,10 +39041,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SNARL_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "CRUNCH",
+      "PAYBACK",
+      "DIG"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38817,10 +39073,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "MUD_SLAP_FAST",
+      "POISON_JAB_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ACID_SPRAY",
+      "POISON_FANG",
+      "SLUDGE_BOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38846,10 +39105,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "MUD_SLAP_FAST",
+      "POISON_JAB_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ACID_SPRAY",
+      "POISON_FANG",
+      "SLUDGE_BOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38875,10 +39137,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ASTONISH_FAST",
+      "BULLET_SEED_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_SNEAK",
+      "NIGHT_SHADE",
+      "POWER_WHIP"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38904,10 +39169,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "HEX_FAST",
+      "BULLET_SEED_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_SNEAK",
+      "NIGHT_SHADE",
+      "POWER_WHIP"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38933,10 +39201,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "MUD_SLAP_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "EARTH_POWER",
+      "SEED_BOMB",
+      "WRAP"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38962,10 +39233,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "MUD_SLAP_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "EARTH_POWER",
+      "SEED_BOMB",
+      "ACID_SPRAY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -38988,10 +39262,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ROCK_THROW_FAST",
+      "MUD_SLAP_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "BULLDOZE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39016,10 +39293,13 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LEAFAGE_FAST",
+      "RAZOR_LEAF_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "LEAF_STORM",
+      "GRASS_KNOT",
+      "SEED_BOMB"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39045,10 +39325,14 @@
       "candyToUnlock": 25
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LEAFAGE_FAST",
+      "FIRE_FANG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "LEAF_STORM",
+      "GRASS_KNOT",
+      "OVERHEAT",
+      "FLAMETHROWER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39073,10 +39357,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BUG_BITE_FAST",
+      "STRUGGLE_BUG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      "BUG_BUZZ",
+      "LUNGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39102,10 +39389,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BUG_BITE_FAST",
+      "CONFUSION_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      "BUG_BUZZ",
+      "LUNGE",
+      "PSYBEAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39130,10 +39421,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "CONFUSION_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PSYBEAM",
+      "PSYSHOCK",
+      "PSYCHIC"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39158,10 +39452,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "PECK_FAST",
+      "CONFUSION_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PSYBEAM",
+      "PSYSHOCK",
+      "PSYCHIC"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39187,10 +39484,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "FAIRY_WIND_FAST",
+      "ROCK_SMASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PLAY_ROUGH",
+      "BRUTAL_SWING",
+      "FLASH_CANNON"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39218,10 +39518,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "FAIRY_WIND_FAST",
+      "ROCK_SMASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PLAY_ROUGH",
+      "BRUTAL_SWING",
+      "FLASH_CANNON"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39247,10 +39550,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "FAIRY_WIND_FAST",
+      "ROCK_SMASH_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PLAY_ROUGH",
+      "BRUTAL_SWING",
+      "FLASH_CANNON",
+      "HEAVY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39275,10 +39582,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATER_GUN_FAST",
+      "MUD_SLAP_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "LIQUIDATION",
+      "DIG",
+      "SURF"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39303,10 +39613,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATER_GUN_FAST",
+      "MUD_SLAP_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "LIQUIDATION",
+      "DIG",
+      "SURF"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39330,10 +39643,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WING_ATTACK_FAST",
+      "ROCK_THROW_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PAYBACK",
+      "AERIAL_ACE",
+      "FLY"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39358,10 +39674,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATERFALL_FAST",
+      "CHARM_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39386,10 +39705,16 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATERFALL_FAST",
+      "CHARM_FAST",
+      "COUNTER_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND",
+      "DRAIN_PUNCH",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39413,10 +39738,16 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATERFALL_FAST",
+      "CHARM_FAST",
+      "COUNTER_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND",
+      "DRAIN_PUNCH",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39440,10 +39771,16 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATERFALL_FAST",
+      "CHARM_FAST",
+      "COUNTER_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AQUA_JET",
+      "WATER_PULSE",
+      "ICY_WIND",
+      "DRAIN_PUNCH",
+      "ACROBATICS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39469,10 +39806,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LICK_FAST",
+      "POISON_JAB_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ACID_SPRAY",
+      "GUNK_SHOT",
+      "GYRO_BALL"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39498,10 +39838,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LICK_FAST",
+      "POISON_JAB_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ACID_SPRAY",
+      "GUNK_SHOT",
+      "GYRO_BALL",
+      "OVERHEAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39525,10 +39869,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "DRAGON_TAIL_FAST",
+      "TAKE_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DRAGON_CLAW",
+      "BODY_SLAM",
+      392
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39551,10 +39898,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "IRON_TAIL_FAST",
+      "MUD_SLAP_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "ROCK_TOMB",
+      "EARTHQUAKE",
+      "IRON_HEAD"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39580,10 +39930,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ROCK_THROW_FAST",
+      "SMACK_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DAZZLING_GLEAM",
+      "ROCK_SLIDE",
+      "SLUDGE_WAVE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39609,10 +39962,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ROCK_THROW_FAST",
+      "SMACK_DOWN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DAZZLING_GLEAM",
+      "ROCK_SLIDE",
+      "SLUDGE_WAVE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39637,10 +39993,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LICK_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_BALL",
+      "DIG",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39665,10 +40024,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LICK_FAST",
+      "BITE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SHADOW_BALL",
+      "DIG",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39692,10 +40054,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WING_ATTACK_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "AERIAL_ACE",
+      "BRAVE_BIRD",
+      "CLOSE_COMBAT"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39720,10 +40085,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ICE_SHARD_FAST",
+      "TACKLE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BODY_SLAM",
+      "AVALANCHE",
+      "HEAVY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39748,10 +40116,13 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ICE_SHARD_FAST",
+      "TACKLE_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "BODY_SLAM",
+      "AVALANCHE",
+      "HEAVY_SLAM"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39775,10 +40146,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "ICE_FANG_FAST",
+      "ZEN_HEADBUTT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "WATER_PULSE",
+      "PSYCHIC_FANGS",
+      "DRILL_RUN",
+      "CRUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39801,10 +40176,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "WATERFALL_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "LIQUIDATION"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39828,10 +40207,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39856,10 +40239,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39884,10 +40271,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39912,10 +40303,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TAKE_DOWN_FAST",
+      "WATER_GUN_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "OUTRAGE",
+      "SURF",
+      "HYDRO_PUMP",
+      "MUDDY_WATER"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39939,10 +40334,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "LOW_KICK_FAST",
+      "COUNTER_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "CLOSE_COMBAT",
+      "LOW_SWEEP",
+      "NIGHT_SLASH",
+      "ICE_PUNCH"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39966,10 +40365,15 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "POISON_JAB_FAST",
+      "MUD_SHOT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "SLUDGE_BOMB",
+      "EARTHQUAKE",
+      "STONE_EDGE",
+      "ACID_SPRAY",
+      "SURF"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -39993,10 +40397,15 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "TACKLE_FAST",
+      "CONFUSION_FAST",
+      "DOUBLE_KICK_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "PSYCHIC",
+      "THUNDERBOLT",
+      "MIRROR_COAT",
+      "PSYCHIC_FANGS"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40019,10 +40428,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BITE_FAST",
+      "ASTONISH_FAST",
+      "ROLLOUT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      "ROCK_SLIDE",
+      "DRILL_RUN"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40046,10 +40459,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BITE_FAST",
+      "ASTONISH_FAST",
+      "ROLLOUT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      "ROCK_SLIDE",
+      "DRILL_RUN"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40073,10 +40490,14 @@
       "candyToUnlock": 50
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "BITE_FAST",
+      "ASTONISH_FAST",
+      "ROLLOUT_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DIG",
+      "ROCK_SLIDE",
+      "DRILL_RUN"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40100,10 +40521,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "SNARL_FAST",
+      "METAL_CLAW_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DARK_PULSE",
+      "IRON_HEAD",
+      "X_SCISSOR",
+      "FOCUS_BLAST"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40453,10 +40878,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "DRAGON_BREATH_FAST",
+      "ICE_FANG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DRAGON_CLAW",
+      "AVALANCHE",
+      "OUTRAGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40484,10 +40912,13 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "DRAGON_BREATH_FAST",
+      "ICE_FANG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DRAGON_CLAW",
+      "AVALANCHE",
+      "OUTRAGE"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []
@@ -40498,9 +40929,9 @@
     "id": 998,
     "formId": 0,
     "assetId": "998_00",
-    "attack": 280,
-    "defense": 184,
-    "stamina": 251,
+    "attack": 254,
+    "defense": 168,
+    "stamina": 229,
     "candyDistance": 5,
     "evolutions": [],
     "preEvolutions": [
@@ -40513,10 +40944,14 @@
       "candyToUnlock": 75
     },
     "quickMoves": [
-      "SPLASH_FAST"
+      "DRAGON_BREATH_FAST",
+      "ICE_FANG_FAST"
     ],
     "cinematicMoves": [
-      "STRUGGLE"
+      "DRAGON_CLAW",
+      "AVALANCHE",
+      "OUTRAGE",
+      "BLIZZARD"
     ],
     "eliteQuickMoves": [],
     "eliteCinematicMoves": []

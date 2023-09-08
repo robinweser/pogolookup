@@ -29,6 +29,63 @@
       "turns": 1
     }
   },
+  "391": {
+    "name": "Triple Axel",
+    "type": "ice",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "392": {
+    "name": "Trailblaze",
+    "type": "grass",
+    "pve": {
+      "damage": 65,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 65,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "393": {
+    "name": "Scorching Sands",
+    "type": "ground",
+    "pve": {
+      "damage": 95,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
+    }
+  },
   "WRAP": {
     "name": "Wrap",
     "type": "normal",
@@ -159,8 +216,8 @@
       "turns": 4.7
     },
     "pvp": {
-      "damage": 100,
-      "energy": 80,
+      "damage": 80,
+      "energy": 50,
       "turns": 1
     }
   },
@@ -204,7 +261,7 @@
       "turns": 3.6
     },
     "pvp": {
-      "damage": 120,
+      "damage": 110,
       "energy": 65,
       "turns": 1
     }
@@ -355,7 +412,7 @@
     },
     "pvp": {
       "damage": 55,
-      "energy": 45,
+      "energy": 40,
       "turns": 1
     }
   },
@@ -1057,8 +1114,8 @@
       "turns": 1.6
     },
     "pvp": {
-      "damage": 45,
-      "energy": 35,
+      "damage": 65,
+      "energy": 40,
       "turns": 1
     }
   },
@@ -1185,7 +1242,7 @@
       "turns": 2.8
     },
     "pvp": {
-      "damage": 90,
+      "damage": 85,
       "energy": 55,
       "turns": 1,
       "buffs": {
@@ -1583,8 +1640,8 @@
       "turns": 0.7
     },
     "pvp": {
-      "damage": 4,
-      "energy": 8,
+      "damage": 6,
+      "energy": 7,
       "turns": 2
     }
   },
@@ -2350,7 +2407,7 @@
     },
     "pvp": {
       "damage": 75,
-      "energy": 45,
+      "energy": 50,
       "turns": 1
     }
   },
@@ -2449,7 +2506,7 @@
     },
     "pvp": {
       "damage": 5,
-      "energy": 9,
+      "energy": 10,
       "turns": 3
     }
   },
@@ -4155,7 +4212,7 @@
       "turns": 3.6
     },
     "pvp": {
-      "damage": 140,
+      "damage": 150,
       "energy": 75,
       "turns": 1
     }
@@ -4224,7 +4281,7 @@
     },
     "pvp": {
       "damage": 150,
-      "energy": 75,
+      "energy": 70,
       "turns": 1
     }
   },
