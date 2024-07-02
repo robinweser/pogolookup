@@ -1,91 +1,4 @@
 {
-  "387": {
-    "name": "Geomancy",
-    "type": "fairy",
-    "pve": {
-      "damage": 20,
-      "energy": 14,
-      "accuracy": 1,
-      "turns": 1.5
-    },
-    "pvp": {
-      "damage": 4,
-      "energy": 13,
-      "turns": 3
-    }
-  },
-  "389": {
-    "name": "Oblivion Wing",
-    "type": "flying",
-    "pve": {
-      "damage": 85,
-      "energy": 50,
-      "accuracy": 1,
-      "turns": 2
-    },
-    "pvp": {
-      "damage": 85,
-      "energy": 50,
-      "turns": 1
-    }
-  },
-  "391": {
-    "name": "Triple Axel",
-    "type": "ice",
-    "pve": {
-      "damage": 60,
-      "energy": 33,
-      "accuracy": 1,
-      "turns": 2
-    },
-    "pvp": {
-      "damage": 60,
-      "energy": 45,
-      "turns": 1,
-      "buffs": {
-        "attackerAttackStatStageChange": 1,
-        "buffActivationChance": 1
-      }
-    }
-  },
-  "392": {
-    "name": "Trailblaze",
-    "type": "grass",
-    "pve": {
-      "damage": 65,
-      "energy": 50,
-      "accuracy": 1,
-      "turns": 2
-    },
-    "pvp": {
-      "damage": 65,
-      "energy": 50,
-      "turns": 1,
-      "buffs": {
-        "attackerAttackStatStageChange": 1,
-        "buffActivationChance": 1
-      }
-    }
-  },
-  "393": {
-    "name": "Scorching Sands",
-    "type": "ground",
-    "pve": {
-      "damage": 95,
-      "energy": 50,
-      "accuracy": 1,
-      "turns": 3.2
-    },
-    "pvp": {
-      "damage": 80,
-      "energy": 50,
-      "turns": 1,
-      "buffs": {
-        "targetAttackStatStageChange": -1,
-        "buffActivationChance": 0.3
-      }
-    }
-  },
   "WRAP": {
     "name": "Wrap",
     "type": "normal",
@@ -231,7 +144,7 @@
       "turns": 1.5
     },
     "pvp": {
-      "damage": 50,
+      "damage": 55,
       "energy": 35,
       "turns": 1
     }
@@ -592,7 +505,7 @@
       "turns": 1.9
     },
     "pvp": {
-      "damage": 50,
+      "damage": 55,
       "energy": 35,
       "turns": 1
     }
@@ -607,7 +520,7 @@
       "turns": 2.1
     },
     "pvp": {
-      "damage": 60,
+      "damage": 65,
       "energy": 45,
       "turns": 1
     }
@@ -1193,8 +1106,8 @@
       "turns": 3.2
     },
     "pvp": {
-      "damage": 70,
-      "energy": 60,
+      "damage": 80,
+      "energy": 55,
       "turns": 1
     }
   },
@@ -1208,7 +1121,7 @@
       "turns": 3.7
     },
     "pvp": {
-      "damage": 80,
+      "damage": 85,
       "energy": 50,
       "turns": 1,
       "buffs": {
@@ -1242,7 +1155,7 @@
       "turns": 2.8
     },
     "pvp": {
-      "damage": 85,
+      "damage": 75,
       "energy": 55,
       "turns": 1,
       "buffs": {
@@ -1401,8 +1314,12 @@
     },
     "pvp": {
       "damage": 40,
-      "energy": 35,
-      "turns": 1
+      "energy": 40,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
     }
   },
   "SWIFT": {
@@ -1415,8 +1332,8 @@
       "turns": 2.8
     },
     "pvp": {
-      "damage": 60,
-      "energy": 55,
+      "damage": 55,
+      "energy": 40,
       "turns": 1
     }
   },
@@ -1640,7 +1557,7 @@
       "turns": 0.7
     },
     "pvp": {
-      "damage": 6,
+      "damage": 5,
       "energy": 7,
       "turns": 2
     }
@@ -2031,7 +1948,7 @@
     },
     "pvp": {
       "damage": 11,
-      "energy": 8,
+      "energy": 9,
       "turns": 3
     }
   },
@@ -2090,7 +2007,7 @@
       "turns": 1.2
     },
     "pvp": {
-      "damage": 7,
+      "damage": 8,
       "energy": 11,
       "turns": 3
     }
@@ -2121,7 +2038,7 @@
     },
     "pvp": {
       "damage": 7,
-      "energy": 5,
+      "energy": 7,
       "turns": 2
     }
   },
@@ -2505,7 +2422,7 @@
       "turns": 1.1
     },
     "pvp": {
-      "damage": 5,
+      "damage": 9,
       "energy": 10,
       "turns": 3
     }
@@ -2550,8 +2467,8 @@
       "turns": 1.1
     },
     "pvp": {
-      "damage": 9,
-      "energy": 6,
+      "damage": 10,
+      "energy": 7,
       "turns": 3
     }
   },
@@ -2595,7 +2512,7 @@
       "turns": 1.1
     },
     "pvp": {
-      "damage": 9,
+      "damage": 10,
       "energy": 10,
       "turns": 3
     }
@@ -3320,7 +3237,7 @@
       "turns": 2.8
     },
     "pvp": {
-      "damage": 75,
+      "damage": 80,
       "energy": 45,
       "turns": 1,
       "buffs": {
@@ -3358,7 +3275,7 @@
       "turns": 1.2
     },
     "pvp": {
-      "damage": 55,
+      "damage": 60,
       "energy": 40,
       "turns": 1
     }
@@ -3788,7 +3705,7 @@
       "turns": 2.3
     },
     "pvp": {
-      "damage": 15,
+      "damage": 20,
       "energy": 20,
       "turns": 5
     }
@@ -4266,7 +4183,7 @@
       "turns": 1,
       "buffs": {
         "targetAttackStatStageChange": -1,
-        "buffActivationChance": 1
+        "buffActivationChance": 0.5
       }
     }
   },
@@ -4385,6 +4302,346 @@
       "damage": 65,
       "energy": 40,
       "turns": 1
+    }
+  },
+  "GEOMANCY_FAST": {
+    "name": "Geomancy",
+    "type": "fairy",
+    "pve": {
+      "damage": 20,
+      "energy": 14,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 4,
+      "energy": 13,
+      "turns": 3
+    }
+  },
+  "SPACIAL_REND": {
+    "name": "Spacial Rend",
+    "type": "dragon",
+    "pve": {
+      "damage": 160,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 95,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "OBLIVION_WING": {
+    "name": "Oblivion Wing",
+    "type": "flying",
+    "pve": {
+      "damage": 85,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 85,
+      "energy": 50,
+      "turns": 1
+    }
+  },
+  "NATURES_MADNESS": {
+    "name": "Natures Madness",
+    "type": "fairy",
+    "pve": {
+      "damage": 90,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2.1
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "TRIPLE_AXEL": {
+    "name": "Triple Axel",
+    "type": "ice",
+    "pve": {
+      "damage": 60,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "TRAILBLAZE": {
+    "name": "Trailblaze",
+    "type": "grass",
+    "pve": {
+      "damage": 65,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 65,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "SCORCHING_SANDS": {
+    "name": "Scorching Sands",
+    "type": "ground",
+    "pve": {
+      "damage": 95,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 3.2
+    },
+    "pvp": {
+      "damage": 80,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
+    }
+  },
+  "ROAR_OF_TIME": {
+    "name": "Roar Of Time",
+    "type": "dragon",
+    "pve": {
+      "damage": 160,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.2
+    },
+    "pvp": {
+      "damage": 150,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "BLEAKWIND_STORM": {
+    "name": "Bleakwind Storm",
+    "type": "flying",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "SANDSEAR_STORM": {
+    "name": "Sandsear Storm",
+    "type": "ground",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "WILDBOLT_STORM": {
+    "name": "Wildbolt Storm",
+    "type": "electric",
+    "pve": {
+      "damage": 140,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 2.3
+    },
+    "pvp": {
+      "damage": 60,
+      "energy": 45,
+      "turns": 1,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "SPIRIT_SHACKLE": {
+    "name": "Spirit Shackle",
+    "type": "ghost",
+    "pve": {
+      "damage": 70,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 2.5
+    },
+    "pvp": {
+      "damage": 50,
+      "energy": 40,
+      "turns": 1,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.33
+      }
+    }
+  },
+  "VOLT_TACKLE": {
+    "name": "Volt Tackle",
+    "type": "electric",
+    "pve": {
+      "damage": 90,
+      "energy": 33,
+      "accuracy": 1,
+      "turns": 3.4
+    },
+    "pvp": {
+      "damage": 90,
+      "energy": 50,
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  "DARKEST_LARIAT": {
+    "name": "Darkest Lariat",
+    "type": "dark",
+    "pve": {
+      "damage": 80,
+      "energy": 50,
+      "accuracy": 1,
+      "turns": 2
+    },
+    "pvp": {
+      "damage": 120,
+      "energy": 60,
+      "turns": 1
+    }
+  },
+  "PSYWAVE_FAST": {
+    "name": "Psywave",
+    "type": "psychic",
+    "pve": {
+      "damage": 4,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 2,
+      "turns": 1
+    }
+  },
+  "METAL_SOUND_FAST": {
+    "name": "Metal Sound",
+    "type": "steel",
+    "pve": {
+      "damage": 6,
+      "energy": 9,
+      "accuracy": 1,
+      "turns": 0.7
+    },
+    "pvp": {
+      "damage": 3,
+      "energy": 8,
+      "turns": 2
+    }
+  },
+  "SAND_ATTACK_FAST": {
+    "name": "Sand Attack",
+    "type": "ground",
+    "pve": {
+      "damage": 4,
+      "energy": 7,
+      "accuracy": 1,
+      "turns": 0.5
+    },
+    "pvp": {
+      "damage": 2,
+      "energy": 4,
+      "turns": 1
+    }
+  },
+  "SUNSTEEL_STRIKE": {
+    "name": "Sunsteel Strike",
+    "type": "steel",
+    "pve": {
+      "damage": 230,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.1
+    },
+    "pvp": {
+      "damage": 135,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "MOONGEIST_BEAM": {
+    "name": "Moongeist Beam",
+    "type": "ghost",
+    "pve": {
+      "damage": 230,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 3.1
+    },
+    "pvp": {
+      "damage": 135,
+      "energy": 65,
+      "turns": 1
+    }
+  },
+  "HIGH_JUMP_KICK": {
+    "name": "High Jump Kick",
+    "type": "fighting",
+    "pve": {
+      "damage": 90,
+      "energy": 100,
+      "accuracy": 1,
+      "turns": 1.5
+    },
+    "pvp": {
+      "damage": 110,
+      "energy": 55,
+      "turns": 1,
+      "buffs": {
+        "attackerDefenseStatStageChange": -4,
+        "buffActivationChance": 0.1
+      }
     }
   }
 }
